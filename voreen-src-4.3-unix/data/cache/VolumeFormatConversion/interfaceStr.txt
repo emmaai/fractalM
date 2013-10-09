@@ -1,0 +1,10 @@
+Inports:
+volumehandle.input
+
+Outports:
+volumehandle.output
+
+Properites:
+enabled [BoolProperty]
+targetFormat [StringOptionProperty]
+numChannels [IntegerProperty]

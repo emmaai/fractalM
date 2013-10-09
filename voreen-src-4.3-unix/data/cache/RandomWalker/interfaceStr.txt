@@ -1,0 +1,41 @@
+Inports:
+volume.input
+geometry.seedsForeground
+geometry.seedsBackground
+volume.seedsForeground
+volume.seedsBackground
+
+Outports:
+volume.segmentation
+volume.probabilities
+volume.edgeweights
+
+Properites:
+computeButton [ButtonProperty]
+beta [IntegerProperty]
+minEdgeWeight [IntegerProperty]
+enableLevelOfDetail [BoolProperty]
+lodMinLevel [IntegerProperty]
+lodMaxLevel [IntegerProperty]
+lodForegroundSeedThresh [FloatProperty]
+lodBackgroundSeedThresh [FloatProperty]
+lodSeedErosionKernelSize [IntOptionProperty]
+lodMinResolution [IntVec3Property]
+lodMaxResolution [IntVec3Property]
+preconditioner [StringOptionProperty]
+errorThreshold [IntegerProperty]
+conjGradIterations [IntegerProperty]
+conjGradImplementation [StringOptionProperty]
+enableClipping [BoolProperty]
+clipLeftX [IntegerProperty]
+clipRightX [IntegerProperty]
+clipFrontY [IntegerProperty]
+clipBackY [IntegerProperty]
+clipBottomZ [IntegerProperty]
+clipTopZ [IntegerProperty]
+enableTransFunc [BoolProperty]
+edgeWeightTransFunc [TransFuncProperty]
+edgeWeightBalance [FloatProperty]
+foregroundThreshold [FloatProperty]
+resampleOutputVolumes [BoolProperty]
+runOnInit [BoolProperty]

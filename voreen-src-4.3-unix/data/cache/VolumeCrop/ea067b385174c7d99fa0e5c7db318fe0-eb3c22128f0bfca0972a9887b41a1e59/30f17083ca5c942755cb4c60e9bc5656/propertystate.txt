@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<VoreenData version="1">
+    <Properties>
+        <name value="backClippingPlane" />
+        <Property>
+            <name value="backClippingPlane" />
+            <value value="37" />
+        </Property>
+        <name value="bottomClippingPlane" />
+        <Property>
+            <name value="bottomClippingPlane" />
+            <value value="0" />
+        </Property>
+        <name value="button" />
+        <Property>
+            <name value="button" />
+        </Property>
+        <name value="continuousCropping" />
+        <Property>
+            <name value="continuousCropping" />
+            <value value="false" />
+        </Property>
+        <name value="croppedDimensions" />
+        <Property>
+            <name value="croppedDimensions" />
+            <value x="38" y="36" z="31" />
+        </Property>
+        <name value="croppedSize" />
+        <Property>
+            <name value="croppedSize" />
+            <value value="0" />
+        </Property>
+        <name value="frontClippingPlane" />
+        <Property>
+            <name value="frontClippingPlane" />
+            <value value="2" />
+        </Property>
+        <name value="leftClippingPlane" />
+        <Property>
+            <name value="leftClippingPlane" />
+            <value value="38" />
+        </Property>
+        <name value="rightClippingPlane" />
+        <Property>
+            <name value="rightClippingPlane" />
+            <value value="1" />
+        </Property>
+        <name value="topClippingPlane" />
+        <Property>
+            <name value="topClippingPlane" />
+            <value value="30" />
+        </Property>
+    </Properties>
+</VoreenData>

@@ -1,0 +1,16 @@
+Inports:
+volumehandle.input
+
+Outports:
+volumehandle.output
+
+Properites:
+enableProcessing [BoolProperty]
+allowUpsampling [BoolProperty]
+keepVoxelSizeRatio [BoolProperty]
+resampleDimensionX [IntegerProperty]
+resampleDimensionY [IntegerProperty]
+resampleDimensionZ [IntegerProperty]
+filteringMode [StringOptionProperty]
+outputSizeVoxels [IntegerProperty]
+outputSizeMB [IntegerProperty]

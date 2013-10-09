@@ -1,0 +1,12 @@
+Inports:
+volumehandle.input
+
+Outports:
+volumehandle.output
+
+Properites:
+enableProcessing [BoolProperty]
+maskFunction [TransFuncProperty]
+passedVoxelAction [StringOptionProperty]
+continousUpdates [BoolProperty]
+update [ButtonProperty]

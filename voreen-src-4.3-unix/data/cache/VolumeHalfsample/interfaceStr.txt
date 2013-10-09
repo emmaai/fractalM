@@ -1,0 +1,8 @@
+Inports:
+input
+
+Outports:
+output
+
+Properites:
+enableProcessing [BoolProperty]
