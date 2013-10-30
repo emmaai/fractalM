@@ -48,17 +48,20 @@ functionCube::functionCube(QObject *parent):QObject(parent)
 
 
     QVector3D v[8]={
-	QVector3D(-0.25, -0.25, -0.25),
-	QVector3D(0.25, -0.25, -0.25),
-	QVector3D(0.25, 0.25, -0.25),
-	QVector3D(-0.25, 0.25, -0.25),
-	QVector3D(-0.25, 0.25, 0.25),
-	QVector3D(0.25, 0.25, 0.25),
-	QVector3D(0.25, -0.25, 0.25),
-	QVector3D(-0.25, -0.25, 0.25)
+	QVector3D(-0.5, -0.5, -0.5),
+	QVector3D(0.5, -0.5, -0.5),
+	QVector3D(0.5, 0.5, -0.5),
+	QVector3D(-0.5, 0.5, -0.5),
+	QVector3D(-0.5, 0.5, 0.5),
+	QVector3D(0.5, 0.5, 0.5),
+	QVector3D(0.5, -0.5, 0.5),
+	QVector3D(-0.5, -0.5, 0.5)
     };
     for(i=0; i<8; i++)
+    {
 	node[i] = new functionNode(this, v[i]);
+	points[i] = QVector3D(v[i].x()+0.5, v[i].y()+0.5, v[i].z()+0.5);
+    }
 
     edge[0] = new functionEdge(this, node[0], node[1]);
     edge[1] = new functionEdge(this, node[1], node[2]);
@@ -74,24 +77,24 @@ functionCube::functionCube(QObject *parent):QObject(parent)
     edge[11] = new functionEdge(this, node[3], node[4]);
 
     QVector3D ve[12]={
-	QVector3D(0, -0.25, -0.25),
-	QVector3D(0.25, 0, -0.25),
-	QVector3D(0, 0.25, -0.25),
-	QVector3D(-0.25, 0, -0.25),
-	QVector3D(-0.25, 0, 0.25),
-	QVector3D(0, 0.25, 0.25),
-	QVector3D(0.25, 0, 0.25),
-	QVector3D(0, -0.25, 0.25),
-	QVector3D(-0.25, -0.25, 0),
-	QVector3D(0.25, -0.25, 0),
-	QVector3D(0.25, 0.25, 0),
-	QVector3D(-0.25, 0.25, 0)
+	QVector3D(0, -0.5, -0.5),
+	QVector3D(0.5, 0, -0.5),
+	QVector3D(0, 0.5, -0.5),
+	QVector3D(-0.5, 0, -0.5),
+	QVector3D(-0.5, 0, 0.5),
+	QVector3D(0, 0.5, 0.5),
+	QVector3D(0.5, 0, 0.5),
+	QVector3D(0, -0.5, 0.5),
+	QVector3D(-0.5, -0.5, 0),
+	QVector3D(0.5, -0.5, 0),
+	QVector3D(0.5, 0.5, 0),
+	QVector3D(-0.5, 0.5, 0)
     };
 
     for(i=0; i<12; i++)
     {
 	edgeNode[i] = new functionNode(this, ve[i]); 
-	edgeNode[i]->setColor(QColor(Qt::green));
+	points[i+8] = QVector3D(ve[i].x()+0.5, ve[i].y()+0.5, ve[i].z()+0.5);
 	frame(i)->setTranslation(Vec(ve[i].x(), ve[i].y(), ve[i].z()));
 	if(i==3 || i ==1 || i == 4 || i==6)
 	{
@@ -109,19 +112,19 @@ functionCube::functionCube(QObject *parent):QObject(parent)
     }
 
     QVector3D vf[6]={
-	QVector3D(0, 0, -0.25),
-	QVector3D(0, 0, 0.25),
-	QVector3D(0, -0.25, 0),
-	QVector3D(0.25, 0, 0),
-	QVector3D(0, 0.25, 0),
-	QVector3D(-0.25, 0, 0)
+	QVector3D(0, 0, -0.5),
+	QVector3D(0, 0, 0.5),
+	QVector3D(0, -0.5, 0),
+	QVector3D(0.5, 0, 0),
+	QVector3D(0, 0.5, 0),
+	QVector3D(-0.5, 0, 0)
     
     };
 
     for(i=0; i<6; i++)
     {
 	faceNode[i] = new functionNode(this, vf[i]); 
-	faceNode[i]->setColor(QColor(Qt::green));
+	points[i+20] = QVector3D(vf[i].x()+0.5, vf[i].y()+0.5, vf[i].z()+0.5);
 	frame(12+i)->setTranslation(Vec(vf[i].x(), vf[i].y(), vf[i].z()));
 	if(i==3|| i==5)
 	{
@@ -138,7 +141,7 @@ functionCube::functionCube(QObject *parent):QObject(parent)
     }
 
     middleNode = new functionNode(this, QVector3D(0, 0, 0));    
-    middleNode->setColor(QColor(Qt::blue));
+    points[26] = QVector3D(0.5, 0.5, 0.5);
     frame(18)->setTranslation(Vec(0, 0, 0));
 
     faceEdge[0] = new functionEdge(this, faceNode[0], edgeNode[0]);
@@ -170,7 +173,269 @@ functionCube::functionCube(QObject *parent):QObject(parent)
     {
 	innerEdge[i] = new functionEdge(this, middleNode, faceNode[i]);
     }
+
+    functionParam[0].coordinate[0].x = points[0].x(); 
+    functionParam[0].coordinate[0].y = points[0].y(); 
+    functionParam[0].coordinate[0].z = points[0].z(); 
+
+    functionParam[0].coordinate[1].x = points[8].x(); 
+    functionParam[0].coordinate[1].y = points[8].y(); 
+    functionParam[0].coordinate[1].z = points[8].z(); 
+
+    functionParam[0].coordinate[2].x = points[11].x(); 
+    functionParam[0].coordinate[2].y = points[11].y(); 
+    functionParam[0].coordinate[2].z = points[11].z(); 
+
+    functionParam[0].coordinate[3].x = points[20].x(); 
+    functionParam[0].coordinate[3].y = points[20].y(); 
+    functionParam[0].coordinate[3].z = points[20].z(); 
+
+    functionParam[0].coordinate[4].x = points[16].x(); 
+    functionParam[0].coordinate[4].y = points[16].y(); 
+    functionParam[0].coordinate[4].z = points[16].z(); 
+
+    functionParam[0].coordinate[5].x = points[22].x(); 
+    functionParam[0].coordinate[5].y = points[22].y(); 
+    functionParam[0].coordinate[5].z = points[22].z(); 
+
+    functionParam[0].coordinate[6].x = points[25].x(); 
+    functionParam[0].coordinate[6].y = points[25].y(); 
+    functionParam[0].coordinate[6].z = points[25].z(); 
+
+    functionParam[0].coordinate[7].x = points[26].x(); 
+    functionParam[0].coordinate[7].y = points[26].y(); 
+    functionParam[0].coordinate[7].z = points[26].z(); 
+
+    functionParam[1].coordinate[0].x = points[1].x(); 
+    functionParam[1].coordinate[0].y = points[1].y(); 
+    functionParam[1].coordinate[0].z = points[1].z(); 
+
+    functionParam[1].coordinate[1].x = points[8].x(); 
+    functionParam[1].coordinate[1].y = points[8].y(); 
+    functionParam[1].coordinate[1].z = points[8].z(); 
+
+    functionParam[1].coordinate[2].x = points[9].x(); 
+    functionParam[1].coordinate[2].y = points[9].y(); 
+    functionParam[1].coordinate[2].z = points[9].z(); 
+
+    functionParam[1].coordinate[3].x = points[20].x(); 
+    functionParam[1].coordinate[3].y = points[20].y(); 
+    functionParam[1].coordinate[3].z = points[20].z(); 
+
+    functionParam[1].coordinate[4].x = points[17].x(); 
+    functionParam[1].coordinate[4].y = points[17].y(); 
+    functionParam[1].coordinate[4].z = points[17].z(); 
+
+    functionParam[1].coordinate[5].x = points[22].x(); 
+    functionParam[1].coordinate[5].y = points[22].y(); 
+    functionParam[1].coordinate[5].z = points[22].z(); 
+
+    functionParam[1].coordinate[6].x = points[23].x(); 
+    functionParam[1].coordinate[6].y = points[23].y(); 
+    functionParam[1].coordinate[6].z = points[23].z(); 
+
+    functionParam[1].coordinate[7].x = points[26].x(); 
+    functionParam[1].coordinate[7].y = points[26].y(); 
+    functionParam[1].coordinate[7].z = points[26].z(); 
+
+    functionParam[2].coordinate[0].x = points[3].x(); 
+    functionParam[2].coordinate[0].y = points[3].y(); 
+    functionParam[2].coordinate[0].z = points[3].z(); 
+
+    functionParam[2].coordinate[1].x = points[10].x(); 
+    functionParam[2].coordinate[1].y = points[10].y(); 
+    functionParam[2].coordinate[1].z = points[10].z(); 
+
+    functionParam[2].coordinate[2].x = points[11].x(); 
+    functionParam[2].coordinate[2].y = points[11].y(); 
+    functionParam[2].coordinate[2].z = points[11].z(); 
+
+    functionParam[2].coordinate[3].x = points[20].x(); 
+    functionParam[2].coordinate[3].y = points[20].y(); 
+    functionParam[2].coordinate[3].z = points[20].z(); 
+
+    functionParam[2].coordinate[4].x = points[19].x(); 
+    functionParam[2].coordinate[4].y = points[19].y(); 
+    functionParam[2].coordinate[4].z = points[19].z(); 
+
+    functionParam[2].coordinate[5].x = points[24].x(); 
+    functionParam[2].coordinate[5].y = points[24].y(); 
+    functionParam[2].coordinate[5].z = points[24].z(); 
+
+    functionParam[2].coordinate[6].x = points[25].x(); 
+    functionParam[2].coordinate[6].y = points[25].y(); 
+    functionParam[2].coordinate[6].z = points[25].z(); 
+
+    functionParam[2].coordinate[7].x = points[26].x(); 
+    functionParam[2].coordinate[7].y = points[26].y(); 
+    functionParam[2].coordinate[7].z = points[26].z(); 
+
+    functionParam[3].coordinate[0].x = points[2].x(); 
+    functionParam[3].coordinate[0].y = points[2].y(); 
+    functionParam[3].coordinate[0].z = points[2].z(); 
+
+    functionParam[3].coordinate[1].x = points[10].x(); 
+    functionParam[3].coordinate[1].y = points[10].y(); 
+    functionParam[3].coordinate[1].z = points[10].z(); 
+    
+    functionParam[3].coordinate[2].x = points[9].x(); 
+    functionParam[3].coordinate[2].y = points[9].y(); 
+    functionParam[3].coordinate[2].z = points[9].z(); 
+
+    functionParam[3].coordinate[3].x = points[20].x(); 
+    functionParam[3].coordinate[3].y = points[20].y(); 
+    functionParam[3].coordinate[3].z = points[20].z(); 
+
+    functionParam[3].coordinate[4].x = points[18].x(); 
+    functionParam[3].coordinate[4].y = points[18].y(); 
+    functionParam[3].coordinate[4].z = points[18].z(); 
+
+    functionParam[3].coordinate[5].x = points[24].x(); 
+    functionParam[3].coordinate[5].y = points[24].y(); 
+    functionParam[3].coordinate[5].z = points[24].z(); 
+
+    functionParam[3].coordinate[6].x = points[23].x(); 
+    functionParam[3].coordinate[6].y = points[23].y(); 
+    functionParam[3].coordinate[6].z = points[23].z(); 
+
+    functionParam[3].coordinate[7].x = points[26].x(); 
+    functionParam[3].coordinate[7].y = points[26].y(); 
+    functionParam[3].coordinate[7].z = points[26].z(); 
+
+    functionParam[4].coordinate[0].x = points[7].x(); 
+    functionParam[4].coordinate[0].y = points[7].y(); 
+    functionParam[4].coordinate[0].z = points[7].z(); 
+
+    functionParam[4].coordinate[1].x = points[15].x(); 
+    functionParam[4].coordinate[1].y = points[15].y(); 
+    functionParam[4].coordinate[1].z = points[15].z(); 
+
+    functionParam[4].coordinate[2].x = points[12].x(); 
+    functionParam[4].coordinate[2].y = points[12].y(); 
+    functionParam[4].coordinate[2].z = points[12].z(); 
+
+    functionParam[4].coordinate[3].x = points[21].x(); 
+    functionParam[4].coordinate[3].y = points[21].y(); 
+    functionParam[4].coordinate[3].z = points[21].z(); 
+
+    functionParam[4].coordinate[4].x = points[16].x(); 
+    functionParam[4].coordinate[4].y = points[16].y(); 
+    functionParam[4].coordinate[4].z = points[16].z(); 
+
+    functionParam[4].coordinate[5].x = points[22].x(); 
+    functionParam[4].coordinate[5].y = points[22].y(); 
+    functionParam[4].coordinate[5].z = points[22].z(); 
+
+    functionParam[4].coordinate[6].x = points[25].x(); 
+    functionParam[4].coordinate[6].y = points[25].y(); 
+    functionParam[4].coordinate[6].z = points[25].z(); 
+
+    functionParam[4].coordinate[7].x = points[26].x(); 
+    functionParam[4].coordinate[7].y = points[26].y(); 
+    functionParam[4].coordinate[7].z = points[26].z(); 
+
+    functionParam[5].coordinate[0].x = points[6].x(); 
+    functionParam[5].coordinate[0].y = points[6].y(); 
+    functionParam[5].coordinate[0].z = points[6].z(); 
+
+    functionParam[5].coordinate[1].x = points[15].x(); 
+    functionParam[5].coordinate[1].y = points[15].y(); 
+    functionParam[5].coordinate[1].z = points[15].z(); 
+
+    functionParam[5].coordinate[2].x = points[14].x(); 
+    functionParam[5].coordinate[2].y = points[14].y(); 
+    functionParam[5].coordinate[2].z = points[14].z(); 
+
+    functionParam[5].coordinate[3].x = points[21].x(); 
+    functionParam[5].coordinate[3].y = points[21].y(); 
+    functionParam[5].coordinate[3].z = points[21].z(); 
+
+    functionParam[5].coordinate[4].x = points[17].x(); 
+    functionParam[5].coordinate[4].y = points[17].y(); 
+    functionParam[5].coordinate[4].z = points[17].z(); 
+
+    functionParam[5].coordinate[5].x = points[22].x(); 
+    functionParam[5].coordinate[5].y = points[22].y(); 
+    functionParam[5].coordinate[5].z = points[22].z(); 
+
+    functionParam[5].coordinate[6].x = points[23].x(); 
+    functionParam[5].coordinate[6].y = points[23].y(); 
+    functionParam[5].coordinate[6].z = points[23].z(); 
+
+    functionParam[5].coordinate[7].x = points[26].x(); 
+    functionParam[5].coordinate[7].y = points[26].y(); 
+    functionParam[5].coordinate[7].z = points[26].z(); 
+
+    functionParam[6].coordinate[0].x = points[4].x(); 
+    functionParam[6].coordinate[0].y = points[4].y(); 
+    functionParam[6].coordinate[0].z = points[4].z(); 
+
+    functionParam[6].coordinate[1].x = points[13].x(); 
+    functionParam[6].coordinate[1].y = points[13].y(); 
+    functionParam[6].coordinate[1].z = points[13].z(); 
+
+    functionParam[6].coordinate[2].x = points[12].x(); 
+    functionParam[6].coordinate[2].y = points[12].y(); 
+    functionParam[6].coordinate[2].z = points[12].z(); 
+
+    functionParam[6].coordinate[3].x = points[21].x(); 
+    functionParam[6].coordinate[3].y = points[21].y(); 
+    functionParam[6].coordinate[3].z = points[21].z(); 
+
+    functionParam[6].coordinate[4].x = points[19].x(); 
+    functionParam[6].coordinate[4].y = points[19].y(); 
+    functionParam[6].coordinate[4].z = points[19].z(); 
+
+    functionParam[6].coordinate[5].x = points[24].x(); 
+    functionParam[6].coordinate[5].y = points[24].y(); 
+    functionParam[6].coordinate[5].z = points[24].z(); 
+
+    functionParam[6].coordinate[6].x = points[25].x(); 
+    functionParam[6].coordinate[6].y = points[25].y(); 
+    functionParam[6].coordinate[6].z = points[25].z(); 
+
+    functionParam[6].coordinate[7].x = points[26].x(); 
+    functionParam[6].coordinate[7].y = points[26].y(); 
+    functionParam[6].coordinate[7].z = points[26].z(); 
+
+    functionParam[7].coordinate[0].x = points[5].x(); 
+    functionParam[7].coordinate[0].y = points[5].y(); 
+    functionParam[7].coordinate[0].z = points[5].z(); 
+
+    functionParam[7].coordinate[1].x = points[13].x(); 
+    functionParam[7].coordinate[1].y = points[13].y(); 
+    functionParam[7].coordinate[1].z = points[13].z(); 
+    
+    functionParam[7].coordinate[2].x = points[14].x(); 
+    functionParam[7].coordinate[2].y = points[14].y(); 
+    functionParam[7].coordinate[2].z = points[14].z(); 
+
+    functionParam[7].coordinate[3].x = points[21].x(); 
+    functionParam[7].coordinate[3].y = points[21].y(); 
+    functionParam[7].coordinate[3].z = points[21].z(); 
+
+    functionParam[7].coordinate[4].x = points[18].x(); 
+    functionParam[7].coordinate[4].y = points[18].y(); 
+    functionParam[7].coordinate[4].z = points[18].z(); 
+
+    functionParam[7].coordinate[5].x = points[24].x(); 
+    functionParam[7].coordinate[5].y = points[24].y(); 
+    functionParam[7].coordinate[5].z = points[24].z(); 
+
+    functionParam[7].coordinate[6].x = points[23].x(); 
+    functionParam[7].coordinate[6].y = points[23].y(); 
+    functionParam[7].coordinate[6].z = points[23].z(); 
+
+    functionParam[7].coordinate[7].x = points[26].x(); 
+    functionParam[7].coordinate[7].y = points[26].y(); 
+    functionParam[7].coordinate[7].z = points[26].z(); 
+
+    for(i=0; i< PARANUMBER; i++)
+	functionParam[i].funcNo = 0;
+
+
     selected = 19;
+    samePoint = 0;
 
 }
 
@@ -209,6 +474,26 @@ void functionCube::draw(bool names)
 	    glPushName(i);
 	setColor(i);
 	frame(i)->getTranslation(px, py, pz);
+	if(px < -0.5) 
+	    px = -0.5+0.0001;
+	else if(px > 0.5)
+	    px = 0.5 -0.0001;
+
+	if(py < -0.5) 
+	    py = -0.5+0.0001;
+	else if(py > 0.5)
+	    py = 0.5 -0.0001;
+
+	if(pz < -0.5) 
+	    pz = -0.5+0.0001;
+	else if(pz > 0.5)
+	    pz = 0.5 -0.0001;
+	if(points[i+8]!= QVector3D(px+0.5, py+0.5, pz+0.5))
+	{
+	    points[i+8] = QVector3D(px+0.5, py+0.5, pz+0.5);
+	    samePoint |= (1<<(i+8));
+	}else
+	    samePoint &= ~(1<<(i+8));
 	edgeNode[i]->mat.setToIdentity();
 	edgeNode[i]->mat.translate(QVector3D(px, py, pz));
 	edgeNode[i]->draw(0, 0, 0, 0);
@@ -222,6 +507,27 @@ void functionCube::draw(bool names)
 	    glPushName(12+i);
 	setColor(12+i);
 	frame(12+i)->getTranslation(px, py, pz);
+	if(px < -0.5) 
+	    px = -0.5+0.0001;
+	else if(px > 0.5)
+	    px = 0.5 -0.0001;
+
+	if(py < -0.5) 
+	    py = -0.5+0.0001;
+	else if(py > 0.5)
+	    py = 0.5 -0.0001;
+
+	if(pz < -0.5) 
+	    pz = -0.5+0.0001;
+	else if(pz > 0.5)
+	    pz = 0.5 -0.0001;
+
+	if(points[i+20]!= QVector3D(px+0.5, py+0.5, pz+0.5))
+	{
+	    points[i+20] = QVector3D(px+0.5, py+0.5, pz+0.5);
+	    samePoint |= (1<<(i+20));
+	}else
+	    samePoint &= ~(1<<(i+20));
 	faceNode[i]->mat.setToIdentity();
 	faceNode[i]->mat.translate(QVector3D(px, py, pz));
 	faceNode[i]->draw(0, 0, 0, 0);
@@ -232,11 +538,33 @@ void functionCube::draw(bool names)
     setColor(20);
     for(i=0; i<24; i++)
 	faceEdge[i]->draw();
-
     if(names)
 	glPushName(18);
     setColor(18);
     frame(18)->getTranslation(px, py, pz);
+
+    if(px < -0.5) 
+	px = -0.5+0.0001;
+    else if(px > 0.5)
+	px = 0.5 -0.0001;
+
+    if(py < -0.5) 
+	py = -0.5+0.0001;
+    else if(py > 0.5)
+	py = 0.5 -0.0001;
+
+    if(pz < -0.5) 
+	pz = -0.5+0.0001;
+    else if(pz > 0.5)
+	pz = 0.5 -0.0001;
+
+    if(points[26]!= QVector3D(px+0.5, py+0.5, pz+0.5))
+    {
+	points[26] = QVector3D(px+0.5, py+0.5, pz+0.5);
+	samePoint |= (1<<26);
+    }else
+	samePoint &= ~(1<<26);
+
     middleNode->mat.setToIdentity();
     middleNode->mat.translate(QVector3D(px, py, pz));
     middleNode->draw(0, 0, 0, 0);
@@ -246,6 +574,267 @@ void functionCube::draw(bool names)
     setColor(20);
     for(i=0; i<6; i++)
 	innerEdge[i]->draw();
+    if(samePoint)
+    {
+
+	functionParam[0].coordinate[0].x = points[0].x(); 
+	functionParam[0].coordinate[0].y = points[0].y(); 
+	functionParam[0].coordinate[0].z = points[0].z(); 
+
+	functionParam[0].coordinate[1].x = points[8].x(); 
+	functionParam[0].coordinate[1].y = points[8].y(); 
+	functionParam[0].coordinate[1].z = points[8].z(); 
+
+	functionParam[0].coordinate[2].x = points[11].x(); 
+	functionParam[0].coordinate[2].y = points[11].y(); 
+	functionParam[0].coordinate[2].z = points[11].z(); 
+
+	functionParam[0].coordinate[3].x = points[20].x(); 
+	functionParam[0].coordinate[3].y = points[20].y(); 
+	functionParam[0].coordinate[3].z = points[20].z(); 
+
+	functionParam[0].coordinate[4].x = points[16].x(); 
+	functionParam[0].coordinate[4].y = points[16].y(); 
+	functionParam[0].coordinate[4].z = points[16].z(); 
+
+	functionParam[0].coordinate[5].x = points[22].x(); 
+	functionParam[0].coordinate[5].y = points[22].y(); 
+	functionParam[0].coordinate[5].z = points[22].z(); 
+
+	functionParam[0].coordinate[6].x = points[25].x(); 
+	functionParam[0].coordinate[6].y = points[25].y(); 
+	functionParam[0].coordinate[6].z = points[25].z(); 
+
+	functionParam[0].coordinate[7].x = points[26].x(); 
+	functionParam[0].coordinate[7].y = points[26].y(); 
+	functionParam[0].coordinate[7].z = points[26].z(); 
+
+	functionParam[1].coordinate[0].x = points[1].x(); 
+	functionParam[1].coordinate[0].y = points[1].y(); 
+	functionParam[1].coordinate[0].z = points[1].z(); 
+
+	functionParam[1].coordinate[1].x = points[8].x(); 
+	functionParam[1].coordinate[1].y = points[8].y(); 
+	functionParam[1].coordinate[1].z = points[8].z(); 
+
+	functionParam[1].coordinate[2].x = points[9].x(); 
+	functionParam[1].coordinate[2].y = points[9].y(); 
+	functionParam[1].coordinate[2].z = points[9].z(); 
+
+	functionParam[1].coordinate[3].x = points[20].x(); 
+	functionParam[1].coordinate[3].y = points[20].y(); 
+	functionParam[1].coordinate[3].z = points[20].z(); 
+
+	functionParam[1].coordinate[4].x = points[17].x(); 
+	functionParam[1].coordinate[4].y = points[17].y(); 
+	functionParam[1].coordinate[4].z = points[17].z(); 
+
+	functionParam[1].coordinate[5].x = points[22].x(); 
+	functionParam[1].coordinate[5].y = points[22].y(); 
+	functionParam[1].coordinate[5].z = points[22].z(); 
+
+	functionParam[1].coordinate[6].x = points[23].x(); 
+	functionParam[1].coordinate[6].y = points[23].y(); 
+	functionParam[1].coordinate[6].z = points[23].z(); 
+
+	functionParam[1].coordinate[7].x = points[26].x(); 
+	functionParam[1].coordinate[7].y = points[26].y(); 
+	functionParam[1].coordinate[7].z = points[26].z(); 
+
+	functionParam[2].coordinate[0].x = points[3].x(); 
+	functionParam[2].coordinate[0].y = points[3].y(); 
+	functionParam[2].coordinate[0].z = points[3].z(); 
+
+	functionParam[2].coordinate[1].x = points[10].x(); 
+	functionParam[2].coordinate[1].y = points[10].y(); 
+	functionParam[2].coordinate[1].z = points[10].z(); 
+
+	functionParam[2].coordinate[2].x = points[11].x(); 
+	functionParam[2].coordinate[2].y = points[11].y(); 
+	functionParam[2].coordinate[2].z = points[11].z(); 
+
+	functionParam[2].coordinate[3].x = points[20].x(); 
+	functionParam[2].coordinate[3].y = points[20].y(); 
+	functionParam[2].coordinate[3].z = points[20].z(); 
+
+	functionParam[2].coordinate[4].x = points[19].x(); 
+	functionParam[2].coordinate[4].y = points[19].y(); 
+	functionParam[2].coordinate[4].z = points[19].z(); 
+
+	functionParam[2].coordinate[5].x = points[24].x(); 
+	functionParam[2].coordinate[5].y = points[24].y(); 
+	functionParam[2].coordinate[5].z = points[24].z(); 
+
+	functionParam[2].coordinate[6].x = points[25].x(); 
+	functionParam[2].coordinate[6].y = points[25].y(); 
+	functionParam[2].coordinate[6].z = points[25].z(); 
+
+	functionParam[2].coordinate[7].x = points[26].x(); 
+	functionParam[2].coordinate[7].y = points[26].y(); 
+	functionParam[2].coordinate[7].z = points[26].z(); 
+
+	functionParam[3].coordinate[0].x = points[2].x(); 
+	functionParam[3].coordinate[0].y = points[2].y(); 
+	functionParam[3].coordinate[0].z = points[2].z(); 
+
+	functionParam[3].coordinate[1].x = points[10].x(); 
+	functionParam[3].coordinate[1].y = points[10].y(); 
+	functionParam[3].coordinate[1].z = points[10].z(); 
+	
+	functionParam[3].coordinate[2].x = points[9].x(); 
+	functionParam[3].coordinate[2].y = points[9].y(); 
+	functionParam[3].coordinate[2].z = points[9].z(); 
+
+	functionParam[3].coordinate[3].x = points[20].x(); 
+	functionParam[3].coordinate[3].y = points[20].y(); 
+	functionParam[3].coordinate[3].z = points[20].z(); 
+
+	functionParam[3].coordinate[4].x = points[18].x(); 
+	functionParam[3].coordinate[4].y = points[18].y(); 
+	functionParam[3].coordinate[4].z = points[18].z(); 
+
+	functionParam[3].coordinate[5].x = points[24].x(); 
+	functionParam[3].coordinate[5].y = points[24].y(); 
+	functionParam[3].coordinate[5].z = points[24].z(); 
+
+	functionParam[3].coordinate[6].x = points[23].x(); 
+	functionParam[3].coordinate[6].y = points[23].y(); 
+	functionParam[3].coordinate[6].z = points[23].z(); 
+
+	functionParam[3].coordinate[7].x = points[26].x(); 
+	functionParam[3].coordinate[7].y = points[26].y(); 
+	functionParam[3].coordinate[7].z = points[26].z(); 
+
+	functionParam[4].coordinate[0].x = points[7].x(); 
+	functionParam[4].coordinate[0].y = points[7].y(); 
+	functionParam[4].coordinate[0].z = points[7].z(); 
+
+	functionParam[4].coordinate[1].x = points[15].x(); 
+	functionParam[4].coordinate[1].y = points[15].y(); 
+	functionParam[4].coordinate[1].z = points[15].z(); 
+
+	functionParam[4].coordinate[2].x = points[12].x(); 
+	functionParam[4].coordinate[2].y = points[12].y(); 
+	functionParam[4].coordinate[2].z = points[12].z(); 
+
+	functionParam[4].coordinate[3].x = points[21].x(); 
+	functionParam[4].coordinate[3].y = points[21].y(); 
+	functionParam[4].coordinate[3].z = points[21].z(); 
+
+	functionParam[4].coordinate[4].x = points[16].x(); 
+	functionParam[4].coordinate[4].y = points[16].y(); 
+	functionParam[4].coordinate[4].z = points[16].z(); 
+
+	functionParam[4].coordinate[5].x = points[22].x(); 
+	functionParam[4].coordinate[5].y = points[22].y(); 
+	functionParam[4].coordinate[5].z = points[22].z(); 
+
+	functionParam[4].coordinate[6].x = points[25].x(); 
+	functionParam[4].coordinate[6].y = points[25].y(); 
+	functionParam[4].coordinate[6].z = points[25].z(); 
+
+	functionParam[4].coordinate[7].x = points[26].x(); 
+	functionParam[4].coordinate[7].y = points[26].y(); 
+	functionParam[4].coordinate[7].z = points[26].z(); 
+
+	functionParam[5].coordinate[0].x = points[6].x(); 
+	functionParam[5].coordinate[0].y = points[6].y(); 
+	functionParam[5].coordinate[0].z = points[6].z(); 
+
+	functionParam[5].coordinate[1].x = points[15].x(); 
+	functionParam[5].coordinate[1].y = points[15].y(); 
+	functionParam[5].coordinate[1].z = points[15].z(); 
+
+	functionParam[5].coordinate[2].x = points[14].x(); 
+	functionParam[5].coordinate[2].y = points[14].y(); 
+	functionParam[5].coordinate[2].z = points[14].z(); 
+
+	functionParam[5].coordinate[3].x = points[21].x(); 
+	functionParam[5].coordinate[3].y = points[21].y(); 
+	functionParam[5].coordinate[3].z = points[21].z(); 
+
+	functionParam[5].coordinate[4].x = points[17].x(); 
+	functionParam[5].coordinate[4].y = points[17].y(); 
+	functionParam[5].coordinate[4].z = points[17].z(); 
+
+	functionParam[5].coordinate[5].x = points[22].x(); 
+	functionParam[5].coordinate[5].y = points[22].y(); 
+	functionParam[5].coordinate[5].z = points[22].z(); 
+
+	functionParam[5].coordinate[6].x = points[23].x(); 
+	functionParam[5].coordinate[6].y = points[23].y(); 
+	functionParam[5].coordinate[6].z = points[23].z(); 
+
+	functionParam[5].coordinate[7].x = points[26].x(); 
+	functionParam[5].coordinate[7].y = points[26].y(); 
+	functionParam[5].coordinate[7].z = points[26].z(); 
+
+	functionParam[6].coordinate[0].x = points[4].x(); 
+	functionParam[6].coordinate[0].y = points[4].y(); 
+	functionParam[6].coordinate[0].z = points[4].z(); 
+
+	functionParam[6].coordinate[1].x = points[13].x(); 
+	functionParam[6].coordinate[1].y = points[13].y(); 
+	functionParam[6].coordinate[1].z = points[13].z(); 
+
+	functionParam[6].coordinate[2].x = points[12].x(); 
+	functionParam[6].coordinate[2].y = points[12].y(); 
+	functionParam[6].coordinate[2].z = points[12].z(); 
+
+	functionParam[6].coordinate[3].x = points[21].x(); 
+	functionParam[6].coordinate[3].y = points[21].y(); 
+	functionParam[6].coordinate[3].z = points[21].z(); 
+
+	functionParam[6].coordinate[4].x = points[19].x(); 
+	functionParam[6].coordinate[4].y = points[19].y(); 
+	functionParam[6].coordinate[4].z = points[19].z(); 
+
+	functionParam[6].coordinate[5].x = points[24].x(); 
+	functionParam[6].coordinate[5].y = points[24].y(); 
+	functionParam[6].coordinate[5].z = points[24].z(); 
+
+	functionParam[6].coordinate[6].x = points[25].x(); 
+	functionParam[6].coordinate[6].y = points[25].y(); 
+	functionParam[6].coordinate[6].z = points[25].z(); 
+
+	functionParam[6].coordinate[7].x = points[26].x(); 
+	functionParam[6].coordinate[7].y = points[26].y(); 
+	functionParam[6].coordinate[7].z = points[26].z(); 
+
+	functionParam[7].coordinate[0].x = points[5].x(); 
+	functionParam[7].coordinate[0].y = points[5].y(); 
+	functionParam[7].coordinate[0].z = points[5].z(); 
+
+	functionParam[7].coordinate[1].x = points[13].x(); 
+	functionParam[7].coordinate[1].y = points[13].y(); 
+	functionParam[7].coordinate[1].z = points[13].z(); 
+	
+	functionParam[7].coordinate[2].x = points[14].x(); 
+	functionParam[7].coordinate[2].y = points[14].y(); 
+	functionParam[7].coordinate[2].z = points[14].z(); 
+
+	functionParam[7].coordinate[3].x = points[21].x(); 
+	functionParam[7].coordinate[3].y = points[21].y(); 
+	functionParam[7].coordinate[3].z = points[21].z(); 
+
+	functionParam[7].coordinate[4].x = points[18].x(); 
+	functionParam[7].coordinate[4].y = points[18].y(); 
+	functionParam[7].coordinate[4].z = points[18].z(); 
+
+	functionParam[7].coordinate[5].x = points[24].x(); 
+	functionParam[7].coordinate[5].y = points[24].y(); 
+	functionParam[7].coordinate[5].z = points[24].z(); 
+
+	functionParam[7].coordinate[6].x = points[23].x(); 
+	functionParam[7].coordinate[6].y = points[23].y(); 
+	functionParam[7].coordinate[6].z = points[23].z(); 
+
+	functionParam[7].coordinate[7].x = points[26].x(); 
+	functionParam[7].coordinate[7].y = points[26].y(); 
+	functionParam[7].coordinate[7].z = points[26].z(); 
+	
+	emit writeParam((char *)functionParam);
+    }//if(samePoint)
 
 }
 
@@ -316,7 +905,7 @@ void functionEdge::draw()
     p2 = dest->mat*z;
     glPopMatrix();
 
-    glLineWidth(3);
+    glLineWidth(1);
     glBegin(GL_LINES);
     //glColor3f(0, 0, 0);
     glVertex3f(p1.x(), p1.y(), p1.z());

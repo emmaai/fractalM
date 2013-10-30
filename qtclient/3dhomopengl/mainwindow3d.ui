@@ -24,127 +24,12 @@
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
-       <widget class="imageGLWidget" name="widgetImgL" native="true"/>
-       <widget class="functionGLWidget" name="widgetL" native="true">
-        <widget class="QWidget" name="layoutWidget">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>20</y>
-           <width>92</width>
-           <height>156</height>
-          </rect>
-         </property>
-         <layout class="QVBoxLayout" name="verticalLayout">
-          <item>
-           <widget class="QSlider" name="xSlider">
-            <property name="maximum">
-             <number>1000</number>
-            </property>
-            <property name="singleStep">
-             <number>10</number>
-            </property>
-            <property name="pageStep">
-             <number>50</number>
-            </property>
-            <property name="value">
-             <number>500</number>
-            </property>
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="tickPosition">
-             <enum>QSlider::TicksBelow</enum>
-            </property>
-            <property name="tickInterval">
-             <number>50</number>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QSlider" name="ySlider">
-            <property name="maximum">
-             <number>1000</number>
-            </property>
-            <property name="singleStep">
-             <number>10</number>
-            </property>
-            <property name="pageStep">
-             <number>50</number>
-            </property>
-            <property name="value">
-             <number>500</number>
-            </property>
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="tickPosition">
-             <enum>QSlider::TicksBelow</enum>
-            </property>
-            <property name="tickInterval">
-             <number>50</number>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QSlider" name="zSlider">
-            <property name="maximum">
-             <number>1000</number>
-            </property>
-            <property name="singleStep">
-             <number>10</number>
-            </property>
-            <property name="pageStep">
-             <number>50</number>
-            </property>
-            <property name="value">
-             <number>500</number>
-            </property>
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="tickPosition">
-             <enum>QSlider::TicksBelow</enum>
-            </property>
-            <property name="tickInterval">
-             <number>50</number>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QSlider" name="pSlider">
-            <property name="maximum">
-             <number>1000</number>
-            </property>
-            <property name="singleStep">
-             <number>10</number>
-            </property>
-            <property name="pageStep">
-             <number>50</number>
-            </property>
-            <property name="value">
-             <number>500</number>
-            </property>
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="tickPosition">
-             <enum>QSlider::TicksBelow</enum>
-            </property>
-            <property name="tickInterval">
-             <number>50</number>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </widget>
+       <widget class="Viewer" name="viewerFuncO"/>
       </widget>
       <widget class="QSplitter" name="splitter_2">
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
-       <widget class="tgt::QtCanvas" name="widgetTran" native="true"/>
        <widget class="Viewer" name="viewerFunc"/>
       </widget>
      </widget>
@@ -193,6 +78,8 @@
    <addaction name="actionOpen"/>
    <addaction name="actionConnect"/>
    <addaction name="actionNetwork"/>
+   <addaction name="separator"/>
+   <addaction name="actionHR"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionOpen">
@@ -231,6 +118,14 @@
     <string>&amp;Network</string>
    </property>
   </action>
+  <action name="actionHR">
+   <property name="text">
+    <string>High Resolution</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Generate the high resolution volume&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
@@ -243,24 +138,6 @@
    <class>Viewer</class>
    <extends>QGLViewer</extends>
    <header>viewer.h</header>
-  </customwidget>
-  <customwidget>
-   <class>functionGLWidget</class>
-   <extends>QWidget</extends>
-   <header>functionglwidget.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>imageGLWidget</class>
-   <extends>QWidget</extends>
-   <header>imageglwidget.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>tgt::QtCanvas</class>
-   <extends>QWidget</extends>
-   <header>tgt/qt/qtcanvas.h</header>
-   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources>

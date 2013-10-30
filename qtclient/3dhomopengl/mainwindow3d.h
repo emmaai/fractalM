@@ -6,11 +6,18 @@
 #include "voreen/core/network/networkevaluator.h"
 #include "voreen/core/network/workspace.h"
 #include "voreen/core/network/processornetwork.h"
+#include "core/processors/input/volumesource.h"
 #include "voreen/qt/voreenapplicationqt.h"
+#include "voreen/core/datastructures/volume/volume.h"
+#include "voreen/core/datastructures/volume/volumeatomic.h"
+
+
+#include "tgt/qt/qtcanvas.h"
 
 #include <QMainWindow>
 #include <QFileDialog>
 #include <QMessageBox>
+#include <QProgressDialog>
 #include "data_socket.h"
 #include "typedef.h"
 #include "functioncube.h"
@@ -39,11 +46,14 @@ public slots:
     void displayError(QString *);
     void connectToHost();
     void disconnectFromHost();
+    void loadVolume(char *);
+    void generateHR();
 
 signals:
     void invokeConnect(hostAddress *);
     void invokeDisconnect();
     void writeData(unsigned char *);
+    void sendCMD(char *);
 
 
     
@@ -57,12 +67,21 @@ private:
     rwSockData	*rwSocket;
     QThread *rwThread;
     functionCube *mapCube;
+    functionCube *mapCubeO;
     clipBox *clipbox;
     VoreenApplicationQt *vapp;
     Workspace* workspace;
     NetworkEvaluator* networkEvaluator;
     ProcessorNetwork* network;
-    VoreenPainter* painter;
+    VoreenPainter* painter, *painterO;
+    tgt::QtCanvas *widgetTran, *widgetTranO;
+    VolumeSource *volume;
+    int volumecount;
+    unsigned int widthLR, lengthLR, depthLR;
+    unsigned int widthHR, lengthHR, depthHR;
+    bool displayHR;
+    QProgressDialog *progress;
+    Volume *volumeHandle;
 
 };
 

@@ -5,6 +5,7 @@
 rwSockData::rwSockData(QObject *parent):QObject(parent)
 {
     tcpSocket = new QTcpSocket(this);
+    imageBuffer = new char[1024*1024*1024];
     imagePtr = (unsigned long)imageBuffer;
     connect(tcpSocket, SIGNAL(readyRead()), this, SLOT(readServer()));
     connect(tcpSocket, SIGNAL(disconnected()), this, SLOT(disconnectFromHost()));
@@ -78,9 +79,11 @@ void rwSockData::writeImg(char *imageBuffer)
 void rwSockData::writeParam(char *param)
 {
     qDebug() << "write the param";
-    int paramSize = 1*sizeof(activeFunc); 
+    int paramSize = 8*sizeof(activeFunc); 
     qint64 writeSize;
     QMutex mutex;
+
+    mutex.lock();
     writeSize = tcpSocket->write("<PARA");
     if(writeSize < 0)
     {
@@ -98,6 +101,35 @@ void rwSockData::writeParam(char *param)
     }
     tcpSocket->waitForBytesWritten();
     mutex.unlock();
+}
+
+void rwSockData::sendCMD(char *cmd)
+{
+    qDebug() << "send cmd";
+    qint64 writeSize;
+    int cmdSize = *(int *)cmd;
+    QMutex mutex;
+    
+    mutex.lock();
+    writeSize = tcpSocket->write("<COMD");
+    if(writeSize < 0)
+    {
+	qDebug() << "Thread: write error"; 
+    }
+    qDebug() << "cmdSize is " << cmdSize;
+    writeSize=tcpSocket->write((char *)cmd+sizeof(cmdSize), cmdSize);
+    if(writeSize < 0)
+    {
+	qDebug() << "Thread: write error"; 
+    }
+    writeSize = tcpSocket->write("<\\COMD");
+    if(writeSize < 0)
+    {
+	qDebug() << "Thread: write error"; 
+    }
+    tcpSocket->waitForBytesWritten();
+    mutex.unlock();
+
 }
 
 void rwSockData::readServer()

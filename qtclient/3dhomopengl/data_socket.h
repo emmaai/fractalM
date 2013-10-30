@@ -26,6 +26,7 @@ public slots:
     void writeParam(char *);
     void readServer();
     void socketReady();
+    void sendCMD(char *);
 signals:
     void rwSockError(QString *);
     void finished();
@@ -34,7 +35,7 @@ signals:
 
 private:
     QTcpSocket *tcpSocket;
-    char imageBuffer[3*1024*1024];
+    char *imageBuffer;
     unsigned long imagePtr;
 };
 

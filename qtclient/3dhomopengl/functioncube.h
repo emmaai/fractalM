@@ -5,6 +5,7 @@
 #include <QGLWidget>
 #include <QMatrix4x4>
 #include <QGLViewer/qglviewer.h>
+#include "typedef.h"
 
 class functionNode;
 class functionEdge;
@@ -18,6 +19,9 @@ public:
     void draw(bool names=false);
     qglviewer::ManipulatedFrame* frame(unsigned short i){return frame_[i];};
     void setSelectedFrameNumber(unsigned short nb){ selected = nb;};
+    void setFuncNo(int no){int i=0; for(i=0; i<PARANUMBER; i++) functionParam[i].funcNo = no;};
+signals:
+    void writeParam(char *);
 private:
     void setColor(unsigned short nb);
     qglviewer::ManipulatedFrame* frame_[19];
@@ -31,6 +35,9 @@ private:
 
     functionEdge *faceEdge[24];
     functionEdge *innerEdge[6];
+    activeFunc functionParam[PARANUMBER];
+    QVector3D points[27];
+    unsigned long samePoint;
 };
 
 class functionEdge:public QObject
