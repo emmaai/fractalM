@@ -21,7 +21,9 @@ volatile unsigned long paramCounter = 0;
 volatile bool imageSourceReady = false;
 volatile bool imageTargetReady = false;
 volatile bool sockClose = false;
+volatile bool generateHR;
 extern pthread_mutex_t mutex;
+
 
 void *rSocket (void *threadarg)
 {
@@ -109,7 +111,7 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		if(tailPtr = (char *)memmem(headPtr, n, "<COMD" , 5)) 
 		{
 		    bodyPtr = tailPtr + 5;
-		    printf("head found %s\n", tailPtr);
+		    printf("head found %s\n", bodyPtr);
 		    status &= ~((1<<1)|(1<<3)|(1<<5));
 		    status |= (1<<0);
 		    lastCmd |= (1<<0);
@@ -135,6 +137,13 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		{
 		    bodySize= tailPtr-bodyPtr;
 		    printf("tail found %s\n", tailPtr);	
+		    if(!strncmp(bodyPtr, "HR", 2))
+		    {
+			printf("generate hr volume\n"); 
+			pthread_mutex_lock(&mutex);
+			generateHR = true;
+			pthread_mutex_unlock(&mutex);
+		    }
 		    status |= (1<<1);
 		    status &= ~((1<<0)|(1<<2)|(1<<4));
 		    lastCmd &= ~(1<<0);
@@ -184,7 +193,15 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		if(tailPtr = (char *)memmem(headPtr, n, "<\\COMD", 6))
 		{
 		    bodySize = tailPtr-bodyPtr;
-		    printf("tail found %s\n", tailPtr);	
+		    printf("tail found 2 %s\n", bodyPtr);	
+		    if(!strncmp(bodyPtr, "HR", 2))
+		    {
+			printf("generate hr volume\n"); 
+			pthread_mutex_lock(&mutex);
+			generateHR = true;
+			pthread_mutex_unlock(&mutex);
+		    }
+
 		    status &= ~((1<<0)|(1<<2)|(1<<4));
 		    status |= (1<<1);
 		    lastCmd &= ~(1<<0);

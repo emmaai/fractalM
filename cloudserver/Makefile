@@ -8,11 +8,11 @@
 CC	= gcc 
 CXX	= g++ 
 CFLAGS	= -O3 -fopenmp 
-CXXFLAGS= ${CFLAGS} 
+CXXFLAGS= ${CFLAGS} $(DFLAGS)
 DFLAGS	= -g
 INCPATH	= 
 LINK	= g++ 
-LFLAGS	= -Wl,-O1 -Wl,--as-needed -Wl,--hash-style=gnu -Wl,--sort-common 
+LFLAGS	= -Wl,-O1 -Wl,--as-needed -Wl,--hash-style=gnu -Wl,--sort-common $(DFLAGS)
 LIBS	= -stdc++ -lgomp -lpthread
 
 ##### Files
@@ -21,25 +21,32 @@ HEADERS	=   chaosgame.h \
 	    typedef.h \
 	    rwsockthread.h \
 	    transfmimg.h \
-	    3dtransform.h
+	    3dtransform.h \
+	    ddsbase.h \
+	    codebase.h \
+	    trilinear_class.h \
+	    db_class.h
 SOURCES_SERVER	=	server.c  \
 			chaosgame.cpp \
 			rwsockthread.cpp \
 			transfmimg.cpp \
 			fractaltransform.cpp \
-			3dtransform.cpp
-SOURCES_CLIENT  =	client.c
+			3dtransform.cpp \
+			ddsbase.cpp \
+			trilinear_class.cpp \
+			db_chaos_3d_parallel.cpp
 
 OBJECTS_SERVER	=	server.o \
 			chaosgame.o \
 			rwsockthread.o \
 			transfmimg.o \
 			fractaltransform.o \
-			3dtransform.o
-OBJECTS_CLIENT	= 	client.o	
+			3dtransform.o \
+			ddsbase.o \
+			trilinear_class.o \
+			db_chaos_3d_parallel.o
 
 TARGET_SERVER	=	server
-TARGET_CLIENT	= 	client
 
 ##### Implicit rules
 
@@ -62,16 +69,14 @@ TARGET_CLIENT	= 	client
 
 ##### Build rules
 
-all: $(TARGET_SERVER) $(TARGET_CLIENT)
+all: $(TARGET_SERVER) 
 
 $(TARGET_SERVER): $(OBJECTS_SERVER)
 	$(LINK) $(LFLAGS) -o $(TARGET_SERVER) $(OBJECTS_SERVER) $(LIBS)
 
-$(TARGET_CLIENT): $(OBJECTS_CLIENT)
-	$(LINK) $(LFLAGS) -o $(TARGET_CLIENT) $(OBJECTS_CLIENT) $(LIBS)
 
 clean:
-	-rm -f $(OBJECTS_CLIENT) $(TARGET_CLIENT) $(OBJECTS_SERVER) $(TARGET_SERVER)
+	-rm -f $(OBJECTS_CLIENT) $(OBJECTS_SERVER) $(TARGET_SERVER)
 
 	-rm -f *~ core
 

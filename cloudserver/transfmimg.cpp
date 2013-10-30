@@ -11,10 +11,12 @@
 #include "chaosgame.h"
 #include "typedef.h"
 #include "3dtransform.h"
+#include "trilinear_class.h"
+#include "db_class.h"
 
 activeFunc functionPara[PARAMNUMBER];
-unsigned char imageBufferSource[3*1024*1024];
-unsigned char imageBufferTarget[3*1024*1024];
+unsigned char *imageBufferSource;
+unsigned char *imageBufferTarget;
 unsigned long numActiveFuncs = 0;
 extern volatile bool imageSourceReady;
 extern volatile bool imageTargetReady;
@@ -22,24 +24,30 @@ extern volatile bool paraReady;
 extern volatile bool sockClose;
 extern pthread_mutex_t mutex;
 volatile unsigned long imageTargetSize=0;
-extern char paramBuffer[1*PARAMNUMBER*sizeof(functionPara)];
+extern char paramBuffer[PARAMNUMBER*sizeof(functionPara)];
 extern volatile unsigned long paramCounter;
+extern volatile bool generateHR;
+volatile bool displayHR=false;
 unsigned long paramConsumePtr=(unsigned long)paramBuffer;
 double arglhs[6], argrhs[6];
+extern volume *vol1, *vol2, *vol3, *vol4;
 
 
 void *transfmImage(void *threadarg)
 {
-    int i= 0, j=0, n=0, rc=0;
+    int i= 0, j=0, n=0, rc=0, iter=0;
     int fd;
     pthread_t thread_transform[2];
+    double p[8][3];
+    trilinear fn;
+    trilinearIFS ifs1(8), ifs2(8);
+    bool para1=false, para2=false;
     printf("into the transform thread\n");
     while(1)
     {
 	if(paramCounter) 
 	{
 	    printf("consume paracounter is %u\n", paramCounter);
-	    
 	    memcpy((char *)functionPara, (char *)paramConsumePtr, PARAMNUMBER*sizeof(activeFunc));
 	    pthread_mutex_lock(&mutex);
 	    paramCounter--;
@@ -50,129 +58,73 @@ void *transfmImage(void *threadarg)
 		paramConsumePtr = (unsigned long)paramBuffer;
 		*/
 
-	    numActiveFuncs = functionPara[0].numActiveFuncs; 
-	    printf("numActiveFuncs is %d\n", numActiveFuncs);
 	    for(i=0; i< 8; i++)
 	    {
 		printf("the function parameter %d\n", i);
 		printf("functionPara numActiveFuncs: %lu\n", functionPara[i].funcNo);
-		printf("functionPara color map: red 0x%x\n", functionPara[i].colorMap.red);
-		printf("functionPara color map: green 0x%x\n", functionPara[i].colorMap.green);
-		printf("functionPara color map: blue 0x%x\n", functionPara[i].colorMap.blue);
-		printf("functionPara coordiate: %f*%f\n", functionPara[i].coordinate[0].x, functionPara[i].coordinate[0].y);
-		printf("functionPara coordiate: %f*%f\n", functionPara[i].coordinate[1].x, functionPara[i].coordinate[1].y);
-		printf("functionPara coordiate: %f*%f\n", functionPara[i].coordinate[2].x, functionPara[i].coordinate[2].y);
-		printf("functionPara coordiate: %f*%f\n", functionPara[i].coordinate[3].x, functionPara[i].coordinate[3].y);
-		printf("functionPara transtype: %u\n", functionPara[i].transType);
-		for(j=0; j<11; j++)
+		for(j=0; j<8; j++)
 		{
-		    printf("functionPara transpara: %f\n", functionPara[i].transPara[j]);
-		}
-		printf("functionPara prob: %f\n", functionPara[i].prob);
-	    }
-	    //IFGS
-	    /*
-	    computePara();
-	    imageTargetSize = transformImage(imageBufferTarget, imageBufferSource);
-	    */
-
-	    //Lena
-	    /*
-	    arglhs[0] = functionPara[0].coordinate[1].x;
-	    arglhs[1] = functionPara[1].coordinate[2].y;
-	    arglhs[2] = functionPara[3].coordinate[3].x;
-	    arglhs[3] = functionPara[2].coordinate[0].y;
-	    arglhs[4] = functionPara[0].coordinate[2].x;
-	    arglhs[5] = functionPara[0].coordinate[2].y;
-
-	    argrhs[0] = functionPara[4].coordinate[1].x;
-	    argrhs[1] = functionPara[5].coordinate[2].y;
-	    argrhs[2] = functionPara[7].coordinate[3].x;
-	    argrhs[3] = functionPara[6].coordinate[0].y;
-	    argrhs[4] = functionPara[4].coordinate[2].x;
-	    argrhs[5] = functionPara[4].coordinate[2].y;
-
-	    imageTargetSize = 512*512*3;
-
-	    applytransform(imageBufferSource, imageBufferTarget, 512, 512, 512, arglhs, argrhs, 20);
-	    */
-	    /*
-	    rc = pthread_create(&thread_transform[0], NULL, transformLHS, NULL);
- 
-	    if (rc)
-	    {
-		 printf("ERROR; return code from pthread_create() is %d\n", rc);
-		 exit(-1);
-	    }
-	    rc = pthread_create(&thread_transform[1], NULL, transformRHS, NULL);
- 
-	    if (rc)
-	    {
-		 printf("ERROR; return code from pthread_create() is %d\n", rc);
-		 exit(-1);
-	    }
-	    for(i=0; i<2; i++)
-	    {
-		rc = pthread_join(thread_transform[i], NULL);
-		if (rc)
-		{
-		    printf("ERROR; return code from pthread_join() is %d\n", rc);
-		    exit(-1);
+		    printf("functionPara coordiate: %f*%f*%f\n", functionPara[i].coordinate[j].x, 
+			functionPara[i].coordinate[j].y, functionPara[i].coordinate[j].z);
 		}
 	    }
-	    */
-	    //3D sphear
-	imageTargetSize = functionPara[0].funcNo;
-	deterministicTransform((float*) imageBufferSource, (float*) imageBufferTarget,
-	    functionPara[0].funcNo/sizeof(float),functionPara[0].coordinate[0].x,functionPara[0].coordinate[1].x, 
-	    functionPara[0].coordinate[2].x, functionPara[0].coordinate[3].x);
-
-
-
-	    pthread_mutex_lock(&mutex);
-	    imageTargetReady = true;
-	    pthread_mutex_unlock(&mutex);
-	    /*
-
-	    fd = open("imagefile.png", O_CREAT|O_WRONLY, S_IRUSR|S_IWUSR);
-	   if(fd < 0){
-		printf("ERROR creating the file\n"); 
-		continue;
-	   }
-	    n = write(fd, imageBufferTarget, imageTargetSize);
-	    if (n < 0)
+	    if(functionPara[0].funcNo == 1)
 	    {
-		printf("write file fail! \n");
-		continue;
+		for(i=0; i<8; i++) 
+		{
+		    for(j=0; j<8; j++)	
+		    {
+			p[j][0] = functionPara[i].coordinate[j].x; 
+			p[j][1] = functionPara[i].coordinate[j].y; 
+			p[j][2] = functionPara[i].coordinate[j].z; 
+		    }
+		    fn.set_from_8pts(p[0], p[1], p[2], p[3], p[4], p[5], p[6], p[7]);
+		    ifs1.set_fn(i, fn);
+		}
+		para1 = true;
+	    }else if(functionPara[0].funcNo == 2)
+	    {
+		for(i=0; i<8; i++) 
+		{
+		    for(j=0; j<8; j++)	
+		    {
+			p[j][0] = functionPara[i].coordinate[j].x; 
+			p[j][1] = functionPara[i].coordinate[j].y; 
+			p[j][2] = functionPara[i].coordinate[j].z; 
+		    }
+		    fn.set_from_8pts(p[0], p[1], p[2], p[3], p[4], p[5], p[6], p[7]);
+		    ifs2.set_fn(i, fn);
+		}
+		para2=true;
 	    }
-	    close(fd);
-	    */
 
+	    if(para1&&para2)
+	    {
+		iter = db_chaos_parallel(ifs1,vol1,ifs2,vol2,4);
+		while(imageTargetReady);
+		memcpy(imageBufferTarget, vol2->slab, vol2->get_size());
+		pthread_mutex_lock(&mutex);
+		imageTargetReady = true;
+		pthread_mutex_unlock(&mutex);
+
+	    }
 
 	}
 
-/*
-	if(imageSourceReady)
+	if(generateHR && para1 && para2)
 	{
-	    fd = open("imagefile.png", O_CREAT|O_WRONLY, S_IRUSR|S_IWUSR);
-	   if(fd < 0){
-		printf("ERROR creating the file\n"); 
-		continue;
-	   }
-	    n = write(fd, imageBufferSource, sizeof(imageBufferSource));
-	    if (n < 0)
-	    {
-		printf("write file fail! \n");
-		continue;
-	    }
-	    close(fd);
-	    //imageTargetSize = transformImage(imageBufferTarget, imageBufferSource);
-	    pthread_mutex_lock(&mutex);
-	    imageSourceReady = false;
-	    imageTargetReady = true;
-	    pthread_mutex_unlock(&mutex);
+		iter = db_chaos_parallel(ifs1,vol3,ifs2,vol4,4);
+		while(imageTargetReady);
+		memcpy(imageBufferTarget, vol4->slab, vol4->get_size());
+
+		pthread_mutex_lock(&mutex);
+		imageTargetReady = true;
+		displayHR = true;
+		generateHR = false;
+		pthread_mutex_unlock(&mutex);
+
 	}
-	*/
+
 
 	if(sockClose)
 	    break;

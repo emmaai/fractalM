@@ -15,12 +15,18 @@
 #include "rwsockthread.h"
 #include "transfmimg.h"
 #include "typedef.h"
+#include "trilinear_class.h"
+#include "ddsbase.h"
 
 pthread_mutex_t mutex;
 extern volatile bool sockClose;
 extern volatile unsigned long imageTargetSize;
 extern volatile bool imageTargetReady;
-extern unsigned char imageBufferTarget[3*1024*1024];
+extern volatile bool displayHR;
+extern unsigned char *imageBufferTarget;
+extern unsigned char *imageBufferSource;
+volume *vol1, *vol2, *vol3, *vol4;
+
 void error(const char *msg)
 {
     perror(msg);
@@ -35,8 +41,8 @@ int main(int argc, char *argv[])
      pthread_t thread_rw, thread_cpt;
      threadData threadArg;
 
-     if (argc < 2) {
-         fprintf(stderr,"ERROR, no port provided\n");
+     if (argc < 4) {
+         fprintf(stderr,"ERROR, server portno filename filename\n");
          exit(1);
      }
      sockfd = socket(AF_INET, SOCK_STREAM, 0);
@@ -55,6 +61,33 @@ int main(int argc, char *argv[])
 
     buffersize = 32768*8;
     pthread_mutex_init(&mutex, NULL);
+    unsigned int widthLR, heightLR, depthLR, widthHR, heightHR, depthHR, size;
+    char *filename = argv[2];
+    widthHR = 500;
+    heightHR = 375;
+    depthHR = 1854;
+
+    widthLR = 69; 
+    heightLR = 52;
+    depthLR = 256;
+
+    vol1 = new volume(widthLR, heightLR, depthLR);
+    vol2 = new volume(widthLR, heightLR, depthLR);
+
+    vol3 = new volume(widthHR, heightHR, depthHR);
+    vol4 = new volume(widthHR, heightHR, depthHR);
+
+    imageBufferTarget = new unsigned char[widthHR*heightHR*depthHR];
+
+    unsigned char *data = readRAWfile(filename, &size);
+    for(int i=0; i<widthHR*heightHR*depthHR; i++ )
+	vol3->set_dat_from_ind(data[i], i);
+    filename = argv[3];
+    data = readRAWfile(filename, &size);
+    for(int i=0; i<widthLR*heightLR*depthLR; i++ )
+	vol1->set_dat_from_ind(data[i], i);
+    delete data;
+
      while(1)
      {
 	 newsockfd = accept(sockfd, 
@@ -74,8 +107,8 @@ int main(int argc, char *argv[])
 	 pthread_mutex_lock(&mutex);
 	 sockClose = false;
 	 pthread_mutex_unlock(&mutex);
-
 	 rs = pthread_create(&thread_cpt, NULL, transfmImage, (void *)&threadArg);
+
 	 if(rs)
 	 {
 		error("ERROR on creating thread_cpt");
@@ -85,7 +118,17 @@ int main(int argc, char *argv[])
 	{
 	    if(imageTargetReady)
 	    {
-		printf("write image to client %d\n", imageTargetSize);
+		if(displayHR)
+		{
+		    pthread_mutex_lock(&mutex);
+		    displayHR = false;
+		    pthread_mutex_unlock(&mutex);
+		    size = widthHR*heightHR*depthHR;
+		}else
+		    size = widthLR*heightLR*depthLR;
+		printf("volume size is %d, %d, %d\n", widthLR, heightLR, depthLR);
+
+		printf("write image to client %d\n", size);
 		n = write(newsockfd, "<DATA", 5);
 		printf("actual write %d\n", n);
 		if (n < 0) 
@@ -93,7 +136,7 @@ int main(int argc, char *argv[])
 		    printf("ERROR writing to socket\n");
 		    break;
 		}
-		n = write(newsockfd,imageBufferTarget,imageTargetSize);
+		n = write(newsockfd,imageBufferTarget,size);
 		printf("actual write %d\n", n);
 		if (n < 0) 
 	       {
