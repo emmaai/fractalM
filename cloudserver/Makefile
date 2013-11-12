@@ -17,8 +17,7 @@ LIBS	= -stdc++ -lgomp -lpthread
 
 ##### Files
 
-HEADERS	=   chaosgame.h \
-	    typedef.h \
+HEADERS	=   typedef.h \
 	    rwsockthread.h \
 	    transfmimg.h \
 	    3dtransform.h \
@@ -27,7 +26,6 @@ HEADERS	=   chaosgame.h \
 	    trilinear_class.h \
 	    db_class.h
 SOURCES_SERVER	=	server.c  \
-			chaosgame.cpp \
 			rwsockthread.cpp \
 			transfmimg.cpp \
 			fractaltransform.cpp \
@@ -37,7 +35,6 @@ SOURCES_SERVER	=	server.c  \
 			db_chaos_3d_parallel.cpp
 
 OBJECTS_SERVER	=	server.o \
-			chaosgame.o \
 			rwsockthread.o \
 			transfmimg.o \
 			fractaltransform.o \
@@ -76,7 +73,7 @@ $(TARGET_SERVER): $(OBJECTS_SERVER)
 
 
 clean:
-	-rm -f $(OBJECTS_CLIENT) $(OBJECTS_SERVER) $(TARGET_SERVER)
+	-rm -f $(OBJECTS_SERVER) $(TARGET_SERVER)
 
 	-rm -f *~ core
 
