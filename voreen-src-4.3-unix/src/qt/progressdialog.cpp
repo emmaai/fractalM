@@ -44,7 +44,8 @@ ProgressDialog::ProgressDialog(QWidget* parent, const std::string& message)
     progressDialog_->setRange(0, stepGranularity);
     progressDialog_->setMinimumDuration(0);
     progressDialog_->setMinimumWidth(300);
-
+    progressDialog_->setAutoClose(false);
+    progressDialog_->setAutoReset(false);
     time_ = new QTime();
     time_->start();
 }
@@ -87,7 +88,7 @@ void ProgressDialog::hide() {
         return;
 
     setProgress(1.f);
-    progressDialog_->hide();
+    progressDialog_->close();
 }
 
 void ProgressDialog::setMessage(const std::string& message) {

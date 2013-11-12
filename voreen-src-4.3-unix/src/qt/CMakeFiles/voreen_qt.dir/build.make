@@ -8290,6 +8290,8 @@ bin/libvoreen_qt.so: /usr/lib/libboost_unit_test_framework-mt.so
 bin/libvoreen_qt.so: /usr/lib/libboost_system-mt.so
 bin/libvoreen_qt.so: /usr/local/lib/libIL.so
 bin/libvoreen_qt.so: /usr/local/lib/libILU.so
+bin/libvoreen_qt.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/libvoreen_qt.so: /usr/lib/libftgl.so
 bin/libvoreen_qt.so: /usr/lib/libOpenCL.so
 bin/libvoreen_qt.so: /usr/lib/x86_64-linux-gnu/libz.so
 bin/libvoreen_qt.so: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Widgets.so.5.1.0
@@ -8314,6 +8316,8 @@ bin/libvoreen_qt.so: /usr/lib/libboost_unit_test_framework-mt.so
 bin/libvoreen_qt.so: /usr/lib/libboost_system-mt.so
 bin/libvoreen_qt.so: /usr/local/lib/libIL.so
 bin/libvoreen_qt.so: /usr/local/lib/libILU.so
+bin/libvoreen_qt.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/libvoreen_qt.so: /usr/lib/libftgl.so
 bin/libvoreen_qt.so: /usr/lib/libOpenCL.so
 bin/libvoreen_qt.so: /usr/lib/x86_64-linux-gnu/libz.so
 bin/libvoreen_qt.so: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Widgets.so.5.1.0

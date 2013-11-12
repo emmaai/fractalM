@@ -606,7 +606,7 @@ bool QtCanvas::event(QEvent *event) {
             tgt::vec2 pos(p.pos().x(), p.pos().y());
             int state = p.state();
             //bool primary = p.isPrimary();
-            bool primary = false;
+            bool primary = true;
 
             states = states | state;
 

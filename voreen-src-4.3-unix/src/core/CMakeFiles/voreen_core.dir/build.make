@@ -8861,9 +8861,32 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/flowreen/utils/flowmath.cpp.o.
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/flowreen/utils/flowmath.cpp.o.provides.build: src/core/CMakeFiles/voreen_core.dir/__/__/modules/flowreen/utils/flowmath.cpp.o
 
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o: modules/fontrendering/fontrenderingmodule.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_384)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o"
+	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/fontrendering/fontrenderingmodule.cpp
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.i"
+	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -E /home/emma/Downloads/voreen-src-4.3-unix/modules/fontrendering/fontrenderingmodule.cpp > CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.i
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.s"
+	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -S /home/emma/Downloads/voreen-src-4.3-unix/modules/fontrendering/fontrenderingmodule.cpp -o CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.s
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o.requires:
+.PHONY : src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o.requires
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o.provides: src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o.requires
+	$(MAKE) -f src/core/CMakeFiles/voreen_core.dir/build.make src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o.provides.build
+.PHONY : src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o.provides
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o.provides.build: src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o
+
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/openclmodule.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/openclmodule.cpp.o: modules/opencl/openclmodule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_384)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_385)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/openclmodule.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/opencl/openclmodule.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/openclmodule.cpp
 
@@ -8886,7 +8909,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/openclmodule.cpp.o.prov
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/clwrapper.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/clwrapper.cpp.o: modules/opencl/utils/clwrapper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_385)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_386)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/clwrapper.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/clwrapper.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/utils/clwrapper.cpp
 
@@ -8909,7 +8932,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/clwrapper.cpp.o.p
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/dynamicclprocessor.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/dynamicclprocessor.cpp.o: modules/opencl/processors/dynamicclprocessor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_386)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_387)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/dynamicclprocessor.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/dynamicclprocessor.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/processors/dynamicclprocessor.cpp
 
@@ -8932,7 +8955,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/dynamicclpro
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/grayscale_cl.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/grayscale_cl.cpp.o: modules/opencl/processors/grayscale_cl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_387)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_388)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/grayscale_cl.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/grayscale_cl.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/processors/grayscale_cl.cpp
 
@@ -8955,7 +8978,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/grayscale_cl
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/raycaster_cl.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/raycaster_cl.cpp.o: modules/opencl/processors/raycaster_cl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_388)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_389)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/raycaster_cl.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/raycaster_cl.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/processors/raycaster_cl.cpp
 
@@ -8978,7 +9001,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/raycaster_cl
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/raytracingentryexitpoints.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/raytracingentryexitpoints.cpp.o: modules/opencl/processors/raytracingentryexitpoints.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_389)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_390)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/raytracingentryexitpoints.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/raytracingentryexitpoints.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/processors/raytracingentryexitpoints.cpp
 
@@ -9001,7 +9024,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/raytracingen
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/volumegradient_cl.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/volumegradient_cl.cpp.o: modules/opencl/processors/volumegradient_cl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_390)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_391)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/volumegradient_cl.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/volumegradient_cl.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/processors/volumegradient_cl.cpp
 
@@ -9024,7 +9047,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/volumegradie
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/voreenblascl.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/voreenblascl.cpp.o: modules/opencl/utils/voreenblascl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_391)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_392)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/voreenblascl.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/voreenblascl.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/utils/voreenblascl.cpp
 
@@ -9047,7 +9070,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/voreenblascl.cpp.
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/properties/openclproperty.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/properties/openclproperty.cpp.o: modules/opencl/properties/openclproperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_392)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_393)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/properties/openclproperty.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/opencl/properties/openclproperty.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/properties/openclproperty.cpp
 
@@ -9068,9 +9091,55 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/properties/openclproper
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/properties/openclproperty.cpp.o.provides.build: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/properties/openclproperty.cpp.o
 
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o: modules/openmp/openmpmodule.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_394)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o"
+	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/openmp/openmpmodule.cpp
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.i"
+	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -E /home/emma/Downloads/voreen-src-4.3-unix/modules/openmp/openmpmodule.cpp > CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.i
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.s"
+	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -S /home/emma/Downloads/voreen-src-4.3-unix/modules/openmp/openmpmodule.cpp -o CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.s
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o.requires:
+.PHONY : src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o.requires
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o.provides: src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o.requires
+	$(MAKE) -f src/core/CMakeFiles/voreen_core.dir/build.make src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o.provides.build
+.PHONY : src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o.provides
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o.provides.build: src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o: modules/openmp/src/voreenblasmp.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_395)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o"
+	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/openmp/src/voreenblasmp.cpp
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.i"
+	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -E /home/emma/Downloads/voreen-src-4.3-unix/modules/openmp/src/voreenblasmp.cpp > CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.i
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.s"
+	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -S /home/emma/Downloads/voreen-src-4.3-unix/modules/openmp/src/voreenblasmp.cpp -o CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.s
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o.requires:
+.PHONY : src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o.requires
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o.provides: src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o.requires
+	$(MAKE) -f src/core/CMakeFiles/voreen_core.dir/build.make src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o.provides.build
+.PHONY : src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o.provides
+
+src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o.provides.build: src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o
+
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/plottingmodule.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/plottingmodule.cpp.o: modules/plotting/plottingmodule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_393)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_396)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/plottingmodule.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/plottingmodule.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/plottingmodule.cpp
 
@@ -9093,7 +9162,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/plottingmodule.cpp.o.
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/barplot.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/barplot.cpp.o: modules/plotting/processors/barplot.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_394)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_397)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/barplot.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/barplot.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/barplot.cpp
 
@@ -9116,7 +9185,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/barplot.cp
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/hemisphereplot.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/hemisphereplot.cpp.o: modules/plotting/processors/hemisphereplot.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_395)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_398)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/hemisphereplot.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/hemisphereplot.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/hemisphereplot.cpp
 
@@ -9139,7 +9208,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/hemisphere
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/imageanalyzer.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/imageanalyzer.cpp.o: modules/plotting/processors/imageanalyzer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_396)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_399)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/imageanalyzer.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/imageanalyzer.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/imageanalyzer.cpp
 
@@ -9162,7 +9231,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/imageanaly
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/lineplot.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/lineplot.cpp.o: modules/plotting/processors/lineplot.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_397)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_400)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/lineplot.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/lineplot.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/lineplot.cpp
 
@@ -9185,7 +9254,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/lineplot.c
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatafitfunction.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatafitfunction.cpp.o: modules/plotting/processors/plotdatafitfunction.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_398)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_401)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatafitfunction.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatafitfunction.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/plotdatafitfunction.cpp
 
@@ -9208,7 +9277,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatafi
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatagroup.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatagroup.cpp.o: modules/plotting/processors/plotdatagroup.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_399)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_402)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatagroup.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatagroup.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/plotdatagroup.cpp
 
@@ -9231,7 +9300,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatagr
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatasource.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatasource.cpp.o: modules/plotting/processors/plotdatasource.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_400)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_403)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatasource.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatasource.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/plotdatasource.cpp
 
@@ -9254,7 +9323,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataso
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexport.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexport.cpp.o: modules/plotting/processors/plotdataexport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_401)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_404)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexport.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexport.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/plotdataexport.cpp
 
@@ -9277,7 +9346,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataex
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexporttext.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexporttext.cpp.o: modules/plotting/processors/plotdataexporttext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_402)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_405)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexporttext.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexporttext.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/plotdataexporttext.cpp
 
@@ -9300,7 +9369,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataex
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexportbase.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexportbase.cpp.o: modules/plotting/processors/plotdataexportbase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_403)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_406)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexportbase.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataexportbase.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/plotdataexportbase.cpp
 
@@ -9323,7 +9392,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataex
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataselect.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataselect.cpp.o: modules/plotting/processors/plotdataselect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_404)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_407)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataselect.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdataselect.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/plotdataselect.cpp
 
@@ -9346,7 +9415,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatase
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatamerge.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatamerge.cpp.o: modules/plotting/processors/plotdatamerge.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_405)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_408)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatamerge.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatamerge.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/plotdatamerge.cpp
 
@@ -9369,7 +9438,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotdatame
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotfunctiondiscret.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotfunctiondiscret.cpp.o: modules/plotting/processors/plotfunctiondiscret.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_406)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_409)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotfunctiondiscret.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotfunctiondiscret.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/plotfunctiondiscret.cpp
 
@@ -9392,7 +9461,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotfuncti
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotfunctionsource.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotfunctionsource.cpp.o: modules/plotting/processors/plotfunctionsource.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_407)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_410)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotfunctionsource.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotfunctionsource.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/plotfunctionsource.cpp
 
@@ -9415,7 +9484,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotfuncti
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotprocessor.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotprocessor.cpp.o: modules/plotting/processors/plotprocessor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_408)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_411)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotprocessor.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotprocessor.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/plotprocessor.cpp
 
@@ -9438,7 +9507,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/plotproces
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/surfaceplot.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/surfaceplot.cpp.o: modules/plotting/processors/surfaceplot.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_409)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_412)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/surfaceplot.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/surfaceplot.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/surfaceplot.cpp
 
@@ -9461,7 +9530,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/surfaceplo
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/scatterplot.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/scatterplot.cpp.o: modules/plotting/processors/scatterplot.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_410)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_413)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/scatterplot.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/scatterplot.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/processors/scatterplot.cpp
 
@@ -9484,7 +9553,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/scatterplo
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/colormapproperty.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/colormapproperty.cpp.o: modules/plotting/properties/colormapproperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_411)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_414)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/colormapproperty.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/colormapproperty.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/properties/colormapproperty.cpp
 
@@ -9507,7 +9576,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/colormappr
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotentitiesproperty.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotentitiesproperty.cpp.o: modules/plotting/properties/plotentitiesproperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_412)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_415)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotentitiesproperty.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotentitiesproperty.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/properties/plotentitiesproperty.cpp
 
@@ -9530,7 +9599,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotentiti
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotpredicateproperty.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotpredicateproperty.cpp.o: modules/plotting/properties/plotpredicateproperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_413)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_416)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotpredicateproperty.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotpredicateproperty.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/properties/plotpredicateproperty.cpp
 
@@ -9553,7 +9622,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotpredic
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotselectionproperty.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotselectionproperty.cpp.o: modules/plotting/properties/plotselectionproperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_414)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_417)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotselectionproperty.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotselectionproperty.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/properties/plotselectionproperty.cpp
 
@@ -9576,7 +9645,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotselect
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotdataproperty.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotdataproperty.cpp.o: modules/plotting/properties/plotdataproperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_415)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_418)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotdataproperty.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotdataproperty.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/properties/plotdataproperty.cpp
 
@@ -9599,7 +9668,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/plotdatapr
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/link/linkevaluatorplotselection.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/link/linkevaluatorplotselection.cpp.o: modules/plotting/properties/link/linkevaluatorplotselection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_416)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_419)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/link/linkevaluatorplotselection.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/link/linkevaluatorplotselection.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/properties/link/linkevaluatorplotselection.cpp
 
@@ -9622,7 +9691,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/properties/link/linke
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/ports/plotport.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/ports/plotport.cpp.o: modules/plotting/ports/plotport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_417)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_420)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/ports/plotport.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/ports/plotport.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/ports/plotport.cpp
 
@@ -9645,7 +9714,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/ports/plotport.cpp.o.
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/aggregationfunction.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/aggregationfunction.cpp.o: modules/plotting/datastructures/aggregationfunction.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_418)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_421)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/aggregationfunction.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/aggregationfunction.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/datastructures/aggregationfunction.cpp
 
@@ -9668,7 +9737,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/aggreg
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/colormap.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/colormap.cpp.o: modules/plotting/datastructures/colormap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_419)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_422)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/colormap.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/colormap.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/datastructures/colormap.cpp
 
@@ -9691,7 +9760,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/colorm
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotbase.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotbase.cpp.o: modules/plotting/datastructures/plotbase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_420)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_423)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotbase.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotbase.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/datastructures/plotbase.cpp
 
@@ -9714,7 +9783,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotba
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotcell.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotcell.cpp.o: modules/plotting/datastructures/plotcell.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_421)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_424)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotcell.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotcell.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/datastructures/plotcell.cpp
 
@@ -9737,7 +9806,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotce
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotdata.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotdata.cpp.o: modules/plotting/datastructures/plotdata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_422)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_425)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotdata.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotdata.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/datastructures/plotdata.cpp
 
@@ -9760,7 +9829,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotda
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotentitysettings.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotentitysettings.cpp.o: modules/plotting/datastructures/plotentitysettings.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_423)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_426)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotentitysettings.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotentitysettings.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/datastructures/plotentitysettings.cpp
 
@@ -9783,7 +9852,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/ploten
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotexpression.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotexpression.cpp.o: modules/plotting/datastructures/plotexpression.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_424)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_427)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotexpression.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotexpression.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/datastructures/plotexpression.cpp
 
@@ -9806,7 +9875,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotex
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotfunction.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotfunction.cpp.o: modules/plotting/datastructures/plotfunction.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_425)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_428)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotfunction.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotfunction.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/datastructures/plotfunction.cpp
 
@@ -9829,7 +9898,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotfu
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotpredicate.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotpredicate.cpp.o: modules/plotting/datastructures/plotpredicate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_426)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_429)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotpredicate.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotpredicate.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/datastructures/plotpredicate.cpp
 
@@ -9852,7 +9921,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotpr
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotrow.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotrow.cpp.o: modules/plotting/datastructures/plotrow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_427)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_430)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotrow.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotrow.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/datastructures/plotrow.cpp
 
@@ -9875,7 +9944,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotro
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotselection.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotselection.cpp.o: modules/plotting/datastructures/plotselection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_428)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_431)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotselection.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotselection.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/datastructures/plotselection.cpp
 
@@ -9898,7 +9967,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/datastructures/plotse
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/functionlibrary.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/functionlibrary.cpp.o: modules/plotting/utils/functionlibrary.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_429)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_432)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/functionlibrary.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/functionlibrary.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/functionlibrary.cpp
 
@@ -9921,7 +9990,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/functionlibrary
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotdatainserter.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotdatainserter.cpp.o: modules/plotting/utils/plotdatainserter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_430)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_433)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotdatainserter.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotdatainserter.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/plotdatainserter.cpp
 
@@ -9944,7 +10013,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotdatainserte
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrary.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrary.cpp.o: modules/plotting/utils/plotlibrary/plotlibrary.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_431)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_434)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrary.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrary.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/plotlibrary/plotlibrary.cpp
 
@@ -9967,7 +10036,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plo
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibraryfilebase.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibraryfilebase.cpp.o: modules/plotting/utils/plotlibrary/plotlibraryfilebase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_432)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_435)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibraryfilebase.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibraryfilebase.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/plotlibrary/plotlibraryfilebase.cpp
 
@@ -9990,7 +10059,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plo
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarylatex.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarylatex.cpp.o: modules/plotting/utils/plotlibrary/plotlibrarylatex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_433)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_436)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarylatex.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarylatex.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/plotlibrary/plotlibrarylatex.cpp
 
@@ -10013,7 +10082,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plo
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarylatexrender.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarylatexrender.cpp.o: modules/plotting/utils/plotlibrary/plotlibrarylatexrender.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_434)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_437)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarylatexrender.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarylatexrender.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/plotlibrary/plotlibrarylatexrender.cpp
 
@@ -10036,7 +10105,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plo
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarynonefilebase.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarynonefilebase.cpp.o: modules/plotting/utils/plotlibrary/plotlibrarynonefilebase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_435)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_438)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarynonefilebase.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarynonefilebase.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/plotlibrary/plotlibrarynonefilebase.cpp
 
@@ -10059,7 +10128,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plo
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibraryopengl.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibraryopengl.cpp.o: modules/plotting/utils/plotlibrary/plotlibraryopengl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_436)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_439)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibraryopengl.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibraryopengl.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/plotlibrary/plotlibraryopengl.cpp
 
@@ -10082,7 +10151,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plo
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarysvg.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarysvg.cpp.o: modules/plotting/utils/plotlibrary/plotlibrarysvg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_437)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_440)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarysvg.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarysvg.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/plotlibrary/plotlibrarysvg.cpp
 
@@ -10105,7 +10174,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plo
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarysvgrender.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarysvgrender.cpp.o: modules/plotting/utils/plotlibrary/plotlibrarysvgrender.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_438)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_441)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarysvgrender.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plotlibrarysvgrender.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/plotlibrary/plotlibrarysvgrender.cpp
 
@@ -10128,7 +10197,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotlibrary/plo
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotpredicatefactory.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotpredicatefactory.cpp.o: modules/plotting/utils/plotpredicatefactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_439)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_442)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotpredicatefactory.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotpredicatefactory.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/plotpredicatefactory.cpp
 
@@ -10151,7 +10220,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/plotpredicatefa
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/smartlabel.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/smartlabel.cpp.o: modules/plotting/utils/smartlabel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_440)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_443)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/smartlabel.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/smartlabel.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/smartlabel.cpp
 
@@ -10174,7 +10243,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/smartlabel.cpp.
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionterminals.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionterminals.cpp.o: modules/plotting/utils/parser/plotfunctionterminals.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_441)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_444)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionterminals.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionterminals.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/parser/plotfunctionterminals.cpp
 
@@ -10197,7 +10266,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunc
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctiongrammar.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctiongrammar.cpp.o: modules/plotting/utils/parser/plotfunctiongrammar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_442)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_445)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctiongrammar.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctiongrammar.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/parser/plotfunctiongrammar.cpp
 
@@ -10220,7 +10289,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunc
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionlexer.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionlexer.cpp.o: modules/plotting/utils/parser/plotfunctionlexer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_443)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_446)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionlexer.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionlexer.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/parser/plotfunctionlexer.cpp
 
@@ -10243,7 +10312,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunc
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionparser.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionparser.cpp.o: modules/plotting/utils/parser/plotfunctionparser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_444)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_447)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionparser.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionparser.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/parser/plotfunctionparser.cpp
 
@@ -10266,7 +10335,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunc
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionnode.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionnode.cpp.o: modules/plotting/utils/parser/plotfunctionnode.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_445)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_448)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionnode.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionnode.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/parser/plotfunctionnode.cpp
 
@@ -10289,7 +10358,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunc
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionvisitor.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionvisitor.cpp.o: modules/plotting/utils/parser/plotfunctionvisitor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_446)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_449)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionvisitor.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctionvisitor.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/parser/plotfunctionvisitor.cpp
 
@@ -10312,7 +10381,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunc
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctiontoken.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctiontoken.cpp.o: modules/plotting/utils/parser/plotfunctiontoken.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_447)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_450)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctiontoken.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunctiontoken.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/utils/parser/plotfunctiontoken.cpp
 
@@ -10335,7 +10404,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/utils/parser/plotfunc
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/interaction/plotcamerainteractionhandler.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/interaction/plotcamerainteractionhandler.cpp.o: modules/plotting/interaction/plotcamerainteractionhandler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_448)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_451)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/interaction/plotcamerainteractionhandler.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/interaction/plotcamerainteractionhandler.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/interaction/plotcamerainteractionhandler.cpp
 
@@ -10358,7 +10427,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/interaction/plotcamer
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/interaction/plotpickingmanager.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/interaction/plotpickingmanager.cpp.o: modules/plotting/interaction/plotpickingmanager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_449)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_452)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/interaction/plotpickingmanager.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/interaction/plotpickingmanager.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/interaction/plotpickingmanager.cpp
 
@@ -10381,7 +10450,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/interaction/plotpicki
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/ext/triangle/src/del_impl.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/ext/triangle/src/del_impl.cpp.o: modules/plotting/ext/triangle/src/del_impl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_450)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_453)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/ext/triangle/src/del_impl.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/plotting/ext/triangle/src/del_impl.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/ext/triangle/src/del_impl.cpp
 
@@ -10404,7 +10473,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/ext/triangle/src/del_
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/pvmmodule.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/pvmmodule.cpp.o: modules/pvm/pvmmodule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_451)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_454)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/pvmmodule.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/pvm/pvmmodule.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/pvm/pvmmodule.cpp
 
@@ -10427,7 +10496,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/pvmmodule.cpp.o.provides.b
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/io/ddsbase.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/io/ddsbase.cpp.o: modules/pvm/io/ddsbase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_452)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_455)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/io/ddsbase.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/pvm/io/ddsbase.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/pvm/io/ddsbase.cpp
 
@@ -10450,7 +10519,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/io/ddsbase.cpp.o.provides.
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/io/pvmvolumereader.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/io/pvmvolumereader.cpp.o: modules/pvm/io/pvmvolumereader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_453)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_456)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/io/pvmvolumereader.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/pvm/io/pvmvolumereader.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/pvm/io/pvmvolumereader.cpp
 
@@ -10473,7 +10542,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/pvm/io/pvmvolumereader.cpp.o.p
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/randomwalkermodule.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/randomwalkermodule.cpp.o: modules/randomwalker/randomwalkermodule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_454)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_457)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/randomwalkermodule.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/randomwalkermodule.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/randomwalker/randomwalkermodule.cpp
 
@@ -10496,7 +10565,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/randomwalkermodul
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/randomwalker.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/randomwalker.cpp.o: modules/randomwalker/processors/randomwalker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_455)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_458)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/randomwalker.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/randomwalker.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/randomwalker/processors/randomwalker.cpp
 
@@ -10519,7 +10588,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/random
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/randomwalkeranalyzer.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/randomwalkeranalyzer.cpp.o: modules/randomwalker/processors/randomwalkeranalyzer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_456)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_459)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/randomwalkeranalyzer.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/randomwalkeranalyzer.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/randomwalker/processors/randomwalkeranalyzer.cpp
 
@@ -10542,7 +10611,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/random
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/rwmultilabelloopinitializer.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/rwmultilabelloopinitializer.cpp.o: modules/randomwalker/processors/rwmultilabelloopinitializer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_457)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_460)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/rwmultilabelloopinitializer.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/rwmultilabelloopinitializer.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/randomwalker/processors/rwmultilabelloopinitializer.cpp
 
@@ -10565,7 +10634,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/rwmult
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/rwmultilabelloopfinalizer.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/rwmultilabelloopfinalizer.cpp.o: modules/randomwalker/processors/rwmultilabelloopfinalizer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_458)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_461)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/rwmultilabelloopfinalizer.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/rwmultilabelloopfinalizer.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/randomwalker/processors/rwmultilabelloopfinalizer.cpp
 
@@ -10588,7 +10657,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/processors/rwmult
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkersolver.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkersolver.cpp.o: modules/randomwalker/solver/randomwalkersolver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_459)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_462)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkersolver.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkersolver.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/randomwalker/solver/randomwalkersolver.cpp
 
@@ -10611,7 +10680,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalk
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkerseeds.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkerseeds.cpp.o: modules/randomwalker/solver/randomwalkerseeds.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_460)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_463)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkerseeds.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkerseeds.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/randomwalker/solver/randomwalkerseeds.cpp
 
@@ -10634,7 +10703,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalk
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkerweights.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkerweights.cpp.o: modules/randomwalker/solver/randomwalkerweights.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_461)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_464)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkerweights.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalkerweights.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/randomwalker/solver/randomwalkerweights.cpp
 
@@ -10657,7 +10726,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/randomwalker/solver/randomwalk
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/segy/segymodule.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/segy/segymodule.cpp.o: modules/segy/segymodule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_462)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_465)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/segy/segymodule.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/segy/segymodule.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/segy/segymodule.cpp
 
@@ -10680,7 +10749,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/segy/segymodule.cpp.o.provides
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/segy/io/segyvolumereader.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/segy/io/segyvolumereader.cpp.o: modules/segy/io/segyvolumereader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_463)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_466)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/segy/io/segyvolumereader.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/segy/io/segyvolumereader.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/segy/io/segyvolumereader.cpp
 
@@ -10703,7 +10772,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/segy/io/segyvolumereader.cpp.o
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/stagingmodule.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/stagingmodule.cpp.o: modules/staging/stagingmodule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_464)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_467)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/stagingmodule.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/stagingmodule.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/stagingmodule.cpp
 
@@ -10726,7 +10795,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/stagingmodule.cpp.o.pr
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/alignedsliceproxygeometry.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/alignedsliceproxygeometry.cpp.o: modules/staging/processors/alignedsliceproxygeometry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_465)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_468)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/alignedsliceproxygeometry.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/alignedsliceproxygeometry.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/alignedsliceproxygeometry.cpp
 
@@ -10749,7 +10818,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/alignedslic
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/arbitraryvolumeclipping.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/arbitraryvolumeclipping.cpp.o: modules/staging/processors/arbitraryvolumeclipping.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_466)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_469)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/arbitraryvolumeclipping.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/arbitraryvolumeclipping.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/arbitraryvolumeclipping.cpp
 
@@ -10772,7 +10841,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/arbitraryvo
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/interactiveregistrationwidget.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/interactiveregistrationwidget.cpp.o: modules/staging/processors/interactiveregistrationwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_467)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_470)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/interactiveregistrationwidget.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/interactiveregistrationwidget.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/interactiveregistrationwidget.cpp
 
@@ -10795,7 +10864,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/interactive
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multislicerenderer.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multislicerenderer.cpp.o: modules/staging/processors/multislicerenderer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_468)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_471)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multislicerenderer.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multislicerenderer.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/multislicerenderer.cpp
 
@@ -10818,7 +10887,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multislicer
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multisliceviewer.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multisliceviewer.cpp.o: modules/staging/processors/multisliceviewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_469)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_472)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multisliceviewer.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multisliceviewer.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/multisliceviewer.cpp
 
@@ -10841,7 +10910,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multislicev
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multivolumegeometryraycaster.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multivolumegeometryraycaster.cpp.o: modules/staging/processors/multivolumegeometryraycaster.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_470)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_473)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multivolumegeometryraycaster.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multivolumegeometryraycaster.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/multivolumegeometryraycaster.cpp
 
@@ -10864,7 +10933,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/multivolume
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/registrationinitializer.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/registrationinitializer.cpp.o: modules/staging/processors/registrationinitializer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_471)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_474)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/registrationinitializer.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/registrationinitializer.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/registrationinitializer.cpp
 
@@ -10887,7 +10956,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/registratio
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/samplingpositiontransformation.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/samplingpositiontransformation.cpp.o: modules/staging/processors/samplingpositiontransformation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_472)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_475)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/samplingpositiontransformation.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/samplingpositiontransformation.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/samplingpositiontransformation.cpp
 
@@ -10910,7 +10979,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/samplingpos
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/screenspaceambientocclusion.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/screenspaceambientocclusion.cpp.o: modules/staging/processors/screenspaceambientocclusion.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_473)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_476)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/screenspaceambientocclusion.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/screenspaceambientocclusion.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/screenspaceambientocclusion.cpp
 
@@ -10933,7 +11002,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/screenspace
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/sliceproxygeometry.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/sliceproxygeometry.cpp.o: modules/staging/processors/sliceproxygeometry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_474)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_477)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/sliceproxygeometry.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/sliceproxygeometry.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/sliceproxygeometry.cpp
 
@@ -10956,7 +11025,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/sliceproxyg
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/tabbedview.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/tabbedview.cpp.o: modules/staging/processors/tabbedview.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_475)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_478)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/tabbedview.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/tabbedview.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/tabbedview.cpp
 
@@ -10979,7 +11048,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/tabbedview.
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/transfuncoverlay.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/transfuncoverlay.cpp.o: modules/staging/processors/transfuncoverlay.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_476)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_479)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/transfuncoverlay.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/transfuncoverlay.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/processors/transfuncoverlay.cpp
 
@@ -11002,7 +11071,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/processors/transfuncov
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctreebase.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctreebase.cpp.o: modules/staging/octree/datastructures/volumeoctreebase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_477)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_480)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctreebase.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctreebase.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/octree/datastructures/volumeoctreebase.cpp
 
@@ -11025,7 +11094,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctree.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctree.cpp.o: modules/staging/octree/datastructures/volumeoctree.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_478)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_481)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctree.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctree.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/octree/datastructures/volumeoctree.cpp
 
@@ -11048,7 +11117,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/octreebrickpoolmanager.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/octreebrickpoolmanager.cpp.o: modules/staging/octree/datastructures/octreebrickpoolmanager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_479)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_482)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/octreebrickpoolmanager.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/octreebrickpoolmanager.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/octree/datastructures/octreebrickpoolmanager.cpp
 
@@ -11071,7 +11140,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/octreebrickpoolmanagerdisk.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/octreebrickpoolmanagerdisk.cpp.o: modules/staging/octree/datastructures/octreebrickpoolmanagerdisk.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_480)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_483)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/octreebrickpoolmanagerdisk.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/octreebrickpoolmanagerdisk.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/octree/datastructures/octreebrickpoolmanagerdisk.cpp
 
@@ -11094,7 +11163,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctreeport.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctreeport.cpp.o: modules/staging/octree/datastructures/volumeoctreeport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_481)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_484)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctreeport.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/volumeoctreeport.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/octree/datastructures/volumeoctreeport.cpp
 
@@ -11117,7 +11186,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/datastructures/
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/octreecreator.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/octreecreator.cpp.o: modules/staging/octree/processors/octreecreator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_482)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_485)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/octreecreator.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/octreecreator.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/octree/processors/octreecreator.cpp
 
@@ -11140,7 +11209,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/octr
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/octreeproxygeometry.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/octreeproxygeometry.cpp.o: modules/staging/octree/processors/octreeproxygeometry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_483)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_486)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/octreeproxygeometry.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/octreeproxygeometry.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/octree/processors/octreeproxygeometry.cpp
 
@@ -11163,7 +11232,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/octr
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/singleoctreeraycastercpu.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/singleoctreeraycastercpu.cpp.o: modules/staging/octree/processors/singleoctreeraycastercpu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_484)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_487)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/singleoctreeraycastercpu.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/singleoctreeraycastercpu.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/octree/processors/singleoctreeraycastercpu.cpp
 
@@ -11186,7 +11255,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/sing
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/singleoctreeraycastercl.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/singleoctreeraycastercl.cpp.o: modules/staging/octree/processors/singleoctreeraycastercl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_485)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_488)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/singleoctreeraycastercl.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/singleoctreeraycastercl.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/staging/octree/processors/singleoctreeraycastercl.cpp
 
@@ -11209,7 +11278,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/staging/octree/processors/sing
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/stereoscopy/stereoscopymodule.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/stereoscopy/stereoscopymodule.cpp.o: modules/stereoscopy/stereoscopymodule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_486)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_489)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/stereoscopy/stereoscopymodule.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/stereoscopy/stereoscopymodule.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/stereoscopy/stereoscopymodule.cpp
 
@@ -11232,7 +11301,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/stereoscopy/stereoscopymodule.
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/stereoscopy/processors/stereocanvasrenderer.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/stereoscopy/processors/stereocanvasrenderer.cpp.o: modules/stereoscopy/processors/stereocanvasrenderer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_487)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_490)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/stereoscopy/processors/stereocanvasrenderer.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/stereoscopy/processors/stereocanvasrenderer.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/stereoscopy/processors/stereocanvasrenderer.cpp
 
@@ -11255,7 +11324,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/stereoscopy/processors/stereoc
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/volumelabelingmodule.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/volumelabelingmodule.cpp.o: modules/volumelabeling/volumelabelingmodule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_488)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_491)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/volumelabelingmodule.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/volumelabelingmodule.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/volumelabeling/volumelabelingmodule.cpp
 
@@ -11278,7 +11347,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/volumelabelingm
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/processors/idraycaster.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/processors/idraycaster.cpp.o: modules/volumelabeling/processors/idraycaster.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_489)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_492)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/processors/idraycaster.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/processors/idraycaster.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/volumelabeling/processors/idraycaster.cpp
 
@@ -11301,7 +11370,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/processors/idra
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/processors/volumelabeling.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/processors/volumelabeling.cpp.o: modules/volumelabeling/processors/volumelabeling.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_490)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_493)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/processors/volumelabeling.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/processors/volumelabeling.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/volumelabeling/processors/volumelabeling.cpp
 
@@ -11324,7 +11393,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/processors/volu
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/utils/labelingmath.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/utils/labelingmath.cpp.o: modules/volumelabeling/utils/labelingmath.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_491)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_494)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/utils/labelingmath.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/utils/labelingmath.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/volumelabeling/utils/labelingmath.cpp
 
@@ -11347,7 +11416,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/volumelabeling/utils/labelingm
 
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/zip/zipmodule.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/modules/zip/zipmodule.cpp.o: modules/zip/zipmodule.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_492)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_495)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/modules/zip/zipmodule.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/modules/zip/zipmodule.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/modules/zip/zipmodule.cpp
 
@@ -11370,7 +11439,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/modules/zip/zipmodule.cpp.o.provides.b
 
 src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxml.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxml.cpp.o: ext/tinyxml/tinyxml.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_493)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_496)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxml.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxml.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tinyxml/tinyxml.cpp
 
@@ -11393,7 +11462,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxml.cpp.o.provides.bui
 
 src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinystr.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinystr.cpp.o: ext/tinyxml/tinystr.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_494)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_497)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinystr.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinystr.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tinyxml/tinystr.cpp
 
@@ -11416,7 +11485,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinystr.cpp.o.provides.bui
 
 src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxmlerror.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxmlerror.cpp.o: ext/tinyxml/tinyxmlerror.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_495)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_498)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxmlerror.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxmlerror.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tinyxml/tinyxmlerror.cpp
 
@@ -11439,7 +11508,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxmlerror.cpp.o.provide
 
 src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxmlparser.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxmlparser.cpp.o: ext/tinyxml/tinyxmlparser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_496)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_499)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxmlparser.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxmlparser.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tinyxml/tinyxmlparser.cpp
 
@@ -11462,7 +11531,7 @@ src/core/CMakeFiles/voreen_core.dir/__/__/ext/tinyxml/tinyxmlparser.cpp.o.provid
 
 src/core/CMakeFiles/voreen_core.dir/__/__/ext/md5/md5.cpp.o: src/core/CMakeFiles/voreen_core.dir/flags.make
 src/core/CMakeFiles/voreen_core.dir/__/__/ext/md5/md5.cpp.o: ext/md5/md5.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_497)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_500)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/core/CMakeFiles/voreen_core.dir/__/__/ext/md5/md5.cpp.o"
 	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch.h -Winvalid-pch -o CMakeFiles/voreen_core.dir/__/__/ext/md5/md5.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/md5/md5.cpp
 
@@ -11868,6 +11937,7 @@ voreen_core_OBJECTS = \
 "CMakeFiles/voreen_core.dir/__/__/modules/flowreen/processors/streamlinerenderer3d.cpp.o" \
 "CMakeFiles/voreen_core.dir/__/__/modules/flowreen/utils/colorcodingability.cpp.o" \
 "CMakeFiles/voreen_core.dir/__/__/modules/flowreen/utils/flowmath.cpp.o" \
+"CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o" \
 "CMakeFiles/voreen_core.dir/__/__/modules/opencl/openclmodule.cpp.o" \
 "CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/clwrapper.cpp.o" \
 "CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/dynamicclprocessor.cpp.o" \
@@ -11877,6 +11947,8 @@ voreen_core_OBJECTS = \
 "CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/volumegradient_cl.cpp.o" \
 "CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/voreenblascl.cpp.o" \
 "CMakeFiles/voreen_core.dir/__/__/modules/opencl/properties/openclproperty.cpp.o" \
+"CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o" \
+"CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o" \
 "CMakeFiles/voreen_core.dir/__/__/modules/plotting/plottingmodule.cpp.o" \
 "CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/barplot.cpp.o" \
 "CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/hemisphereplot.cpp.o" \
@@ -12369,6 +12441,7 @@ bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/flowree
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/flowreen/processors/streamlinerenderer3d.cpp.o
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/flowreen/utils/colorcodingability.cpp.o
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/flowreen/utils/flowmath.cpp.o
+bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/openclmodule.cpp.o
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/clwrapper.cpp.o
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/dynamicclprocessor.cpp.o
@@ -12378,6 +12451,8 @@ bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/volumegradient_cl.cpp.o
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/voreenblascl.cpp.o
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/properties/openclproperty.cpp.o
+bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o
+bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/plottingmodule.cpp.o
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/barplot.cpp.o
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/hemisphereplot.cpp.o
@@ -12501,6 +12576,8 @@ bin/libvoreen_core.so: /usr/lib/libboost_unit_test_framework-mt.so
 bin/libvoreen_core.so: /usr/lib/libboost_system-mt.so
 bin/libvoreen_core.so: /usr/local/lib/libIL.so
 bin/libvoreen_core.so: /usr/local/lib/libILU.so
+bin/libvoreen_core.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/libvoreen_core.so: /usr/lib/libftgl.so
 bin/libvoreen_core.so: /usr/lib/libOpenCL.so
 bin/libvoreen_core.so: /usr/lib/x86_64-linux-gnu/libz.so
 bin/libvoreen_core.so: src/core/CMakeFiles/voreen_core.dir/link.txt
@@ -12894,6 +12971,7 @@ src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.di
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/flowreen/processors/streamlinerenderer3d.cpp.o.requires
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/flowreen/utils/colorcodingability.cpp.o.requires
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/flowreen/utils/flowmath.cpp.o.requires
+src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/fontrendering/fontrenderingmodule.cpp.o.requires
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/openclmodule.cpp.o.requires
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/clwrapper.cpp.o.requires
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/dynamicclprocessor.cpp.o.requires
@@ -12903,6 +12981,8 @@ src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.di
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/processors/volumegradient_cl.cpp.o.requires
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/utils/voreenblascl.cpp.o.requires
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/opencl/properties/openclproperty.cpp.o.requires
+src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/openmpmodule.cpp.o.requires
+src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/openmp/src/voreenblasmp.cpp.o.requires
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/plottingmodule.cpp.o.requires
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/barplot.cpp.o.requires
 src/core/CMakeFiles/voreen_core.dir/requires: src/core/CMakeFiles/voreen_core.dir/__/__/modules/plotting/processors/hemisphereplot.cpp.o.requires

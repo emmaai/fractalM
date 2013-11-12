@@ -62,7 +62,7 @@ int main(int argc, char* argv[]) {
     QMainWindow* mainwindow = new QMainWindow();
     mainwindow->setWindowTitle("Voreen - The Volume Rendering Engine (Simple-Qt)");
     VoreenApplicationQt::qtApp()->setMainWindow(mainwindow);
-    tgt::QtCanvas* canvas = new tgt::QtCanvas();
+    tgt::QtCanvas* canvas = new tgt::QtCanvas("Init Canvas", tgt::ivec2(32, 32), tgt::GLCanvas::RGBADD, 0, true); //new tgt::QtCanvas();
     mainwindow->setCentralWidget(canvas);
     mainwindow->resize(512, 512);
     mainwindow->show();

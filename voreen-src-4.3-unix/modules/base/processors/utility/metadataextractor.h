@@ -58,6 +58,14 @@ public:
      */
     void updateMetaDataList();
 
+
+    /**
+     * Gets the placeholders used in the textfield of the StringExpressionProperty,
+     * sets the corresponding replacements and returns the text with the replaced placeholders.
+     */
+    std::string replaceMetaDataAndGetString() const;
+
+
 protected:
     virtual void setDescriptions() {
         setDescription("Provides functionality to get the Meta Information of a Volume.");
@@ -76,12 +84,6 @@ private:
     StringExpressionProperty expressionProperty_;
     ButtonProperty dumpButtonProperty_;
     ButtonProperty updateButtonProperty_;
-
-    /**
-     * Gets the placeholders used in the textfield of the StringExpressionProperty,
-     * sets the corresponding replacements and returns the text with the replaced placeholders.
-     */
-    std::string replaceMetaDataAndGetString() const;
 
     static const std::string loggerCat_; ///< category used in logging
 };

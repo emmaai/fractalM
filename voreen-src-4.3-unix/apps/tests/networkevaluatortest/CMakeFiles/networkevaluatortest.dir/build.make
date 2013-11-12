@@ -102,6 +102,8 @@ bin/networkevaluatortest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/networkevaluatortest: /usr/lib/libboost_system-mt.so
 bin/networkevaluatortest: /usr/local/lib/libIL.so
 bin/networkevaluatortest: /usr/local/lib/libILU.so
+bin/networkevaluatortest: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/networkevaluatortest: /usr/lib/libftgl.so
 bin/networkevaluatortest: /usr/lib/libOpenCL.so
 bin/networkevaluatortest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/networkevaluatortest: bin/libtgt.so
@@ -121,6 +123,8 @@ bin/networkevaluatortest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/networkevaluatortest: /usr/lib/libboost_system-mt.so
 bin/networkevaluatortest: /usr/local/lib/libIL.so
 bin/networkevaluatortest: /usr/local/lib/libILU.so
+bin/networkevaluatortest: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/networkevaluatortest: /usr/lib/libftgl.so
 bin/networkevaluatortest: /usr/lib/libOpenCL.so
 bin/networkevaluatortest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/networkevaluatortest: apps/tests/networkevaluatortest/CMakeFiles/networkevaluatortest.dir/link.txt

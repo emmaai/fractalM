@@ -34,11 +34,19 @@ voreen/core/voreenmodule.h
 voreen/core/voreenmodule.h
 /home/emma/Downloads/voreen-src-4.3-unix/modules/flowreen/voreen/core/voreenmodule.h
 
+/home/emma/Downloads/voreen-src-4.3-unix/modules/fontrendering/fontrenderingmodule.h
+voreen/core/voreenmodule.h
+/home/emma/Downloads/voreen-src-4.3-unix/modules/fontrendering/voreen/core/voreenmodule.h
+
 /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/openclmodule.h
 voreen/core/voreenmodule.h
 /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/voreen/core/voreenmodule.h
 modules/opencl/utils/clwrapper.h
 /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/modules/opencl/utils/clwrapper.h
+
+/home/emma/Downloads/voreen-src-4.3-unix/modules/openmp/openmpmodule.h
+voreen/core/voreenmodule.h
+/home/emma/Downloads/voreen-src-4.3-unix/modules/openmp/voreen/core/voreenmodule.h
 
 /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/plottingmodule.h
 voreen/core/voreenmodule.h
@@ -71,6 +79,16 @@ voreen/core/voreenmodule.h
 /home/emma/Downloads/voreen-src-4.3-unix/modules/zip/zipmodule.h
 voreen/core/voreenmodule.h
 /home/emma/Downloads/voreen-src-4.3-unix/modules/zip/voreen/core/voreenmodule.h
+
+/home/emma/Downloads/voreen-src-4.3-unix/src/core/version.cpp
+voreen/core/version.h
+/home/emma/Downloads/voreen-src-4.3-unix/src/core/voreen/core/version.h
+tgt/logmanager.h
+/home/emma/Downloads/voreen-src-4.3-unix/src/core/tgt/logmanager.h
+sstream
+-
+src/core/gen_revision.inc
+/home/emma/Downloads/voreen-src-4.3-unix/src/core/src/core/gen_revision.inc
 
 /home/emma/Downloads/voreen-src-4.3-unix/src/core/voreenapplication.cpp
 voreen/core/voreenapplication.h
@@ -511,7 +529,11 @@ voreen/core/voreenapplication.h
 -
 /home/emma/Downloads/voreen-src-4.3-unix/modules/flowreen/flowreenmodule.h
 -
+/home/emma/Downloads/voreen-src-4.3-unix/modules/fontrendering/fontrenderingmodule.h
+-
 /home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/openclmodule.h
+-
+/home/emma/Downloads/voreen-src-4.3-unix/modules/openmp/openmpmodule.h
 -
 /home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/plottingmodule.h
 -
@@ -1327,4 +1349,6 @@ tgt/texture.h
 modules/opencl/utils/tgt/texture.h
 voreen/core/datastructures/volume/volumeram.h
 modules/opencl/utils/voreen/core/datastructures/volume/volumeram.h
+
+src/core/gen_revision.inc
 

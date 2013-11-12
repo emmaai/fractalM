@@ -1,0 +1,6 @@
+1. 12-11-13
+
+add canvas_->repaint();
+in the function
+void CanvasRenderer::invalidate(int inv){}
+line 218 canvasrenderer.cpp

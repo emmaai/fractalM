@@ -220,19 +220,19 @@ void CubeProxyGeometry::adjustClipPropertiesRanges() {
     if (clipRight_.get() > clipRight_.getMaxValue())
         clipRight_.set(clipRight_.getMaxValue());
 
-    if (clipLeft_.get() > clipLeft_.getMaxValue())
+    //if (clipLeft_.get() > clipLeft_.getMaxValue())
         clipLeft_.set(clipLeft_.getMaxValue());
 
     if (clipFront_.get() > clipFront_.getMaxValue())
         clipFront_.set(clipFront_.getMaxValue());
 
-    if (clipBack_.get() > clipBack_.getMaxValue())
+    //if (clipBack_.get() > clipBack_.getMaxValue())
         clipBack_.set(clipBack_.getMaxValue());
 
     if (clipBottom_.get() > clipBottom_.getMaxValue())
         clipBottom_.set(clipBottom_.getMaxValue());
 
-    if (clipTop_.get() > clipTop_.getMaxValue())
+    //if (clipTop_.get() > clipTop_.getMaxValue())
         clipTop_.set(clipTop_.getMaxValue());
 
     oldVolumeDimensions_ = numSlices;

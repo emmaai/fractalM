@@ -102,6 +102,8 @@ bin/octreetest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/octreetest: /usr/lib/libboost_system-mt.so
 bin/octreetest: /usr/local/lib/libIL.so
 bin/octreetest: /usr/local/lib/libILU.so
+bin/octreetest: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/octreetest: /usr/lib/libftgl.so
 bin/octreetest: /usr/lib/libOpenCL.so
 bin/octreetest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/octreetest: bin/libtgt.so
@@ -121,6 +123,8 @@ bin/octreetest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/octreetest: /usr/lib/libboost_system-mt.so
 bin/octreetest: /usr/local/lib/libIL.so
 bin/octreetest: /usr/local/lib/libILU.so
+bin/octreetest: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/octreetest: /usr/lib/libftgl.so
 bin/octreetest: /usr/lib/libOpenCL.so
 bin/octreetest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/octreetest: CMakeFiles/octreetest.dir/link.txt

@@ -231,7 +231,10 @@ void CanvasRenderer::invalidate(int inv) {
     }
     //update
     if (canvas_)
+    {
         canvas_->update();
+        canvas_->repaint();
+    }
 
     //take screenshot, if path has been changed
     if(inv == Processor::INVALID_PATH && isInitialized())
@@ -270,6 +273,7 @@ void CanvasRenderer::onEvent(tgt::Event* e) {
     if (canvas_) {
         canvas_->getGLFocus();
         Processor::onEvent(e);
+        //LINFO("canvase get the event " << e << " on canvas " << canvas_);
     }
 }
 

@@ -131,8 +131,10 @@ void VolumeSource::setVolume(VolumeBase* volume, bool owner) {
 
     if (outport_.getData() != volumeURL_.getVolume()) {
         outport_.setData(volumeURL_.getVolume(), false);
+/*
         if (getProcessorWidget())
             getProcessorWidget()->updateFromProcessor();
+*/
     }
 }
 

@@ -103,6 +103,8 @@ bin/voreentool: /usr/lib/libboost_unit_test_framework-mt.so
 bin/voreentool: /usr/lib/libboost_system-mt.so
 bin/voreentool: /usr/local/lib/libIL.so
 bin/voreentool: /usr/local/lib/libILU.so
+bin/voreentool: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/voreentool: /usr/lib/libftgl.so
 bin/voreentool: /usr/lib/libOpenCL.so
 bin/voreentool: /usr/lib/x86_64-linux-gnu/libz.so
 bin/voreentool: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Widgets.so.5.1.0
@@ -127,6 +129,8 @@ bin/voreentool: /usr/lib/libboost_unit_test_framework-mt.so
 bin/voreentool: /usr/lib/libboost_system-mt.so
 bin/voreentool: /usr/local/lib/libIL.so
 bin/voreentool: /usr/local/lib/libILU.so
+bin/voreentool: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/voreentool: /usr/lib/libftgl.so
 bin/voreentool: /usr/lib/libOpenCL.so
 bin/voreentool: /usr/lib/x86_64-linux-gnu/libz.so
 bin/voreentool: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Svg.so.5.1.0

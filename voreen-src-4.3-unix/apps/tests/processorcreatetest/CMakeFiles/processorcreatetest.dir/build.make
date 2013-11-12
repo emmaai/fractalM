@@ -102,6 +102,8 @@ bin/processorcreatetest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/processorcreatetest: /usr/lib/libboost_system-mt.so
 bin/processorcreatetest: /usr/local/lib/libIL.so
 bin/processorcreatetest: /usr/local/lib/libILU.so
+bin/processorcreatetest: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/processorcreatetest: /usr/lib/libftgl.so
 bin/processorcreatetest: /usr/lib/libOpenCL.so
 bin/processorcreatetest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/processorcreatetest: bin/libtgt.so
@@ -121,6 +123,8 @@ bin/processorcreatetest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/processorcreatetest: /usr/lib/libboost_system-mt.so
 bin/processorcreatetest: /usr/local/lib/libIL.so
 bin/processorcreatetest: /usr/local/lib/libILU.so
+bin/processorcreatetest: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/processorcreatetest: /usr/lib/libftgl.so
 bin/processorcreatetest: /usr/lib/libOpenCL.so
 bin/processorcreatetest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/processorcreatetest: apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/link.txt

@@ -161,8 +161,8 @@ src/core/preinstall:
 # Target rules for target src/core/CMakeFiles/voreen_core.dir
 
 # All Build rule for target.
-src/core/CMakeFiles/voreen_core.dir/all: src/core/CMakeFiles/voreen_core_gch.dir/all
 src/core/CMakeFiles/voreen_core.dir/all: ext/tgt/CMakeFiles/tgt.dir/all
+src/core/CMakeFiles/voreen_core.dir/all: src/core/CMakeFiles/voreen_core_gch.dir/all
 	$(MAKE) -f src/core/CMakeFiles/voreen_core.dir/build.make src/core/CMakeFiles/voreen_core.dir/depend
 	$(MAKE) -f src/core/CMakeFiles/voreen_core.dir/build.make src/core/CMakeFiles/voreen_core.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55
@@ -244,9 +244,9 @@ src/qt/preinstall:
 # Target rules for target src/qt/CMakeFiles/voreen_qt.dir
 
 # All Build rule for target.
-src/qt/CMakeFiles/voreen_qt.dir/all: src/qt/CMakeFiles/voreen_qt_gch.dir/all
 src/qt/CMakeFiles/voreen_qt.dir/all: ext/tgt/CMakeFiles/tgt.dir/all
 src/qt/CMakeFiles/voreen_qt.dir/all: src/core/CMakeFiles/voreen_core.dir/all
+src/qt/CMakeFiles/voreen_qt.dir/all: src/qt/CMakeFiles/voreen_qt_gch.dir/all
 	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/depend
 	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles  56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98
@@ -328,9 +328,9 @@ apps/voreenve/preinstall:
 # Target rules for target apps/voreenve/CMakeFiles/voreenve.dir
 
 # All Build rule for target.
-apps/voreenve/CMakeFiles/voreenve.dir/all: src/qt/CMakeFiles/voreen_qt.dir/all
 apps/voreenve/CMakeFiles/voreenve.dir/all: ext/tgt/CMakeFiles/tgt.dir/all
 apps/voreenve/CMakeFiles/voreenve.dir/all: src/core/CMakeFiles/voreen_core.dir/all
+apps/voreenve/CMakeFiles/voreenve.dir/all: src/qt/CMakeFiles/voreen_qt.dir/all
 apps/voreenve/CMakeFiles/voreenve.dir/all: apps/voreenve/CMakeFiles/voreenve_gch.dir/all
 	$(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/depend
 	$(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/build
@@ -412,9 +412,9 @@ apps/voreentool/preinstall:
 # Target rules for target apps/voreentool/CMakeFiles/voreentool.dir
 
 # All Build rule for target.
-apps/voreentool/CMakeFiles/voreentool.dir/all: src/qt/CMakeFiles/voreen_qt.dir/all
 apps/voreentool/CMakeFiles/voreentool.dir/all: ext/tgt/CMakeFiles/tgt.dir/all
 apps/voreentool/CMakeFiles/voreentool.dir/all: src/core/CMakeFiles/voreen_core.dir/all
+apps/voreentool/CMakeFiles/voreentool.dir/all: src/qt/CMakeFiles/voreen_qt.dir/all
 	$(MAKE) -f apps/voreentool/CMakeFiles/voreentool.dir/build.make apps/voreentool/CMakeFiles/voreentool.dir/depend
 	$(MAKE) -f apps/voreentool/CMakeFiles/voreentool.dir/build.make apps/voreentool/CMakeFiles/voreentool.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles 
@@ -464,9 +464,9 @@ apps/simple/simple-qt/preinstall:
 # Target rules for target apps/simple/simple-qt/CMakeFiles/simple-qt.dir
 
 # All Build rule for target.
-apps/simple/simple-qt/CMakeFiles/simple-qt.dir/all: src/qt/CMakeFiles/voreen_qt.dir/all
 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/all: ext/tgt/CMakeFiles/tgt.dir/all
 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/all: src/core/CMakeFiles/voreen_core.dir/all
+apps/simple/simple-qt/CMakeFiles/simple-qt.dir/all: src/qt/CMakeFiles/voreen_qt.dir/all
 	$(MAKE) -f apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build.make apps/simple/simple-qt/CMakeFiles/simple-qt.dir/depend
 	$(MAKE) -f apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build.make apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles  1

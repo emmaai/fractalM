@@ -102,6 +102,8 @@ bin/descriptiontest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/descriptiontest: /usr/lib/libboost_system-mt.so
 bin/descriptiontest: /usr/local/lib/libIL.so
 bin/descriptiontest: /usr/local/lib/libILU.so
+bin/descriptiontest: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/descriptiontest: /usr/lib/libftgl.so
 bin/descriptiontest: /usr/lib/libOpenCL.so
 bin/descriptiontest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/descriptiontest: bin/libtgt.so
@@ -121,6 +123,8 @@ bin/descriptiontest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/descriptiontest: /usr/lib/libboost_system-mt.so
 bin/descriptiontest: /usr/local/lib/libIL.so
 bin/descriptiontest: /usr/local/lib/libILU.so
+bin/descriptiontest: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/descriptiontest: /usr/lib/libftgl.so
 bin/descriptiontest: /usr/lib/libOpenCL.so
 bin/descriptiontest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/descriptiontest: apps/tests/descriptiontest/CMakeFiles/descriptiontest.dir/link.txt

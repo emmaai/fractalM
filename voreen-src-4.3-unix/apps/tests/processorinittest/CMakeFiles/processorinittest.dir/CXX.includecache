@@ -32,14 +32,6 @@ ctime
 CL/cl.h
 -
 
-/home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/glut/glutcanvas.cpp
-tgt/glut/glutcanvas.h
-/home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/glut/tgt/glut/glutcanvas.h
-
-/home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/glut/glutmouse.cpp
-tgt/glut/glutmouse.h
-/home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/glut/tgt/glut/glutmouse.h
-
 ext/tgt/assert.h
 tgt/types.h
 ext/tgt/tgt/types.h

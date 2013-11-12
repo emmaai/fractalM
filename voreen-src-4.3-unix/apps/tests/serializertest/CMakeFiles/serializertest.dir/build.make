@@ -102,6 +102,8 @@ bin/serializertest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/serializertest: /usr/lib/libboost_system-mt.so
 bin/serializertest: /usr/local/lib/libIL.so
 bin/serializertest: /usr/local/lib/libILU.so
+bin/serializertest: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/serializertest: /usr/lib/libftgl.so
 bin/serializertest: /usr/lib/libOpenCL.so
 bin/serializertest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/serializertest: bin/libtgt.so
@@ -121,6 +123,8 @@ bin/serializertest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/serializertest: /usr/lib/libboost_system-mt.so
 bin/serializertest: /usr/local/lib/libIL.so
 bin/serializertest: /usr/local/lib/libILU.so
+bin/serializertest: /usr/lib/x86_64-linux-gnu/libfreetype.so
+bin/serializertest: /usr/lib/libftgl.so
 bin/serializertest: /usr/lib/libOpenCL.so
 bin/serializertest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/serializertest: apps/tests/serializertest/CMakeFiles/serializertest.dir/link.txt
