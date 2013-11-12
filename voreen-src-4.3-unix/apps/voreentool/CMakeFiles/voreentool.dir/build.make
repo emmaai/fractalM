@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_SOURCE_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_BINARY_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # Include any dependencies generated for this target.
 include apps/voreentool/CMakeFiles/voreentool.dir/depend.make
@@ -54,17 +54,17 @@ include apps/voreentool/CMakeFiles/voreentool.dir/flags.make
 
 apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.o: apps/voreentool/CMakeFiles/voreentool.dir/flags.make
 apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.o: apps/voreentool/voreentool.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/voreentool.dir/voreentool.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool/voreentool.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/voreentool.dir/voreentool.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool/voreentool.cpp
 
 apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreentool.dir/voreentool.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool/voreentool.cpp > CMakeFiles/voreentool.dir/voreentool.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool/voreentool.cpp > CMakeFiles/voreentool.dir/voreentool.cpp.i
 
 apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreentool.dir/voreentool.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool/voreentool.cpp -o CMakeFiles/voreentool.dir/voreentool.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool/voreentool.cpp -o CMakeFiles/voreentool.dir/voreentool.cpp.s
 
 apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.o.requires:
 .PHONY : apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.o.requires
@@ -103,9 +103,6 @@ bin/voreentool: /usr/lib/libboost_unit_test_framework-mt.so
 bin/voreentool: /usr/lib/libboost_system-mt.so
 bin/voreentool: /usr/local/lib/libIL.so
 bin/voreentool: /usr/local/lib/libILU.so
-bin/voreentool: /usr/lib/x86_64-linux-gnu/libfreetype.so
-bin/voreentool: /usr/lib/libftgl.so
-bin/voreentool: /usr/lib/libOpenCL.so
 bin/voreentool: /usr/lib/x86_64-linux-gnu/libz.so
 bin/voreentool: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Widgets.so.5.1.0
 bin/voreentool: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Core.so.5.1.0
@@ -129,9 +126,6 @@ bin/voreentool: /usr/lib/libboost_unit_test_framework-mt.so
 bin/voreentool: /usr/lib/libboost_system-mt.so
 bin/voreentool: /usr/local/lib/libIL.so
 bin/voreentool: /usr/local/lib/libILU.so
-bin/voreentool: /usr/lib/x86_64-linux-gnu/libfreetype.so
-bin/voreentool: /usr/lib/libftgl.so
-bin/voreentool: /usr/lib/libOpenCL.so
 bin/voreentool: /usr/lib/x86_64-linux-gnu/libz.so
 bin/voreentool: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Svg.so.5.1.0
 bin/voreentool: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Widgets.so.5.1.0
@@ -139,7 +133,7 @@ bin/voreentool: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Gui.so.5.1.0
 bin/voreentool: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Core.so.5.1.0
 bin/voreentool: apps/voreentool/CMakeFiles/voreentool.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../bin/voreentool"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/voreentool.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/voreentool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 apps/voreentool/CMakeFiles/voreentool.dir/build: bin/voreentool
@@ -149,10 +143,10 @@ apps/voreentool/CMakeFiles/voreentool.dir/requires: apps/voreentool/CMakeFiles/v
 .PHONY : apps/voreentool/CMakeFiles/voreentool.dir/requires
 
 apps/voreentool/CMakeFiles/voreentool.dir/clean:
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool && $(CMAKE_COMMAND) -P CMakeFiles/voreentool.dir/cmake_clean.cmake
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool && $(CMAKE_COMMAND) -P CMakeFiles/voreentool.dir/cmake_clean.cmake
 .PHONY : apps/voreentool/CMakeFiles/voreentool.dir/clean
 
 apps/voreentool/CMakeFiles/voreentool.dir/depend:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emma/Downloads/voreen-src-4.3-unix /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool /home/emma/Downloads/voreen-src-4.3-unix /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool/CMakeFiles/voreentool.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emma/code/gitrepo/voreen-src-4.3-unix /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool /home/emma/code/gitrepo/voreen-src-4.3-unix /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool/CMakeFiles/voreentool.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/voreentool/CMakeFiles/voreentool.dir/depend
 

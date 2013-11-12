@@ -1,8 +1,0 @@
-[  4%] Built target tgt
-[  4%] Built target voreen_core_gch
-[ 55%] Built target voreen_core
-[ 55%] Built target octreetest
-[ 55%] Built target voreen_qt_gch
-[ 98%] Built target voreen_qt
-[ 99%] Built target voreenve_gch
-Linking CXX executable ../../bin/voreenve

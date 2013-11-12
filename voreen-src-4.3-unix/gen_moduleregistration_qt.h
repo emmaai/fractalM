@@ -2,13 +2,12 @@
 #include "voreen/qt/voreenapplicationqt.h"
 
 // include qt module class headers
-#include "/home/emma/Downloads/voreen-src-4.3-unix/modules/base/basemoduleqt.h"
-#include "/home/emma/Downloads/voreen-src-4.3-unix/modules/core/coremoduleqt.h"
-#include "/home/emma/Downloads/voreen-src-4.3-unix/modules/dynamicglsl/dynamicglslmoduleqt.h"
-#include "/home/emma/Downloads/voreen-src-4.3-unix/modules/opencl/openclmoduleqt.h"
-#include "/home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/plottingmoduleqt.h"
-#include "/home/emma/Downloads/voreen-src-4.3-unix/modules/randomwalker/randomwalkermoduleqt.h"
-#include "/home/emma/Downloads/voreen-src-4.3-unix/modules/stereoscopy/stereoscopymoduleqt.h"
+#include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/base/basemoduleqt.h"
+#include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/core/coremoduleqt.h"
+#include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/dynamicglsl/dynamicglslmoduleqt.h"
+#include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/plottingmoduleqt.h"
+#include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/randomwalker/randomwalkermoduleqt.h"
+#include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/stereoscopy/stereoscopymoduleqt.h"
 
 namespace voreen {
 
@@ -23,9 +22,6 @@ void registerAllQtModules(VoreenApplicationQt* vappQt) {
     vappQt->registerQtModule(module);
 
     module = new DynamicGLSLModuleQt("modules/dynamicglsl");
-    vappQt->registerQtModule(module);
-
-    module = new OpenCLModuleQt("modules/opencl");
     vappQt->registerQtModule(module);
 
     module = new PlottingModuleQt("modules/plotting");

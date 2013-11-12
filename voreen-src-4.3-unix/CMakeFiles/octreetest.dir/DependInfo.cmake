@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/emma/Downloads/voreen-src-4.3-unix/modules/staging/octree/test/octreetest.cpp" "/home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles/octreetest.dir/modules/staging/octree/test/octreetest.cpp.o"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/staging/octree/test/octreetest.cpp" "/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/octreetest.dir/modules/staging/octree/test/octreetest.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,8 +12,6 @@ SET(CMAKE_CXX_COMPILER_ID "GNU")
 SET(CMAKE_TARGET_DEFINITIONS
   "EIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS"
   "TGT_HAS_DEVIL"
-  "TGT_HAS_FREETYPE"
-  "TGT_HAS_FTGL"
   "TGT_WITHOUT_DEFINES"
   "TIXML_USE_STL"
   "UNIX"
@@ -24,9 +22,6 @@ SET(CMAKE_TARGET_DEFINITIONS
   "VRN_MODULE_DEVIL"
   "VRN_MODULE_DYNAMICGLSL"
   "VRN_MODULE_FLOWREEN"
-  "VRN_MODULE_FONTRENDERING"
-  "VRN_MODULE_OPENCL"
-  "VRN_MODULE_OPENMP"
   "VRN_MODULE_PLOTTING"
   "VRN_MODULE_PVM"
   "VRN_MODULE_RANDOMWALKER"
@@ -41,8 +36,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/CMakeFiles/tgt.dir/DependInfo.cmake"
-  "/home/emma/Downloads/voreen-src-4.3-unix/src/core/CMakeFiles/voreen_core.dir/DependInfo.cmake"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/CMakeFiles/tgt.dir/DependInfo.cmake"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/src/core/CMakeFiles/voreen_core.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
@@ -53,7 +48,6 @@ SET(CMAKE_C_TARGET_INCLUDE_PATH
   "ext/eigen"
   "modules/connexe/ext/connexe"
   "/usr/local/include/IL"
-  "/usr/include/freetype2"
   "modules/plotting/ext/triangle"
   "modules/volumelabeling/ext/jama/include"
   )

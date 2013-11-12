@@ -4,16 +4,16 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/main.cpp" "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/main.cpp.o"
-  "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/moc_voreenmainwindow.cpp" "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenmainwindow.cpp.o"
-  "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/moc_voreenveapplication.cpp" "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenveapplication.cpp.o"
-  "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/moc_voreenvisualization.cpp" "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenvisualization.cpp.o"
-  "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/qrc_voreenve.cpp" "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/qrc_voreenve.cpp.o"
-  "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/voreenmainwindow.cpp" "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/voreenmainwindow.cpp.o"
-  "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/voreenmoduleve.cpp" "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/voreenmoduleve.cpp.o"
-  "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/voreenveapplication.cpp" "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/voreenveapplication.cpp.o"
-  "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/voreenveplugin.cpp" "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/voreenveplugin.cpp.o"
-  "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/voreenvisualization.cpp" "/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/voreenvisualization.cpp.o"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/main.cpp" "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/main.cpp.o"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/moc_voreenmainwindow.cpp" "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenmainwindow.cpp.o"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/moc_voreenveapplication.cpp" "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenveapplication.cpp.o"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/moc_voreenvisualization.cpp" "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenvisualization.cpp.o"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/qrc_voreenve.cpp" "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/qrc_voreenve.cpp.o"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/voreenmainwindow.cpp" "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/voreenmainwindow.cpp.o"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/voreenmoduleve.cpp" "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/voreenmoduleve.cpp.o"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/voreenveapplication.cpp" "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/voreenveapplication.cpp.o"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/voreenveplugin.cpp" "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/voreenveplugin.cpp.o"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/voreenvisualization.cpp" "/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/voreenve.dir/voreenvisualization.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,8 +25,6 @@ SET(CMAKE_TARGET_DEFINITIONS
   "QT_OPENGL_LIB"
   "QT_WIDGETS_LIB"
   "TGT_HAS_DEVIL"
-  "TGT_HAS_FREETYPE"
-  "TGT_HAS_FTGL"
   "TGT_WITHOUT_DEFINES"
   "TIXML_USE_STL"
   "UNIX"
@@ -37,9 +35,6 @@ SET(CMAKE_TARGET_DEFINITIONS
   "VRN_MODULE_DEVIL"
   "VRN_MODULE_DYNAMICGLSL"
   "VRN_MODULE_FLOWREEN"
-  "VRN_MODULE_FONTRENDERING"
-  "VRN_MODULE_OPENCL"
-  "VRN_MODULE_OPENMP"
   "VRN_MODULE_PLOTTING"
   "VRN_MODULE_PVM"
   "VRN_MODULE_RANDOMWALKER"
@@ -54,9 +49,9 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/CMakeFiles/tgt.dir/DependInfo.cmake"
-  "/home/emma/Downloads/voreen-src-4.3-unix/src/core/CMakeFiles/voreen_core.dir/DependInfo.cmake"
-  "/home/emma/Downloads/voreen-src-4.3-unix/src/qt/CMakeFiles/voreen_qt.dir/DependInfo.cmake"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/CMakeFiles/tgt.dir/DependInfo.cmake"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/src/core/CMakeFiles/voreen_core.dir/DependInfo.cmake"
+  "/home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/CMakeFiles/voreen_qt.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
@@ -67,7 +62,6 @@ SET(CMAKE_C_TARGET_INCLUDE_PATH
   "ext/eigen"
   "modules/connexe/ext/connexe"
   "/usr/local/include/IL"
-  "/usr/include/freetype2"
   "modules/plotting/ext/triangle"
   "modules/volumelabeling/ext/jama/include"
   "/opt/Qt5.1.0/5.1.0/gcc_64/include"

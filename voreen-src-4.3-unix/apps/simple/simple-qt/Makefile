@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_SOURCE_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_BINARY_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt/CMakeFiles/progress.marks
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/simple/simple-qt/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt/CMakeFiles/progress.marks
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/simple/simple-qt/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/simple/simple-qt/clean
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/simple/simple-qt/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/simple/simple-qt/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/simple/simple-qt/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/simple/simple-qt/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/simple/simple-qt/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/rule:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/rule
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/rule
 .PHONY : apps/simple/simple-qt/CMakeFiles/simple-qt.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ simple-qt: apps/simple/simple-qt/CMakeFiles/simple-qt.dir/rule
 
 # fast build rule for target.
 simple-qt/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build.make apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build.make apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build
 .PHONY : simple-qt/fast
 
 simple-qt.o: simple-qt.cpp.o
@@ -120,7 +120,7 @@ simple-qt.o: simple-qt.cpp.o
 
 # target to build an object file
 simple-qt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build.make apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build.make apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.o
 .PHONY : simple-qt.cpp.o
 
 simple-qt.i: simple-qt.cpp.i
@@ -128,7 +128,7 @@ simple-qt.i: simple-qt.cpp.i
 
 # target to preprocess a source file
 simple-qt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build.make apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build.make apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.i
 .PHONY : simple-qt.cpp.i
 
 simple-qt.s: simple-qt.cpp.s
@@ -136,7 +136,7 @@ simple-qt.s: simple-qt.cpp.s
 
 # target to generate assembly for a file
 simple-qt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build.make apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build.make apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.s
 .PHONY : simple-qt.cpp.s
 
 # Help Target
@@ -162,6 +162,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

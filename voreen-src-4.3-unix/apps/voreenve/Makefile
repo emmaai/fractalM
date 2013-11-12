@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_SOURCE_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_BINARY_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles /home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/progress.marks
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/CMakeFiles/progress.marks
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/clean
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 apps/voreenve/CMakeFiles/voreenve.dir/rule:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/CMakeFiles/voreenve.dir/rule
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/CMakeFiles/voreenve.dir/rule
 .PHONY : apps/voreenve/CMakeFiles/voreenve.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ voreenve: apps/voreenve/CMakeFiles/voreenve.dir/rule
 
 # fast build rule for target.
 voreenve/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/build
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/build
 .PHONY : voreenve/fast
 
 # Convenience name for target.
 apps/voreenve/CMakeFiles/voreenve_gch.dir/rule:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/CMakeFiles/voreenve_gch.dir/rule
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreenve/CMakeFiles/voreenve_gch.dir/rule
 .PHONY : apps/voreenve/CMakeFiles/voreenve_gch.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ voreenve_gch: apps/voreenve/CMakeFiles/voreenve_gch.dir/rule
 
 # fast build rule for target.
 voreenve_gch/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve_gch.dir/build.make apps/voreenve/CMakeFiles/voreenve_gch.dir/build
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve_gch.dir/build.make apps/voreenve/CMakeFiles/voreenve_gch.dir/build
 .PHONY : voreenve_gch/fast
 
 main.o: main.cpp.o
@@ -134,7 +134,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/main.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/main.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/main.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 moc_voreenmainwindow.o: moc_voreenmainwindow.cpp.o
@@ -158,7 +158,7 @@ moc_voreenmainwindow.o: moc_voreenmainwindow.cpp.o
 
 # target to build an object file
 moc_voreenmainwindow.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenmainwindow.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenmainwindow.cpp.o
 .PHONY : moc_voreenmainwindow.cpp.o
 
 moc_voreenmainwindow.i: moc_voreenmainwindow.cpp.i
@@ -166,7 +166,7 @@ moc_voreenmainwindow.i: moc_voreenmainwindow.cpp.i
 
 # target to preprocess a source file
 moc_voreenmainwindow.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenmainwindow.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenmainwindow.cpp.i
 .PHONY : moc_voreenmainwindow.cpp.i
 
 moc_voreenmainwindow.s: moc_voreenmainwindow.cpp.s
@@ -174,7 +174,7 @@ moc_voreenmainwindow.s: moc_voreenmainwindow.cpp.s
 
 # target to generate assembly for a file
 moc_voreenmainwindow.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenmainwindow.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenmainwindow.cpp.s
 .PHONY : moc_voreenmainwindow.cpp.s
 
 moc_voreenveapplication.o: moc_voreenveapplication.cpp.o
@@ -182,7 +182,7 @@ moc_voreenveapplication.o: moc_voreenveapplication.cpp.o
 
 # target to build an object file
 moc_voreenveapplication.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenveapplication.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenveapplication.cpp.o
 .PHONY : moc_voreenveapplication.cpp.o
 
 moc_voreenveapplication.i: moc_voreenveapplication.cpp.i
@@ -190,7 +190,7 @@ moc_voreenveapplication.i: moc_voreenveapplication.cpp.i
 
 # target to preprocess a source file
 moc_voreenveapplication.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenveapplication.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenveapplication.cpp.i
 .PHONY : moc_voreenveapplication.cpp.i
 
 moc_voreenveapplication.s: moc_voreenveapplication.cpp.s
@@ -198,7 +198,7 @@ moc_voreenveapplication.s: moc_voreenveapplication.cpp.s
 
 # target to generate assembly for a file
 moc_voreenveapplication.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenveapplication.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenveapplication.cpp.s
 .PHONY : moc_voreenveapplication.cpp.s
 
 moc_voreenvisualization.o: moc_voreenvisualization.cpp.o
@@ -206,7 +206,7 @@ moc_voreenvisualization.o: moc_voreenvisualization.cpp.o
 
 # target to build an object file
 moc_voreenvisualization.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenvisualization.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenvisualization.cpp.o
 .PHONY : moc_voreenvisualization.cpp.o
 
 moc_voreenvisualization.i: moc_voreenvisualization.cpp.i
@@ -214,7 +214,7 @@ moc_voreenvisualization.i: moc_voreenvisualization.cpp.i
 
 # target to preprocess a source file
 moc_voreenvisualization.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenvisualization.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenvisualization.cpp.i
 .PHONY : moc_voreenvisualization.cpp.i
 
 moc_voreenvisualization.s: moc_voreenvisualization.cpp.s
@@ -222,7 +222,7 @@ moc_voreenvisualization.s: moc_voreenvisualization.cpp.s
 
 # target to generate assembly for a file
 moc_voreenvisualization.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenvisualization.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/moc_voreenvisualization.cpp.s
 .PHONY : moc_voreenvisualization.cpp.s
 
 qrc_voreenve.o: qrc_voreenve.cpp.o
@@ -230,7 +230,7 @@ qrc_voreenve.o: qrc_voreenve.cpp.o
 
 # target to build an object file
 qrc_voreenve.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/qrc_voreenve.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/qrc_voreenve.cpp.o
 .PHONY : qrc_voreenve.cpp.o
 
 qrc_voreenve.i: qrc_voreenve.cpp.i
@@ -238,7 +238,7 @@ qrc_voreenve.i: qrc_voreenve.cpp.i
 
 # target to preprocess a source file
 qrc_voreenve.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/qrc_voreenve.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/qrc_voreenve.cpp.i
 .PHONY : qrc_voreenve.cpp.i
 
 qrc_voreenve.s: qrc_voreenve.cpp.s
@@ -246,7 +246,7 @@ qrc_voreenve.s: qrc_voreenve.cpp.s
 
 # target to generate assembly for a file
 qrc_voreenve.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/qrc_voreenve.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/qrc_voreenve.cpp.s
 .PHONY : qrc_voreenve.cpp.s
 
 voreenmainwindow.o: voreenmainwindow.cpp.o
@@ -254,7 +254,7 @@ voreenmainwindow.o: voreenmainwindow.cpp.o
 
 # target to build an object file
 voreenmainwindow.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmainwindow.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmainwindow.cpp.o
 .PHONY : voreenmainwindow.cpp.o
 
 voreenmainwindow.i: voreenmainwindow.cpp.i
@@ -262,7 +262,7 @@ voreenmainwindow.i: voreenmainwindow.cpp.i
 
 # target to preprocess a source file
 voreenmainwindow.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmainwindow.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmainwindow.cpp.i
 .PHONY : voreenmainwindow.cpp.i
 
 voreenmainwindow.s: voreenmainwindow.cpp.s
@@ -270,7 +270,7 @@ voreenmainwindow.s: voreenmainwindow.cpp.s
 
 # target to generate assembly for a file
 voreenmainwindow.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmainwindow.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmainwindow.cpp.s
 .PHONY : voreenmainwindow.cpp.s
 
 voreenmoduleve.o: voreenmoduleve.cpp.o
@@ -278,7 +278,7 @@ voreenmoduleve.o: voreenmoduleve.cpp.o
 
 # target to build an object file
 voreenmoduleve.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmoduleve.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmoduleve.cpp.o
 .PHONY : voreenmoduleve.cpp.o
 
 voreenmoduleve.i: voreenmoduleve.cpp.i
@@ -286,7 +286,7 @@ voreenmoduleve.i: voreenmoduleve.cpp.i
 
 # target to preprocess a source file
 voreenmoduleve.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmoduleve.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmoduleve.cpp.i
 .PHONY : voreenmoduleve.cpp.i
 
 voreenmoduleve.s: voreenmoduleve.cpp.s
@@ -294,7 +294,7 @@ voreenmoduleve.s: voreenmoduleve.cpp.s
 
 # target to generate assembly for a file
 voreenmoduleve.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmoduleve.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenmoduleve.cpp.s
 .PHONY : voreenmoduleve.cpp.s
 
 voreenveapplication.o: voreenveapplication.cpp.o
@@ -302,7 +302,7 @@ voreenveapplication.o: voreenveapplication.cpp.o
 
 # target to build an object file
 voreenveapplication.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveapplication.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveapplication.cpp.o
 .PHONY : voreenveapplication.cpp.o
 
 voreenveapplication.i: voreenveapplication.cpp.i
@@ -310,7 +310,7 @@ voreenveapplication.i: voreenveapplication.cpp.i
 
 # target to preprocess a source file
 voreenveapplication.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveapplication.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveapplication.cpp.i
 .PHONY : voreenveapplication.cpp.i
 
 voreenveapplication.s: voreenveapplication.cpp.s
@@ -318,7 +318,7 @@ voreenveapplication.s: voreenveapplication.cpp.s
 
 # target to generate assembly for a file
 voreenveapplication.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveapplication.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveapplication.cpp.s
 .PHONY : voreenveapplication.cpp.s
 
 voreenveplugin.o: voreenveplugin.cpp.o
@@ -326,7 +326,7 @@ voreenveplugin.o: voreenveplugin.cpp.o
 
 # target to build an object file
 voreenveplugin.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveplugin.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveplugin.cpp.o
 .PHONY : voreenveplugin.cpp.o
 
 voreenveplugin.i: voreenveplugin.cpp.i
@@ -334,7 +334,7 @@ voreenveplugin.i: voreenveplugin.cpp.i
 
 # target to preprocess a source file
 voreenveplugin.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveplugin.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveplugin.cpp.i
 .PHONY : voreenveplugin.cpp.i
 
 voreenveplugin.s: voreenveplugin.cpp.s
@@ -342,7 +342,7 @@ voreenveplugin.s: voreenveplugin.cpp.s
 
 # target to generate assembly for a file
 voreenveplugin.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveplugin.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenveplugin.cpp.s
 .PHONY : voreenveplugin.cpp.s
 
 voreenvisualization.o: voreenvisualization.cpp.o
@@ -350,7 +350,7 @@ voreenvisualization.o: voreenvisualization.cpp.o
 
 # target to build an object file
 voreenvisualization.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenvisualization.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenvisualization.cpp.o
 .PHONY : voreenvisualization.cpp.o
 
 voreenvisualization.i: voreenvisualization.cpp.i
@@ -358,7 +358,7 @@ voreenvisualization.i: voreenvisualization.cpp.i
 
 # target to preprocess a source file
 voreenvisualization.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenvisualization.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenvisualization.cpp.i
 .PHONY : voreenvisualization.cpp.i
 
 voreenvisualization.s: voreenvisualization.cpp.s
@@ -366,7 +366,7 @@ voreenvisualization.s: voreenvisualization.cpp.s
 
 # target to generate assembly for a file
 voreenvisualization.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenvisualization.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreenve/CMakeFiles/voreenve.dir/build.make apps/voreenve/CMakeFiles/voreenve.dir/voreenvisualization.cpp.s
 .PHONY : voreenvisualization.cpp.s
 
 # Help Target
@@ -420,6 +420,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

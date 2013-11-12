@@ -1,4 +1,4 @@
-# Install script for directory: /home/emma/Downloads/voreen-src-4.3-unix
+# Install script for directory: /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,19 +34,19 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/src/core/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/src/qt/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/apps/tests/descriptiontest/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/apps/tests/networkevaluatortest/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/apps/tests/processorcreatetest/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/apps/tests/processornetworktest/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/apps/tests/processorinittest/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/apps/tests/serializertest/cmake_install.cmake")
-  INCLUDE("/home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/src/core/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreenve/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/descriptiontest/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/networkevaluatortest/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/processorcreatetest/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/processornetworktest/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/processorinittest/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/serializertest/cmake_install.cmake")
+  INCLUDE("/home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -56,7 +56,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/emma/Downloads/voreen-src-4.3-unix/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/emma/code/gitrepo/voreen-src-4.3-unix/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/emma/Downloads/voreen-src-4.3-unix/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/emma/code/gitrepo/voreen-src-4.3-unix/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

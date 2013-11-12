@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_SOURCE_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_BINARY_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/processorcreatetest/CMakeFiles/progress.marks
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorcreatetest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/processorcreatetest/CMakeFiles/progress.marks
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorcreatetest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorcreatetest/clean
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorcreatetest/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorcreatetest/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorcreatetest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorcreatetest/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorcreatetest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/rule:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/rule
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/rule
 .PHONY : apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ processorcreatetest: apps/tests/processorcreatetest/CMakeFiles/processorcreatete
 
 # fast build rule for target.
 processorcreatetest/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/build.make apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/build
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/build.make apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/build
 .PHONY : processorcreatetest/fast
 
 processorcreatetest.o: processorcreatetest.cpp.o
@@ -120,7 +120,7 @@ processorcreatetest.o: processorcreatetest.cpp.o
 
 # target to build an object file
 processorcreatetest.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/build.make apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/processorcreatetest.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/build.make apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/processorcreatetest.cpp.o
 .PHONY : processorcreatetest.cpp.o
 
 processorcreatetest.i: processorcreatetest.cpp.i
@@ -128,7 +128,7 @@ processorcreatetest.i: processorcreatetest.cpp.i
 
 # target to preprocess a source file
 processorcreatetest.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/build.make apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/processorcreatetest.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/build.make apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/processorcreatetest.cpp.i
 .PHONY : processorcreatetest.cpp.i
 
 processorcreatetest.s: processorcreatetest.cpp.s
@@ -136,7 +136,7 @@ processorcreatetest.s: processorcreatetest.cpp.s
 
 # target to generate assembly for a file
 processorcreatetest.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/build.make apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/processorcreatetest.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/build.make apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/processorcreatetest.cpp.s
 .PHONY : processorcreatetest.cpp.s
 
 # Help Target
@@ -162,6 +162,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

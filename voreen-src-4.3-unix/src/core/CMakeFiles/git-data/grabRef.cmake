@@ -15,24 +15,24 @@
 
 set(HEAD_HASH)
 
-file(READ "/home/emma/Downloads/voreen-src-4.3-unix/src/core/CMakeFiles/git-data/HEAD" HEAD_CONTENTS LIMIT 1024)
+file(READ "/home/emma/code/gitrepo/voreen-src-4.3-unix/src/core/CMakeFiles/git-data/HEAD" HEAD_CONTENTS LIMIT 1024)
 
 string(STRIP "${HEAD_CONTENTS}" HEAD_CONTENTS)
 if(HEAD_CONTENTS MATCHES "ref")
 	# named branch
 	string(REPLACE "ref: " "" HEAD_REF "${HEAD_CONTENTS}")
-	if(EXISTS "/home/emma/Downloads/.git/${HEAD_REF}")
-		configure_file("/home/emma/Downloads/.git/${HEAD_REF}" "/home/emma/Downloads/voreen-src-4.3-unix/src/core/CMakeFiles/git-data/head-ref" COPYONLY)
-	elseif(EXISTS "/home/emma/Downloads/.git/logs/${HEAD_REF}")
-		configure_file("/home/emma/Downloads/.git/logs/${HEAD_REF}" "/home/emma/Downloads/voreen-src-4.3-unix/src/core/CMakeFiles/git-data/head-ref" COPYONLY)
+	if(EXISTS "/home/emma/code/gitrepo/.git/${HEAD_REF}")
+		configure_file("/home/emma/code/gitrepo/.git/${HEAD_REF}" "/home/emma/code/gitrepo/voreen-src-4.3-unix/src/core/CMakeFiles/git-data/head-ref" COPYONLY)
+	elseif(EXISTS "/home/emma/code/gitrepo/.git/logs/${HEAD_REF}")
+		configure_file("/home/emma/code/gitrepo/.git/logs/${HEAD_REF}" "/home/emma/code/gitrepo/voreen-src-4.3-unix/src/core/CMakeFiles/git-data/head-ref" COPYONLY)
 		set(HEAD_HASH "${HEAD_REF}")
 	endif()
 else()
 	# detached HEAD
-	configure_file("/home/emma/Downloads/.git/HEAD" "/home/emma/Downloads/voreen-src-4.3-unix/src/core/CMakeFiles/git-data/head-ref" COPYONLY)
+	configure_file("/home/emma/code/gitrepo/.git/HEAD" "/home/emma/code/gitrepo/voreen-src-4.3-unix/src/core/CMakeFiles/git-data/head-ref" COPYONLY)
 endif()
 
 if(NOT HEAD_HASH)
-	file(READ "/home/emma/Downloads/voreen-src-4.3-unix/src/core/CMakeFiles/git-data/head-ref" HEAD_HASH LIMIT 1024)
+	file(READ "/home/emma/code/gitrepo/voreen-src-4.3-unix/src/core/CMakeFiles/git-data/head-ref" HEAD_HASH LIMIT 1024)
 	string(STRIP "${HEAD_HASH}" HEAD_HASH)
 endif()

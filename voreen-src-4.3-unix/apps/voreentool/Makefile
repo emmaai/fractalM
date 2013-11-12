@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_SOURCE_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_BINARY_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles /home/emma/Downloads/voreen-src-4.3-unix/apps/voreentool/CMakeFiles/progress.marks
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreentool/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/voreentool/CMakeFiles/progress.marks
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreentool/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreentool/clean
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreentool/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreentool/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreentool/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreentool/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreentool/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 apps/voreentool/CMakeFiles/voreentool.dir/rule:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreentool/CMakeFiles/voreentool.dir/rule
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/voreentool/CMakeFiles/voreentool.dir/rule
 .PHONY : apps/voreentool/CMakeFiles/voreentool.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ voreentool: apps/voreentool/CMakeFiles/voreentool.dir/rule
 
 # fast build rule for target.
 voreentool/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreentool/CMakeFiles/voreentool.dir/build.make apps/voreentool/CMakeFiles/voreentool.dir/build
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreentool/CMakeFiles/voreentool.dir/build.make apps/voreentool/CMakeFiles/voreentool.dir/build
 .PHONY : voreentool/fast
 
 voreentool.o: voreentool.cpp.o
@@ -120,7 +120,7 @@ voreentool.o: voreentool.cpp.o
 
 # target to build an object file
 voreentool.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreentool/CMakeFiles/voreentool.dir/build.make apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreentool/CMakeFiles/voreentool.dir/build.make apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.o
 .PHONY : voreentool.cpp.o
 
 voreentool.i: voreentool.cpp.i
@@ -128,7 +128,7 @@ voreentool.i: voreentool.cpp.i
 
 # target to preprocess a source file
 voreentool.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreentool/CMakeFiles/voreentool.dir/build.make apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreentool/CMakeFiles/voreentool.dir/build.make apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.i
 .PHONY : voreentool.cpp.i
 
 voreentool.s: voreentool.cpp.s
@@ -136,7 +136,7 @@ voreentool.s: voreentool.cpp.s
 
 # target to generate assembly for a file
 voreentool.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/voreentool/CMakeFiles/voreentool.dir/build.make apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/voreentool/CMakeFiles/voreentool.dir/build.make apps/voreentool/CMakeFiles/voreentool.dir/voreentool.cpp.s
 .PHONY : voreentool.cpp.s
 
 # Help Target
@@ -162,6 +162,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

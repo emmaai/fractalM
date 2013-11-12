@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_SOURCE_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_BINARY_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # Include any dependencies generated for this target.
 include apps/simple/simple-qt/CMakeFiles/simple-qt.dir/depend.make
@@ -54,17 +54,17 @@ include apps/simple/simple-qt/CMakeFiles/simple-qt.dir/flags.make
 
 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.o: apps/simple/simple-qt/CMakeFiles/simple-qt.dir/flags.make
 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.o: apps/simple/simple-qt/simple-qt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simple-qt.dir/simple-qt.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt/simple-qt.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simple-qt.dir/simple-qt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt/simple-qt.cpp
 
 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple-qt.dir/simple-qt.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt/simple-qt.cpp > CMakeFiles/simple-qt.dir/simple-qt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt/simple-qt.cpp > CMakeFiles/simple-qt.dir/simple-qt.cpp.i
 
 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple-qt.dir/simple-qt.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt/simple-qt.cpp -o CMakeFiles/simple-qt.dir/simple-qt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt/simple-qt.cpp -o CMakeFiles/simple-qt.dir/simple-qt.cpp.s
 
 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.o.requires:
 .PHONY : apps/simple/simple-qt/CMakeFiles/simple-qt.dir/simple-qt.cpp.o.requires
@@ -103,9 +103,6 @@ bin/simple-qt: /usr/lib/libboost_unit_test_framework-mt.so
 bin/simple-qt: /usr/lib/libboost_system-mt.so
 bin/simple-qt: /usr/local/lib/libIL.so
 bin/simple-qt: /usr/local/lib/libILU.so
-bin/simple-qt: /usr/lib/x86_64-linux-gnu/libfreetype.so
-bin/simple-qt: /usr/lib/libftgl.so
-bin/simple-qt: /usr/lib/libOpenCL.so
 bin/simple-qt: /usr/lib/x86_64-linux-gnu/libz.so
 bin/simple-qt: bin/libvoreen_core.so
 bin/simple-qt: bin/libtgt.so
@@ -125,9 +122,6 @@ bin/simple-qt: /usr/lib/libboost_unit_test_framework-mt.so
 bin/simple-qt: /usr/lib/libboost_system-mt.so
 bin/simple-qt: /usr/local/lib/libIL.so
 bin/simple-qt: /usr/local/lib/libILU.so
-bin/simple-qt: /usr/lib/x86_64-linux-gnu/libfreetype.so
-bin/simple-qt: /usr/lib/libftgl.so
-bin/simple-qt: /usr/lib/libOpenCL.so
 bin/simple-qt: /usr/lib/x86_64-linux-gnu/libz.so
 bin/simple-qt: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5OpenGL.so.5.1.0
 bin/simple-qt: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Svg.so.5.1.0
@@ -136,7 +130,7 @@ bin/simple-qt: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Gui.so.5.1.0
 bin/simple-qt: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Core.so.5.1.0
 bin/simple-qt: apps/simple/simple-qt/CMakeFiles/simple-qt.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../bin/simple-qt"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple-qt.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple-qt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/build: bin/simple-qt
@@ -146,10 +140,10 @@ apps/simple/simple-qt/CMakeFiles/simple-qt.dir/requires: apps/simple/simple-qt/C
 .PHONY : apps/simple/simple-qt/CMakeFiles/simple-qt.dir/requires
 
 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/clean:
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt && $(CMAKE_COMMAND) -P CMakeFiles/simple-qt.dir/cmake_clean.cmake
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt && $(CMAKE_COMMAND) -P CMakeFiles/simple-qt.dir/cmake_clean.cmake
 .PHONY : apps/simple/simple-qt/CMakeFiles/simple-qt.dir/clean
 
 apps/simple/simple-qt/CMakeFiles/simple-qt.dir/depend:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emma/Downloads/voreen-src-4.3-unix /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt /home/emma/Downloads/voreen-src-4.3-unix /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt /home/emma/Downloads/voreen-src-4.3-unix/apps/simple/simple-qt/CMakeFiles/simple-qt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emma/code/gitrepo/voreen-src-4.3-unix /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt /home/emma/code/gitrepo/voreen-src-4.3-unix /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/simple/simple-qt/CMakeFiles/simple-qt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/simple/simple-qt/CMakeFiles/simple-qt.dir/depend
 

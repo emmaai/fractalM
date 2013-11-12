@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_SOURCE_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_BINARY_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/processorinittest/CMakeFiles/progress.marks
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorinittest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/processorinittest/CMakeFiles/progress.marks
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorinittest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorinittest/clean
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorinittest/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorinittest/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorinittest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorinittest/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorinittest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 apps/tests/processorinittest/CMakeFiles/processorinittest.dir/rule:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorinittest/CMakeFiles/processorinittest.dir/rule
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 apps/tests/processorinittest/CMakeFiles/processorinittest.dir/rule
 .PHONY : apps/tests/processorinittest/CMakeFiles/processorinittest.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ processorinittest: apps/tests/processorinittest/CMakeFiles/processorinittest.dir
 
 # fast build rule for target.
 processorinittest/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build
 .PHONY : processorinittest/fast
 
 __/__/__/ext/tgt/glut/glutcanvas.o: __/__/__/ext/tgt/glut/glutcanvas.cpp.o
@@ -120,7 +120,7 @@ __/__/__/ext/tgt/glut/glutcanvas.o: __/__/__/ext/tgt/glut/glutcanvas.cpp.o
 
 # target to build an object file
 __/__/__/ext/tgt/glut/glutcanvas.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutcanvas.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutcanvas.cpp.o
 .PHONY : __/__/__/ext/tgt/glut/glutcanvas.cpp.o
 
 __/__/__/ext/tgt/glut/glutcanvas.i: __/__/__/ext/tgt/glut/glutcanvas.cpp.i
@@ -128,7 +128,7 @@ __/__/__/ext/tgt/glut/glutcanvas.i: __/__/__/ext/tgt/glut/glutcanvas.cpp.i
 
 # target to preprocess a source file
 __/__/__/ext/tgt/glut/glutcanvas.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutcanvas.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutcanvas.cpp.i
 .PHONY : __/__/__/ext/tgt/glut/glutcanvas.cpp.i
 
 __/__/__/ext/tgt/glut/glutcanvas.s: __/__/__/ext/tgt/glut/glutcanvas.cpp.s
@@ -136,7 +136,7 @@ __/__/__/ext/tgt/glut/glutcanvas.s: __/__/__/ext/tgt/glut/glutcanvas.cpp.s
 
 # target to generate assembly for a file
 __/__/__/ext/tgt/glut/glutcanvas.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutcanvas.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutcanvas.cpp.s
 .PHONY : __/__/__/ext/tgt/glut/glutcanvas.cpp.s
 
 __/__/__/ext/tgt/glut/glutmouse.o: __/__/__/ext/tgt/glut/glutmouse.cpp.o
@@ -144,7 +144,7 @@ __/__/__/ext/tgt/glut/glutmouse.o: __/__/__/ext/tgt/glut/glutmouse.cpp.o
 
 # target to build an object file
 __/__/__/ext/tgt/glut/glutmouse.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutmouse.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutmouse.cpp.o
 .PHONY : __/__/__/ext/tgt/glut/glutmouse.cpp.o
 
 __/__/__/ext/tgt/glut/glutmouse.i: __/__/__/ext/tgt/glut/glutmouse.cpp.i
@@ -152,7 +152,7 @@ __/__/__/ext/tgt/glut/glutmouse.i: __/__/__/ext/tgt/glut/glutmouse.cpp.i
 
 # target to preprocess a source file
 __/__/__/ext/tgt/glut/glutmouse.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutmouse.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutmouse.cpp.i
 .PHONY : __/__/__/ext/tgt/glut/glutmouse.cpp.i
 
 __/__/__/ext/tgt/glut/glutmouse.s: __/__/__/ext/tgt/glut/glutmouse.cpp.s
@@ -160,7 +160,7 @@ __/__/__/ext/tgt/glut/glutmouse.s: __/__/__/ext/tgt/glut/glutmouse.cpp.s
 
 # target to generate assembly for a file
 __/__/__/ext/tgt/glut/glutmouse.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutmouse.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/__/__/__/ext/tgt/glut/glutmouse.cpp.s
 .PHONY : __/__/__/ext/tgt/glut/glutmouse.cpp.s
 
 processorinittest.o: processorinittest.cpp.o
@@ -168,7 +168,7 @@ processorinittest.o: processorinittest.cpp.o
 
 # target to build an object file
 processorinittest.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/processorinittest.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/processorinittest.cpp.o
 .PHONY : processorinittest.cpp.o
 
 processorinittest.i: processorinittest.cpp.i
@@ -176,7 +176,7 @@ processorinittest.i: processorinittest.cpp.i
 
 # target to preprocess a source file
 processorinittest.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/processorinittest.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/processorinittest.cpp.i
 .PHONY : processorinittest.cpp.i
 
 processorinittest.s: processorinittest.cpp.s
@@ -184,7 +184,7 @@ processorinittest.s: processorinittest.cpp.s
 
 # target to generate assembly for a file
 processorinittest.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/processorinittest.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f apps/tests/processorinittest/CMakeFiles/processorinittest.dir/build.make apps/tests/processorinittest/CMakeFiles/processorinittest.dir/processorinittest.cpp.s
 .PHONY : processorinittest.cpp.s
 
 # Help Target
@@ -216,6 +216,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

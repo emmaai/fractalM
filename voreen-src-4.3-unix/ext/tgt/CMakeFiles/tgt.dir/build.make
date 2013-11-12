@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_SOURCE_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_BINARY_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # Include any dependencies generated for this target.
 include ext/tgt/CMakeFiles/tgt.dir/depend.make
@@ -54,17 +54,17 @@ include ext/tgt/CMakeFiles/tgt.dir/flags.make
 
 ext/tgt/CMakeFiles/tgt.dir/assert.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/assert.cpp.o: ext/tgt/assert.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/assert.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/assert.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/assert.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/assert.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/assert.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/assert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/assert.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/assert.cpp > CMakeFiles/tgt.dir/assert.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/assert.cpp > CMakeFiles/tgt.dir/assert.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/assert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/assert.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/assert.cpp -o CMakeFiles/tgt.dir/assert.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/assert.cpp -o CMakeFiles/tgt.dir/assert.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/assert.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/assert.cpp.o.requires
@@ -77,17 +77,17 @@ ext/tgt/CMakeFiles/tgt.dir/assert.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.d
 
 ext/tgt/CMakeFiles/tgt.dir/bounds.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/bounds.cpp.o: ext/tgt/bounds.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/bounds.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/bounds.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/bounds.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/bounds.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/bounds.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/bounds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/bounds.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/bounds.cpp > CMakeFiles/tgt.dir/bounds.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/bounds.cpp > CMakeFiles/tgt.dir/bounds.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/bounds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/bounds.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/bounds.cpp -o CMakeFiles/tgt.dir/bounds.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/bounds.cpp -o CMakeFiles/tgt.dir/bounds.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/bounds.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/bounds.cpp.o.requires
@@ -100,17 +100,17 @@ ext/tgt/CMakeFiles/tgt.dir/bounds.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.d
 
 ext/tgt/CMakeFiles/tgt.dir/bspline.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/bspline.cpp.o: ext/tgt/bspline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/bspline.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/bspline.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/bspline.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/bspline.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/bspline.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/bspline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/bspline.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/bspline.cpp > CMakeFiles/tgt.dir/bspline.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/bspline.cpp > CMakeFiles/tgt.dir/bspline.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/bspline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/bspline.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/bspline.cpp -o CMakeFiles/tgt.dir/bspline.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/bspline.cpp -o CMakeFiles/tgt.dir/bspline.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/bspline.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/bspline.cpp.o.requires
@@ -123,17 +123,17 @@ ext/tgt/CMakeFiles/tgt.dir/bspline.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.
 
 ext/tgt/CMakeFiles/tgt.dir/camera.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/camera.cpp.o: ext/tgt/camera.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/camera.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/camera.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/camera.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/camera.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/camera.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/camera.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/camera.cpp > CMakeFiles/tgt.dir/camera.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/camera.cpp > CMakeFiles/tgt.dir/camera.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/camera.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/camera.cpp -o CMakeFiles/tgt.dir/camera.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/camera.cpp -o CMakeFiles/tgt.dir/camera.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/camera.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/camera.cpp.o.requires
@@ -146,17 +146,17 @@ ext/tgt/CMakeFiles/tgt.dir/camera.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.d
 
 ext/tgt/CMakeFiles/tgt.dir/catmullromspline.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/catmullromspline.cpp.o: ext/tgt/catmullromspline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/catmullromspline.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/catmullromspline.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/catmullromspline.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/catmullromspline.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/catmullromspline.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/catmullromspline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/catmullromspline.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/catmullromspline.cpp > CMakeFiles/tgt.dir/catmullromspline.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/catmullromspline.cpp > CMakeFiles/tgt.dir/catmullromspline.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/catmullromspline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/catmullromspline.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/catmullromspline.cpp -o CMakeFiles/tgt.dir/catmullromspline.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/catmullromspline.cpp -o CMakeFiles/tgt.dir/catmullromspline.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/catmullromspline.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/catmullromspline.cpp.o.requires
@@ -169,17 +169,17 @@ ext/tgt/CMakeFiles/tgt.dir/catmullromspline.cpp.o.provides.build: ext/tgt/CMakeF
 
 ext/tgt/CMakeFiles/tgt.dir/curve.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/curve.cpp.o: ext/tgt/curve.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/curve.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/curve.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/curve.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/curve.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/curve.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/curve.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/curve.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/curve.cpp > CMakeFiles/tgt.dir/curve.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/curve.cpp > CMakeFiles/tgt.dir/curve.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/curve.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/curve.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/curve.cpp -o CMakeFiles/tgt.dir/curve.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/curve.cpp -o CMakeFiles/tgt.dir/curve.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/curve.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/curve.cpp.o.requires
@@ -192,17 +192,17 @@ ext/tgt/CMakeFiles/tgt.dir/curve.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.di
 
 ext/tgt/CMakeFiles/tgt.dir/exception.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/exception.cpp.o: ext/tgt/exception.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/exception.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/exception.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/exception.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/exception.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/exception.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/exception.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/exception.cpp > CMakeFiles/tgt.dir/exception.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/exception.cpp > CMakeFiles/tgt.dir/exception.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/exception.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/exception.cpp -o CMakeFiles/tgt.dir/exception.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/exception.cpp -o CMakeFiles/tgt.dir/exception.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/exception.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/exception.cpp.o.requires
@@ -215,17 +215,17 @@ ext/tgt/CMakeFiles/tgt.dir/exception.cpp.o.provides.build: ext/tgt/CMakeFiles/tg
 
 ext/tgt/CMakeFiles/tgt.dir/filesystem.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/filesystem.cpp.o: ext/tgt/filesystem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/filesystem.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/filesystem.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/filesystem.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/filesystem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/filesystem.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/filesystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/filesystem.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/filesystem.cpp > CMakeFiles/tgt.dir/filesystem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/filesystem.cpp > CMakeFiles/tgt.dir/filesystem.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/filesystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/filesystem.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/filesystem.cpp -o CMakeFiles/tgt.dir/filesystem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/filesystem.cpp -o CMakeFiles/tgt.dir/filesystem.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/filesystem.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/filesystem.cpp.o.requires
@@ -238,17 +238,17 @@ ext/tgt/CMakeFiles/tgt.dir/filesystem.cpp.o.provides.build: ext/tgt/CMakeFiles/t
 
 ext/tgt/CMakeFiles/tgt.dir/font.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/font.cpp.o: ext/tgt/font.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/font.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/font.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/font.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/font.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/font.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/font.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/font.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/font.cpp > CMakeFiles/tgt.dir/font.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/font.cpp > CMakeFiles/tgt.dir/font.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/font.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/font.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/font.cpp -o CMakeFiles/tgt.dir/font.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/font.cpp -o CMakeFiles/tgt.dir/font.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/font.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/font.cpp.o.requires
@@ -261,17 +261,17 @@ ext/tgt/CMakeFiles/tgt.dir/font.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.dir
 
 ext/tgt/CMakeFiles/tgt.dir/framebufferobject.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/framebufferobject.cpp.o: ext/tgt/framebufferobject.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/framebufferobject.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/framebufferobject.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/framebufferobject.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/framebufferobject.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/framebufferobject.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/framebufferobject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/framebufferobject.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/framebufferobject.cpp > CMakeFiles/tgt.dir/framebufferobject.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/framebufferobject.cpp > CMakeFiles/tgt.dir/framebufferobject.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/framebufferobject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/framebufferobject.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/framebufferobject.cpp -o CMakeFiles/tgt.dir/framebufferobject.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/framebufferobject.cpp -o CMakeFiles/tgt.dir/framebufferobject.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/framebufferobject.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/framebufferobject.cpp.o.requires
@@ -284,17 +284,17 @@ ext/tgt/CMakeFiles/tgt.dir/framebufferobject.cpp.o.provides.build: ext/tgt/CMake
 
 ext/tgt/CMakeFiles/tgt.dir/frustum.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/frustum.cpp.o: ext/tgt/frustum.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/frustum.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/frustum.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/frustum.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/frustum.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/frustum.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/frustum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/frustum.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/frustum.cpp > CMakeFiles/tgt.dir/frustum.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/frustum.cpp > CMakeFiles/tgt.dir/frustum.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/frustum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/frustum.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/frustum.cpp -o CMakeFiles/tgt.dir/frustum.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/frustum.cpp -o CMakeFiles/tgt.dir/frustum.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/frustum.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/frustum.cpp.o.requires
@@ -307,17 +307,17 @@ ext/tgt/CMakeFiles/tgt.dir/frustum.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.
 
 ext/tgt/CMakeFiles/tgt.dir/glcanvas.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/glcanvas.cpp.o: ext/tgt/glcanvas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/glcanvas.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/glcanvas.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/glcanvas.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/glcanvas.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/glcanvas.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/glcanvas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/glcanvas.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/glcanvas.cpp > CMakeFiles/tgt.dir/glcanvas.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/glcanvas.cpp > CMakeFiles/tgt.dir/glcanvas.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/glcanvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/glcanvas.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/glcanvas.cpp -o CMakeFiles/tgt.dir/glcanvas.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/glcanvas.cpp -o CMakeFiles/tgt.dir/glcanvas.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/glcanvas.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/glcanvas.cpp.o.requires
@@ -330,17 +330,17 @@ ext/tgt/CMakeFiles/tgt.dir/glcanvas.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt
 
 ext/tgt/CMakeFiles/tgt.dir/gpucapabilities.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/gpucapabilities.cpp.o: ext/tgt/gpucapabilities.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/gpucapabilities.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/gpucapabilities.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/gpucapabilities.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/gpucapabilities.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/gpucapabilities.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/gpucapabilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/gpucapabilities.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/gpucapabilities.cpp > CMakeFiles/tgt.dir/gpucapabilities.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/gpucapabilities.cpp > CMakeFiles/tgt.dir/gpucapabilities.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/gpucapabilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/gpucapabilities.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/gpucapabilities.cpp -o CMakeFiles/tgt.dir/gpucapabilities.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/gpucapabilities.cpp -o CMakeFiles/tgt.dir/gpucapabilities.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/gpucapabilities.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/gpucapabilities.cpp.o.requires
@@ -353,17 +353,17 @@ ext/tgt/CMakeFiles/tgt.dir/gpucapabilities.cpp.o.provides.build: ext/tgt/CMakeFi
 
 ext/tgt/CMakeFiles/tgt.dir/init.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/init.cpp.o: ext/tgt/init.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/init.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/init.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/init.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/init.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/init.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/init.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/init.cpp > CMakeFiles/tgt.dir/init.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/init.cpp > CMakeFiles/tgt.dir/init.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/init.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/init.cpp -o CMakeFiles/tgt.dir/init.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/init.cpp -o CMakeFiles/tgt.dir/init.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/init.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/init.cpp.o.requires
@@ -376,17 +376,17 @@ ext/tgt/CMakeFiles/tgt.dir/init.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.dir
 
 ext/tgt/CMakeFiles/tgt.dir/light.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/light.cpp.o: ext/tgt/light.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/light.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/light.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/light.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/light.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/light.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/light.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/light.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/light.cpp > CMakeFiles/tgt.dir/light.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/light.cpp > CMakeFiles/tgt.dir/light.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/light.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/light.cpp -o CMakeFiles/tgt.dir/light.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/light.cpp -o CMakeFiles/tgt.dir/light.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/light.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/light.cpp.o.requires
@@ -399,17 +399,17 @@ ext/tgt/CMakeFiles/tgt.dir/light.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.di
 
 ext/tgt/CMakeFiles/tgt.dir/logmanager.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/logmanager.cpp.o: ext/tgt/logmanager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/logmanager.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/logmanager.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/logmanager.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/logmanager.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/logmanager.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/logmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/logmanager.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/logmanager.cpp > CMakeFiles/tgt.dir/logmanager.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/logmanager.cpp > CMakeFiles/tgt.dir/logmanager.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/logmanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/logmanager.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/logmanager.cpp -o CMakeFiles/tgt.dir/logmanager.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/logmanager.cpp -o CMakeFiles/tgt.dir/logmanager.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/logmanager.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/logmanager.cpp.o.requires
@@ -422,17 +422,17 @@ ext/tgt/CMakeFiles/tgt.dir/logmanager.cpp.o.provides.build: ext/tgt/CMakeFiles/t
 
 ext/tgt/CMakeFiles/tgt.dir/naturalcubicspline.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/naturalcubicspline.cpp.o: ext/tgt/naturalcubicspline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/naturalcubicspline.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/naturalcubicspline.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/naturalcubicspline.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/naturalcubicspline.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/naturalcubicspline.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/naturalcubicspline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/naturalcubicspline.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/naturalcubicspline.cpp > CMakeFiles/tgt.dir/naturalcubicspline.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/naturalcubicspline.cpp > CMakeFiles/tgt.dir/naturalcubicspline.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/naturalcubicspline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/naturalcubicspline.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/naturalcubicspline.cpp -o CMakeFiles/tgt.dir/naturalcubicspline.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/naturalcubicspline.cpp -o CMakeFiles/tgt.dir/naturalcubicspline.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/naturalcubicspline.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/naturalcubicspline.cpp.o.requires
@@ -445,17 +445,17 @@ ext/tgt/CMakeFiles/tgt.dir/naturalcubicspline.cpp.o.provides.build: ext/tgt/CMak
 
 ext/tgt/CMakeFiles/tgt.dir/painter.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/painter.cpp.o: ext/tgt/painter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/painter.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/painter.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/painter.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/painter.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/painter.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/painter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/painter.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/painter.cpp > CMakeFiles/tgt.dir/painter.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/painter.cpp > CMakeFiles/tgt.dir/painter.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/painter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/painter.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/painter.cpp -o CMakeFiles/tgt.dir/painter.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/painter.cpp -o CMakeFiles/tgt.dir/painter.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/painter.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/painter.cpp.o.requires
@@ -468,17 +468,17 @@ ext/tgt/CMakeFiles/tgt.dir/painter.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.
 
 ext/tgt/CMakeFiles/tgt.dir/shadermanager.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/shadermanager.cpp.o: ext/tgt/shadermanager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/shadermanager.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/shadermanager.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/shadermanager.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/shadermanager.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/shadermanager.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/shadermanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/shadermanager.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/shadermanager.cpp > CMakeFiles/tgt.dir/shadermanager.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/shadermanager.cpp > CMakeFiles/tgt.dir/shadermanager.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/shadermanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/shadermanager.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/shadermanager.cpp -o CMakeFiles/tgt.dir/shadermanager.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/shadermanager.cpp -o CMakeFiles/tgt.dir/shadermanager.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/shadermanager.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/shadermanager.cpp.o.requires
@@ -491,17 +491,17 @@ ext/tgt/CMakeFiles/tgt.dir/shadermanager.cpp.o.provides.build: ext/tgt/CMakeFile
 
 ext/tgt/CMakeFiles/tgt.dir/spline.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/spline.cpp.o: ext/tgt/spline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/spline.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/spline.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/spline.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/spline.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/spline.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/spline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/spline.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/spline.cpp > CMakeFiles/tgt.dir/spline.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/spline.cpp > CMakeFiles/tgt.dir/spline.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/spline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/spline.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/spline.cpp -o CMakeFiles/tgt.dir/spline.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/spline.cpp -o CMakeFiles/tgt.dir/spline.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/spline.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/spline.cpp.o.requires
@@ -514,17 +514,17 @@ ext/tgt/CMakeFiles/tgt.dir/spline.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.d
 
 ext/tgt/CMakeFiles/tgt.dir/stopwatch.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/stopwatch.cpp.o: ext/tgt/stopwatch.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/stopwatch.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/stopwatch.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/stopwatch.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/stopwatch.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/stopwatch.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/stopwatch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/stopwatch.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/stopwatch.cpp > CMakeFiles/tgt.dir/stopwatch.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/stopwatch.cpp > CMakeFiles/tgt.dir/stopwatch.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/stopwatch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/stopwatch.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/stopwatch.cpp -o CMakeFiles/tgt.dir/stopwatch.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/stopwatch.cpp -o CMakeFiles/tgt.dir/stopwatch.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/stopwatch.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/stopwatch.cpp.o.requires
@@ -537,17 +537,17 @@ ext/tgt/CMakeFiles/tgt.dir/stopwatch.cpp.o.provides.build: ext/tgt/CMakeFiles/tg
 
 ext/tgt/CMakeFiles/tgt.dir/tesselator.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/tesselator.cpp.o: ext/tgt/tesselator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/tesselator.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/tesselator.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/tesselator.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/tesselator.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/tesselator.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/tesselator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/tesselator.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/tesselator.cpp > CMakeFiles/tgt.dir/tesselator.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/tesselator.cpp > CMakeFiles/tgt.dir/tesselator.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/tesselator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/tesselator.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/tesselator.cpp -o CMakeFiles/tgt.dir/tesselator.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/tesselator.cpp -o CMakeFiles/tgt.dir/tesselator.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/tesselator.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/tesselator.cpp.o.requires
@@ -560,17 +560,17 @@ ext/tgt/CMakeFiles/tgt.dir/tesselator.cpp.o.provides.build: ext/tgt/CMakeFiles/t
 
 ext/tgt/CMakeFiles/tgt.dir/texture.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/texture.cpp.o: ext/tgt/texture.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/texture.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/texture.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texture.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/texture.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texture.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/texture.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texture.cpp > CMakeFiles/tgt.dir/texture.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texture.cpp > CMakeFiles/tgt.dir/texture.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/texture.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texture.cpp -o CMakeFiles/tgt.dir/texture.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texture.cpp -o CMakeFiles/tgt.dir/texture.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/texture.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/texture.cpp.o.requires
@@ -583,17 +583,17 @@ ext/tgt/CMakeFiles/tgt.dir/texture.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.
 
 ext/tgt/CMakeFiles/tgt.dir/texturemanager.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/texturemanager.cpp.o: ext/tgt/texturemanager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/texturemanager.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/texturemanager.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturemanager.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/texturemanager.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturemanager.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/texturemanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/texturemanager.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturemanager.cpp > CMakeFiles/tgt.dir/texturemanager.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturemanager.cpp > CMakeFiles/tgt.dir/texturemanager.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/texturemanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/texturemanager.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturemanager.cpp -o CMakeFiles/tgt.dir/texturemanager.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturemanager.cpp -o CMakeFiles/tgt.dir/texturemanager.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/texturemanager.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/texturemanager.cpp.o.requires
@@ -606,17 +606,17 @@ ext/tgt/CMakeFiles/tgt.dir/texturemanager.cpp.o.provides.build: ext/tgt/CMakeFil
 
 ext/tgt/CMakeFiles/tgt.dir/texturereader.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/texturereader.cpp.o: ext/tgt/texturereader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/texturereader.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/texturereader.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturereader.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/texturereader.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturereader.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/texturereader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/texturereader.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturereader.cpp > CMakeFiles/tgt.dir/texturereader.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturereader.cpp > CMakeFiles/tgt.dir/texturereader.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/texturereader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/texturereader.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturereader.cpp -o CMakeFiles/tgt.dir/texturereader.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturereader.cpp -o CMakeFiles/tgt.dir/texturereader.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/texturereader.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/texturereader.cpp.o.requires
@@ -629,17 +629,17 @@ ext/tgt/CMakeFiles/tgt.dir/texturereader.cpp.o.provides.build: ext/tgt/CMakeFile
 
 ext/tgt/CMakeFiles/tgt.dir/texturereaderdevil.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/texturereaderdevil.cpp.o: ext/tgt/texturereaderdevil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/texturereaderdevil.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/texturereaderdevil.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturereaderdevil.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/texturereaderdevil.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturereaderdevil.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/texturereaderdevil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/texturereaderdevil.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturereaderdevil.cpp > CMakeFiles/tgt.dir/texturereaderdevil.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturereaderdevil.cpp > CMakeFiles/tgt.dir/texturereaderdevil.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/texturereaderdevil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/texturereaderdevil.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturereaderdevil.cpp -o CMakeFiles/tgt.dir/texturereaderdevil.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturereaderdevil.cpp -o CMakeFiles/tgt.dir/texturereaderdevil.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/texturereaderdevil.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/texturereaderdevil.cpp.o.requires
@@ -652,17 +652,17 @@ ext/tgt/CMakeFiles/tgt.dir/texturereaderdevil.cpp.o.provides.build: ext/tgt/CMak
 
 ext/tgt/CMakeFiles/tgt.dir/texturereadertga.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/texturereadertga.cpp.o: ext/tgt/texturereadertga.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/texturereadertga.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/texturereadertga.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturereadertga.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/texturereadertga.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturereadertga.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/texturereadertga.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/texturereadertga.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturereadertga.cpp > CMakeFiles/tgt.dir/texturereadertga.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturereadertga.cpp > CMakeFiles/tgt.dir/texturereadertga.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/texturereadertga.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/texturereadertga.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/texturereadertga.cpp -o CMakeFiles/tgt.dir/texturereadertga.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/texturereadertga.cpp -o CMakeFiles/tgt.dir/texturereadertga.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/texturereadertga.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/texturereadertga.cpp.o.requires
@@ -675,17 +675,17 @@ ext/tgt/CMakeFiles/tgt.dir/texturereadertga.cpp.o.provides.build: ext/tgt/CMakeF
 
 ext/tgt/CMakeFiles/tgt.dir/textureunit.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/textureunit.cpp.o: ext/tgt/textureunit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/textureunit.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/textureunit.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/textureunit.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/textureunit.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/textureunit.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/textureunit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/textureunit.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/textureunit.cpp > CMakeFiles/tgt.dir/textureunit.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/textureunit.cpp > CMakeFiles/tgt.dir/textureunit.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/textureunit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/textureunit.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/textureunit.cpp -o CMakeFiles/tgt.dir/textureunit.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/textureunit.cpp -o CMakeFiles/tgt.dir/textureunit.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/textureunit.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/textureunit.cpp.o.requires
@@ -698,17 +698,17 @@ ext/tgt/CMakeFiles/tgt.dir/textureunit.cpp.o.provides.build: ext/tgt/CMakeFiles/
 
 ext/tgt/CMakeFiles/tgt.dir/tgt_gl.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/tgt_gl.cpp.o: ext/tgt/tgt_gl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/tgt_gl.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/tgt_gl.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/tgt_gl.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/tgt_gl.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/tgt_gl.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/tgt_gl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/tgt_gl.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/tgt_gl.cpp > CMakeFiles/tgt.dir/tgt_gl.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/tgt_gl.cpp > CMakeFiles/tgt.dir/tgt_gl.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/tgt_gl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/tgt_gl.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/tgt_gl.cpp -o CMakeFiles/tgt.dir/tgt_gl.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/tgt_gl.cpp -o CMakeFiles/tgt.dir/tgt_gl.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/tgt_gl.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/tgt_gl.cpp.o.requires
@@ -721,17 +721,17 @@ ext/tgt/CMakeFiles/tgt.dir/tgt_gl.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.d
 
 ext/tgt/CMakeFiles/tgt.dir/timer.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/timer.cpp.o: ext/tgt/timer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/timer.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/timer.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/timer.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/timer.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/timer.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/timer.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/timer.cpp > CMakeFiles/tgt.dir/timer.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/timer.cpp > CMakeFiles/tgt.dir/timer.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/timer.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/timer.cpp -o CMakeFiles/tgt.dir/timer.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/timer.cpp -o CMakeFiles/tgt.dir/timer.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/timer.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/timer.cpp.o.requires
@@ -744,17 +744,17 @@ ext/tgt/CMakeFiles/tgt.dir/timer.cpp.o.provides.build: ext/tgt/CMakeFiles/tgt.di
 
 ext/tgt/CMakeFiles/tgt.dir/event/eventhandler.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/event/eventhandler.cpp.o: ext/tgt/event/eventhandler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/event/eventhandler.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/eventhandler.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/eventhandler.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/eventhandler.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/eventhandler.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/event/eventhandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/event/eventhandler.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/eventhandler.cpp > CMakeFiles/tgt.dir/event/eventhandler.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/eventhandler.cpp > CMakeFiles/tgt.dir/event/eventhandler.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/event/eventhandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/event/eventhandler.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/eventhandler.cpp -o CMakeFiles/tgt.dir/event/eventhandler.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/eventhandler.cpp -o CMakeFiles/tgt.dir/event/eventhandler.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/event/eventhandler.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/event/eventhandler.cpp.o.requires
@@ -767,17 +767,17 @@ ext/tgt/CMakeFiles/tgt.dir/event/eventhandler.cpp.o.provides.build: ext/tgt/CMak
 
 ext/tgt/CMakeFiles/tgt.dir/event/eventlistener.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/event/eventlistener.cpp.o: ext/tgt/event/eventlistener.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/event/eventlistener.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/eventlistener.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/eventlistener.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/eventlistener.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/eventlistener.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/event/eventlistener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/event/eventlistener.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/eventlistener.cpp > CMakeFiles/tgt.dir/event/eventlistener.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/eventlistener.cpp > CMakeFiles/tgt.dir/event/eventlistener.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/event/eventlistener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/event/eventlistener.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/eventlistener.cpp -o CMakeFiles/tgt.dir/event/eventlistener.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/eventlistener.cpp -o CMakeFiles/tgt.dir/event/eventlistener.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/event/eventlistener.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/event/eventlistener.cpp.o.requires
@@ -790,17 +790,17 @@ ext/tgt/CMakeFiles/tgt.dir/event/eventlistener.cpp.o.provides.build: ext/tgt/CMa
 
 ext/tgt/CMakeFiles/tgt.dir/event/keyevent.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/event/keyevent.cpp.o: ext/tgt/event/keyevent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/event/keyevent.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/keyevent.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/keyevent.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/keyevent.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/keyevent.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/event/keyevent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/event/keyevent.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/keyevent.cpp > CMakeFiles/tgt.dir/event/keyevent.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/keyevent.cpp > CMakeFiles/tgt.dir/event/keyevent.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/event/keyevent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/event/keyevent.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/keyevent.cpp -o CMakeFiles/tgt.dir/event/keyevent.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/keyevent.cpp -o CMakeFiles/tgt.dir/event/keyevent.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/event/keyevent.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/event/keyevent.cpp.o.requires
@@ -813,17 +813,17 @@ ext/tgt/CMakeFiles/tgt.dir/event/keyevent.cpp.o.provides.build: ext/tgt/CMakeFil
 
 ext/tgt/CMakeFiles/tgt.dir/event/mouseevent.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/event/mouseevent.cpp.o: ext/tgt/event/mouseevent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/event/mouseevent.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/mouseevent.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/mouseevent.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/mouseevent.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/mouseevent.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/event/mouseevent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/event/mouseevent.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/mouseevent.cpp > CMakeFiles/tgt.dir/event/mouseevent.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/mouseevent.cpp > CMakeFiles/tgt.dir/event/mouseevent.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/event/mouseevent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/event/mouseevent.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/mouseevent.cpp -o CMakeFiles/tgt.dir/event/mouseevent.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/mouseevent.cpp -o CMakeFiles/tgt.dir/event/mouseevent.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/event/mouseevent.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/event/mouseevent.cpp.o.requires
@@ -836,17 +836,17 @@ ext/tgt/CMakeFiles/tgt.dir/event/mouseevent.cpp.o.provides.build: ext/tgt/CMakeF
 
 ext/tgt/CMakeFiles/tgt.dir/event/timeevent.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/event/timeevent.cpp.o: ext/tgt/event/timeevent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/event/timeevent.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/timeevent.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/timeevent.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/timeevent.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/timeevent.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/event/timeevent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/event/timeevent.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/timeevent.cpp > CMakeFiles/tgt.dir/event/timeevent.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/timeevent.cpp > CMakeFiles/tgt.dir/event/timeevent.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/event/timeevent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/event/timeevent.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/timeevent.cpp -o CMakeFiles/tgt.dir/event/timeevent.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/timeevent.cpp -o CMakeFiles/tgt.dir/event/timeevent.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/event/timeevent.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/event/timeevent.cpp.o.requires
@@ -859,17 +859,17 @@ ext/tgt/CMakeFiles/tgt.dir/event/timeevent.cpp.o.provides.build: ext/tgt/CMakeFi
 
 ext/tgt/CMakeFiles/tgt.dir/event/touchevent.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/event/touchevent.cpp.o: ext/tgt/event/touchevent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/event/touchevent.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/touchevent.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/touchevent.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/touchevent.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/touchevent.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/event/touchevent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/event/touchevent.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/touchevent.cpp > CMakeFiles/tgt.dir/event/touchevent.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/touchevent.cpp > CMakeFiles/tgt.dir/event/touchevent.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/event/touchevent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/event/touchevent.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/touchevent.cpp -o CMakeFiles/tgt.dir/event/touchevent.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/touchevent.cpp -o CMakeFiles/tgt.dir/event/touchevent.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/event/touchevent.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/event/touchevent.cpp.o.requires
@@ -882,17 +882,17 @@ ext/tgt/CMakeFiles/tgt.dir/event/touchevent.cpp.o.provides.build: ext/tgt/CMakeF
 
 ext/tgt/CMakeFiles/tgt.dir/event/touchpoint.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/event/touchpoint.cpp.o: ext/tgt/event/touchpoint.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/event/touchpoint.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/touchpoint.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/touchpoint.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/event/touchpoint.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/touchpoint.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/event/touchpoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/event/touchpoint.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/touchpoint.cpp > CMakeFiles/tgt.dir/event/touchpoint.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/touchpoint.cpp > CMakeFiles/tgt.dir/event/touchpoint.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/event/touchpoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/event/touchpoint.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/event/touchpoint.cpp -o CMakeFiles/tgt.dir/event/touchpoint.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/event/touchpoint.cpp -o CMakeFiles/tgt.dir/event/touchpoint.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/event/touchpoint.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/event/touchpoint.cpp.o.requires
@@ -905,17 +905,17 @@ ext/tgt/CMakeFiles/tgt.dir/event/touchpoint.cpp.o.provides.build: ext/tgt/CMakeF
 
 ext/tgt/CMakeFiles/tgt.dir/navigation/navigation.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/navigation/navigation.cpp.o: ext/tgt/navigation/navigation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/navigation/navigation.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/navigation/navigation.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/navigation/navigation.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/navigation/navigation.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/navigation/navigation.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/navigation/navigation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/navigation/navigation.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/navigation/navigation.cpp > CMakeFiles/tgt.dir/navigation/navigation.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/navigation/navigation.cpp > CMakeFiles/tgt.dir/navigation/navigation.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/navigation/navigation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/navigation/navigation.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/navigation/navigation.cpp -o CMakeFiles/tgt.dir/navigation/navigation.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/navigation/navigation.cpp -o CMakeFiles/tgt.dir/navigation/navigation.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/navigation/navigation.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/navigation/navigation.cpp.o.requires
@@ -928,17 +928,17 @@ ext/tgt/CMakeFiles/tgt.dir/navigation/navigation.cpp.o.provides.build: ext/tgt/C
 
 ext/tgt/CMakeFiles/tgt.dir/navigation/trackball.cpp.o: ext/tgt/CMakeFiles/tgt.dir/flags.make
 ext/tgt/CMakeFiles/tgt.dir/navigation/trackball.cpp.o: ext/tgt/navigation/trackball.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ext/tgt/CMakeFiles/tgt.dir/navigation/trackball.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/navigation/trackball.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/navigation/trackball.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tgt.dir/navigation/trackball.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/navigation/trackball.cpp
 
 ext/tgt/CMakeFiles/tgt.dir/navigation/trackball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tgt.dir/navigation/trackball.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/navigation/trackball.cpp > CMakeFiles/tgt.dir/navigation/trackball.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/navigation/trackball.cpp > CMakeFiles/tgt.dir/navigation/trackball.cpp.i
 
 ext/tgt/CMakeFiles/tgt.dir/navigation/trackball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tgt.dir/navigation/trackball.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/navigation/trackball.cpp -o CMakeFiles/tgt.dir/navigation/trackball.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/navigation/trackball.cpp -o CMakeFiles/tgt.dir/navigation/trackball.cpp.s
 
 ext/tgt/CMakeFiles/tgt.dir/navigation/trackball.cpp.o.requires:
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/navigation/trackball.cpp.o.requires
@@ -1050,13 +1050,10 @@ bin/libtgt.so: /usr/lib/libboost_unit_test_framework-mt.so
 bin/libtgt.so: /usr/lib/libboost_system-mt.so
 bin/libtgt.so: /usr/local/lib/libIL.so
 bin/libtgt.so: /usr/local/lib/libILU.so
-bin/libtgt.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
-bin/libtgt.so: /usr/lib/libftgl.so
-bin/libtgt.so: /usr/lib/libOpenCL.so
 bin/libtgt.so: /usr/lib/x86_64-linux-gnu/libz.so
 bin/libtgt.so: ext/tgt/CMakeFiles/tgt.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../bin/libtgt.so"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tgt.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tgt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ext/tgt/CMakeFiles/tgt.dir/build: bin/libtgt.so
@@ -1104,10 +1101,10 @@ ext/tgt/CMakeFiles/tgt.dir/requires: ext/tgt/CMakeFiles/tgt.dir/navigation/track
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/requires
 
 ext/tgt/CMakeFiles/tgt.dir/clean:
-	cd /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt && $(CMAKE_COMMAND) -P CMakeFiles/tgt.dir/cmake_clean.cmake
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt && $(CMAKE_COMMAND) -P CMakeFiles/tgt.dir/cmake_clean.cmake
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/clean
 
 ext/tgt/CMakeFiles/tgt.dir/depend:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emma/Downloads/voreen-src-4.3-unix /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt /home/emma/Downloads/voreen-src-4.3-unix /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt /home/emma/Downloads/voreen-src-4.3-unix/ext/tgt/CMakeFiles/tgt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emma/code/gitrepo/voreen-src-4.3-unix /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt /home/emma/code/gitrepo/voreen-src-4.3-unix /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/CMakeFiles/tgt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext/tgt/CMakeFiles/tgt.dir/depend
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_SOURCE_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_BINARY_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # Include any dependencies generated for this target.
 include apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/depend.make
@@ -54,17 +54,17 @@ include apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/flags.make
 
 apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.o: apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/flags.make
 apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.o: apps/tests/volumeorigintest/volumeorigintest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.o"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.o -c /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest/volumeorigintest.cpp
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest/volumeorigintest.cpp
 
 apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.i"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest/volumeorigintest.cpp > CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest/volumeorigintest.cpp > CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.i
 
 apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.s"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest/volumeorigintest.cpp -o CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest/volumeorigintest.cpp -o CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.s
 
 apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.o.requires:
 .PHONY : apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/volumeorigintest.cpp.o.requires
@@ -102,9 +102,6 @@ bin/volumeorigintest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/volumeorigintest: /usr/lib/libboost_system-mt.so
 bin/volumeorigintest: /usr/local/lib/libIL.so
 bin/volumeorigintest: /usr/local/lib/libILU.so
-bin/volumeorigintest: /usr/lib/x86_64-linux-gnu/libfreetype.so
-bin/volumeorigintest: /usr/lib/libftgl.so
-bin/volumeorigintest: /usr/lib/libOpenCL.so
 bin/volumeorigintest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/volumeorigintest: bin/libtgt.so
 bin/volumeorigintest: /usr/lib/x86_64-linux-gnu/libGLU.so
@@ -123,13 +120,10 @@ bin/volumeorigintest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/volumeorigintest: /usr/lib/libboost_system-mt.so
 bin/volumeorigintest: /usr/local/lib/libIL.so
 bin/volumeorigintest: /usr/local/lib/libILU.so
-bin/volumeorigintest: /usr/lib/x86_64-linux-gnu/libfreetype.so
-bin/volumeorigintest: /usr/lib/libftgl.so
-bin/volumeorigintest: /usr/lib/libOpenCL.so
 bin/volumeorigintest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/volumeorigintest: apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../bin/volumeorigintest"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/volumeorigintest.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/volumeorigintest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/build: bin/volumeorigintest
@@ -139,10 +133,10 @@ apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/requires: apps/tests
 .PHONY : apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/requires
 
 apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/clean:
-	cd /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest && $(CMAKE_COMMAND) -P CMakeFiles/volumeorigintest.dir/cmake_clean.cmake
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest && $(CMAKE_COMMAND) -P CMakeFiles/volumeorigintest.dir/cmake_clean.cmake
 .PHONY : apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/clean
 
 apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/depend:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emma/Downloads/voreen-src-4.3-unix /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest /home/emma/Downloads/voreen-src-4.3-unix /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest /home/emma/Downloads/voreen-src-4.3-unix/apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emma/code/gitrepo/voreen-src-4.3-unix /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest /home/emma/code/gitrepo/voreen-src-4.3-unix /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest /home/emma/code/gitrepo/voreen-src-4.3-unix/apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/depend
 

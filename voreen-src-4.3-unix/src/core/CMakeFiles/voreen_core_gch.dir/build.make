@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_SOURCE_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_BINARY_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # Utility rule file for voreen_core_gch.
 
@@ -51,9 +51,9 @@ include src/core/CMakeFiles/voreen_core_gch.dir/progress.make
 src/core/CMakeFiles/voreen_core_gch: src/core/pch.h.gch/.c++
 
 src/core/pch.h.gch/.c++: src/core/pch.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating pch.h.gch/.c++"
-	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && /usr/bin/c++ -fPIC -I/home/emma/Downloads/voreen-src-4.3-unix -I/home/emma/Downloads/voreen-src-4.3-unix/include -I/home/emma/Downloads/voreen-src-4.3-unix/ext -I/home/emma/Downloads/voreen-src-4.3-unix -I/home/emma/Downloads/voreen-src-4.3-unix -I/usr/include -I/usr/include -I/usr/include -I/home/emma/Downloads/voreen-src-4.3-unix/ext/eigen -I/home/emma/Downloads/voreen-src-4.3-unix/modules/connexe/ext/connexe -I/usr/local/include/IL -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/home/emma/Downloads/voreen-src-4.3-unix/modules/plotting/ext/triangle -I/home/emma/Downloads/voreen-src-4.3-unix/modules/volumelabeling/ext/jama/include -I/usr/include -DVRN_SHARED_LIBS -DUNIX -D__STDC_CONSTANT_MACROS -DTIXML_USE_STL -DTGT_WITHOUT_DEFINES -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -DVRN_MODULE_ADVANCEDLIGHTING -DVRN_MODULE_BASE -DVRN_MODULE_CONNEXE -DVRN_MODULE_CORE -DVRN_MODULE_DEVIL -DTGT_HAS_DEVIL -DVRN_MODULE_DYNAMICGLSL -DVRN_MODULE_FLOWREEN -DVRN_MODULE_FONTRENDERING -DTGT_HAS_FREETYPE -DTGT_HAS_FTGL -DVRN_MODULE_OPENCL -DVRN_MODULE_OPENMP -fopenmp -DVRN_MODULE_PLOTTING -DVRN_MODULE_PVM -DVRN_MODULE_RANDOMWALKER -DVRN_MODULE_SEGY -DVRN_MODULE_STAGING -DVRN_MODULE_STEREOSCOPY -DVRN_MODULE_VOLUMELABELING -DVRN_MODULE_ZIP -x c++-header -o /home/emma/Downloads/voreen-src-4.3-unix/src/core/pch.h.gch/.c++ /home/emma/Downloads/voreen-src-4.3-unix/src/core/pch.h
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/core && /usr/bin/c++ -fPIC -I/home/emma/code/gitrepo/voreen-src-4.3-unix -I/home/emma/code/gitrepo/voreen-src-4.3-unix/include -I/home/emma/code/gitrepo/voreen-src-4.3-unix/ext -I/home/emma/code/gitrepo/voreen-src-4.3-unix -I/home/emma/code/gitrepo/voreen-src-4.3-unix -I/usr/include -I/usr/include -I/usr/include -I/home/emma/code/gitrepo/voreen-src-4.3-unix/ext/eigen -I/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/connexe/ext/connexe -I/usr/local/include/IL -I/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/ext/triangle -I/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/volumelabeling/ext/jama/include -I/usr/include -DVRN_SHARED_LIBS -DUNIX -D__STDC_CONSTANT_MACROS -DTIXML_USE_STL -DTGT_WITHOUT_DEFINES -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -DVRN_MODULE_ADVANCEDLIGHTING -DVRN_MODULE_BASE -DVRN_MODULE_CONNEXE -DVRN_MODULE_CORE -DVRN_MODULE_DEVIL -DTGT_HAS_DEVIL -DVRN_MODULE_DYNAMICGLSL -DVRN_MODULE_FLOWREEN -DVRN_MODULE_PLOTTING -DVRN_MODULE_PVM -DVRN_MODULE_RANDOMWALKER -DVRN_MODULE_SEGY -DVRN_MODULE_STAGING -DVRN_MODULE_STEREOSCOPY -DVRN_MODULE_VOLUMELABELING -DVRN_MODULE_ZIP -x c++-header -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/core/pch.h.gch/.c++ /home/emma/code/gitrepo/voreen-src-4.3-unix/src/core/pch.h
 
 voreen_core_gch: src/core/CMakeFiles/voreen_core_gch
 voreen_core_gch: src/core/pch.h.gch/.c++
@@ -65,10 +65,10 @@ src/core/CMakeFiles/voreen_core_gch.dir/build: voreen_core_gch
 .PHONY : src/core/CMakeFiles/voreen_core_gch.dir/build
 
 src/core/CMakeFiles/voreen_core_gch.dir/clean:
-	cd /home/emma/Downloads/voreen-src-4.3-unix/src/core && $(CMAKE_COMMAND) -P CMakeFiles/voreen_core_gch.dir/cmake_clean.cmake
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/core && $(CMAKE_COMMAND) -P CMakeFiles/voreen_core_gch.dir/cmake_clean.cmake
 .PHONY : src/core/CMakeFiles/voreen_core_gch.dir/clean
 
 src/core/CMakeFiles/voreen_core_gch.dir/depend:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emma/Downloads/voreen-src-4.3-unix /home/emma/Downloads/voreen-src-4.3-unix/src/core /home/emma/Downloads/voreen-src-4.3-unix /home/emma/Downloads/voreen-src-4.3-unix/src/core /home/emma/Downloads/voreen-src-4.3-unix/src/core/CMakeFiles/voreen_core_gch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emma/code/gitrepo/voreen-src-4.3-unix /home/emma/code/gitrepo/voreen-src-4.3-unix/src/core /home/emma/code/gitrepo/voreen-src-4.3-unix /home/emma/code/gitrepo/voreen-src-4.3-unix/src/core /home/emma/code/gitrepo/voreen-src-4.3-unix/src/core/CMakeFiles/voreen_core_gch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/core/CMakeFiles/voreen_core_gch.dir/depend
 

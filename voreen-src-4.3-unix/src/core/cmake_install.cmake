@@ -1,4 +1,4 @@
-# Install script for directory: /home/emma/Downloads/voreen-src-4.3-unix/src/core
+# Install script for directory: /home/emma/code/gitrepo/voreen-src-4.3-unix/src/core
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

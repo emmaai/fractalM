@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_SOURCE_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emma/Downloads/voreen-src-4.3-unix
+CMAKE_BINARY_DIR = /home/emma/code/gitrepo/voreen-src-4.3-unix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles /home/emma/Downloads/voreen-src-4.3-unix/src/qt/CMakeFiles/progress.marks
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/Downloads/voreen-src-4.3-unix/CMakeFiles 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/CMakeFiles/progress.marks
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/clean
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/preinstall
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/qt/CMakeFiles/voreen_qt.dir/rule:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/CMakeFiles/voreen_qt.dir/rule
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/CMakeFiles/voreen_qt.dir/rule
 .PHONY : src/qt/CMakeFiles/voreen_qt.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ voreen_qt: src/qt/CMakeFiles/voreen_qt.dir/rule
 
 # fast build rule for target.
 voreen_qt/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/build
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/build
 .PHONY : voreen_qt/fast
 
 # Convenience name for target.
 src/qt/CMakeFiles/voreen_qt_gch.dir/rule:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/CMakeFiles/voreen_qt_gch.dir/rule
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f CMakeFiles/Makefile2 src/qt/CMakeFiles/voreen_qt_gch.dir/rule
 .PHONY : src/qt/CMakeFiles/voreen_qt_gch.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ voreen_qt_gch: src/qt/CMakeFiles/voreen_qt_gch.dir/rule
 
 # fast build rule for target.
 voreen_qt_gch/fast:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt_gch.dir/build.make src/qt/CMakeFiles/voreen_qt_gch.dir/build
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt_gch.dir/build.make src/qt/CMakeFiles/voreen_qt_gch.dir/build
 .PHONY : voreen_qt_gch/fast
 
 __/__/ext/tgt/qt/qtcanvas.o: __/__/ext/tgt/qt/qtcanvas.cpp.o
@@ -134,7 +134,7 @@ __/__/ext/tgt/qt/qtcanvas.o: __/__/ext/tgt/qt/qtcanvas.cpp.o
 
 # target to build an object file
 __/__/ext/tgt/qt/qtcanvas.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qtcanvas.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qtcanvas.cpp.o
 .PHONY : __/__/ext/tgt/qt/qtcanvas.cpp.o
 
 __/__/ext/tgt/qt/qtcanvas.i: __/__/ext/tgt/qt/qtcanvas.cpp.i
@@ -142,7 +142,7 @@ __/__/ext/tgt/qt/qtcanvas.i: __/__/ext/tgt/qt/qtcanvas.cpp.i
 
 # target to preprocess a source file
 __/__/ext/tgt/qt/qtcanvas.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qtcanvas.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qtcanvas.cpp.i
 .PHONY : __/__/ext/tgt/qt/qtcanvas.cpp.i
 
 __/__/ext/tgt/qt/qtcanvas.s: __/__/ext/tgt/qt/qtcanvas.cpp.s
@@ -150,7 +150,7 @@ __/__/ext/tgt/qt/qtcanvas.s: __/__/ext/tgt/qt/qtcanvas.cpp.s
 
 # target to generate assembly for a file
 __/__/ext/tgt/qt/qtcanvas.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qtcanvas.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qtcanvas.cpp.s
 .PHONY : __/__/ext/tgt/qt/qtcanvas.cpp.s
 
 __/__/ext/tgt/qt/qttimer.o: __/__/ext/tgt/qt/qttimer.cpp.o
@@ -158,7 +158,7 @@ __/__/ext/tgt/qt/qttimer.o: __/__/ext/tgt/qt/qttimer.cpp.o
 
 # target to build an object file
 __/__/ext/tgt/qt/qttimer.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qttimer.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qttimer.cpp.o
 .PHONY : __/__/ext/tgt/qt/qttimer.cpp.o
 
 __/__/ext/tgt/qt/qttimer.i: __/__/ext/tgt/qt/qttimer.cpp.i
@@ -166,7 +166,7 @@ __/__/ext/tgt/qt/qttimer.i: __/__/ext/tgt/qt/qttimer.cpp.i
 
 # target to preprocess a source file
 __/__/ext/tgt/qt/qttimer.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qttimer.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qttimer.cpp.i
 .PHONY : __/__/ext/tgt/qt/qttimer.cpp.i
 
 __/__/ext/tgt/qt/qttimer.s: __/__/ext/tgt/qt/qttimer.cpp.s
@@ -174,7 +174,7 @@ __/__/ext/tgt/qt/qttimer.s: __/__/ext/tgt/qt/qttimer.cpp.s
 
 # target to generate assembly for a file
 __/__/ext/tgt/qt/qttimer.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qttimer.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qttimer.cpp.s
 .PHONY : __/__/ext/tgt/qt/qttimer.cpp.s
 
 __/__/include/voreen/qt/moc_aboutbox.o: __/__/include/voreen/qt/moc_aboutbox.cpp.o
@@ -182,7 +182,7 @@ __/__/include/voreen/qt/moc_aboutbox.o: __/__/include/voreen/qt/moc_aboutbox.cpp
 
 # target to build an object file
 __/__/include/voreen/qt/moc_aboutbox.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_aboutbox.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_aboutbox.cpp.o
 .PHONY : __/__/include/voreen/qt/moc_aboutbox.cpp.o
 
 __/__/include/voreen/qt/moc_aboutbox.i: __/__/include/voreen/qt/moc_aboutbox.cpp.i
@@ -190,7 +190,7 @@ __/__/include/voreen/qt/moc_aboutbox.i: __/__/include/voreen/qt/moc_aboutbox.cpp
 
 # target to preprocess a source file
 __/__/include/voreen/qt/moc_aboutbox.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_aboutbox.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_aboutbox.cpp.i
 .PHONY : __/__/include/voreen/qt/moc_aboutbox.cpp.i
 
 __/__/include/voreen/qt/moc_aboutbox.s: __/__/include/voreen/qt/moc_aboutbox.cpp.s
@@ -198,7 +198,7 @@ __/__/include/voreen/qt/moc_aboutbox.s: __/__/include/voreen/qt/moc_aboutbox.cpp
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/moc_aboutbox.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_aboutbox.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_aboutbox.cpp.s
 .PHONY : __/__/include/voreen/qt/moc_aboutbox.cpp.s
 
 __/__/include/voreen/qt/moc_helpbrowser.o: __/__/include/voreen/qt/moc_helpbrowser.cpp.o
@@ -206,7 +206,7 @@ __/__/include/voreen/qt/moc_helpbrowser.o: __/__/include/voreen/qt/moc_helpbrows
 
 # target to build an object file
 __/__/include/voreen/qt/moc_helpbrowser.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_helpbrowser.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_helpbrowser.cpp.o
 .PHONY : __/__/include/voreen/qt/moc_helpbrowser.cpp.o
 
 __/__/include/voreen/qt/moc_helpbrowser.i: __/__/include/voreen/qt/moc_helpbrowser.cpp.i
@@ -214,7 +214,7 @@ __/__/include/voreen/qt/moc_helpbrowser.i: __/__/include/voreen/qt/moc_helpbrows
 
 # target to preprocess a source file
 __/__/include/voreen/qt/moc_helpbrowser.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_helpbrowser.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_helpbrowser.cpp.i
 .PHONY : __/__/include/voreen/qt/moc_helpbrowser.cpp.i
 
 __/__/include/voreen/qt/moc_helpbrowser.s: __/__/include/voreen/qt/moc_helpbrowser.cpp.s
@@ -222,7 +222,7 @@ __/__/include/voreen/qt/moc_helpbrowser.s: __/__/include/voreen/qt/moc_helpbrows
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/moc_helpbrowser.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_helpbrowser.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_helpbrowser.cpp.s
 .PHONY : __/__/include/voreen/qt/moc_helpbrowser.cpp.s
 
 __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.o: __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.o
@@ -230,7 +230,7 @@ __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.o
 
 __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.i: __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.i
@@ -238,7 +238,7 @@ __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.i
 
 __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.s: __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.s
@@ -246,7 +246,7 @@ __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.s
 
 __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.o: __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.o
@@ -254,7 +254,7 @@ __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.o: __/
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.o
 
 __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.i: __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.i
@@ -262,7 +262,7 @@ __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.i: __/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.i
 
 __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.s: __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.s
@@ -270,7 +270,7 @@ __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.s: __/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.o
@@ -278,7 +278,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinka
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.i
@@ -286,7 +286,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinka
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.s
@@ -294,7 +294,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinka
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.o
@@ -302,7 +302,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsi
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.i
@@ -310,7 +310,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsi
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.s
@@ -318,7 +318,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsi
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.o
@@ -326,7 +326,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.o: 
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.i
@@ -334,7 +334,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.i: 
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.s
@@ -342,7 +342,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.s: 
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.o
@@ -350,7 +350,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsite
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.i
@@ -358,7 +358,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsite
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.s
@@ -366,7 +366,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsite
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.o
@@ -374,7 +374,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsite
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.i
@@ -382,7 +382,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsite
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.s
@@ -390,7 +390,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsite
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.o
@@ -398,7 +398,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.i
@@ -406,7 +406,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.s
@@ -414,7 +414,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.o
@@ -422,7 +422,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphics
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.i
@@ -430,7 +430,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphics
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.s
@@ -438,7 +438,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphics
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.o
@@ -446,7 +446,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphic
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.i
@@ -454,7 +454,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphic
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.s
@@ -462,7 +462,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphic
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.o
@@ -470,7 +470,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.o: __
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.i
@@ -478,7 +478,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.i: __
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.s
@@ -486,7 +486,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.s: __
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.o
@@ -494,7 +494,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraph
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.i
@@ -502,7 +502,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraph
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.s
@@ -510,7 +510,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraph
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.o
@@ -518,7 +518,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttong
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.i
@@ -526,7 +526,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttong
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.s
@@ -534,7 +534,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttong
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.o
@@ -542,7 +542,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphi
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.i
@@ -550,7 +550,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphi
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.s
@@ -558,7 +558,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphi
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.o: __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.o
@@ -566,7 +566,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttong
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.o
 
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.i: __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.i
@@ -574,7 +574,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttong
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.i
 
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.s: __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.s
@@ -582,7 +582,7 @@ __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttong
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.s
 
 __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.o: __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.o
@@ -590,7 +590,7 @@ __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.o: __/__/include/vor
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.o
 
 __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.i: __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.i
@@ -598,7 +598,7 @@ __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.i: __/__/include/vor
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.i
 
 __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.s: __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.s
@@ -606,7 +606,7 @@ __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.s: __/__/include/vor
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.s
 
 __/__/include/voreen/qt/networkeditor/moc_networkeditor.o: __/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.o
@@ -614,7 +614,7 @@ __/__/include/voreen/qt/networkeditor/moc_networkeditor.o: __/__/include/voreen/
 
 # target to build an object file
 __/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.o
 .PHONY : __/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.o
 
 __/__/include/voreen/qt/networkeditor/moc_networkeditor.i: __/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.i
@@ -622,7 +622,7 @@ __/__/include/voreen/qt/networkeditor/moc_networkeditor.i: __/__/include/voreen/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.i
 .PHONY : __/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.i
 
 __/__/include/voreen/qt/networkeditor/moc_networkeditor.s: __/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.s
@@ -630,7 +630,7 @@ __/__/include/voreen/qt/networkeditor/moc_networkeditor.s: __/__/include/voreen/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.s
 .PHONY : __/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.s
 
 __/__/include/voreen/qt/widgets/animation/moc_animationeditor.o: __/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.o
@@ -638,7 +638,7 @@ __/__/include/voreen/qt/widgets/animation/moc_animationeditor.o: __/__/include/v
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.o
 
 __/__/include/voreen/qt/widgets/animation/moc_animationeditor.i: __/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.i
@@ -646,7 +646,7 @@ __/__/include/voreen/qt/widgets/animation/moc_animationeditor.i: __/__/include/v
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.i
 
 __/__/include/voreen/qt/widgets/animation/moc_animationeditor.s: __/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.s
@@ -654,7 +654,7 @@ __/__/include/voreen/qt/widgets/animation/moc_animationeditor.s: __/__/include/v
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.s
 
 __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.o: __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.o
@@ -662,7 +662,7 @@ __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.o: __/__/inc
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.i: __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.i
@@ -670,7 +670,7 @@ __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.i: __/__/inc
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.s: __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.s
@@ -678,7 +678,7 @@ __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.s: __/__/inc
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.o: __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.o
@@ -686,7 +686,7 @@ __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.o: __/__/incl
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.o
 
 __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.i: __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.i
@@ -694,7 +694,7 @@ __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.i: __/__/incl
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.i
 
 __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.s: __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.s
@@ -702,7 +702,7 @@ __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.s: __/__/incl
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.s
 
 __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.o: __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.o
@@ -710,7 +710,7 @@ __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.o: __/__/include/v
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.i: __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.i
@@ -718,7 +718,7 @@ __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.i: __/__/include/v
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.s: __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.s
@@ -726,7 +726,7 @@ __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.s: __/__/include/v
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.o: __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.o
@@ -734,7 +734,7 @@ __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.o: __/__/include/vo
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.i: __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.i
@@ -742,7 +742,7 @@ __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.i: __/__/include/vo
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.s: __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.s
@@ -750,7 +750,7 @@ __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.s: __/__/include/vo
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.o: __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.o
@@ -758,7 +758,7 @@ __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.o: __/__/i
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.o
 
 __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.i: __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.i
@@ -766,7 +766,7 @@ __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.i: __/__/i
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.i
 
 __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.s: __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.s
@@ -774,7 +774,7 @@ __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.s: __/__/i
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.s
 
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.o: __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.o
@@ -782,7 +782,7 @@ __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.o: __/__/incl
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.o
 
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.i: __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.i
@@ -790,7 +790,7 @@ __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.i: __/__/incl
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.i
 
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.s: __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.s
@@ -798,7 +798,7 @@ __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.s: __/__/incl
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.s
 
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.o: __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.o
@@ -806,7 +806,7 @@ __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.o
 
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.i: __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.i
@@ -814,7 +814,7 @@ __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.i
 
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.s: __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.s
@@ -822,7 +822,7 @@ __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.s
 
 __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.o: __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.o
@@ -830,7 +830,7 @@ __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.o: __/__/include/vo
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.o
 
 __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.i: __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.i
@@ -838,7 +838,7 @@ __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.i: __/__/include/vo
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.i
 
 __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.s: __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.s
@@ -846,7 +846,7 @@ __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.s: __/__/include/vo
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_clickablelabel.o: __/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.o
@@ -854,7 +854,7 @@ __/__/include/voreen/qt/widgets/moc_clickablelabel.o: __/__/include/voreen/qt/wi
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_clickablelabel.i: __/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.i
@@ -862,7 +862,7 @@ __/__/include/voreen/qt/widgets/moc_clickablelabel.i: __/__/include/voreen/qt/wi
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_clickablelabel.s: __/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.s
@@ -870,7 +870,7 @@ __/__/include/voreen/qt/widgets/moc_clickablelabel.s: __/__/include/voreen/qt/wi
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_codeedit.o: __/__/include/voreen/qt/widgets/moc_codeedit.cpp.o
@@ -878,7 +878,7 @@ __/__/include/voreen/qt/widgets/moc_codeedit.o: __/__/include/voreen/qt/widgets/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_codeedit.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_codeedit.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_codeedit.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_codeedit.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_codeedit.i: __/__/include/voreen/qt/widgets/moc_codeedit.cpp.i
@@ -886,7 +886,7 @@ __/__/include/voreen/qt/widgets/moc_codeedit.i: __/__/include/voreen/qt/widgets/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_codeedit.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_codeedit.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_codeedit.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_codeedit.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_codeedit.s: __/__/include/voreen/qt/widgets/moc_codeedit.cpp.s
@@ -894,7 +894,7 @@ __/__/include/voreen/qt/widgets/moc_codeedit.s: __/__/include/voreen/qt/widgets/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_codeedit.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_codeedit.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_codeedit.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_codeedit.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_consoleplugin.o: __/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.o
@@ -902,7 +902,7 @@ __/__/include/voreen/qt/widgets/moc_consoleplugin.o: __/__/include/voreen/qt/wid
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_consoleplugin.i: __/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.i
@@ -910,7 +910,7 @@ __/__/include/voreen/qt/widgets/moc_consoleplugin.i: __/__/include/voreen/qt/wid
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_consoleplugin.s: __/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.s
@@ -918,7 +918,7 @@ __/__/include/voreen/qt/widgets/moc_consoleplugin.s: __/__/include/voreen/qt/wid
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_customlabel.o: __/__/include/voreen/qt/widgets/moc_customlabel.cpp.o
@@ -926,7 +926,7 @@ __/__/include/voreen/qt/widgets/moc_customlabel.o: __/__/include/voreen/qt/widge
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_customlabel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_customlabel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_customlabel.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_customlabel.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_customlabel.i: __/__/include/voreen/qt/widgets/moc_customlabel.cpp.i
@@ -934,7 +934,7 @@ __/__/include/voreen/qt/widgets/moc_customlabel.i: __/__/include/voreen/qt/widge
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_customlabel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_customlabel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_customlabel.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_customlabel.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_customlabel.s: __/__/include/voreen/qt/widgets/moc_customlabel.cpp.s
@@ -942,7 +942,7 @@ __/__/include/voreen/qt/widgets/moc_customlabel.s: __/__/include/voreen/qt/widge
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_customlabel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_customlabel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_customlabel.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_customlabel.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.o: __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.o
@@ -950,7 +950,7 @@ __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.o: __/__/include/voreen/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.i: __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.i
@@ -958,7 +958,7 @@ __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.i: __/__/include/voreen/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.s: __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.s
@@ -966,7 +966,7 @@ __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.s: __/__/include/voreen/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_eventpropertywidget.o: __/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.o
@@ -974,7 +974,7 @@ __/__/include/voreen/qt/widgets/moc_eventpropertywidget.o: __/__/include/voreen/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_eventpropertywidget.i: __/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.i
@@ -982,7 +982,7 @@ __/__/include/voreen/qt/widgets/moc_eventpropertywidget.i: __/__/include/voreen/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_eventpropertywidget.s: __/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.s
@@ -990,7 +990,7 @@ __/__/include/voreen/qt/widgets/moc_eventpropertywidget.s: __/__/include/voreen/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.o: __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.o
@@ -998,7 +998,7 @@ __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.o: __/__/include/vore
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.i: __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.i
@@ -1006,7 +1006,7 @@ __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.i: __/__/include/vore
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.s: __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.s
@@ -1014,7 +1014,7 @@ __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.s: __/__/include/vore
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_inputmappingdialog.o: __/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.o
@@ -1022,7 +1022,7 @@ __/__/include/voreen/qt/widgets/moc_inputmappingdialog.o: __/__/include/voreen/q
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_inputmappingdialog.i: __/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.i
@@ -1030,7 +1030,7 @@ __/__/include/voreen/qt/widgets/moc_inputmappingdialog.i: __/__/include/voreen/q
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_inputmappingdialog.s: __/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.s
@@ -1038,7 +1038,7 @@ __/__/include/voreen/qt/widgets/moc_inputmappingdialog.s: __/__/include/voreen/q
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_keydetectorwidget.o: __/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.o
@@ -1046,7 +1046,7 @@ __/__/include/voreen/qt/widgets/moc_keydetectorwidget.o: __/__/include/voreen/qt
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_keydetectorwidget.i: __/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.i
@@ -1054,7 +1054,7 @@ __/__/include/voreen/qt/widgets/moc_keydetectorwidget.i: __/__/include/voreen/qt
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_keydetectorwidget.s: __/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.s
@@ -1062,7 +1062,7 @@ __/__/include/voreen/qt/widgets/moc_keydetectorwidget.s: __/__/include/voreen/qt
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_lightwidget.o: __/__/include/voreen/qt/widgets/moc_lightwidget.cpp.o
@@ -1070,7 +1070,7 @@ __/__/include/voreen/qt/widgets/moc_lightwidget.o: __/__/include/voreen/qt/widge
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_lightwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_lightwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_lightwidget.i: __/__/include/voreen/qt/widgets/moc_lightwidget.cpp.i
@@ -1078,7 +1078,7 @@ __/__/include/voreen/qt/widgets/moc_lightwidget.i: __/__/include/voreen/qt/widge
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_lightwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_lightwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_lightwidget.s: __/__/include/voreen/qt/widgets/moc_lightwidget.cpp.s
@@ -1086,7 +1086,7 @@ __/__/include/voreen/qt/widgets/moc_lightwidget.s: __/__/include/voreen/qt/widge
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_lightwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_lightwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.o: __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.o
@@ -1094,7 +1094,7 @@ __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.o: __/__/include/voreen/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.i: __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.i
@@ -1102,7 +1102,7 @@ __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.i: __/__/include/voreen/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.s: __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.s
@@ -1110,7 +1110,7 @@ __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.s: __/__/include/voreen/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_processorlistwidget.o: __/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.o
@@ -1118,7 +1118,7 @@ __/__/include/voreen/qt/widgets/moc_processorlistwidget.o: __/__/include/voreen/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_processorlistwidget.i: __/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.i
@@ -1126,7 +1126,7 @@ __/__/include/voreen/qt/widgets/moc_processorlistwidget.i: __/__/include/voreen/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_processorlistwidget.s: __/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.s
@@ -1134,7 +1134,7 @@ __/__/include/voreen/qt/widgets/moc_processorlistwidget.s: __/__/include/voreen/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_propertylistwidget.o: __/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.o
@@ -1142,7 +1142,7 @@ __/__/include/voreen/qt/widgets/moc_propertylistwidget.o: __/__/include/voreen/q
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_propertylistwidget.i: __/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.i
@@ -1150,7 +1150,7 @@ __/__/include/voreen/qt/widgets/moc_propertylistwidget.i: __/__/include/voreen/q
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_propertylistwidget.s: __/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.s
@@ -1158,7 +1158,7 @@ __/__/include/voreen/qt/widgets/moc_propertylistwidget.s: __/__/include/voreen/q
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.o: __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.o
@@ -1166,7 +1166,7 @@ __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.o: __/__/include/vor
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.i: __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.i
@@ -1174,7 +1174,7 @@ __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.i: __/__/include/vor
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.s: __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.s
@@ -1182,7 +1182,7 @@ __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.s: __/__/include/vor
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_rawvolumewidget.o: __/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.o
@@ -1190,7 +1190,7 @@ __/__/include/voreen/qt/widgets/moc_rawvolumewidget.o: __/__/include/voreen/qt/w
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_rawvolumewidget.i: __/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.i
@@ -1198,7 +1198,7 @@ __/__/include/voreen/qt/widgets/moc_rawvolumewidget.i: __/__/include/voreen/qt/w
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_rawvolumewidget.s: __/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.s
@@ -1206,7 +1206,7 @@ __/__/include/voreen/qt/widgets/moc_rawvolumewidget.s: __/__/include/voreen/qt/w
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_rendertargetviewer.o: __/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.o
@@ -1214,7 +1214,7 @@ __/__/include/voreen/qt/widgets/moc_rendertargetviewer.o: __/__/include/voreen/q
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_rendertargetviewer.i: __/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.i
@@ -1222,7 +1222,7 @@ __/__/include/voreen/qt/widgets/moc_rendertargetviewer.i: __/__/include/voreen/q
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_rendertargetviewer.s: __/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.s
@@ -1230,7 +1230,7 @@ __/__/include/voreen/qt/widgets/moc_rendertargetviewer.s: __/__/include/voreen/q
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_screenshotplugin.o: __/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.o
@@ -1238,7 +1238,7 @@ __/__/include/voreen/qt/widgets/moc_screenshotplugin.o: __/__/include/voreen/qt/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_screenshotplugin.i: __/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.i
@@ -1246,7 +1246,7 @@ __/__/include/voreen/qt/widgets/moc_screenshotplugin.i: __/__/include/voreen/qt/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_screenshotplugin.s: __/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.s
@@ -1254,7 +1254,7 @@ __/__/include/voreen/qt/widgets/moc_screenshotplugin.s: __/__/include/voreen/qt/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_shaderplugin.o: __/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.o
@@ -1262,7 +1262,7 @@ __/__/include/voreen/qt/widgets/moc_shaderplugin.o: __/__/include/voreen/qt/widg
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_shaderplugin.i: __/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.i
@@ -1270,7 +1270,7 @@ __/__/include/voreen/qt/widgets/moc_shaderplugin.i: __/__/include/voreen/qt/widg
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_shaderplugin.s: __/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.s
@@ -1278,7 +1278,7 @@ __/__/include/voreen/qt/widgets/moc_shaderplugin.s: __/__/include/voreen/qt/widg
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.o: __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.o
@@ -1286,7 +1286,7 @@ __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.o: __/__/include/voreen/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.i: __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.i
@@ -1294,7 +1294,7 @@ __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.i: __/__/include/voreen/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.s: __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.s
@@ -1302,7 +1302,7 @@ __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.s: __/__/include/voreen/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_stringselectiondialog.o: __/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.o
@@ -1310,7 +1310,7 @@ __/__/include/voreen/qt/widgets/moc_stringselectiondialog.o: __/__/include/voree
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_stringselectiondialog.i: __/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.i
@@ -1318,7 +1318,7 @@ __/__/include/voreen/qt/widgets/moc_stringselectiondialog.i: __/__/include/voree
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_stringselectiondialog.s: __/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.s
@@ -1326,7 +1326,7 @@ __/__/include/voreen/qt/widgets/moc_stringselectiondialog.s: __/__/include/voree
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_volumeiohelper.o: __/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.o
@@ -1334,7 +1334,7 @@ __/__/include/voreen/qt/widgets/moc_volumeiohelper.o: __/__/include/voreen/qt/wi
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_volumeiohelper.i: __/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.i
@@ -1342,7 +1342,7 @@ __/__/include/voreen/qt/widgets/moc_volumeiohelper.i: __/__/include/voreen/qt/wi
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_volumeiohelper.s: __/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.s
@@ -1350,7 +1350,7 @@ __/__/include/voreen/qt/widgets/moc_volumeiohelper.s: __/__/include/voreen/qt/wi
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_volumelistingdialog.o: __/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.o
@@ -1358,7 +1358,7 @@ __/__/include/voreen/qt/widgets/moc_volumelistingdialog.o: __/__/include/voreen/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_volumelistingdialog.i: __/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.i
@@ -1366,7 +1366,7 @@ __/__/include/voreen/qt/widgets/moc_volumelistingdialog.i: __/__/include/voreen/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_volumelistingdialog.s: __/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.s
@@ -1374,7 +1374,7 @@ __/__/include/voreen/qt/widgets/moc_volumelistingdialog.s: __/__/include/voreen/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.o: __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.o
@@ -1382,7 +1382,7 @@ __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.o: __/__/include
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.i: __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.i
@@ -1390,7 +1390,7 @@ __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.i: __/__/include
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.s: __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.s
@@ -1398,7 +1398,7 @@ __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.s: __/__/include
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_volumeviewer.o: __/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.o
@@ -1406,7 +1406,7 @@ __/__/include/voreen/qt/widgets/moc_volumeviewer.o: __/__/include/voreen/qt/widg
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_volumeviewer.i: __/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.i
@@ -1414,7 +1414,7 @@ __/__/include/voreen/qt/widgets/moc_volumeviewer.i: __/__/include/voreen/qt/widg
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_volumeviewer.s: __/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.s
@@ -1422,7 +1422,7 @@ __/__/include/voreen/qt/widgets/moc_volumeviewer.s: __/__/include/voreen/qt/widg
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.o: __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.o
@@ -1430,7 +1430,7 @@ __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.o: __/__/include/voreen
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.i: __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.i
@@ -1438,7 +1438,7 @@ __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.i: __/__/include/voreen
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.s: __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.s
@@ -1446,7 +1446,7 @@ __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.s: __/__/include/voreen
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.s
 
 __/__/include/voreen/qt/widgets/moc_voreentoolwindow.o: __/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.o
@@ -1454,7 +1454,7 @@ __/__/include/voreen/qt/widgets/moc_voreentoolwindow.o: __/__/include/voreen/qt/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.o
 
 __/__/include/voreen/qt/widgets/moc_voreentoolwindow.i: __/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.i
@@ -1462,7 +1462,7 @@ __/__/include/voreen/qt/widgets/moc_voreentoolwindow.i: __/__/include/voreen/qt/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.i
 
 __/__/include/voreen/qt/widgets/moc_voreentoolwindow.s: __/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.s
@@ -1470,7 +1470,7 @@ __/__/include/voreen/qt/widgets/moc_voreentoolwindow.s: __/__/include/voreen/qt/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.s
 
 __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.o: __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.o
@@ -1478,7 +1478,7 @@ __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.o: __/__/include/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.i: __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.i
@@ -1486,7 +1486,7 @@ __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.i: __/__/include/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.s: __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.s
@@ -1494,7 +1494,7 @@ __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.s: __/__/include/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.o
@@ -1502,7 +1502,7 @@ __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.o: __/__/include
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.i
@@ -1510,7 +1510,7 @@ __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.i: __/__/include
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.s
@@ -1518,7 +1518,7 @@ __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.s: __/__/include
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.o
@@ -1526,7 +1526,7 @@ __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.o: __/__/inclu
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.i
@@ -1534,7 +1534,7 @@ __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.i: __/__/inclu
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.s
@@ -1542,7 +1542,7 @@ __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.s: __/__/inclu
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.o
@@ -1550,7 +1550,7 @@ __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.o: __/__/inclu
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.i
@@ -1558,7 +1558,7 @@ __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.i: __/__/inclu
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.s
@@ -1566,7 +1566,7 @@ __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.s: __/__/inclu
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_camerawidget.o: __/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.o
@@ -1574,7 +1574,7 @@ __/__/include/voreen/qt/widgets/property/moc_camerawidget.o: __/__/include/voree
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_camerawidget.i: __/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.i
@@ -1582,7 +1582,7 @@ __/__/include/voreen/qt/widgets/property/moc_camerawidget.i: __/__/include/voree
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_camerawidget.s: __/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.s
@@ -1590,7 +1590,7 @@ __/__/include/voreen/qt/widgets/property/moc_camerawidget.s: __/__/include/voree
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.o
@@ -1598,7 +1598,7 @@ __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.o: __/__/includ
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.i
@@ -1606,7 +1606,7 @@ __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.i: __/__/includ
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.s
@@ -1614,7 +1614,7 @@ __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.s: __/__/includ
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.o
@@ -1622,7 +1622,7 @@ __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.o: __/__/i
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.i
@@ -1630,7 +1630,7 @@ __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.i: __/__/i
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.s
@@ -1638,7 +1638,7 @@ __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.s: __/__/i
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.o: __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.o
@@ -1646,7 +1646,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.i: __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.i
@@ -1654,7 +1654,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.s: __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.s
@@ -1662,7 +1662,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.o: __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.o
@@ -1670,7 +1670,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.i: __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.i
@@ -1678,7 +1678,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.s: __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.s
@@ -1686,7 +1686,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.o: __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.o
@@ -1694,7 +1694,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.i: __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.i
@@ -1702,7 +1702,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.s: __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.s
@@ -1710,7 +1710,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.o
@@ -1718,7 +1718,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.o: __/__/includ
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.i
@@ -1726,7 +1726,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.i: __/__/includ
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.s
@@ -1734,7 +1734,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.s: __/__/includ
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.o: __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.o
@@ -1742,7 +1742,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.i: __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.i
@@ -1750,7 +1750,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.s: __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.s
@@ -1758,7 +1758,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.o: __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.o
@@ -1766,7 +1766,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.i: __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.i
@@ -1774,7 +1774,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.s: __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.s
@@ -1782,7 +1782,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.o: __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.o
@@ -1790,7 +1790,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.i: __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.i
@@ -1798,7 +1798,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.s: __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.s
@@ -1806,7 +1806,7 @@ __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.o
@@ -1814,7 +1814,7 @@ __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.o: __/__/include
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.i
@@ -1822,7 +1822,7 @@ __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.i: __/__/include
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.s
@@ -1830,7 +1830,7 @@ __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.s: __/__/include
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.o
@@ -1838,7 +1838,7 @@ __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.o: __/__/includ
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.i
@@ -1846,7 +1846,7 @@ __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.i: __/__/includ
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.s
@@ -1854,7 +1854,7 @@ __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.s: __/__/includ
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.o
@@ -1862,7 +1862,7 @@ __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.o: __/__/include/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.i
@@ -1870,7 +1870,7 @@ __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.i: __/__/include/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.s
@@ -1878,7 +1878,7 @@ __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.s: __/__/include/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.o: __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.o
@@ -1886,7 +1886,7 @@ __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.o: __/__/incl
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.i: __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.i
@@ -1894,7 +1894,7 @@ __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.i: __/__/incl
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.s: __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.s
@@ -1902,7 +1902,7 @@ __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.s: __/__/incl
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.o: __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.o
@@ -1910,7 +1910,7 @@ __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.o: __/__/incl
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.i: __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.i
@@ -1918,7 +1918,7 @@ __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.i: __/__/incl
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.s: __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.s
@@ -1926,7 +1926,7 @@ __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.s: __/__/incl
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.o: __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.o
@@ -1934,7 +1934,7 @@ __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.o: __/__/incl
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.i: __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.i
@@ -1942,7 +1942,7 @@ __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.i: __/__/incl
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.s: __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.s
@@ -1950,7 +1950,7 @@ __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.s: __/__/incl
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.o
@@ -1958,7 +1958,7 @@ __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.o: __/__/includ
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.i
@@ -1966,7 +1966,7 @@ __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.i: __/__/includ
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.s
@@ -1974,7 +1974,7 @@ __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.s: __/__/includ
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.o
@@ -1982,7 +1982,7 @@ __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.o: __/__/inclu
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.i
@@ -1990,7 +1990,7 @@ __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.i: __/__/inclu
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.s
@@ -1998,7 +1998,7 @@ __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.s: __/__/inclu
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.o
@@ -2006,7 +2006,7 @@ __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.o: __/__/inclu
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.i
@@ -2014,7 +2014,7 @@ __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.i: __/__/inclu
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.s
@@ -2022,7 +2022,7 @@ __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.s: __/__/inclu
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.o: __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.o
@@ -2030,7 +2030,7 @@ __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.o: __/__/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.i: __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.i
@@ -2038,7 +2038,7 @@ __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.i: __/__/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.s: __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.s
@@ -2046,7 +2046,7 @@ __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.s: __/__/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.o: __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.o
@@ -2054,7 +2054,7 @@ __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.o: __/__/includ
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.i: __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.i
@@ -2062,7 +2062,7 @@ __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.i: __/__/includ
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.s: __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.s
@@ -2070,7 +2070,7 @@ __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.s: __/__/includ
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.o: __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.o
@@ -2078,7 +2078,7 @@ __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.o: __/__/inclu
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.i: __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.i
@@ -2086,7 +2086,7 @@ __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.i: __/__/inclu
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.s: __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.s
@@ -2094,7 +2094,7 @@ __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.s: __/__/inclu
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.o
@@ -2102,7 +2102,7 @@ __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.o: __/__/include/vo
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.i
@@ -2110,7 +2110,7 @@ __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.i: __/__/include/vo
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.s
@@ -2118,7 +2118,7 @@ __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.s: __/__/include/vo
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.o
@@ -2126,7 +2126,7 @@ __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.o: __/__/inclu
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.i
@@ -2134,7 +2134,7 @@ __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.i: __/__/inclu
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.s
@@ -2142,7 +2142,7 @@ __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.s: __/__/inclu
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.o
@@ -2150,7 +2150,7 @@ __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.o: _
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.i
@@ -2158,7 +2158,7 @@ __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.i: _
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.s
@@ -2166,7 +2166,7 @@ __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.s: _
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.o
@@ -2174,7 +2174,7 @@ __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.o: __/__/inclu
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.i
@@ -2182,7 +2182,7 @@ __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.i: __/__/inclu
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.s
@@ -2190,7 +2190,7 @@ __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.s: __/__/inclu
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.o
@@ -2198,7 +2198,7 @@ __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.i
@@ -2206,7 +2206,7 @@ __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.s
@@ -2214,7 +2214,7 @@ __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.o
@@ -2222,7 +2222,7 @@ __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.o: __/__/i
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.i
@@ -2230,7 +2230,7 @@ __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.i: __/__/i
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.s
@@ -2238,7 +2238,7 @@ __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.s: __/__/i
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.o
@@ -2246,7 +2246,7 @@ __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.o: __/_
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.i
@@ -2254,7 +2254,7 @@ __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.i: __/_
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.s
@@ -2262,7 +2262,7 @@ __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.s: __/_
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.o
@@ -2270,7 +2270,7 @@ __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.i
@@ -2278,7 +2278,7 @@ __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.s
@@ -2286,7 +2286,7 @@ __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.o: __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.o
@@ -2294,7 +2294,7 @@ __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.o
 
 __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.i: __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.i
@@ -2302,7 +2302,7 @@ __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.i
 
 __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.s: __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.s
@@ -2310,7 +2310,7 @@ __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.o: __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.o
@@ -2318,7 +2318,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.o: __/__/incl
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.i: __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.i
@@ -2326,7 +2326,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.i: __/__/incl
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.s: __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.s
@@ -2334,7 +2334,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.s: __/__/incl
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.o: __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.o
@@ -2342,7 +2342,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.o: __/__/include/voree
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.i: __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.i
@@ -2350,7 +2350,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.i: __/__/include/voree
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.s: __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.s
@@ -2358,7 +2358,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.s: __/__/include/voree
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.o: __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.o
@@ -2366,7 +2366,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.o: __/__/include/vore
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.i: __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.i
@@ -2374,7 +2374,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.i: __/__/include/vore
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.s: __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.s
@@ -2382,7 +2382,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.s: __/__/include/vore
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.o: __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.o
@@ -2390,7 +2390,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.o: __/__/include/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.i: __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.i
@@ -2398,7 +2398,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.i: __/__/include/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.s: __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.s
@@ -2406,7 +2406,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.s: __/__/include/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.o: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.o
@@ -2414,7 +2414,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.o: __/__/inc
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.i: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.i
@@ -2422,7 +2422,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.i: __/__/inc
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.s: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.s
@@ -2430,7 +2430,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.s: __/__/inc
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.o: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.o
@@ -2438,7 +2438,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.o: __/__/inc
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.i: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.i
@@ -2446,7 +2446,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.i: __/__/inc
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.s: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.s
@@ -2454,7 +2454,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.s: __/__/inc
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.o: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.o
@@ -2462,7 +2462,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.o: __/
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.i: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.i
@@ -2470,7 +2470,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.i: __/
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.s: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.s
@@ -2478,7 +2478,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.s: __/
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.o: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.o
@@ -2486,7 +2486,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.o: __
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.i: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.i
@@ -2494,7 +2494,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.i: __
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.s: __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.s
@@ -2502,7 +2502,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.s: __
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.o: __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.o
@@ -2510,7 +2510,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.o: __/__/include/v
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.i: __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.i
@@ -2518,7 +2518,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.i: __/__/include/v
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.s: __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.s
@@ -2526,7 +2526,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.s: __/__/include/v
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.o: __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.o
@@ -2534,7 +2534,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.o: __/__/in
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.i: __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.i
@@ -2542,7 +2542,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.i: __/__/in
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.s: __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.s
@@ -2550,7 +2550,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.s: __/__/in
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.o: __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.o
@@ -2558,7 +2558,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.o: __/_
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.i: __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.i
@@ -2566,7 +2566,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.i: __/_
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.s: __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.s
@@ -2574,7 +2574,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.s: __/_
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.s
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.o: __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o
@@ -2582,7 +2582,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.o: __/__/include/v
 
 # target to build an object file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.i: __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.i
@@ -2590,7 +2590,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.i: __/__/include/v
 
 # target to preprocess a source file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.i
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.i
 
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.s: __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.s
@@ -2598,7 +2598,7 @@ __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.s: __/__/include/v
 
 # target to generate assembly for a file
 __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.s
 .PHONY : __/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.s
 
 __/__/modules/base/basemoduleqt.o: __/__/modules/base/basemoduleqt.cpp.o
@@ -2606,7 +2606,7 @@ __/__/modules/base/basemoduleqt.o: __/__/modules/base/basemoduleqt.cpp.o
 
 # target to build an object file
 __/__/modules/base/basemoduleqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/basemoduleqt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/basemoduleqt.cpp.o
 .PHONY : __/__/modules/base/basemoduleqt.cpp.o
 
 __/__/modules/base/basemoduleqt.i: __/__/modules/base/basemoduleqt.cpp.i
@@ -2614,7 +2614,7 @@ __/__/modules/base/basemoduleqt.i: __/__/modules/base/basemoduleqt.cpp.i
 
 # target to preprocess a source file
 __/__/modules/base/basemoduleqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/basemoduleqt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/basemoduleqt.cpp.i
 .PHONY : __/__/modules/base/basemoduleqt.cpp.i
 
 __/__/modules/base/basemoduleqt.s: __/__/modules/base/basemoduleqt.cpp.s
@@ -2622,7 +2622,7 @@ __/__/modules/base/basemoduleqt.s: __/__/modules/base/basemoduleqt.cpp.s
 
 # target to generate assembly for a file
 __/__/modules/base/basemoduleqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/basemoduleqt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/basemoduleqt.cpp.s
 .PHONY : __/__/modules/base/basemoduleqt.cpp.s
 
 __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.o: __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.o
@@ -2630,7 +2630,7 @@ __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.o: __/__/modul
 
 # target to build an object file
 __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.o
 .PHONY : __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.o
 
 __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.i: __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.i
@@ -2638,7 +2638,7 @@ __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.i: __/__/modul
 
 # target to preprocess a source file
 __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.i
 .PHONY : __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.i
 
 __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.s: __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.s
@@ -2646,7 +2646,7 @@ __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.s: __/__/modul
 
 # target to generate assembly for a file
 __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.s
 .PHONY : __/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.s
 
 __/__/modules/core/coremoduleqt.o: __/__/modules/core/coremoduleqt.cpp.o
@@ -2654,7 +2654,7 @@ __/__/modules/core/coremoduleqt.o: __/__/modules/core/coremoduleqt.cpp.o
 
 # target to build an object file
 __/__/modules/core/coremoduleqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/coremoduleqt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/coremoduleqt.cpp.o
 .PHONY : __/__/modules/core/coremoduleqt.cpp.o
 
 __/__/modules/core/coremoduleqt.i: __/__/modules/core/coremoduleqt.cpp.i
@@ -2662,7 +2662,7 @@ __/__/modules/core/coremoduleqt.i: __/__/modules/core/coremoduleqt.cpp.i
 
 # target to preprocess a source file
 __/__/modules/core/coremoduleqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/coremoduleqt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/coremoduleqt.cpp.i
 .PHONY : __/__/modules/core/coremoduleqt.cpp.i
 
 __/__/modules/core/coremoduleqt.s: __/__/modules/core/coremoduleqt.cpp.s
@@ -2670,7 +2670,7 @@ __/__/modules/core/coremoduleqt.s: __/__/modules/core/coremoduleqt.cpp.s
 
 # target to generate assembly for a file
 __/__/modules/core/coremoduleqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/coremoduleqt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/coremoduleqt.cpp.s
 .PHONY : __/__/modules/core/coremoduleqt.cpp.s
 
 __/__/modules/core/qt/processor/canvasrendererwidget.o: __/__/modules/core/qt/processor/canvasrendererwidget.cpp.o
@@ -2678,7 +2678,7 @@ __/__/modules/core/qt/processor/canvasrendererwidget.o: __/__/modules/core/qt/pr
 
 # target to build an object file
 __/__/modules/core/qt/processor/canvasrendererwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/canvasrendererwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/canvasrendererwidget.cpp.o
 .PHONY : __/__/modules/core/qt/processor/canvasrendererwidget.cpp.o
 
 __/__/modules/core/qt/processor/canvasrendererwidget.i: __/__/modules/core/qt/processor/canvasrendererwidget.cpp.i
@@ -2686,7 +2686,7 @@ __/__/modules/core/qt/processor/canvasrendererwidget.i: __/__/modules/core/qt/pr
 
 # target to preprocess a source file
 __/__/modules/core/qt/processor/canvasrendererwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/canvasrendererwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/canvasrendererwidget.cpp.i
 .PHONY : __/__/modules/core/qt/processor/canvasrendererwidget.cpp.i
 
 __/__/modules/core/qt/processor/canvasrendererwidget.s: __/__/modules/core/qt/processor/canvasrendererwidget.cpp.s
@@ -2694,7 +2694,7 @@ __/__/modules/core/qt/processor/canvasrendererwidget.s: __/__/modules/core/qt/pr
 
 # target to generate assembly for a file
 __/__/modules/core/qt/processor/canvasrendererwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/canvasrendererwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/canvasrendererwidget.cpp.s
 .PHONY : __/__/modules/core/qt/processor/canvasrendererwidget.cpp.s
 
 __/__/modules/core/qt/processor/coreprocessorwidgetfactory.o: __/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.o
@@ -2702,7 +2702,7 @@ __/__/modules/core/qt/processor/coreprocessorwidgetfactory.o: __/__/modules/core
 
 # target to build an object file
 __/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.o
 .PHONY : __/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.o
 
 __/__/modules/core/qt/processor/coreprocessorwidgetfactory.i: __/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.i
@@ -2710,7 +2710,7 @@ __/__/modules/core/qt/processor/coreprocessorwidgetfactory.i: __/__/modules/core
 
 # target to preprocess a source file
 __/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.i
 .PHONY : __/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.i
 
 __/__/modules/core/qt/processor/coreprocessorwidgetfactory.s: __/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.s
@@ -2718,7 +2718,7 @@ __/__/modules/core/qt/processor/coreprocessorwidgetfactory.s: __/__/modules/core
 
 # target to generate assembly for a file
 __/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.s
 .PHONY : __/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.s
 
 __/__/modules/core/qt/processor/moc_canvasrendererwidget.o: __/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o
@@ -2726,7 +2726,7 @@ __/__/modules/core/qt/processor/moc_canvasrendererwidget.o: __/__/modules/core/q
 
 # target to build an object file
 __/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o
 .PHONY : __/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o
 
 __/__/modules/core/qt/processor/moc_canvasrendererwidget.i: __/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.i
@@ -2734,7 +2734,7 @@ __/__/modules/core/qt/processor/moc_canvasrendererwidget.i: __/__/modules/core/q
 
 # target to preprocess a source file
 __/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.i
 .PHONY : __/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.i
 
 __/__/modules/core/qt/processor/moc_canvasrendererwidget.s: __/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.s
@@ -2742,7 +2742,7 @@ __/__/modules/core/qt/processor/moc_canvasrendererwidget.s: __/__/modules/core/q
 
 # target to generate assembly for a file
 __/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.s
 .PHONY : __/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.s
 
 __/__/modules/dynamicglsl/dynamicglslmoduleqt.o: __/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o
@@ -2750,7 +2750,7 @@ __/__/modules/dynamicglsl/dynamicglslmoduleqt.o: __/__/modules/dynamicglsl/dynam
 
 # target to build an object file
 __/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o
 .PHONY : __/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o
 
 __/__/modules/dynamicglsl/dynamicglslmoduleqt.i: __/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.i
@@ -2758,7 +2758,7 @@ __/__/modules/dynamicglsl/dynamicglslmoduleqt.i: __/__/modules/dynamicglsl/dynam
 
 # target to preprocess a source file
 __/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.i
 .PHONY : __/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.i
 
 __/__/modules/dynamicglsl/dynamicglslmoduleqt.s: __/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.s
@@ -2766,7 +2766,7 @@ __/__/modules/dynamicglsl/dynamicglslmoduleqt.s: __/__/modules/dynamicglsl/dynam
 
 # target to generate assembly for a file
 __/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.s
 .PHONY : __/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.s
 
 __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.o: __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o
@@ -2774,7 +2774,7 @@ __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.o: __/__/modules/
 
 # target to build an object file
 __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o
 .PHONY : __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o
 
 __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.i: __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.i
@@ -2782,7 +2782,7 @@ __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.i: __/__/modules/
 
 # target to preprocess a source file
 __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.i
 .PHONY : __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.i
 
 __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.s: __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.s
@@ -2790,7 +2790,7 @@ __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.s: __/__/modules/
 
 # target to generate assembly for a file
 __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.s
 .PHONY : __/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.s
 
 __/__/modules/dynamicglsl/qt/dynamicglslwidget.o: __/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o
@@ -2798,7 +2798,7 @@ __/__/modules/dynamicglsl/qt/dynamicglslwidget.o: __/__/modules/dynamicglsl/qt/d
 
 # target to build an object file
 __/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o
 .PHONY : __/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o
 
 __/__/modules/dynamicglsl/qt/dynamicglslwidget.i: __/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.i
@@ -2806,7 +2806,7 @@ __/__/modules/dynamicglsl/qt/dynamicglslwidget.i: __/__/modules/dynamicglsl/qt/d
 
 # target to preprocess a source file
 __/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.i
 .PHONY : __/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.i
 
 __/__/modules/dynamicglsl/qt/dynamicglslwidget.s: __/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.s
@@ -2814,7 +2814,7 @@ __/__/modules/dynamicglsl/qt/dynamicglslwidget.s: __/__/modules/dynamicglsl/qt/d
 
 # target to generate assembly for a file
 __/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.s
 .PHONY : __/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.s
 
 __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.o: __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o
@@ -2822,7 +2822,7 @@ __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.o: __/__/modules/dynamicglsl/
 
 # target to build an object file
 __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o
 .PHONY : __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o
 
 __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.i: __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.i
@@ -2830,7 +2830,7 @@ __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.i: __/__/modules/dynamicglsl/
 
 # target to preprocess a source file
 __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.i
 .PHONY : __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.i
 
 __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.s: __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.s
@@ -2838,255 +2838,15 @@ __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.s: __/__/modules/dynamicglsl/
 
 # target to generate assembly for a file
 __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.s
 .PHONY : __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.s
-
-__/__/modules/opencl/openclmoduleqt.o: __/__/modules/opencl/openclmoduleqt.cpp.o
-.PHONY : __/__/modules/opencl/openclmoduleqt.o
-
-# target to build an object file
-__/__/modules/opencl/openclmoduleqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o
-.PHONY : __/__/modules/opencl/openclmoduleqt.cpp.o
-
-__/__/modules/opencl/openclmoduleqt.i: __/__/modules/opencl/openclmoduleqt.cpp.i
-.PHONY : __/__/modules/opencl/openclmoduleqt.i
-
-# target to preprocess a source file
-__/__/modules/opencl/openclmoduleqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.i
-.PHONY : __/__/modules/opencl/openclmoduleqt.cpp.i
-
-__/__/modules/opencl/openclmoduleqt.s: __/__/modules/opencl/openclmoduleqt.cpp.s
-.PHONY : __/__/modules/opencl/openclmoduleqt.s
-
-# target to generate assembly for a file
-__/__/modules/opencl/openclmoduleqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.s
-.PHONY : __/__/modules/opencl/openclmoduleqt.cpp.s
-
-__/__/modules/opencl/qt/dynamicopenclwidget.o: __/__/modules/opencl/qt/dynamicopenclwidget.cpp.o
-.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.o
-
-# target to build an object file
-__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o
-.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.cpp.o
-
-__/__/modules/opencl/qt/dynamicopenclwidget.i: __/__/modules/opencl/qt/dynamicopenclwidget.cpp.i
-.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.i
-
-# target to preprocess a source file
-__/__/modules/opencl/qt/dynamicopenclwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.i
-.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.cpp.i
-
-__/__/modules/opencl/qt/dynamicopenclwidget.s: __/__/modules/opencl/qt/dynamicopenclwidget.cpp.s
-.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.s
-
-# target to generate assembly for a file
-__/__/modules/opencl/qt/dynamicopenclwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.s
-.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.cpp.s
-
-__/__/modules/opencl/qt/moc_dynamicopenclwidget.o: __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o
-.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.o
-
-# target to build an object file
-__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o
-.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o
-
-__/__/modules/opencl/qt/moc_dynamicopenclwidget.i: __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.i
-.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.i
-
-# target to preprocess a source file
-__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.i
-.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.i
-
-__/__/modules/opencl/qt/moc_dynamicopenclwidget.s: __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.s
-.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.s
-
-# target to generate assembly for a file
-__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.s
-.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.s
-
-__/__/modules/opencl/qt/moc_openclplugin.o: __/__/modules/opencl/qt/moc_openclplugin.cpp.o
-.PHONY : __/__/modules/opencl/qt/moc_openclplugin.o
-
-# target to build an object file
-__/__/modules/opencl/qt/moc_openclplugin.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o
-.PHONY : __/__/modules/opencl/qt/moc_openclplugin.cpp.o
-
-__/__/modules/opencl/qt/moc_openclplugin.i: __/__/modules/opencl/qt/moc_openclplugin.cpp.i
-.PHONY : __/__/modules/opencl/qt/moc_openclplugin.i
-
-# target to preprocess a source file
-__/__/modules/opencl/qt/moc_openclplugin.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.i
-.PHONY : __/__/modules/opencl/qt/moc_openclplugin.cpp.i
-
-__/__/modules/opencl/qt/moc_openclplugin.s: __/__/modules/opencl/qt/moc_openclplugin.cpp.s
-.PHONY : __/__/modules/opencl/qt/moc_openclplugin.s
-
-# target to generate assembly for a file
-__/__/modules/opencl/qt/moc_openclplugin.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.s
-.PHONY : __/__/modules/opencl/qt/moc_openclplugin.cpp.s
-
-__/__/modules/opencl/qt/moc_openclpropertywidget.o: __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o
-.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.o
-
-# target to build an object file
-__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o
-.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o
-
-__/__/modules/opencl/qt/moc_openclpropertywidget.i: __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.i
-.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.i
-
-# target to preprocess a source file
-__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.i
-.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.i
-
-__/__/modules/opencl/qt/moc_openclpropertywidget.s: __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.s
-.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.s
-
-# target to generate assembly for a file
-__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.s
-.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.s
-
-__/__/modules/opencl/qt/openclhighlighter.o: __/__/modules/opencl/qt/openclhighlighter.cpp.o
-.PHONY : __/__/modules/opencl/qt/openclhighlighter.o
-
-# target to build an object file
-__/__/modules/opencl/qt/openclhighlighter.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o
-.PHONY : __/__/modules/opencl/qt/openclhighlighter.cpp.o
-
-__/__/modules/opencl/qt/openclhighlighter.i: __/__/modules/opencl/qt/openclhighlighter.cpp.i
-.PHONY : __/__/modules/opencl/qt/openclhighlighter.i
-
-# target to preprocess a source file
-__/__/modules/opencl/qt/openclhighlighter.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.i
-.PHONY : __/__/modules/opencl/qt/openclhighlighter.cpp.i
-
-__/__/modules/opencl/qt/openclhighlighter.s: __/__/modules/opencl/qt/openclhighlighter.cpp.s
-.PHONY : __/__/modules/opencl/qt/openclhighlighter.s
-
-# target to generate assembly for a file
-__/__/modules/opencl/qt/openclhighlighter.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.s
-.PHONY : __/__/modules/opencl/qt/openclhighlighter.cpp.s
-
-__/__/modules/opencl/qt/openclplugin.o: __/__/modules/opencl/qt/openclplugin.cpp.o
-.PHONY : __/__/modules/opencl/qt/openclplugin.o
-
-# target to build an object file
-__/__/modules/opencl/qt/openclplugin.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o
-.PHONY : __/__/modules/opencl/qt/openclplugin.cpp.o
-
-__/__/modules/opencl/qt/openclplugin.i: __/__/modules/opencl/qt/openclplugin.cpp.i
-.PHONY : __/__/modules/opencl/qt/openclplugin.i
-
-# target to preprocess a source file
-__/__/modules/opencl/qt/openclplugin.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.i
-.PHONY : __/__/modules/opencl/qt/openclplugin.cpp.i
-
-__/__/modules/opencl/qt/openclplugin.s: __/__/modules/opencl/qt/openclplugin.cpp.s
-.PHONY : __/__/modules/opencl/qt/openclplugin.s
-
-# target to generate assembly for a file
-__/__/modules/opencl/qt/openclplugin.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.s
-.PHONY : __/__/modules/opencl/qt/openclplugin.cpp.s
-
-__/__/modules/opencl/qt/openclprocessorwidgetfactory.o: __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o
-.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.o
-
-# target to build an object file
-__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o
-.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o
-
-__/__/modules/opencl/qt/openclprocessorwidgetfactory.i: __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.i
-.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.i
-
-# target to preprocess a source file
-__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.i
-.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.i
-
-__/__/modules/opencl/qt/openclprocessorwidgetfactory.s: __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.s
-.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.s
-
-# target to generate assembly for a file
-__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.s
-.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.s
-
-__/__/modules/opencl/qt/openclpropertywidget.o: __/__/modules/opencl/qt/openclpropertywidget.cpp.o
-.PHONY : __/__/modules/opencl/qt/openclpropertywidget.o
-
-# target to build an object file
-__/__/modules/opencl/qt/openclpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o
-.PHONY : __/__/modules/opencl/qt/openclpropertywidget.cpp.o
-
-__/__/modules/opencl/qt/openclpropertywidget.i: __/__/modules/opencl/qt/openclpropertywidget.cpp.i
-.PHONY : __/__/modules/opencl/qt/openclpropertywidget.i
-
-# target to preprocess a source file
-__/__/modules/opencl/qt/openclpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.i
-.PHONY : __/__/modules/opencl/qt/openclpropertywidget.cpp.i
-
-__/__/modules/opencl/qt/openclpropertywidget.s: __/__/modules/opencl/qt/openclpropertywidget.cpp.s
-.PHONY : __/__/modules/opencl/qt/openclpropertywidget.s
-
-# target to generate assembly for a file
-__/__/modules/opencl/qt/openclpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.s
-.PHONY : __/__/modules/opencl/qt/openclpropertywidget.cpp.s
-
-__/__/modules/opencl/qt/openclpropertywidgetfactory.o: __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o
-.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.o
-
-# target to build an object file
-__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o
-.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o
-
-__/__/modules/opencl/qt/openclpropertywidgetfactory.i: __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.i
-.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.i
-
-# target to preprocess a source file
-__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.i
-.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.i
-
-__/__/modules/opencl/qt/openclpropertywidgetfactory.s: __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.s
-.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.s
-
-# target to generate assembly for a file
-__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.s
-.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.s
 
 __/__/modules/plotting/plottingmoduleqt.o: __/__/modules/plotting/plottingmoduleqt.cpp.o
 .PHONY : __/__/modules/plotting/plottingmoduleqt.o
 
 # target to build an object file
 __/__/modules/plotting/plottingmoduleqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.o
 .PHONY : __/__/modules/plotting/plottingmoduleqt.cpp.o
 
 __/__/modules/plotting/plottingmoduleqt.i: __/__/modules/plotting/plottingmoduleqt.cpp.i
@@ -3094,7 +2854,7 @@ __/__/modules/plotting/plottingmoduleqt.i: __/__/modules/plotting/plottingmodule
 
 # target to preprocess a source file
 __/__/modules/plotting/plottingmoduleqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.i
 .PHONY : __/__/modules/plotting/plottingmoduleqt.cpp.i
 
 __/__/modules/plotting/plottingmoduleqt.s: __/__/modules/plotting/plottingmoduleqt.cpp.s
@@ -3102,7 +2862,7 @@ __/__/modules/plotting/plottingmoduleqt.s: __/__/modules/plotting/plottingmodule
 
 # target to generate assembly for a file
 __/__/modules/plotting/plottingmoduleqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.s
 .PHONY : __/__/modules/plotting/plottingmoduleqt.cpp.s
 
 __/__/modules/plotting/qt/extendedtable.o: __/__/modules/plotting/qt/extendedtable.cpp.o
@@ -3110,7 +2870,7 @@ __/__/modules/plotting/qt/extendedtable.o: __/__/modules/plotting/qt/extendedtab
 
 # target to build an object file
 __/__/modules/plotting/qt/extendedtable.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/extendedtable.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/extendedtable.cpp.o
 .PHONY : __/__/modules/plotting/qt/extendedtable.cpp.o
 
 __/__/modules/plotting/qt/extendedtable.i: __/__/modules/plotting/qt/extendedtable.cpp.i
@@ -3118,7 +2878,7 @@ __/__/modules/plotting/qt/extendedtable.i: __/__/modules/plotting/qt/extendedtab
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/extendedtable.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/extendedtable.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/extendedtable.cpp.i
 .PHONY : __/__/modules/plotting/qt/extendedtable.cpp.i
 
 __/__/modules/plotting/qt/extendedtable.s: __/__/modules/plotting/qt/extendedtable.cpp.s
@@ -3126,7 +2886,7 @@ __/__/modules/plotting/qt/extendedtable.s: __/__/modules/plotting/qt/extendedtab
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/extendedtable.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/extendedtable.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/extendedtable.cpp.s
 .PHONY : __/__/modules/plotting/qt/extendedtable.cpp.s
 
 __/__/modules/plotting/qt/moc_extendedtable.o: __/__/modules/plotting/qt/moc_extendedtable.cpp.o
@@ -3134,7 +2894,7 @@ __/__/modules/plotting/qt/moc_extendedtable.o: __/__/modules/plotting/qt/moc_ext
 
 # target to build an object file
 __/__/modules/plotting/qt/moc_extendedtable.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.o
 .PHONY : __/__/modules/plotting/qt/moc_extendedtable.cpp.o
 
 __/__/modules/plotting/qt/moc_extendedtable.i: __/__/modules/plotting/qt/moc_extendedtable.cpp.i
@@ -3142,7 +2902,7 @@ __/__/modules/plotting/qt/moc_extendedtable.i: __/__/modules/plotting/qt/moc_ext
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/moc_extendedtable.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.i
 .PHONY : __/__/modules/plotting/qt/moc_extendedtable.cpp.i
 
 __/__/modules/plotting/qt/moc_extendedtable.s: __/__/modules/plotting/qt/moc_extendedtable.cpp.s
@@ -3150,7 +2910,7 @@ __/__/modules/plotting/qt/moc_extendedtable.s: __/__/modules/plotting/qt/moc_ext
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/moc_extendedtable.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.s
 .PHONY : __/__/modules/plotting/qt/moc_extendedtable.cpp.s
 
 __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.o: __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.o
@@ -3158,7 +2918,7 @@ __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.o: __/__/modules/plotti
 
 # target to build an object file
 __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.o
 .PHONY : __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.o
 
 __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.i: __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.i
@@ -3166,7 +2926,7 @@ __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.i: __/__/modules/plotti
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.i
 .PHONY : __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.i
 
 __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.s: __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.s
@@ -3174,7 +2934,7 @@ __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.s: __/__/modules/plotti
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.s
 .PHONY : __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.s
 
 __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.o: __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o
@@ -3182,7 +2942,7 @@ __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.o: __/__/modules/plotting
 
 # target to build an object file
 __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o
 .PHONY : __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o
 
 __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.i: __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.i
@@ -3190,7 +2950,7 @@ __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.i: __/__/modules/plotting
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.i
 .PHONY : __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.i
 
 __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.s: __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.s
@@ -3198,7 +2958,7 @@ __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.s: __/__/modules/plotting
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.s
 .PHONY : __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.s
 
 __/__/modules/plotting/qt/moc_plotdatawidget.o: __/__/modules/plotting/qt/moc_plotdatawidget.cpp.o
@@ -3206,7 +2966,7 @@ __/__/modules/plotting/qt/moc_plotdatawidget.o: __/__/modules/plotting/qt/moc_pl
 
 # target to build an object file
 __/__/modules/plotting/qt/moc_plotdatawidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/moc_plotdatawidget.cpp.o
 
 __/__/modules/plotting/qt/moc_plotdatawidget.i: __/__/modules/plotting/qt/moc_plotdatawidget.cpp.i
@@ -3214,7 +2974,7 @@ __/__/modules/plotting/qt/moc_plotdatawidget.i: __/__/modules/plotting/qt/moc_pl
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/moc_plotdatawidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/moc_plotdatawidget.cpp.i
 
 __/__/modules/plotting/qt/moc_plotdatawidget.s: __/__/modules/plotting/qt/moc_plotdatawidget.cpp.s
@@ -3222,7 +2982,7 @@ __/__/modules/plotting/qt/moc_plotdatawidget.s: __/__/modules/plotting/qt/moc_pl
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/moc_plotdatawidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/moc_plotdatawidget.cpp.s
 
 __/__/modules/plotting/qt/moc_plotentitysettingsdialog.o: __/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.o
@@ -3230,7 +2990,7 @@ __/__/modules/plotting/qt/moc_plotentitysettingsdialog.o: __/__/modules/plotting
 
 # target to build an object file
 __/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.o
 .PHONY : __/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.o
 
 __/__/modules/plotting/qt/moc_plotentitysettingsdialog.i: __/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.i
@@ -3238,7 +2998,7 @@ __/__/modules/plotting/qt/moc_plotentitysettingsdialog.i: __/__/modules/plotting
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.i
 .PHONY : __/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.i
 
 __/__/modules/plotting/qt/moc_plotentitysettingsdialog.s: __/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.s
@@ -3246,7 +3006,7 @@ __/__/modules/plotting/qt/moc_plotentitysettingsdialog.s: __/__/modules/plotting
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.s
 .PHONY : __/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.s
 
 __/__/modules/plotting/qt/moc_plotpredicatedialog.o: __/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.o
@@ -3254,7 +3014,7 @@ __/__/modules/plotting/qt/moc_plotpredicatedialog.o: __/__/modules/plotting/qt/m
 
 # target to build an object file
 __/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.o
 .PHONY : __/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.o
 
 __/__/modules/plotting/qt/moc_plotpredicatedialog.i: __/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.i
@@ -3262,7 +3022,7 @@ __/__/modules/plotting/qt/moc_plotpredicatedialog.i: __/__/modules/plotting/qt/m
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.i
 .PHONY : __/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.i
 
 __/__/modules/plotting/qt/moc_plotpredicatedialog.s: __/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.s
@@ -3270,7 +3030,7 @@ __/__/modules/plotting/qt/moc_plotpredicatedialog.s: __/__/modules/plotting/qt/m
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.s
 .PHONY : __/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.s
 
 __/__/modules/plotting/qt/moc_plotselectiondialog.o: __/__/modules/plotting/qt/moc_plotselectiondialog.cpp.o
@@ -3278,7 +3038,7 @@ __/__/modules/plotting/qt/moc_plotselectiondialog.o: __/__/modules/plotting/qt/m
 
 # target to build an object file
 __/__/modules/plotting/qt/moc_plotselectiondialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp.o
 .PHONY : __/__/modules/plotting/qt/moc_plotselectiondialog.cpp.o
 
 __/__/modules/plotting/qt/moc_plotselectiondialog.i: __/__/modules/plotting/qt/moc_plotselectiondialog.cpp.i
@@ -3286,7 +3046,7 @@ __/__/modules/plotting/qt/moc_plotselectiondialog.i: __/__/modules/plotting/qt/m
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/moc_plotselectiondialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp.i
 .PHONY : __/__/modules/plotting/qt/moc_plotselectiondialog.cpp.i
 
 __/__/modules/plotting/qt/moc_plotselectiondialog.s: __/__/modules/plotting/qt/moc_plotselectiondialog.cpp.s
@@ -3294,7 +3054,7 @@ __/__/modules/plotting/qt/moc_plotselectiondialog.s: __/__/modules/plotting/qt/m
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/moc_plotselectiondialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp.s
 .PHONY : __/__/modules/plotting/qt/moc_plotselectiondialog.cpp.s
 
 __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.o: __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.o
@@ -3302,7 +3062,7 @@ __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.o: __/__/modules/plot
 
 # target to build an object file
 __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.o
 .PHONY : __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.o
 
 __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.i: __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.i
@@ -3310,7 +3070,7 @@ __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.i: __/__/modules/plot
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.i
 .PHONY : __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.i
 
 __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.s: __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.s
@@ -3318,7 +3078,7 @@ __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.s: __/__/modules/plot
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.s
 .PHONY : __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.s
 
 __/__/modules/plotting/qt/moc_plotselectiontablemodel.o: __/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.o
@@ -3326,7 +3086,7 @@ __/__/modules/plotting/qt/moc_plotselectiontablemodel.o: __/__/modules/plotting/
 
 # target to build an object file
 __/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.o
 .PHONY : __/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.o
 
 __/__/modules/plotting/qt/moc_plotselectiontablemodel.i: __/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.i
@@ -3334,7 +3094,7 @@ __/__/modules/plotting/qt/moc_plotselectiontablemodel.i: __/__/modules/plotting/
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.i
 .PHONY : __/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.i
 
 __/__/modules/plotting/qt/moc_plotselectiontablemodel.s: __/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.s
@@ -3342,7 +3102,7 @@ __/__/modules/plotting/qt/moc_plotselectiontablemodel.s: __/__/modules/plotting/
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.s
 .PHONY : __/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.s
 
 __/__/modules/plotting/qt/plotdataextendedtablemodel.o: __/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.o
@@ -3350,7 +3110,7 @@ __/__/modules/plotting/qt/plotdataextendedtablemodel.o: __/__/modules/plotting/q
 
 # target to build an object file
 __/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.o
 .PHONY : __/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.o
 
 __/__/modules/plotting/qt/plotdataextendedtablemodel.i: __/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.i
@@ -3358,7 +3118,7 @@ __/__/modules/plotting/qt/plotdataextendedtablemodel.i: __/__/modules/plotting/q
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.i
 .PHONY : __/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.i
 
 __/__/modules/plotting/qt/plotdataextendedtablemodel.s: __/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.s
@@ -3366,7 +3126,7 @@ __/__/modules/plotting/qt/plotdataextendedtablemodel.s: __/__/modules/plotting/q
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.s
 .PHONY : __/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.s
 
 __/__/modules/plotting/qt/plotdatasimpletablemodel.o: __/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o
@@ -3374,7 +3134,7 @@ __/__/modules/plotting/qt/plotdatasimpletablemodel.o: __/__/modules/plotting/qt/
 
 # target to build an object file
 __/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o
 .PHONY : __/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o
 
 __/__/modules/plotting/qt/plotdatasimpletablemodel.i: __/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.i
@@ -3382,7 +3142,7 @@ __/__/modules/plotting/qt/plotdatasimpletablemodel.i: __/__/modules/plotting/qt/
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.i
 .PHONY : __/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.i
 
 __/__/modules/plotting/qt/plotdatasimpletablemodel.s: __/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.s
@@ -3390,7 +3150,7 @@ __/__/modules/plotting/qt/plotdatasimpletablemodel.s: __/__/modules/plotting/qt/
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.s
 .PHONY : __/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.s
 
 __/__/modules/plotting/qt/plotdatawidget.o: __/__/modules/plotting/qt/plotdatawidget.cpp.o
@@ -3398,7 +3158,7 @@ __/__/modules/plotting/qt/plotdatawidget.o: __/__/modules/plotting/qt/plotdatawi
 
 # target to build an object file
 __/__/modules/plotting/qt/plotdatawidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/plotdatawidget.cpp.o
 
 __/__/modules/plotting/qt/plotdatawidget.i: __/__/modules/plotting/qt/plotdatawidget.cpp.i
@@ -3406,7 +3166,7 @@ __/__/modules/plotting/qt/plotdatawidget.i: __/__/modules/plotting/qt/plotdatawi
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/plotdatawidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/plotdatawidget.cpp.i
 
 __/__/modules/plotting/qt/plotdatawidget.s: __/__/modules/plotting/qt/plotdatawidget.cpp.s
@@ -3414,7 +3174,7 @@ __/__/modules/plotting/qt/plotdatawidget.s: __/__/modules/plotting/qt/plotdatawi
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/plotdatawidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/plotdatawidget.cpp.s
 
 __/__/modules/plotting/qt/plotentitysettingsdialog.o: __/__/modules/plotting/qt/plotentitysettingsdialog.cpp.o
@@ -3422,7 +3182,7 @@ __/__/modules/plotting/qt/plotentitysettingsdialog.o: __/__/modules/plotting/qt/
 
 # target to build an object file
 __/__/modules/plotting/qt/plotentitysettingsdialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotentitysettingsdialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotentitysettingsdialog.cpp.o
 .PHONY : __/__/modules/plotting/qt/plotentitysettingsdialog.cpp.o
 
 __/__/modules/plotting/qt/plotentitysettingsdialog.i: __/__/modules/plotting/qt/plotentitysettingsdialog.cpp.i
@@ -3430,7 +3190,7 @@ __/__/modules/plotting/qt/plotentitysettingsdialog.i: __/__/modules/plotting/qt/
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/plotentitysettingsdialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotentitysettingsdialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotentitysettingsdialog.cpp.i
 .PHONY : __/__/modules/plotting/qt/plotentitysettingsdialog.cpp.i
 
 __/__/modules/plotting/qt/plotentitysettingsdialog.s: __/__/modules/plotting/qt/plotentitysettingsdialog.cpp.s
@@ -3438,7 +3198,7 @@ __/__/modules/plotting/qt/plotentitysettingsdialog.s: __/__/modules/plotting/qt/
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/plotentitysettingsdialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotentitysettingsdialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotentitysettingsdialog.cpp.s
 .PHONY : __/__/modules/plotting/qt/plotentitysettingsdialog.cpp.s
 
 __/__/modules/plotting/qt/plotpredicatedialog.o: __/__/modules/plotting/qt/plotpredicatedialog.cpp.o
@@ -3446,7 +3206,7 @@ __/__/modules/plotting/qt/plotpredicatedialog.o: __/__/modules/plotting/qt/plotp
 
 # target to build an object file
 __/__/modules/plotting/qt/plotpredicatedialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotpredicatedialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotpredicatedialog.cpp.o
 .PHONY : __/__/modules/plotting/qt/plotpredicatedialog.cpp.o
 
 __/__/modules/plotting/qt/plotpredicatedialog.i: __/__/modules/plotting/qt/plotpredicatedialog.cpp.i
@@ -3454,7 +3214,7 @@ __/__/modules/plotting/qt/plotpredicatedialog.i: __/__/modules/plotting/qt/plotp
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/plotpredicatedialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotpredicatedialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotpredicatedialog.cpp.i
 .PHONY : __/__/modules/plotting/qt/plotpredicatedialog.cpp.i
 
 __/__/modules/plotting/qt/plotpredicatedialog.s: __/__/modules/plotting/qt/plotpredicatedialog.cpp.s
@@ -3462,7 +3222,7 @@ __/__/modules/plotting/qt/plotpredicatedialog.s: __/__/modules/plotting/qt/plotp
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/plotpredicatedialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotpredicatedialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotpredicatedialog.cpp.s
 .PHONY : __/__/modules/plotting/qt/plotpredicatedialog.cpp.s
 
 __/__/modules/plotting/qt/plotselectiondialog.o: __/__/modules/plotting/qt/plotselectiondialog.cpp.o
@@ -3470,7 +3230,7 @@ __/__/modules/plotting/qt/plotselectiondialog.o: __/__/modules/plotting/qt/plots
 
 # target to build an object file
 __/__/modules/plotting/qt/plotselectiondialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiondialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiondialog.cpp.o
 .PHONY : __/__/modules/plotting/qt/plotselectiondialog.cpp.o
 
 __/__/modules/plotting/qt/plotselectiondialog.i: __/__/modules/plotting/qt/plotselectiondialog.cpp.i
@@ -3478,7 +3238,7 @@ __/__/modules/plotting/qt/plotselectiondialog.i: __/__/modules/plotting/qt/plots
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/plotselectiondialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiondialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiondialog.cpp.i
 .PHONY : __/__/modules/plotting/qt/plotselectiondialog.cpp.i
 
 __/__/modules/plotting/qt/plotselectiondialog.s: __/__/modules/plotting/qt/plotselectiondialog.cpp.s
@@ -3486,7 +3246,7 @@ __/__/modules/plotting/qt/plotselectiondialog.s: __/__/modules/plotting/qt/plots
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/plotselectiondialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiondialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiondialog.cpp.s
 .PHONY : __/__/modules/plotting/qt/plotselectiondialog.cpp.s
 
 __/__/modules/plotting/qt/plotselectionentrytablemodel.o: __/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.o
@@ -3494,7 +3254,7 @@ __/__/modules/plotting/qt/plotselectionentrytablemodel.o: __/__/modules/plotting
 
 # target to build an object file
 __/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.o
 .PHONY : __/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.o
 
 __/__/modules/plotting/qt/plotselectionentrytablemodel.i: __/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.i
@@ -3502,7 +3262,7 @@ __/__/modules/plotting/qt/plotselectionentrytablemodel.i: __/__/modules/plotting
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.i
 .PHONY : __/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.i
 
 __/__/modules/plotting/qt/plotselectionentrytablemodel.s: __/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.s
@@ -3510,7 +3270,7 @@ __/__/modules/plotting/qt/plotselectionentrytablemodel.s: __/__/modules/plotting
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.s
 .PHONY : __/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.s
 
 __/__/modules/plotting/qt/plotselectiontablemodel.o: __/__/modules/plotting/qt/plotselectiontablemodel.cpp.o
@@ -3518,7 +3278,7 @@ __/__/modules/plotting/qt/plotselectiontablemodel.o: __/__/modules/plotting/qt/p
 
 # target to build an object file
 __/__/modules/plotting/qt/plotselectiontablemodel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiontablemodel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiontablemodel.cpp.o
 .PHONY : __/__/modules/plotting/qt/plotselectiontablemodel.cpp.o
 
 __/__/modules/plotting/qt/plotselectiontablemodel.i: __/__/modules/plotting/qt/plotselectiontablemodel.cpp.i
@@ -3526,7 +3286,7 @@ __/__/modules/plotting/qt/plotselectiontablemodel.i: __/__/modules/plotting/qt/p
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/plotselectiontablemodel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiontablemodel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiontablemodel.cpp.i
 .PHONY : __/__/modules/plotting/qt/plotselectiontablemodel.cpp.i
 
 __/__/modules/plotting/qt/plotselectiontablemodel.s: __/__/modules/plotting/qt/plotselectiontablemodel.cpp.s
@@ -3534,7 +3294,7 @@ __/__/modules/plotting/qt/plotselectiontablemodel.s: __/__/modules/plotting/qt/p
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/plotselectiontablemodel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiontablemodel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiontablemodel.cpp.s
 .PHONY : __/__/modules/plotting/qt/plotselectiontablemodel.cpp.s
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.o: __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.o
@@ -3542,7 +3302,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.o: __/_
 
 # target to build an object file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.o
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.i: __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.i
@@ -3550,7 +3310,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.i: __/_
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.i
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.s: __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.s
@@ -3558,7 +3318,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.s: __/_
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.s
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.o: __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.o
@@ -3566,7 +3326,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.o: __/__/modu
 
 # target to build an object file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.o
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.i: __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.i
@@ -3574,7 +3334,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.i: __/__/modu
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.i
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.s: __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.s
@@ -3582,7 +3342,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.s: __/__/modu
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.s
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.o: __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.o
@@ -3590,7 +3350,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.o: __/__/modu
 
 # target to build an object file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.o
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.i: __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.i
@@ -3598,7 +3358,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.i: __/__/modu
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.i
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.s: __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.s
@@ -3606,7 +3366,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.s: __/__/modu
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.s
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.o: __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.o
@@ -3614,7 +3374,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.o: __/__/
 
 # target to build an object file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.o
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.i: __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.i
@@ -3622,7 +3382,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.i: __/__/
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.i
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.s: __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.s
@@ -3630,7 +3390,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.s: __/__/
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.s
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.o: __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.o
@@ -3638,7 +3398,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.o: __/__/mod
 
 # target to build an object file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.o
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.i: __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.i
@@ -3646,7 +3406,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.i: __/__/mod
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.i
 
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.s: __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.s
@@ -3654,7 +3414,7 @@ __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.s: __/__/mod
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.s
 
 __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.o: __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.o
@@ -3662,7 +3422,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.o: __/__/mo
 
 # target to build an object file
 __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.o
 
 __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.i: __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.i
@@ -3670,7 +3430,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.i: __/__/mo
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.i
 
 __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.s: __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.s
@@ -3678,7 +3438,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.s: __/__/mo
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.s
 
 __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.o: __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.o
@@ -3686,7 +3446,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.o: __/__/modules/
 
 # target to build an object file
 __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.o
 
 __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.i: __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.i
@@ -3694,7 +3454,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.i: __/__/modules/
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.i
 
 __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.s: __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.s
@@ -3702,7 +3462,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.s: __/__/modules/
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.s
 
 __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.o: __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.o
@@ -3710,7 +3470,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.o: __/__/modules/
 
 # target to build an object file
 __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.o
 
 __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.i: __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.i
@@ -3718,7 +3478,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.i: __/__/modules/
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.i
 
 __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.s: __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.s
@@ -3726,7 +3486,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.s: __/__/modules/
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.s
 
 __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.o: __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.o
@@ -3734,7 +3494,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.o: __/__/modu
 
 # target to build an object file
 __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.o
 
 __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.i: __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.i
@@ -3742,7 +3502,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.i: __/__/modu
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.i
 
 __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.s: __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.s
@@ -3750,7 +3510,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.s: __/__/modu
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.s
 
 __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.o: __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.o
@@ -3758,7 +3518,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.o: __/__/modules
 
 # target to build an object file
 __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.o
 
 __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.i: __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.i
@@ -3766,7 +3526,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.i: __/__/modules
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.i
 
 __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.s: __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.s
@@ -3774,7 +3534,7 @@ __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.s: __/__/modules
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.s
 
 __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.o: __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.o
@@ -3782,7 +3542,7 @@ __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.o: __/__/m
 
 # target to build an object file
 __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.o
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.o
 
 __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.i: __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.i
@@ -3790,7 +3550,7 @@ __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.i: __/__/m
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.i
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.i
 
 __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.s: __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.s
@@ -3798,7 +3558,7 @@ __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.s: __/__/m
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.s
 .PHONY : __/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.s
 
 __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.o: __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.o
@@ -3806,7 +3566,7 @@ __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.o: __/__/module
 
 # target to build an object file
 __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.o
 
 __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.i: __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.i
@@ -3814,7 +3574,7 @@ __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.i: __/__/module
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.i
 
 __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.s: __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.s
@@ -3822,7 +3582,7 @@ __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.s: __/__/module
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.s
 
 __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.o: __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.o
@@ -3830,7 +3590,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.o: __/__/mo
 
 # target to build an object file
 __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.o
 
 __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.i: __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.i
@@ -3838,7 +3598,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.i: __/__/mo
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.i
 
 __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.s: __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.s
@@ -3846,7 +3606,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.s: __/__/mo
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.s
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.o: __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.o
@@ -3854,7 +3614,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.o: __/__/mo
 
 # target to build an object file
 __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.o
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.i: __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.i
@@ -3862,7 +3622,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.i: __/__/mo
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.i
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.s: __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.s
@@ -3870,7 +3630,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.s: __/__/mo
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.s
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.o: __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.o
@@ -3878,7 +3638,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.o: __/_
 
 # target to build an object file
 __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.o
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.i: __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.i
@@ -3886,7 +3646,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.i: __/_
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.i
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.s: __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.s
@@ -3894,7 +3654,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.s: __/_
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.s
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.o: __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.o
@@ -3902,7 +3662,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.o: __/
 
 # target to build an object file
 __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.o
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.i: __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.i
@@ -3910,7 +3670,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.i: __/
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.i
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.s: __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.s
@@ -3918,7 +3678,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.s: __/
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.s
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.o: __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.o
@@ -3926,7 +3686,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.o: __/
 
 # target to build an object file
 __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.o
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.i: __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.i
@@ -3934,7 +3694,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.i: __/
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.i
 
 __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.s: __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.s
@@ -3942,7 +3702,7 @@ __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.s: __/
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.s
 
 __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.o: __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.o
@@ -3950,7 +3710,7 @@ __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.o: __/__/module
 
 # target to build an object file
 __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.o
 
 __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.i: __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.i
@@ -3958,7 +3718,7 @@ __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.i: __/__/module
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.i
 
 __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.s: __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.s
@@ -3966,7 +3726,7 @@ __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.s: __/__/module
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.s
 
 __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.o: __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.o
@@ -3974,7 +3734,7 @@ __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.o: __/__/mo
 
 # target to build an object file
 __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.o
 
 __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.i: __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.i
@@ -3982,7 +3742,7 @@ __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.i: __/__/mo
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.i
 
 __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.s: __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.s
@@ -3990,7 +3750,7 @@ __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.s: __/__/mo
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.s
 
 __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.o: __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.o
@@ -3998,7 +3758,7 @@ __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.o: __/__/m
 
 # target to build an object file
 __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.o
 
 __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.i: __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.i
@@ -4006,7 +3766,7 @@ __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.i: __/__/m
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.i
 
 __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.s: __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.s
@@ -4014,7 +3774,7 @@ __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.s: __/__/m
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.s
 
 __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.o: __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.o
@@ -4022,7 +3782,7 @@ __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.o: __/__/mod
 
 # target to build an object file
 __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.o
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.o
 
 __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.i: __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.i
@@ -4030,7 +3790,7 @@ __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.i: __/__/mod
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.i
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.i
 
 __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.s: __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.s
@@ -4038,7 +3798,7 @@ __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.s: __/__/mod
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.s
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.s
 
 __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.o: __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.o
@@ -4046,7 +3806,7 @@ __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.o: __/__/m
 
 # target to build an object file
 __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.o
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.o
 
 __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.i: __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.i
@@ -4054,7 +3814,7 @@ __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.i: __/__/m
 
 # target to preprocess a source file
 __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.i
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.i
 
 __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.s: __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.s
@@ -4062,7 +3822,7 @@ __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.s: __/__/m
 
 # target to generate assembly for a file
 __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.s
 .PHONY : __/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.s
 
 __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.o: __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.o
@@ -4070,7 +3830,7 @@ __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.o: __/__/modules/ra
 
 # target to build an object file
 __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.o
 .PHONY : __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.o
 
 __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.i: __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.i
@@ -4078,7 +3838,7 @@ __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.i: __/__/modules/ra
 
 # target to preprocess a source file
 __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.i
 .PHONY : __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.i
 
 __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.s: __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.s
@@ -4086,7 +3846,7 @@ __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.s: __/__/modules/ra
 
 # target to generate assembly for a file
 __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.s
 .PHONY : __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.s
 
 __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.o: __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.o
@@ -4094,7 +3854,7 @@ __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.o: __/__/modules/random
 
 # target to build an object file
 __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.o
 .PHONY : __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.o
 
 __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.i: __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.i
@@ -4102,7 +3862,7 @@ __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.i: __/__/modules/random
 
 # target to preprocess a source file
 __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.i
 .PHONY : __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.i
 
 __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.s: __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.s
@@ -4110,7 +3870,7 @@ __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.s: __/__/modules/random
 
 # target to generate assembly for a file
 __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.s
 .PHONY : __/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.s
 
 __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.o: __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.o
@@ -4118,7 +3878,7 @@ __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.o: __/__/module
 
 # target to build an object file
 __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.o
 .PHONY : __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.o
 
 __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.i: __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.i
@@ -4126,7 +3886,7 @@ __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.i: __/__/module
 
 # target to preprocess a source file
 __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.i
 .PHONY : __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.i
 
 __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.s: __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.s
@@ -4134,7 +3894,7 @@ __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.s: __/__/module
 
 # target to generate assembly for a file
 __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.s
 .PHONY : __/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.s
 
 __/__/modules/randomwalker/randomwalkermoduleqt.o: __/__/modules/randomwalker/randomwalkermoduleqt.cpp.o
@@ -4142,7 +3902,7 @@ __/__/modules/randomwalker/randomwalkermoduleqt.o: __/__/modules/randomwalker/ra
 
 # target to build an object file
 __/__/modules/randomwalker/randomwalkermoduleqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/randomwalkermoduleqt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/randomwalkermoduleqt.cpp.o
 .PHONY : __/__/modules/randomwalker/randomwalkermoduleqt.cpp.o
 
 __/__/modules/randomwalker/randomwalkermoduleqt.i: __/__/modules/randomwalker/randomwalkermoduleqt.cpp.i
@@ -4150,7 +3910,7 @@ __/__/modules/randomwalker/randomwalkermoduleqt.i: __/__/modules/randomwalker/ra
 
 # target to preprocess a source file
 __/__/modules/randomwalker/randomwalkermoduleqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/randomwalkermoduleqt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/randomwalkermoduleqt.cpp.i
 .PHONY : __/__/modules/randomwalker/randomwalkermoduleqt.cpp.i
 
 __/__/modules/randomwalker/randomwalkermoduleqt.s: __/__/modules/randomwalker/randomwalkermoduleqt.cpp.s
@@ -4158,7 +3918,7 @@ __/__/modules/randomwalker/randomwalkermoduleqt.s: __/__/modules/randomwalker/ra
 
 # target to generate assembly for a file
 __/__/modules/randomwalker/randomwalkermoduleqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/randomwalkermoduleqt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/randomwalkermoduleqt.cpp.s
 .PHONY : __/__/modules/randomwalker/randomwalkermoduleqt.cpp.s
 
 __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.o: __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.o
@@ -4166,7 +3926,7 @@ __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.o: __/_
 
 # target to build an object file
 __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.o
 .PHONY : __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.o
 
 __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.i: __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.i
@@ -4174,7 +3934,7 @@ __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.i: __/_
 
 # target to preprocess a source file
 __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.i
 .PHONY : __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.i
 
 __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.s: __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.s
@@ -4182,7 +3942,7 @@ __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.s: __/_
 
 # target to generate assembly for a file
 __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.s
 .PHONY : __/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.s
 
 __/__/modules/stereoscopy/stereoscopymoduleqt.o: __/__/modules/stereoscopy/stereoscopymoduleqt.cpp.o
@@ -4190,7 +3950,7 @@ __/__/modules/stereoscopy/stereoscopymoduleqt.o: __/__/modules/stereoscopy/stere
 
 # target to build an object file
 __/__/modules/stereoscopy/stereoscopymoduleqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/stereoscopymoduleqt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/stereoscopymoduleqt.cpp.o
 .PHONY : __/__/modules/stereoscopy/stereoscopymoduleqt.cpp.o
 
 __/__/modules/stereoscopy/stereoscopymoduleqt.i: __/__/modules/stereoscopy/stereoscopymoduleqt.cpp.i
@@ -4198,7 +3958,7 @@ __/__/modules/stereoscopy/stereoscopymoduleqt.i: __/__/modules/stereoscopy/stere
 
 # target to preprocess a source file
 __/__/modules/stereoscopy/stereoscopymoduleqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/stereoscopymoduleqt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/stereoscopymoduleqt.cpp.i
 .PHONY : __/__/modules/stereoscopy/stereoscopymoduleqt.cpp.i
 
 __/__/modules/stereoscopy/stereoscopymoduleqt.s: __/__/modules/stereoscopy/stereoscopymoduleqt.cpp.s
@@ -4206,7 +3966,7 @@ __/__/modules/stereoscopy/stereoscopymoduleqt.s: __/__/modules/stereoscopy/stere
 
 # target to generate assembly for a file
 __/__/modules/stereoscopy/stereoscopymoduleqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/stereoscopymoduleqt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/stereoscopymoduleqt.cpp.s
 .PHONY : __/__/modules/stereoscopy/stereoscopymoduleqt.cpp.s
 
 __/__/modules/volumelabeling/qt/labelingwidgetqt.o: __/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.o
@@ -4214,7 +3974,7 @@ __/__/modules/volumelabeling/qt/labelingwidgetqt.o: __/__/modules/volumelabeling
 
 # target to build an object file
 __/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.o
 .PHONY : __/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.o
 
 __/__/modules/volumelabeling/qt/labelingwidgetqt.i: __/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.i
@@ -4222,7 +3982,7 @@ __/__/modules/volumelabeling/qt/labelingwidgetqt.i: __/__/modules/volumelabeling
 
 # target to preprocess a source file
 __/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.i
 .PHONY : __/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.i
 
 __/__/modules/volumelabeling/qt/labelingwidgetqt.s: __/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.s
@@ -4230,7 +3990,7 @@ __/__/modules/volumelabeling/qt/labelingwidgetqt.s: __/__/modules/volumelabeling
 
 # target to generate assembly for a file
 __/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.s
 .PHONY : __/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.s
 
 __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.o: __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.o
@@ -4238,7 +3998,7 @@ __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.o: __/__/modules/volumelabe
 
 # target to build an object file
 __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.o
 .PHONY : __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.o
 
 __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.i: __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.i
@@ -4246,7 +4006,7 @@ __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.i: __/__/modules/volumelabe
 
 # target to preprocess a source file
 __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.i
 .PHONY : __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.i
 
 __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.s: __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.s
@@ -4254,7 +4014,7 @@ __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.s: __/__/modules/volumelabe
 
 # target to generate assembly for a file
 __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.s
 .PHONY : __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.s
 
 aboutbox.o: aboutbox.cpp.o
@@ -4262,7 +4022,7 @@ aboutbox.o: aboutbox.cpp.o
 
 # target to build an object file
 aboutbox.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/aboutbox.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/aboutbox.cpp.o
 .PHONY : aboutbox.cpp.o
 
 aboutbox.i: aboutbox.cpp.i
@@ -4270,7 +4030,7 @@ aboutbox.i: aboutbox.cpp.i
 
 # target to preprocess a source file
 aboutbox.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/aboutbox.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/aboutbox.cpp.i
 .PHONY : aboutbox.cpp.i
 
 aboutbox.s: aboutbox.cpp.s
@@ -4278,7 +4038,7 @@ aboutbox.s: aboutbox.cpp.s
 
 # target to generate assembly for a file
 aboutbox.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/aboutbox.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/aboutbox.cpp.s
 .PHONY : aboutbox.cpp.s
 
 helpbrowser.o: helpbrowser.cpp.o
@@ -4286,7 +4046,7 @@ helpbrowser.o: helpbrowser.cpp.o
 
 # target to build an object file
 helpbrowser.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/helpbrowser.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/helpbrowser.cpp.o
 .PHONY : helpbrowser.cpp.o
 
 helpbrowser.i: helpbrowser.cpp.i
@@ -4294,7 +4054,7 @@ helpbrowser.i: helpbrowser.cpp.i
 
 # target to preprocess a source file
 helpbrowser.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/helpbrowser.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/helpbrowser.cpp.i
 .PHONY : helpbrowser.cpp.i
 
 helpbrowser.s: helpbrowser.cpp.s
@@ -4302,7 +4062,7 @@ helpbrowser.s: helpbrowser.cpp.s
 
 # target to generate assembly for a file
 helpbrowser.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/helpbrowser.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/helpbrowser.cpp.s
 .PHONY : helpbrowser.cpp.s
 
 networkeditor/aggregationeditor.o: networkeditor/aggregationeditor.cpp.o
@@ -4310,7 +4070,7 @@ networkeditor/aggregationeditor.o: networkeditor/aggregationeditor.cpp.o
 
 # target to build an object file
 networkeditor/aggregationeditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/aggregationeditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/aggregationeditor.cpp.o
 .PHONY : networkeditor/aggregationeditor.cpp.o
 
 networkeditor/aggregationeditor.i: networkeditor/aggregationeditor.cpp.i
@@ -4318,7 +4078,7 @@ networkeditor/aggregationeditor.i: networkeditor/aggregationeditor.cpp.i
 
 # target to preprocess a source file
 networkeditor/aggregationeditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/aggregationeditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/aggregationeditor.cpp.i
 .PHONY : networkeditor/aggregationeditor.cpp.i
 
 networkeditor/aggregationeditor.s: networkeditor/aggregationeditor.cpp.s
@@ -4326,7 +4086,7 @@ networkeditor/aggregationeditor.s: networkeditor/aggregationeditor.cpp.s
 
 # target to generate assembly for a file
 networkeditor/aggregationeditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/aggregationeditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/aggregationeditor.cpp.s
 .PHONY : networkeditor/aggregationeditor.cpp.s
 
 networkeditor/dialogs/propertylinkdialog.o: networkeditor/dialogs/propertylinkdialog.cpp.o
@@ -4334,7 +4094,7 @@ networkeditor/dialogs/propertylinkdialog.o: networkeditor/dialogs/propertylinkdi
 
 # target to build an object file
 networkeditor/dialogs/propertylinkdialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/propertylinkdialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/propertylinkdialog.cpp.o
 .PHONY : networkeditor/dialogs/propertylinkdialog.cpp.o
 
 networkeditor/dialogs/propertylinkdialog.i: networkeditor/dialogs/propertylinkdialog.cpp.i
@@ -4342,7 +4102,7 @@ networkeditor/dialogs/propertylinkdialog.i: networkeditor/dialogs/propertylinkdi
 
 # target to preprocess a source file
 networkeditor/dialogs/propertylinkdialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/propertylinkdialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/propertylinkdialog.cpp.i
 .PHONY : networkeditor/dialogs/propertylinkdialog.cpp.i
 
 networkeditor/dialogs/propertylinkdialog.s: networkeditor/dialogs/propertylinkdialog.cpp.s
@@ -4350,7 +4110,7 @@ networkeditor/dialogs/propertylinkdialog.s: networkeditor/dialogs/propertylinkdi
 
 # target to generate assembly for a file
 networkeditor/dialogs/propertylinkdialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/propertylinkdialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/propertylinkdialog.cpp.s
 .PHONY : networkeditor/dialogs/propertylinkdialog.cpp.s
 
 networkeditor/dialogs/utils/splitgraphicsview.o: networkeditor/dialogs/utils/splitgraphicsview.cpp.o
@@ -4358,7 +4118,7 @@ networkeditor/dialogs/utils/splitgraphicsview.o: networkeditor/dialogs/utils/spl
 
 # target to build an object file
 networkeditor/dialogs/utils/splitgraphicsview.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/utils/splitgraphicsview.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/utils/splitgraphicsview.cpp.o
 .PHONY : networkeditor/dialogs/utils/splitgraphicsview.cpp.o
 
 networkeditor/dialogs/utils/splitgraphicsview.i: networkeditor/dialogs/utils/splitgraphicsview.cpp.i
@@ -4366,7 +4126,7 @@ networkeditor/dialogs/utils/splitgraphicsview.i: networkeditor/dialogs/utils/spl
 
 # target to preprocess a source file
 networkeditor/dialogs/utils/splitgraphicsview.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/utils/splitgraphicsview.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/utils/splitgraphicsview.cpp.i
 .PHONY : networkeditor/dialogs/utils/splitgraphicsview.cpp.i
 
 networkeditor/dialogs/utils/splitgraphicsview.s: networkeditor/dialogs/utils/splitgraphicsview.cpp.s
@@ -4374,7 +4134,7 @@ networkeditor/dialogs/utils/splitgraphicsview.s: networkeditor/dialogs/utils/spl
 
 # target to generate assembly for a file
 networkeditor/dialogs/utils/splitgraphicsview.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/utils/splitgraphicsview.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/utils/splitgraphicsview.cpp.s
 .PHONY : networkeditor/dialogs/utils/splitgraphicsview.cpp.s
 
 networkeditor/graphicitems/connections/connectionbasegraphicsitem.o: networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.o
@@ -4382,7 +4142,7 @@ networkeditor/graphicitems/connections/connectionbasegraphicsitem.o: networkedit
 
 # target to build an object file
 networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.o
 
 networkeditor/graphicitems/connections/connectionbasegraphicsitem.i: networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.i
@@ -4390,7 +4150,7 @@ networkeditor/graphicitems/connections/connectionbasegraphicsitem.i: networkedit
 
 # target to preprocess a source file
 networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.i
 
 networkeditor/graphicitems/connections/connectionbasegraphicsitem.s: networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.s
@@ -4398,7 +4158,7 @@ networkeditor/graphicitems/connections/connectionbasegraphicsitem.s: networkedit
 
 # target to generate assembly for a file
 networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.s
 
 networkeditor/graphicitems/connections/portarrowgraphicsitem.o: networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.o
@@ -4406,7 +4166,7 @@ networkeditor/graphicitems/connections/portarrowgraphicsitem.o: networkeditor/gr
 
 # target to build an object file
 networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.o
 
 networkeditor/graphicitems/connections/portarrowgraphicsitem.i: networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.i
@@ -4414,7 +4174,7 @@ networkeditor/graphicitems/connections/portarrowgraphicsitem.i: networkeditor/gr
 
 # target to preprocess a source file
 networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.i
 
 networkeditor/graphicitems/connections/portarrowgraphicsitem.s: networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.s
@@ -4422,7 +4182,7 @@ networkeditor/graphicitems/connections/portarrowgraphicsitem.s: networkeditor/gr
 
 # target to generate assembly for a file
 networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.s
 
 networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.o: networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.o
@@ -4430,7 +4190,7 @@ networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.o: network
 
 # target to build an object file
 networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.o
 
 networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.i: networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.i
@@ -4438,7 +4198,7 @@ networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.i: network
 
 # target to preprocess a source file
 networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.i
 
 networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.s: networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.s
@@ -4446,7 +4206,7 @@ networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.s: network
 
 # target to generate assembly for a file
 networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.s
 
 networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.o: networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.o
@@ -4454,7 +4214,7 @@ networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.o: networke
 
 # target to build an object file
 networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.o
 
 networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.i: networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.i
@@ -4462,7 +4222,7 @@ networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.i: networke
 
 # target to preprocess a source file
 networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.i
 
 networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.s: networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.s
@@ -4470,7 +4230,7 @@ networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.s: networke
 
 # target to generate assembly for a file
 networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.s
 
 networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.o: networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.o
@@ -4478,7 +4238,7 @@ networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.o: networke
 
 # target to build an object file
 networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.o
 
 networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.i: networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.i
@@ -4486,7 +4246,7 @@ networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.i: networke
 
 # target to preprocess a source file
 networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.i
 
 networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.s: networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.s
@@ -4494,7 +4254,7 @@ networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.s: networke
 
 # target to generate assembly for a file
 networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.s
 
 networkeditor/graphicitems/core/aggregationgraphicsitem.o: networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.o
@@ -4502,7 +4262,7 @@ networkeditor/graphicitems/core/aggregationgraphicsitem.o: networkeditor/graphic
 
 # target to build an object file
 networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.o
 
 networkeditor/graphicitems/core/aggregationgraphicsitem.i: networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.i
@@ -4510,7 +4270,7 @@ networkeditor/graphicitems/core/aggregationgraphicsitem.i: networkeditor/graphic
 
 # target to preprocess a source file
 networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.i
 
 networkeditor/graphicitems/core/aggregationgraphicsitem.s: networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.s
@@ -4518,7 +4278,7 @@ networkeditor/graphicitems/core/aggregationgraphicsitem.s: networkeditor/graphic
 
 # target to generate assembly for a file
 networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.s
 
 networkeditor/graphicitems/core/portgraphicsitem.o: networkeditor/graphicitems/core/portgraphicsitem.cpp.o
@@ -4526,7 +4286,7 @@ networkeditor/graphicitems/core/portgraphicsitem.o: networkeditor/graphicitems/c
 
 # target to build an object file
 networkeditor/graphicitems/core/portgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portgraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/core/portgraphicsitem.cpp.o
 
 networkeditor/graphicitems/core/portgraphicsitem.i: networkeditor/graphicitems/core/portgraphicsitem.cpp.i
@@ -4534,7 +4294,7 @@ networkeditor/graphicitems/core/portgraphicsitem.i: networkeditor/graphicitems/c
 
 # target to preprocess a source file
 networkeditor/graphicitems/core/portgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portgraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/core/portgraphicsitem.cpp.i
 
 networkeditor/graphicitems/core/portgraphicsitem.s: networkeditor/graphicitems/core/portgraphicsitem.cpp.s
@@ -4542,7 +4302,7 @@ networkeditor/graphicitems/core/portgraphicsitem.s: networkeditor/graphicitems/c
 
 # target to generate assembly for a file
 networkeditor/graphicitems/core/portgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portgraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/core/portgraphicsitem.cpp.s
 
 networkeditor/graphicitems/core/portownergraphicsitem.o: networkeditor/graphicitems/core/portownergraphicsitem.cpp.o
@@ -4550,7 +4310,7 @@ networkeditor/graphicitems/core/portownergraphicsitem.o: networkeditor/graphicit
 
 # target to build an object file
 networkeditor/graphicitems/core/portownergraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portownergraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portownergraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/core/portownergraphicsitem.cpp.o
 
 networkeditor/graphicitems/core/portownergraphicsitem.i: networkeditor/graphicitems/core/portownergraphicsitem.cpp.i
@@ -4558,7 +4318,7 @@ networkeditor/graphicitems/core/portownergraphicsitem.i: networkeditor/graphicit
 
 # target to preprocess a source file
 networkeditor/graphicitems/core/portownergraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portownergraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portownergraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/core/portownergraphicsitem.cpp.i
 
 networkeditor/graphicitems/core/portownergraphicsitem.s: networkeditor/graphicitems/core/portownergraphicsitem.cpp.s
@@ -4566,7 +4326,7 @@ networkeditor/graphicitems/core/portownergraphicsitem.s: networkeditor/graphicit
 
 # target to generate assembly for a file
 networkeditor/graphicitems/core/portownergraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portownergraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portownergraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/core/portownergraphicsitem.cpp.s
 
 networkeditor/graphicitems/core/processorgraphicsitem.o: networkeditor/graphicitems/core/processorgraphicsitem.cpp.o
@@ -4574,7 +4334,7 @@ networkeditor/graphicitems/core/processorgraphicsitem.o: networkeditor/graphicit
 
 # target to build an object file
 networkeditor/graphicitems/core/processorgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/processorgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/processorgraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/core/processorgraphicsitem.cpp.o
 
 networkeditor/graphicitems/core/processorgraphicsitem.i: networkeditor/graphicitems/core/processorgraphicsitem.cpp.i
@@ -4582,7 +4342,7 @@ networkeditor/graphicitems/core/processorgraphicsitem.i: networkeditor/graphicit
 
 # target to preprocess a source file
 networkeditor/graphicitems/core/processorgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/processorgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/processorgraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/core/processorgraphicsitem.cpp.i
 
 networkeditor/graphicitems/core/processorgraphicsitem.s: networkeditor/graphicitems/core/processorgraphicsitem.cpp.s
@@ -4590,7 +4350,7 @@ networkeditor/graphicitems/core/processorgraphicsitem.s: networkeditor/graphicit
 
 # target to generate assembly for a file
 networkeditor/graphicitems/core/processorgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/processorgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/processorgraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/core/processorgraphicsitem.cpp.s
 
 networkeditor/graphicitems/core/propertygraphicsitem.o: networkeditor/graphicitems/core/propertygraphicsitem.cpp.o
@@ -4598,7 +4358,7 @@ networkeditor/graphicitems/core/propertygraphicsitem.o: networkeditor/graphicite
 
 # target to build an object file
 networkeditor/graphicitems/core/propertygraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertygraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertygraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/core/propertygraphicsitem.cpp.o
 
 networkeditor/graphicitems/core/propertygraphicsitem.i: networkeditor/graphicitems/core/propertygraphicsitem.cpp.i
@@ -4606,7 +4366,7 @@ networkeditor/graphicitems/core/propertygraphicsitem.i: networkeditor/graphicite
 
 # target to preprocess a source file
 networkeditor/graphicitems/core/propertygraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertygraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertygraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/core/propertygraphicsitem.cpp.i
 
 networkeditor/graphicitems/core/propertygraphicsitem.s: networkeditor/graphicitems/core/propertygraphicsitem.cpp.s
@@ -4614,7 +4374,7 @@ networkeditor/graphicitems/core/propertygraphicsitem.s: networkeditor/graphicite
 
 # target to generate assembly for a file
 networkeditor/graphicitems/core/propertygraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertygraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertygraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/core/propertygraphicsitem.cpp.s
 
 networkeditor/graphicitems/core/propertylistgraphicsitem.o: networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.o
@@ -4622,7 +4382,7 @@ networkeditor/graphicitems/core/propertylistgraphicsitem.o: networkeditor/graphi
 
 # target to build an object file
 networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.o
 
 networkeditor/graphicitems/core/propertylistgraphicsitem.i: networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.i
@@ -4630,7 +4390,7 @@ networkeditor/graphicitems/core/propertylistgraphicsitem.i: networkeditor/graphi
 
 # target to preprocess a source file
 networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.i
 
 networkeditor/graphicitems/core/propertylistgraphicsitem.s: networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.s
@@ -4638,7 +4398,7 @@ networkeditor/graphicitems/core/propertylistgraphicsitem.s: networkeditor/graphi
 
 # target to generate assembly for a file
 networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.s
 
 networkeditor/graphicitems/core/propertyownergraphicsitem.o: networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.o
@@ -4646,7 +4406,7 @@ networkeditor/graphicitems/core/propertyownergraphicsitem.o: networkeditor/graph
 
 # target to build an object file
 networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.o
 
 networkeditor/graphicitems/core/propertyownergraphicsitem.i: networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.i
@@ -4654,7 +4414,7 @@ networkeditor/graphicitems/core/propertyownergraphicsitem.i: networkeditor/graph
 
 # target to preprocess a source file
 networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.i
 
 networkeditor/graphicitems/core/propertyownergraphicsitem.s: networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.s
@@ -4662,7 +4422,7 @@ networkeditor/graphicitems/core/propertyownergraphicsitem.s: networkeditor/graph
 
 # target to generate assembly for a file
 networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.s
 
 networkeditor/graphicitems/nwebasegraphicsitem.o: networkeditor/graphicitems/nwebasegraphicsitem.cpp.o
@@ -4670,7 +4430,7 @@ networkeditor/graphicitems/nwebasegraphicsitem.o: networkeditor/graphicitems/nwe
 
 # target to build an object file
 networkeditor/graphicitems/nwebasegraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/nwebasegraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/nwebasegraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/nwebasegraphicsitem.cpp.o
 
 networkeditor/graphicitems/nwebasegraphicsitem.i: networkeditor/graphicitems/nwebasegraphicsitem.cpp.i
@@ -4678,7 +4438,7 @@ networkeditor/graphicitems/nwebasegraphicsitem.i: networkeditor/graphicitems/nwe
 
 # target to preprocess a source file
 networkeditor/graphicitems/nwebasegraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/nwebasegraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/nwebasegraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/nwebasegraphicsitem.cpp.i
 
 networkeditor/graphicitems/nwebasegraphicsitem.s: networkeditor/graphicitems/nwebasegraphicsitem.cpp.s
@@ -4686,7 +4446,7 @@ networkeditor/graphicitems/nwebasegraphicsitem.s: networkeditor/graphicitems/nwe
 
 # target to generate assembly for a file
 networkeditor/graphicitems/nwebasegraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/nwebasegraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/nwebasegraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/nwebasegraphicsitem.cpp.s
 
 networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.o: networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.o
@@ -4694,7 +4454,7 @@ networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.o: networkeditor/gra
 
 # target to build an object file
 networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.o
 
 networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.i: networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.i
@@ -4702,7 +4462,7 @@ networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.i: networkeditor/gra
 
 # target to preprocess a source file
 networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.i
 
 networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.s: networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.s
@@ -4710,7 +4470,7 @@ networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.s: networkeditor/gra
 
 # target to generate assembly for a file
 networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.s
 
 networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.o: networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.o
@@ -4718,7 +4478,7 @@ networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.o: networkeditor/gra
 
 # target to build an object file
 networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.o
 
 networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.i: networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.i
@@ -4726,7 +4486,7 @@ networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.i: networkeditor/gra
 
 # target to preprocess a source file
 networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.i
 
 networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.s: networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.s
@@ -4734,7 +4494,7 @@ networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.s: networkeditor/gra
 
 # target to generate assembly for a file
 networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.s
 
 networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.o: networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.o
@@ -4742,7 +4502,7 @@ networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.o: networkedito
 
 # target to build an object file
 networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.o
 
 networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.i: networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.i
@@ -4750,7 +4510,7 @@ networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.i: networkedito
 
 # target to preprocess a source file
 networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.i
 
 networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.s: networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.s
@@ -4758,7 +4518,7 @@ networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.s: networkedito
 
 # target to generate assembly for a file
 networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.s
 
 networkeditor/graphicitems/utils/progressbargraphicsitem.o: networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.o
@@ -4766,7 +4526,7 @@ networkeditor/graphicitems/utils/progressbargraphicsitem.o: networkeditor/graphi
 
 # target to build an object file
 networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.o
 
 networkeditor/graphicitems/utils/progressbargraphicsitem.i: networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.i
@@ -4774,7 +4534,7 @@ networkeditor/graphicitems/utils/progressbargraphicsitem.i: networkeditor/graphi
 
 # target to preprocess a source file
 networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.i
 
 networkeditor/graphicitems/utils/progressbargraphicsitem.s: networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.s
@@ -4782,7 +4542,7 @@ networkeditor/graphicitems/utils/progressbargraphicsitem.s: networkeditor/graphi
 
 # target to generate assembly for a file
 networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.s
 
 networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.o: networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.o
@@ -4790,7 +4550,7 @@ networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.o: networkeditor
 
 # target to build an object file
 networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.o
 
 networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.i: networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.i
@@ -4798,7 +4558,7 @@ networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.i: networkeditor
 
 # target to preprocess a source file
 networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.i
 
 networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.s: networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.s
@@ -4806,7 +4566,7 @@ networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.s: networkeditor
 
 # target to generate assembly for a file
 networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.s
 
 networkeditor/graphicitems/utils/renamabletextgraphicsitem.o: networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.o
@@ -4814,7 +4574,7 @@ networkeditor/graphicitems/utils/renamabletextgraphicsitem.o: networkeditor/grap
 
 # target to build an object file
 networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.o
 
 networkeditor/graphicitems/utils/renamabletextgraphicsitem.i: networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.i
@@ -4822,7 +4582,7 @@ networkeditor/graphicitems/utils/renamabletextgraphicsitem.i: networkeditor/grap
 
 # target to preprocess a source file
 networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.i
 
 networkeditor/graphicitems/utils/renamabletextgraphicsitem.s: networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.s
@@ -4830,7 +4590,7 @@ networkeditor/graphicitems/utils/renamabletextgraphicsitem.s: networkeditor/grap
 
 # target to generate assembly for a file
 networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.s
 
 networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.o: networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.o
@@ -4838,7 +4598,7 @@ networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.o: networkeditor
 
 # target to build an object file
 networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.o
 .PHONY : networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.o
 
 networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.i: networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.i
@@ -4846,7 +4606,7 @@ networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.i: networkeditor
 
 # target to preprocess a source file
 networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.i
 .PHONY : networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.i
 
 networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.s: networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.s
@@ -4854,7 +4614,7 @@ networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.s: networkeditor
 
 # target to generate assembly for a file
 networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.s
 .PHONY : networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.s
 
 networkeditor/networkeditor.o: networkeditor/networkeditor.cpp.o
@@ -4862,7 +4622,7 @@ networkeditor/networkeditor.o: networkeditor/networkeditor.cpp.o
 
 # target to build an object file
 networkeditor/networkeditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/networkeditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/networkeditor.cpp.o
 .PHONY : networkeditor/networkeditor.cpp.o
 
 networkeditor/networkeditor.i: networkeditor/networkeditor.cpp.i
@@ -4870,7 +4630,7 @@ networkeditor/networkeditor.i: networkeditor/networkeditor.cpp.i
 
 # target to preprocess a source file
 networkeditor/networkeditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/networkeditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/networkeditor.cpp.i
 .PHONY : networkeditor/networkeditor.cpp.i
 
 networkeditor/networkeditor.s: networkeditor/networkeditor.cpp.s
@@ -4878,7 +4638,7 @@ networkeditor/networkeditor.s: networkeditor/networkeditor.cpp.s
 
 # target to generate assembly for a file
 networkeditor/networkeditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/networkeditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/networkeditor.cpp.s
 .PHONY : networkeditor/networkeditor.cpp.s
 
 networkeditor/styles/nwestyle_classic.o: networkeditor/styles/nwestyle_classic.cpp.o
@@ -4886,7 +4646,7 @@ networkeditor/styles/nwestyle_classic.o: networkeditor/styles/nwestyle_classic.c
 
 # target to build an object file
 networkeditor/styles/nwestyle_classic.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic.cpp.o
 .PHONY : networkeditor/styles/nwestyle_classic.cpp.o
 
 networkeditor/styles/nwestyle_classic.i: networkeditor/styles/nwestyle_classic.cpp.i
@@ -4894,7 +4654,7 @@ networkeditor/styles/nwestyle_classic.i: networkeditor/styles/nwestyle_classic.c
 
 # target to preprocess a source file
 networkeditor/styles/nwestyle_classic.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic.cpp.i
 .PHONY : networkeditor/styles/nwestyle_classic.cpp.i
 
 networkeditor/styles/nwestyle_classic.s: networkeditor/styles/nwestyle_classic.cpp.s
@@ -4902,7 +4662,7 @@ networkeditor/styles/nwestyle_classic.s: networkeditor/styles/nwestyle_classic.c
 
 # target to generate assembly for a file
 networkeditor/styles/nwestyle_classic.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic.cpp.s
 .PHONY : networkeditor/styles/nwestyle_classic.cpp.s
 
 networkeditor/styles/nwestyle_classic_print.o: networkeditor/styles/nwestyle_classic_print.cpp.o
@@ -4910,7 +4670,7 @@ networkeditor/styles/nwestyle_classic_print.o: networkeditor/styles/nwestyle_cla
 
 # target to build an object file
 networkeditor/styles/nwestyle_classic_print.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic_print.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic_print.cpp.o
 .PHONY : networkeditor/styles/nwestyle_classic_print.cpp.o
 
 networkeditor/styles/nwestyle_classic_print.i: networkeditor/styles/nwestyle_classic_print.cpp.i
@@ -4918,7 +4678,7 @@ networkeditor/styles/nwestyle_classic_print.i: networkeditor/styles/nwestyle_cla
 
 # target to preprocess a source file
 networkeditor/styles/nwestyle_classic_print.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic_print.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic_print.cpp.i
 .PHONY : networkeditor/styles/nwestyle_classic_print.cpp.i
 
 networkeditor/styles/nwestyle_classic_print.s: networkeditor/styles/nwestyle_classic_print.cpp.s
@@ -4926,7 +4686,7 @@ networkeditor/styles/nwestyle_classic_print.s: networkeditor/styles/nwestyle_cla
 
 # target to generate assembly for a file
 networkeditor/styles/nwestyle_classic_print.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic_print.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic_print.cpp.s
 .PHONY : networkeditor/styles/nwestyle_classic_print.cpp.s
 
 progressdialog.o: progressdialog.cpp.o
@@ -4934,7 +4694,7 @@ progressdialog.o: progressdialog.cpp.o
 
 # target to build an object file
 progressdialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/progressdialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/progressdialog.cpp.o
 .PHONY : progressdialog.cpp.o
 
 progressdialog.i: progressdialog.cpp.i
@@ -4942,7 +4702,7 @@ progressdialog.i: progressdialog.cpp.i
 
 # target to preprocess a source file
 progressdialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/progressdialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/progressdialog.cpp.i
 .PHONY : progressdialog.cpp.i
 
 progressdialog.s: progressdialog.cpp.s
@@ -4950,7 +4710,7 @@ progressdialog.s: progressdialog.cpp.s
 
 # target to generate assembly for a file
 progressdialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/progressdialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/progressdialog.cpp.s
 .PHONY : progressdialog.cpp.s
 
 qrc_vrn_qt.o: qrc_vrn_qt.cpp.o
@@ -4958,7 +4718,7 @@ qrc_vrn_qt.o: qrc_vrn_qt.cpp.o
 
 # target to build an object file
 qrc_vrn_qt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/qrc_vrn_qt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/qrc_vrn_qt.cpp.o
 .PHONY : qrc_vrn_qt.cpp.o
 
 qrc_vrn_qt.i: qrc_vrn_qt.cpp.i
@@ -4966,7 +4726,7 @@ qrc_vrn_qt.i: qrc_vrn_qt.cpp.i
 
 # target to preprocess a source file
 qrc_vrn_qt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/qrc_vrn_qt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/qrc_vrn_qt.cpp.i
 .PHONY : qrc_vrn_qt.cpp.i
 
 qrc_vrn_qt.s: qrc_vrn_qt.cpp.s
@@ -4974,7 +4734,7 @@ qrc_vrn_qt.s: qrc_vrn_qt.cpp.s
 
 # target to generate assembly for a file
 qrc_vrn_qt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/qrc_vrn_qt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/qrc_vrn_qt.cpp.s
 .PHONY : qrc_vrn_qt.cpp.s
 
 versionqt.o: versionqt.cpp.o
@@ -4982,7 +4742,7 @@ versionqt.o: versionqt.cpp.o
 
 # target to build an object file
 versionqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/versionqt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/versionqt.cpp.o
 .PHONY : versionqt.cpp.o
 
 versionqt.i: versionqt.cpp.i
@@ -4990,7 +4750,7 @@ versionqt.i: versionqt.cpp.i
 
 # target to preprocess a source file
 versionqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/versionqt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/versionqt.cpp.i
 .PHONY : versionqt.cpp.i
 
 versionqt.s: versionqt.cpp.s
@@ -4998,7 +4758,7 @@ versionqt.s: versionqt.cpp.s
 
 # target to generate assembly for a file
 versionqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/versionqt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/versionqt.cpp.s
 .PHONY : versionqt.cpp.s
 
 voreenapplicationqt.o: voreenapplicationqt.cpp.o
@@ -5006,7 +4766,7 @@ voreenapplicationqt.o: voreenapplicationqt.cpp.o
 
 # target to build an object file
 voreenapplicationqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenapplicationqt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenapplicationqt.cpp.o
 .PHONY : voreenapplicationqt.cpp.o
 
 voreenapplicationqt.i: voreenapplicationqt.cpp.i
@@ -5014,7 +4774,7 @@ voreenapplicationqt.i: voreenapplicationqt.cpp.i
 
 # target to preprocess a source file
 voreenapplicationqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenapplicationqt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenapplicationqt.cpp.i
 .PHONY : voreenapplicationqt.cpp.i
 
 voreenapplicationqt.s: voreenapplicationqt.cpp.s
@@ -5022,7 +4782,7 @@ voreenapplicationqt.s: voreenapplicationqt.cpp.s
 
 # target to generate assembly for a file
 voreenapplicationqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenapplicationqt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenapplicationqt.cpp.s
 .PHONY : voreenapplicationqt.cpp.s
 
 voreenmoduleqt.o: voreenmoduleqt.cpp.o
@@ -5030,7 +4790,7 @@ voreenmoduleqt.o: voreenmoduleqt.cpp.o
 
 # target to build an object file
 voreenmoduleqt.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenmoduleqt.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenmoduleqt.cpp.o
 .PHONY : voreenmoduleqt.cpp.o
 
 voreenmoduleqt.i: voreenmoduleqt.cpp.i
@@ -5038,7 +4798,7 @@ voreenmoduleqt.i: voreenmoduleqt.cpp.i
 
 # target to preprocess a source file
 voreenmoduleqt.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenmoduleqt.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenmoduleqt.cpp.i
 .PHONY : voreenmoduleqt.cpp.i
 
 voreenmoduleqt.s: voreenmoduleqt.cpp.s
@@ -5046,7 +4806,7 @@ voreenmoduleqt.s: voreenmoduleqt.cpp.s
 
 # target to generate assembly for a file
 voreenmoduleqt.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenmoduleqt.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/voreenmoduleqt.cpp.s
 .PHONY : voreenmoduleqt.cpp.s
 
 widgets/animation/animationeditor.o: widgets/animation/animationeditor.cpp.o
@@ -5054,7 +4814,7 @@ widgets/animation/animationeditor.o: widgets/animation/animationeditor.cpp.o
 
 # target to build an object file
 widgets/animation/animationeditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationeditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationeditor.cpp.o
 .PHONY : widgets/animation/animationeditor.cpp.o
 
 widgets/animation/animationeditor.i: widgets/animation/animationeditor.cpp.i
@@ -5062,7 +4822,7 @@ widgets/animation/animationeditor.i: widgets/animation/animationeditor.cpp.i
 
 # target to preprocess a source file
 widgets/animation/animationeditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationeditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationeditor.cpp.i
 .PHONY : widgets/animation/animationeditor.cpp.i
 
 widgets/animation/animationeditor.s: widgets/animation/animationeditor.cpp.s
@@ -5070,7 +4830,7 @@ widgets/animation/animationeditor.s: widgets/animation/animationeditor.cpp.s
 
 # target to generate assembly for a file
 widgets/animation/animationeditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationeditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationeditor.cpp.s
 .PHONY : widgets/animation/animationeditor.cpp.s
 
 widgets/animation/animationexportwidget.o: widgets/animation/animationexportwidget.cpp.o
@@ -5078,7 +4838,7 @@ widgets/animation/animationexportwidget.o: widgets/animation/animationexportwidg
 
 # target to build an object file
 widgets/animation/animationexportwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationexportwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationexportwidget.cpp.o
 .PHONY : widgets/animation/animationexportwidget.cpp.o
 
 widgets/animation/animationexportwidget.i: widgets/animation/animationexportwidget.cpp.i
@@ -5086,7 +4846,7 @@ widgets/animation/animationexportwidget.i: widgets/animation/animationexportwidg
 
 # target to preprocess a source file
 widgets/animation/animationexportwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationexportwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationexportwidget.cpp.i
 .PHONY : widgets/animation/animationexportwidget.cpp.i
 
 widgets/animation/animationexportwidget.s: widgets/animation/animationexportwidget.cpp.s
@@ -5094,7 +4854,7 @@ widgets/animation/animationexportwidget.s: widgets/animation/animationexportwidg
 
 # target to generate assembly for a file
 widgets/animation/animationexportwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationexportwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationexportwidget.cpp.s
 .PHONY : widgets/animation/animationexportwidget.cpp.s
 
 widgets/animation/currentframegraphicsitem.o: widgets/animation/currentframegraphicsitem.cpp.o
@@ -5102,7 +4862,7 @@ widgets/animation/currentframegraphicsitem.o: widgets/animation/currentframegrap
 
 # target to build an object file
 widgets/animation/currentframegraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/currentframegraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/currentframegraphicsitem.cpp.o
 .PHONY : widgets/animation/currentframegraphicsitem.cpp.o
 
 widgets/animation/currentframegraphicsitem.i: widgets/animation/currentframegraphicsitem.cpp.i
@@ -5110,7 +4870,7 @@ widgets/animation/currentframegraphicsitem.i: widgets/animation/currentframegrap
 
 # target to preprocess a source file
 widgets/animation/currentframegraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/currentframegraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/currentframegraphicsitem.cpp.i
 .PHONY : widgets/animation/currentframegraphicsitem.cpp.i
 
 widgets/animation/currentframegraphicsitem.s: widgets/animation/currentframegraphicsitem.cpp.s
@@ -5118,7 +4878,7 @@ widgets/animation/currentframegraphicsitem.s: widgets/animation/currentframegrap
 
 # target to generate assembly for a file
 widgets/animation/currentframegraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/currentframegraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/currentframegraphicsitem.cpp.s
 .PHONY : widgets/animation/currentframegraphicsitem.cpp.s
 
 widgets/animation/keyframegraphicsitem.o: widgets/animation/keyframegraphicsitem.cpp.o
@@ -5126,7 +4886,7 @@ widgets/animation/keyframegraphicsitem.o: widgets/animation/keyframegraphicsitem
 
 # target to build an object file
 widgets/animation/keyframegraphicsitem.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/keyframegraphicsitem.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/keyframegraphicsitem.cpp.o
 .PHONY : widgets/animation/keyframegraphicsitem.cpp.o
 
 widgets/animation/keyframegraphicsitem.i: widgets/animation/keyframegraphicsitem.cpp.i
@@ -5134,7 +4894,7 @@ widgets/animation/keyframegraphicsitem.i: widgets/animation/keyframegraphicsitem
 
 # target to preprocess a source file
 widgets/animation/keyframegraphicsitem.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/keyframegraphicsitem.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/keyframegraphicsitem.cpp.i
 .PHONY : widgets/animation/keyframegraphicsitem.cpp.i
 
 widgets/animation/keyframegraphicsitem.s: widgets/animation/keyframegraphicsitem.cpp.s
@@ -5142,7 +4902,7 @@ widgets/animation/keyframegraphicsitem.s: widgets/animation/keyframegraphicsitem
 
 # target to generate assembly for a file
 widgets/animation/keyframegraphicsitem.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/keyframegraphicsitem.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/keyframegraphicsitem.cpp.s
 .PHONY : widgets/animation/keyframegraphicsitem.cpp.s
 
 widgets/animation/nodechainwidget.o: widgets/animation/nodechainwidget.cpp.o
@@ -5150,7 +4910,7 @@ widgets/animation/nodechainwidget.o: widgets/animation/nodechainwidget.cpp.o
 
 # target to build an object file
 widgets/animation/nodechainwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/nodechainwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/nodechainwidget.cpp.o
 .PHONY : widgets/animation/nodechainwidget.cpp.o
 
 widgets/animation/nodechainwidget.i: widgets/animation/nodechainwidget.cpp.i
@@ -5158,7 +4918,7 @@ widgets/animation/nodechainwidget.i: widgets/animation/nodechainwidget.cpp.i
 
 # target to preprocess a source file
 widgets/animation/nodechainwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/nodechainwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/nodechainwidget.cpp.i
 .PHONY : widgets/animation/nodechainwidget.cpp.i
 
 widgets/animation/nodechainwidget.s: widgets/animation/nodechainwidget.cpp.s
@@ -5166,7 +4926,7 @@ widgets/animation/nodechainwidget.s: widgets/animation/nodechainwidget.cpp.s
 
 # target to generate assembly for a file
 widgets/animation/nodechainwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/nodechainwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/nodechainwidget.cpp.s
 .PHONY : widgets/animation/nodechainwidget.cpp.s
 
 widgets/animation/overviewwidget.o: widgets/animation/overviewwidget.cpp.o
@@ -5174,7 +4934,7 @@ widgets/animation/overviewwidget.o: widgets/animation/overviewwidget.cpp.o
 
 # target to build an object file
 widgets/animation/overviewwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/overviewwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/overviewwidget.cpp.o
 .PHONY : widgets/animation/overviewwidget.cpp.o
 
 widgets/animation/overviewwidget.i: widgets/animation/overviewwidget.cpp.i
@@ -5182,7 +4942,7 @@ widgets/animation/overviewwidget.i: widgets/animation/overviewwidget.cpp.i
 
 # target to preprocess a source file
 widgets/animation/overviewwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/overviewwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/overviewwidget.cpp.i
 .PHONY : widgets/animation/overviewwidget.cpp.i
 
 widgets/animation/overviewwidget.s: widgets/animation/overviewwidget.cpp.s
@@ -5190,7 +4950,7 @@ widgets/animation/overviewwidget.s: widgets/animation/overviewwidget.cpp.s
 
 # target to generate assembly for a file
 widgets/animation/overviewwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/overviewwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/overviewwidget.cpp.s
 .PHONY : widgets/animation/overviewwidget.cpp.s
 
 widgets/animation/processortimelinewidget.o: widgets/animation/processortimelinewidget.cpp.o
@@ -5198,7 +4958,7 @@ widgets/animation/processortimelinewidget.o: widgets/animation/processortimeline
 
 # target to build an object file
 widgets/animation/processortimelinewidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/processortimelinewidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/processortimelinewidget.cpp.o
 .PHONY : widgets/animation/processortimelinewidget.cpp.o
 
 widgets/animation/processortimelinewidget.i: widgets/animation/processortimelinewidget.cpp.i
@@ -5206,7 +4966,7 @@ widgets/animation/processortimelinewidget.i: widgets/animation/processortimeline
 
 # target to preprocess a source file
 widgets/animation/processortimelinewidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/processortimelinewidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/processortimelinewidget.cpp.i
 .PHONY : widgets/animation/processortimelinewidget.cpp.i
 
 widgets/animation/processortimelinewidget.s: widgets/animation/processortimelinewidget.cpp.s
@@ -5214,7 +4974,7 @@ widgets/animation/processortimelinewidget.s: widgets/animation/processortimeline
 
 # target to generate assembly for a file
 widgets/animation/processortimelinewidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/processortimelinewidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/processortimelinewidget.cpp.s
 .PHONY : widgets/animation/processortimelinewidget.cpp.s
 
 widgets/animation/propertytimelineview.o: widgets/animation/propertytimelineview.cpp.o
@@ -5222,7 +4982,7 @@ widgets/animation/propertytimelineview.o: widgets/animation/propertytimelineview
 
 # target to build an object file
 widgets/animation/propertytimelineview.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelineview.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelineview.cpp.o
 .PHONY : widgets/animation/propertytimelineview.cpp.o
 
 widgets/animation/propertytimelineview.i: widgets/animation/propertytimelineview.cpp.i
@@ -5230,7 +4990,7 @@ widgets/animation/propertytimelineview.i: widgets/animation/propertytimelineview
 
 # target to preprocess a source file
 widgets/animation/propertytimelineview.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelineview.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelineview.cpp.i
 .PHONY : widgets/animation/propertytimelineview.cpp.i
 
 widgets/animation/propertytimelineview.s: widgets/animation/propertytimelineview.cpp.s
@@ -5238,7 +4998,7 @@ widgets/animation/propertytimelineview.s: widgets/animation/propertytimelineview
 
 # target to generate assembly for a file
 widgets/animation/propertytimelineview.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelineview.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelineview.cpp.s
 .PHONY : widgets/animation/propertytimelineview.cpp.s
 
 widgets/animation/propertytimelinewidget.o: widgets/animation/propertytimelinewidget.cpp.o
@@ -5246,7 +5006,7 @@ widgets/animation/propertytimelinewidget.o: widgets/animation/propertytimelinewi
 
 # target to build an object file
 widgets/animation/propertytimelinewidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelinewidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelinewidget.cpp.o
 .PHONY : widgets/animation/propertytimelinewidget.cpp.o
 
 widgets/animation/propertytimelinewidget.i: widgets/animation/propertytimelinewidget.cpp.i
@@ -5254,7 +5014,7 @@ widgets/animation/propertytimelinewidget.i: widgets/animation/propertytimelinewi
 
 # target to preprocess a source file
 widgets/animation/propertytimelinewidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelinewidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelinewidget.cpp.i
 .PHONY : widgets/animation/propertytimelinewidget.cpp.i
 
 widgets/animation/propertytimelinewidget.s: widgets/animation/propertytimelinewidget.cpp.s
@@ -5262,7 +5022,7 @@ widgets/animation/propertytimelinewidget.s: widgets/animation/propertytimelinewi
 
 # target to generate assembly for a file
 widgets/animation/propertytimelinewidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelinewidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelinewidget.cpp.s
 .PHONY : widgets/animation/propertytimelinewidget.cpp.s
 
 widgets/animation/templatepropertytimelinewidget.o: widgets/animation/templatepropertytimelinewidget.cpp.o
@@ -5270,7 +5030,7 @@ widgets/animation/templatepropertytimelinewidget.o: widgets/animation/templatepr
 
 # target to build an object file
 widgets/animation/templatepropertytimelinewidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/templatepropertytimelinewidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/templatepropertytimelinewidget.cpp.o
 .PHONY : widgets/animation/templatepropertytimelinewidget.cpp.o
 
 widgets/animation/templatepropertytimelinewidget.i: widgets/animation/templatepropertytimelinewidget.cpp.i
@@ -5278,7 +5038,7 @@ widgets/animation/templatepropertytimelinewidget.i: widgets/animation/templatepr
 
 # target to preprocess a source file
 widgets/animation/templatepropertytimelinewidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/templatepropertytimelinewidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/templatepropertytimelinewidget.cpp.i
 .PHONY : widgets/animation/templatepropertytimelinewidget.cpp.i
 
 widgets/animation/templatepropertytimelinewidget.s: widgets/animation/templatepropertytimelinewidget.cpp.s
@@ -5286,7 +5046,7 @@ widgets/animation/templatepropertytimelinewidget.s: widgets/animation/templatepr
 
 # target to generate assembly for a file
 widgets/animation/templatepropertytimelinewidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/templatepropertytimelinewidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/templatepropertytimelinewidget.cpp.s
 .PHONY : widgets/animation/templatepropertytimelinewidget.cpp.s
 
 widgets/animation/timelinewidget.o: widgets/animation/timelinewidget.cpp.o
@@ -5294,7 +5054,7 @@ widgets/animation/timelinewidget.o: widgets/animation/timelinewidget.cpp.o
 
 # target to build an object file
 widgets/animation/timelinewidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/timelinewidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/timelinewidget.cpp.o
 .PHONY : widgets/animation/timelinewidget.cpp.o
 
 widgets/animation/timelinewidget.i: widgets/animation/timelinewidget.cpp.i
@@ -5302,7 +5062,7 @@ widgets/animation/timelinewidget.i: widgets/animation/timelinewidget.cpp.i
 
 # target to preprocess a source file
 widgets/animation/timelinewidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/timelinewidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/timelinewidget.cpp.i
 .PHONY : widgets/animation/timelinewidget.cpp.i
 
 widgets/animation/timelinewidget.s: widgets/animation/timelinewidget.cpp.s
@@ -5310,7 +5070,7 @@ widgets/animation/timelinewidget.s: widgets/animation/timelinewidget.cpp.s
 
 # target to generate assembly for a file
 widgets/animation/timelinewidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/timelinewidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/timelinewidget.cpp.s
 .PHONY : widgets/animation/timelinewidget.cpp.s
 
 widgets/choicelistcombobox.o: widgets/choicelistcombobox.cpp.o
@@ -5318,7 +5078,7 @@ widgets/choicelistcombobox.o: widgets/choicelistcombobox.cpp.o
 
 # target to build an object file
 widgets/choicelistcombobox.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/choicelistcombobox.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/choicelistcombobox.cpp.o
 .PHONY : widgets/choicelistcombobox.cpp.o
 
 widgets/choicelistcombobox.i: widgets/choicelistcombobox.cpp.i
@@ -5326,7 +5086,7 @@ widgets/choicelistcombobox.i: widgets/choicelistcombobox.cpp.i
 
 # target to preprocess a source file
 widgets/choicelistcombobox.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/choicelistcombobox.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/choicelistcombobox.cpp.i
 .PHONY : widgets/choicelistcombobox.cpp.i
 
 widgets/choicelistcombobox.s: widgets/choicelistcombobox.cpp.s
@@ -5334,7 +5094,7 @@ widgets/choicelistcombobox.s: widgets/choicelistcombobox.cpp.s
 
 # target to generate assembly for a file
 widgets/choicelistcombobox.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/choicelistcombobox.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/choicelistcombobox.cpp.s
 .PHONY : widgets/choicelistcombobox.cpp.s
 
 widgets/clickablelabel.o: widgets/clickablelabel.cpp.o
@@ -5342,7 +5102,7 @@ widgets/clickablelabel.o: widgets/clickablelabel.cpp.o
 
 # target to build an object file
 widgets/clickablelabel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/clickablelabel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/clickablelabel.cpp.o
 .PHONY : widgets/clickablelabel.cpp.o
 
 widgets/clickablelabel.i: widgets/clickablelabel.cpp.i
@@ -5350,7 +5110,7 @@ widgets/clickablelabel.i: widgets/clickablelabel.cpp.i
 
 # target to preprocess a source file
 widgets/clickablelabel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/clickablelabel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/clickablelabel.cpp.i
 .PHONY : widgets/clickablelabel.cpp.i
 
 widgets/clickablelabel.s: widgets/clickablelabel.cpp.s
@@ -5358,7 +5118,7 @@ widgets/clickablelabel.s: widgets/clickablelabel.cpp.s
 
 # target to generate assembly for a file
 widgets/clickablelabel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/clickablelabel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/clickablelabel.cpp.s
 .PHONY : widgets/clickablelabel.cpp.s
 
 widgets/codeedit.o: widgets/codeedit.cpp.o
@@ -5366,7 +5126,7 @@ widgets/codeedit.o: widgets/codeedit.cpp.o
 
 # target to build an object file
 widgets/codeedit.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/codeedit.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/codeedit.cpp.o
 .PHONY : widgets/codeedit.cpp.o
 
 widgets/codeedit.i: widgets/codeedit.cpp.i
@@ -5374,7 +5134,7 @@ widgets/codeedit.i: widgets/codeedit.cpp.i
 
 # target to preprocess a source file
 widgets/codeedit.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/codeedit.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/codeedit.cpp.i
 .PHONY : widgets/codeedit.cpp.i
 
 widgets/codeedit.s: widgets/codeedit.cpp.s
@@ -5382,7 +5142,7 @@ widgets/codeedit.s: widgets/codeedit.cpp.s
 
 # target to generate assembly for a file
 widgets/codeedit.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/codeedit.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/codeedit.cpp.s
 .PHONY : widgets/codeedit.cpp.s
 
 widgets/consoleplugin.o: widgets/consoleplugin.cpp.o
@@ -5390,7 +5150,7 @@ widgets/consoleplugin.o: widgets/consoleplugin.cpp.o
 
 # target to build an object file
 widgets/consoleplugin.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/consoleplugin.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/consoleplugin.cpp.o
 .PHONY : widgets/consoleplugin.cpp.o
 
 widgets/consoleplugin.i: widgets/consoleplugin.cpp.i
@@ -5398,7 +5158,7 @@ widgets/consoleplugin.i: widgets/consoleplugin.cpp.i
 
 # target to preprocess a source file
 widgets/consoleplugin.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/consoleplugin.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/consoleplugin.cpp.i
 .PHONY : widgets/consoleplugin.cpp.i
 
 widgets/consoleplugin.s: widgets/consoleplugin.cpp.s
@@ -5406,7 +5166,7 @@ widgets/consoleplugin.s: widgets/consoleplugin.cpp.s
 
 # target to generate assembly for a file
 widgets/consoleplugin.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/consoleplugin.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/consoleplugin.cpp.s
 .PHONY : widgets/consoleplugin.cpp.s
 
 widgets/customlabel.o: widgets/customlabel.cpp.o
@@ -5414,7 +5174,7 @@ widgets/customlabel.o: widgets/customlabel.cpp.o
 
 # target to build an object file
 widgets/customlabel.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/customlabel.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/customlabel.cpp.o
 .PHONY : widgets/customlabel.cpp.o
 
 widgets/customlabel.i: widgets/customlabel.cpp.i
@@ -5422,7 +5182,7 @@ widgets/customlabel.i: widgets/customlabel.cpp.i
 
 # target to preprocess a source file
 widgets/customlabel.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/customlabel.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/customlabel.cpp.i
 .PHONY : widgets/customlabel.cpp.i
 
 widgets/customlabel.s: widgets/customlabel.cpp.s
@@ -5430,7 +5190,7 @@ widgets/customlabel.s: widgets/customlabel.cpp.s
 
 # target to generate assembly for a file
 widgets/customlabel.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/customlabel.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/customlabel.cpp.s
 .PHONY : widgets/customlabel.cpp.s
 
 widgets/enterexitpushbutton.o: widgets/enterexitpushbutton.cpp.o
@@ -5438,7 +5198,7 @@ widgets/enterexitpushbutton.o: widgets/enterexitpushbutton.cpp.o
 
 # target to build an object file
 widgets/enterexitpushbutton.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/enterexitpushbutton.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/enterexitpushbutton.cpp.o
 .PHONY : widgets/enterexitpushbutton.cpp.o
 
 widgets/enterexitpushbutton.i: widgets/enterexitpushbutton.cpp.i
@@ -5446,7 +5206,7 @@ widgets/enterexitpushbutton.i: widgets/enterexitpushbutton.cpp.i
 
 # target to preprocess a source file
 widgets/enterexitpushbutton.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/enterexitpushbutton.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/enterexitpushbutton.cpp.i
 .PHONY : widgets/enterexitpushbutton.cpp.i
 
 widgets/enterexitpushbutton.s: widgets/enterexitpushbutton.cpp.s
@@ -5454,7 +5214,7 @@ widgets/enterexitpushbutton.s: widgets/enterexitpushbutton.cpp.s
 
 # target to generate assembly for a file
 widgets/enterexitpushbutton.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/enterexitpushbutton.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/enterexitpushbutton.cpp.s
 .PHONY : widgets/enterexitpushbutton.cpp.s
 
 widgets/eventpropertywidget.o: widgets/eventpropertywidget.cpp.o
@@ -5462,7 +5222,7 @@ widgets/eventpropertywidget.o: widgets/eventpropertywidget.cpp.o
 
 # target to build an object file
 widgets/eventpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/eventpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/eventpropertywidget.cpp.o
 .PHONY : widgets/eventpropertywidget.cpp.o
 
 widgets/eventpropertywidget.i: widgets/eventpropertywidget.cpp.i
@@ -5470,7 +5230,7 @@ widgets/eventpropertywidget.i: widgets/eventpropertywidget.cpp.i
 
 # target to preprocess a source file
 widgets/eventpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/eventpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/eventpropertywidget.cpp.i
 .PHONY : widgets/eventpropertywidget.cpp.i
 
 widgets/eventpropertywidget.s: widgets/eventpropertywidget.cpp.s
@@ -5478,7 +5238,7 @@ widgets/eventpropertywidget.s: widgets/eventpropertywidget.cpp.s
 
 # target to generate assembly for a file
 widgets/eventpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/eventpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/eventpropertywidget.cpp.s
 .PHONY : widgets/eventpropertywidget.cpp.s
 
 widgets/expandableheaderbutton.o: widgets/expandableheaderbutton.cpp.o
@@ -5486,7 +5246,7 @@ widgets/expandableheaderbutton.o: widgets/expandableheaderbutton.cpp.o
 
 # target to build an object file
 widgets/expandableheaderbutton.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/expandableheaderbutton.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/expandableheaderbutton.cpp.o
 .PHONY : widgets/expandableheaderbutton.cpp.o
 
 widgets/expandableheaderbutton.i: widgets/expandableheaderbutton.cpp.i
@@ -5494,7 +5254,7 @@ widgets/expandableheaderbutton.i: widgets/expandableheaderbutton.cpp.i
 
 # target to preprocess a source file
 widgets/expandableheaderbutton.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/expandableheaderbutton.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/expandableheaderbutton.cpp.i
 .PHONY : widgets/expandableheaderbutton.cpp.i
 
 widgets/expandableheaderbutton.s: widgets/expandableheaderbutton.cpp.s
@@ -5502,7 +5262,7 @@ widgets/expandableheaderbutton.s: widgets/expandableheaderbutton.cpp.s
 
 # target to generate assembly for a file
 widgets/expandableheaderbutton.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/expandableheaderbutton.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/expandableheaderbutton.cpp.s
 .PHONY : widgets/expandableheaderbutton.cpp.s
 
 widgets/glslhighlighter.o: widgets/glslhighlighter.cpp.o
@@ -5510,7 +5270,7 @@ widgets/glslhighlighter.o: widgets/glslhighlighter.cpp.o
 
 # target to build an object file
 widgets/glslhighlighter.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/glslhighlighter.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/glslhighlighter.cpp.o
 .PHONY : widgets/glslhighlighter.cpp.o
 
 widgets/glslhighlighter.i: widgets/glslhighlighter.cpp.i
@@ -5518,7 +5278,7 @@ widgets/glslhighlighter.i: widgets/glslhighlighter.cpp.i
 
 # target to preprocess a source file
 widgets/glslhighlighter.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/glslhighlighter.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/glslhighlighter.cpp.i
 .PHONY : widgets/glslhighlighter.cpp.i
 
 widgets/glslhighlighter.s: widgets/glslhighlighter.cpp.s
@@ -5526,7 +5286,7 @@ widgets/glslhighlighter.s: widgets/glslhighlighter.cpp.s
 
 # target to generate assembly for a file
 widgets/glslhighlighter.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/glslhighlighter.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/glslhighlighter.cpp.s
 .PHONY : widgets/glslhighlighter.cpp.s
 
 widgets/inputmappingdialog.o: widgets/inputmappingdialog.cpp.o
@@ -5534,7 +5294,7 @@ widgets/inputmappingdialog.o: widgets/inputmappingdialog.cpp.o
 
 # target to build an object file
 widgets/inputmappingdialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/inputmappingdialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/inputmappingdialog.cpp.o
 .PHONY : widgets/inputmappingdialog.cpp.o
 
 widgets/inputmappingdialog.i: widgets/inputmappingdialog.cpp.i
@@ -5542,7 +5302,7 @@ widgets/inputmappingdialog.i: widgets/inputmappingdialog.cpp.i
 
 # target to preprocess a source file
 widgets/inputmappingdialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/inputmappingdialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/inputmappingdialog.cpp.i
 .PHONY : widgets/inputmappingdialog.cpp.i
 
 widgets/inputmappingdialog.s: widgets/inputmappingdialog.cpp.s
@@ -5550,7 +5310,7 @@ widgets/inputmappingdialog.s: widgets/inputmappingdialog.cpp.s
 
 # target to generate assembly for a file
 widgets/inputmappingdialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/inputmappingdialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/inputmappingdialog.cpp.s
 .PHONY : widgets/inputmappingdialog.cpp.s
 
 widgets/keydetectorwidget.o: widgets/keydetectorwidget.cpp.o
@@ -5558,7 +5318,7 @@ widgets/keydetectorwidget.o: widgets/keydetectorwidget.cpp.o
 
 # target to build an object file
 widgets/keydetectorwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/keydetectorwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/keydetectorwidget.cpp.o
 .PHONY : widgets/keydetectorwidget.cpp.o
 
 widgets/keydetectorwidget.i: widgets/keydetectorwidget.cpp.i
@@ -5566,7 +5326,7 @@ widgets/keydetectorwidget.i: widgets/keydetectorwidget.cpp.i
 
 # target to preprocess a source file
 widgets/keydetectorwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/keydetectorwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/keydetectorwidget.cpp.i
 .PHONY : widgets/keydetectorwidget.cpp.i
 
 widgets/keydetectorwidget.s: widgets/keydetectorwidget.cpp.s
@@ -5574,7 +5334,7 @@ widgets/keydetectorwidget.s: widgets/keydetectorwidget.cpp.s
 
 # target to generate assembly for a file
 widgets/keydetectorwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/keydetectorwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/keydetectorwidget.cpp.s
 .PHONY : widgets/keydetectorwidget.cpp.s
 
 widgets/lightwidget.o: widgets/lightwidget.cpp.o
@@ -5582,7 +5342,7 @@ widgets/lightwidget.o: widgets/lightwidget.cpp.o
 
 # target to build an object file
 widgets/lightwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lightwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lightwidget.cpp.o
 .PHONY : widgets/lightwidget.cpp.o
 
 widgets/lightwidget.i: widgets/lightwidget.cpp.i
@@ -5590,7 +5350,7 @@ widgets/lightwidget.i: widgets/lightwidget.cpp.i
 
 # target to preprocess a source file
 widgets/lightwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lightwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lightwidget.cpp.i
 .PHONY : widgets/lightwidget.cpp.i
 
 widgets/lightwidget.s: widgets/lightwidget.cpp.s
@@ -5598,7 +5358,7 @@ widgets/lightwidget.s: widgets/lightwidget.cpp.s
 
 # target to generate assembly for a file
 widgets/lightwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lightwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lightwidget.cpp.s
 .PHONY : widgets/lightwidget.cpp.s
 
 widgets/lineeditresetwidget.o: widgets/lineeditresetwidget.cpp.o
@@ -5606,7 +5366,7 @@ widgets/lineeditresetwidget.o: widgets/lineeditresetwidget.cpp.o
 
 # target to build an object file
 widgets/lineeditresetwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lineeditresetwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lineeditresetwidget.cpp.o
 .PHONY : widgets/lineeditresetwidget.cpp.o
 
 widgets/lineeditresetwidget.i: widgets/lineeditresetwidget.cpp.i
@@ -5614,7 +5374,7 @@ widgets/lineeditresetwidget.i: widgets/lineeditresetwidget.cpp.i
 
 # target to preprocess a source file
 widgets/lineeditresetwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lineeditresetwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lineeditresetwidget.cpp.i
 .PHONY : widgets/lineeditresetwidget.cpp.i
 
 widgets/lineeditresetwidget.s: widgets/lineeditresetwidget.cpp.s
@@ -5622,7 +5382,7 @@ widgets/lineeditresetwidget.s: widgets/lineeditresetwidget.cpp.s
 
 # target to generate assembly for a file
 widgets/lineeditresetwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lineeditresetwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/lineeditresetwidget.cpp.s
 .PHONY : widgets/lineeditresetwidget.cpp.s
 
 widgets/processor/qprocessorwidget.o: widgets/processor/qprocessorwidget.cpp.o
@@ -5630,7 +5390,7 @@ widgets/processor/qprocessorwidget.o: widgets/processor/qprocessorwidget.cpp.o
 
 # target to build an object file
 widgets/processor/qprocessorwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processor/qprocessorwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processor/qprocessorwidget.cpp.o
 .PHONY : widgets/processor/qprocessorwidget.cpp.o
 
 widgets/processor/qprocessorwidget.i: widgets/processor/qprocessorwidget.cpp.i
@@ -5638,7 +5398,7 @@ widgets/processor/qprocessorwidget.i: widgets/processor/qprocessorwidget.cpp.i
 
 # target to preprocess a source file
 widgets/processor/qprocessorwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processor/qprocessorwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processor/qprocessorwidget.cpp.i
 .PHONY : widgets/processor/qprocessorwidget.cpp.i
 
 widgets/processor/qprocessorwidget.s: widgets/processor/qprocessorwidget.cpp.s
@@ -5646,7 +5406,7 @@ widgets/processor/qprocessorwidget.s: widgets/processor/qprocessorwidget.cpp.s
 
 # target to generate assembly for a file
 widgets/processor/qprocessorwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processor/qprocessorwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processor/qprocessorwidget.cpp.s
 .PHONY : widgets/processor/qprocessorwidget.cpp.s
 
 widgets/processorlistwidget.o: widgets/processorlistwidget.cpp.o
@@ -5654,7 +5414,7 @@ widgets/processorlistwidget.o: widgets/processorlistwidget.cpp.o
 
 # target to build an object file
 widgets/processorlistwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processorlistwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processorlistwidget.cpp.o
 .PHONY : widgets/processorlistwidget.cpp.o
 
 widgets/processorlistwidget.i: widgets/processorlistwidget.cpp.i
@@ -5662,7 +5422,7 @@ widgets/processorlistwidget.i: widgets/processorlistwidget.cpp.i
 
 # target to preprocess a source file
 widgets/processorlistwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processorlistwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processorlistwidget.cpp.i
 .PHONY : widgets/processorlistwidget.cpp.i
 
 widgets/processorlistwidget.s: widgets/processorlistwidget.cpp.s
@@ -5670,7 +5430,7 @@ widgets/processorlistwidget.s: widgets/processorlistwidget.cpp.s
 
 # target to generate assembly for a file
 widgets/processorlistwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processorlistwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/processorlistwidget.cpp.s
 .PHONY : widgets/processorlistwidget.cpp.s
 
 widgets/property/boolpropertywidget.o: widgets/property/boolpropertywidget.cpp.o
@@ -5678,7 +5438,7 @@ widgets/property/boolpropertywidget.o: widgets/property/boolpropertywidget.cpp.o
 
 # target to build an object file
 widgets/property/boolpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/boolpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/boolpropertywidget.cpp.o
 .PHONY : widgets/property/boolpropertywidget.cpp.o
 
 widgets/property/boolpropertywidget.i: widgets/property/boolpropertywidget.cpp.i
@@ -5686,7 +5446,7 @@ widgets/property/boolpropertywidget.i: widgets/property/boolpropertywidget.cpp.i
 
 # target to preprocess a source file
 widgets/property/boolpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/boolpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/boolpropertywidget.cpp.i
 .PHONY : widgets/property/boolpropertywidget.cpp.i
 
 widgets/property/boolpropertywidget.s: widgets/property/boolpropertywidget.cpp.s
@@ -5694,7 +5454,7 @@ widgets/property/boolpropertywidget.s: widgets/property/boolpropertywidget.cpp.s
 
 # target to generate assembly for a file
 widgets/property/boolpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/boolpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/boolpropertywidget.cpp.s
 .PHONY : widgets/property/boolpropertywidget.cpp.s
 
 widgets/property/buttonpropertywidget.o: widgets/property/buttonpropertywidget.cpp.o
@@ -5702,7 +5462,7 @@ widgets/property/buttonpropertywidget.o: widgets/property/buttonpropertywidget.c
 
 # target to build an object file
 widgets/property/buttonpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/buttonpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/buttonpropertywidget.cpp.o
 .PHONY : widgets/property/buttonpropertywidget.cpp.o
 
 widgets/property/buttonpropertywidget.i: widgets/property/buttonpropertywidget.cpp.i
@@ -5710,7 +5470,7 @@ widgets/property/buttonpropertywidget.i: widgets/property/buttonpropertywidget.c
 
 # target to preprocess a source file
 widgets/property/buttonpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/buttonpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/buttonpropertywidget.cpp.i
 .PHONY : widgets/property/buttonpropertywidget.cpp.i
 
 widgets/property/buttonpropertywidget.s: widgets/property/buttonpropertywidget.cpp.s
@@ -5718,7 +5478,7 @@ widgets/property/buttonpropertywidget.s: widgets/property/buttonpropertywidget.c
 
 # target to generate assembly for a file
 widgets/property/buttonpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/buttonpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/buttonpropertywidget.cpp.s
 .PHONY : widgets/property/buttonpropertywidget.cpp.s
 
 widgets/property/camerapropertywidget.o: widgets/property/camerapropertywidget.cpp.o
@@ -5726,7 +5486,7 @@ widgets/property/camerapropertywidget.o: widgets/property/camerapropertywidget.c
 
 # target to build an object file
 widgets/property/camerapropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerapropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerapropertywidget.cpp.o
 .PHONY : widgets/property/camerapropertywidget.cpp.o
 
 widgets/property/camerapropertywidget.i: widgets/property/camerapropertywidget.cpp.i
@@ -5734,7 +5494,7 @@ widgets/property/camerapropertywidget.i: widgets/property/camerapropertywidget.c
 
 # target to preprocess a source file
 widgets/property/camerapropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerapropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerapropertywidget.cpp.i
 .PHONY : widgets/property/camerapropertywidget.cpp.i
 
 widgets/property/camerapropertywidget.s: widgets/property/camerapropertywidget.cpp.s
@@ -5742,7 +5502,7 @@ widgets/property/camerapropertywidget.s: widgets/property/camerapropertywidget.c
 
 # target to generate assembly for a file
 widgets/property/camerapropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerapropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerapropertywidget.cpp.s
 .PHONY : widgets/property/camerapropertywidget.cpp.s
 
 widgets/property/camerawidget.o: widgets/property/camerawidget.cpp.o
@@ -5750,7 +5510,7 @@ widgets/property/camerawidget.o: widgets/property/camerawidget.cpp.o
 
 # target to build an object file
 widgets/property/camerawidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerawidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerawidget.cpp.o
 .PHONY : widgets/property/camerawidget.cpp.o
 
 widgets/property/camerawidget.i: widgets/property/camerawidget.cpp.i
@@ -5758,7 +5518,7 @@ widgets/property/camerawidget.i: widgets/property/camerawidget.cpp.i
 
 # target to preprocess a source file
 widgets/property/camerawidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerawidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerawidget.cpp.i
 .PHONY : widgets/property/camerawidget.cpp.i
 
 widgets/property/camerawidget.s: widgets/property/camerawidget.cpp.s
@@ -5766,7 +5526,7 @@ widgets/property/camerawidget.s: widgets/property/camerawidget.cpp.s
 
 # target to generate assembly for a file
 widgets/property/camerawidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerawidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerawidget.cpp.s
 .PHONY : widgets/property/camerawidget.cpp.s
 
 widgets/property/colorpropertywidget.o: widgets/property/colorpropertywidget.cpp.o
@@ -5774,7 +5534,7 @@ widgets/property/colorpropertywidget.o: widgets/property/colorpropertywidget.cpp
 
 # target to build an object file
 widgets/property/colorpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/colorpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/colorpropertywidget.cpp.o
 .PHONY : widgets/property/colorpropertywidget.cpp.o
 
 widgets/property/colorpropertywidget.i: widgets/property/colorpropertywidget.cpp.i
@@ -5782,7 +5542,7 @@ widgets/property/colorpropertywidget.i: widgets/property/colorpropertywidget.cpp
 
 # target to preprocess a source file
 widgets/property/colorpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/colorpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/colorpropertywidget.cpp.i
 .PHONY : widgets/property/colorpropertywidget.cpp.i
 
 widgets/property/colorpropertywidget.s: widgets/property/colorpropertywidget.cpp.s
@@ -5790,7 +5550,7 @@ widgets/property/colorpropertywidget.s: widgets/property/colorpropertywidget.cpp
 
 # target to generate assembly for a file
 widgets/property/colorpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/colorpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/colorpropertywidget.cpp.s
 .PHONY : widgets/property/colorpropertywidget.cpp.s
 
 widgets/property/corepropertywidgetfactory.o: widgets/property/corepropertywidgetfactory.cpp.o
@@ -5798,7 +5558,7 @@ widgets/property/corepropertywidgetfactory.o: widgets/property/corepropertywidge
 
 # target to build an object file
 widgets/property/corepropertywidgetfactory.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/corepropertywidgetfactory.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/corepropertywidgetfactory.cpp.o
 .PHONY : widgets/property/corepropertywidgetfactory.cpp.o
 
 widgets/property/corepropertywidgetfactory.i: widgets/property/corepropertywidgetfactory.cpp.i
@@ -5806,7 +5566,7 @@ widgets/property/corepropertywidgetfactory.i: widgets/property/corepropertywidge
 
 # target to preprocess a source file
 widgets/property/corepropertywidgetfactory.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/corepropertywidgetfactory.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/corepropertywidgetfactory.cpp.i
 .PHONY : widgets/property/corepropertywidgetfactory.cpp.i
 
 widgets/property/corepropertywidgetfactory.s: widgets/property/corepropertywidgetfactory.cpp.s
@@ -5814,7 +5574,7 @@ widgets/property/corepropertywidgetfactory.s: widgets/property/corepropertywidge
 
 # target to generate assembly for a file
 widgets/property/corepropertywidgetfactory.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/corepropertywidgetfactory.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/corepropertywidgetfactory.cpp.s
 .PHONY : widgets/property/corepropertywidgetfactory.cpp.s
 
 widgets/property/filedialogpropertywidget.o: widgets/property/filedialogpropertywidget.cpp.o
@@ -5822,7 +5582,7 @@ widgets/property/filedialogpropertywidget.o: widgets/property/filedialogproperty
 
 # target to build an object file
 widgets/property/filedialogpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/filedialogpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/filedialogpropertywidget.cpp.o
 .PHONY : widgets/property/filedialogpropertywidget.cpp.o
 
 widgets/property/filedialogpropertywidget.i: widgets/property/filedialogpropertywidget.cpp.i
@@ -5830,7 +5590,7 @@ widgets/property/filedialogpropertywidget.i: widgets/property/filedialogproperty
 
 # target to preprocess a source file
 widgets/property/filedialogpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/filedialogpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/filedialogpropertywidget.cpp.i
 .PHONY : widgets/property/filedialogpropertywidget.cpp.i
 
 widgets/property/filedialogpropertywidget.s: widgets/property/filedialogpropertywidget.cpp.s
@@ -5838,7 +5598,7 @@ widgets/property/filedialogpropertywidget.s: widgets/property/filedialogproperty
 
 # target to generate assembly for a file
 widgets/property/filedialogpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/filedialogpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/filedialogpropertywidget.cpp.s
 .PHONY : widgets/property/filedialogpropertywidget.cpp.s
 
 widgets/property/floatmat2propertywidget.o: widgets/property/floatmat2propertywidget.cpp.o
@@ -5846,7 +5606,7 @@ widgets/property/floatmat2propertywidget.o: widgets/property/floatmat2propertywi
 
 # target to build an object file
 widgets/property/floatmat2propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat2propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat2propertywidget.cpp.o
 .PHONY : widgets/property/floatmat2propertywidget.cpp.o
 
 widgets/property/floatmat2propertywidget.i: widgets/property/floatmat2propertywidget.cpp.i
@@ -5854,7 +5614,7 @@ widgets/property/floatmat2propertywidget.i: widgets/property/floatmat2propertywi
 
 # target to preprocess a source file
 widgets/property/floatmat2propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat2propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat2propertywidget.cpp.i
 .PHONY : widgets/property/floatmat2propertywidget.cpp.i
 
 widgets/property/floatmat2propertywidget.s: widgets/property/floatmat2propertywidget.cpp.s
@@ -5862,7 +5622,7 @@ widgets/property/floatmat2propertywidget.s: widgets/property/floatmat2propertywi
 
 # target to generate assembly for a file
 widgets/property/floatmat2propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat2propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat2propertywidget.cpp.s
 .PHONY : widgets/property/floatmat2propertywidget.cpp.s
 
 widgets/property/floatmat3propertywidget.o: widgets/property/floatmat3propertywidget.cpp.o
@@ -5870,7 +5630,7 @@ widgets/property/floatmat3propertywidget.o: widgets/property/floatmat3propertywi
 
 # target to build an object file
 widgets/property/floatmat3propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat3propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat3propertywidget.cpp.o
 .PHONY : widgets/property/floatmat3propertywidget.cpp.o
 
 widgets/property/floatmat3propertywidget.i: widgets/property/floatmat3propertywidget.cpp.i
@@ -5878,7 +5638,7 @@ widgets/property/floatmat3propertywidget.i: widgets/property/floatmat3propertywi
 
 # target to preprocess a source file
 widgets/property/floatmat3propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat3propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat3propertywidget.cpp.i
 .PHONY : widgets/property/floatmat3propertywidget.cpp.i
 
 widgets/property/floatmat3propertywidget.s: widgets/property/floatmat3propertywidget.cpp.s
@@ -5886,7 +5646,7 @@ widgets/property/floatmat3propertywidget.s: widgets/property/floatmat3propertywi
 
 # target to generate assembly for a file
 widgets/property/floatmat3propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat3propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat3propertywidget.cpp.s
 .PHONY : widgets/property/floatmat3propertywidget.cpp.s
 
 widgets/property/floatmat4propertywidget.o: widgets/property/floatmat4propertywidget.cpp.o
@@ -5894,7 +5654,7 @@ widgets/property/floatmat4propertywidget.o: widgets/property/floatmat4propertywi
 
 # target to build an object file
 widgets/property/floatmat4propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat4propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat4propertywidget.cpp.o
 .PHONY : widgets/property/floatmat4propertywidget.cpp.o
 
 widgets/property/floatmat4propertywidget.i: widgets/property/floatmat4propertywidget.cpp.i
@@ -5902,7 +5662,7 @@ widgets/property/floatmat4propertywidget.i: widgets/property/floatmat4propertywi
 
 # target to preprocess a source file
 widgets/property/floatmat4propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat4propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat4propertywidget.cpp.i
 .PHONY : widgets/property/floatmat4propertywidget.cpp.i
 
 widgets/property/floatmat4propertywidget.s: widgets/property/floatmat4propertywidget.cpp.s
@@ -5910,7 +5670,7 @@ widgets/property/floatmat4propertywidget.s: widgets/property/floatmat4propertywi
 
 # target to generate assembly for a file
 widgets/property/floatmat4propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat4propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat4propertywidget.cpp.s
 .PHONY : widgets/property/floatmat4propertywidget.cpp.s
 
 widgets/property/floatpropertywidget.o: widgets/property/floatpropertywidget.cpp.o
@@ -5918,7 +5678,7 @@ widgets/property/floatpropertywidget.o: widgets/property/floatpropertywidget.cpp
 
 # target to build an object file
 widgets/property/floatpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatpropertywidget.cpp.o
 .PHONY : widgets/property/floatpropertywidget.cpp.o
 
 widgets/property/floatpropertywidget.i: widgets/property/floatpropertywidget.cpp.i
@@ -5926,7 +5686,7 @@ widgets/property/floatpropertywidget.i: widgets/property/floatpropertywidget.cpp
 
 # target to preprocess a source file
 widgets/property/floatpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatpropertywidget.cpp.i
 .PHONY : widgets/property/floatpropertywidget.cpp.i
 
 widgets/property/floatpropertywidget.s: widgets/property/floatpropertywidget.cpp.s
@@ -5934,7 +5694,7 @@ widgets/property/floatpropertywidget.s: widgets/property/floatpropertywidget.cpp
 
 # target to generate assembly for a file
 widgets/property/floatpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatpropertywidget.cpp.s
 .PHONY : widgets/property/floatpropertywidget.cpp.s
 
 widgets/property/floatvec2propertywidget.o: widgets/property/floatvec2propertywidget.cpp.o
@@ -5942,7 +5702,7 @@ widgets/property/floatvec2propertywidget.o: widgets/property/floatvec2propertywi
 
 # target to build an object file
 widgets/property/floatvec2propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec2propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec2propertywidget.cpp.o
 .PHONY : widgets/property/floatvec2propertywidget.cpp.o
 
 widgets/property/floatvec2propertywidget.i: widgets/property/floatvec2propertywidget.cpp.i
@@ -5950,7 +5710,7 @@ widgets/property/floatvec2propertywidget.i: widgets/property/floatvec2propertywi
 
 # target to preprocess a source file
 widgets/property/floatvec2propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec2propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec2propertywidget.cpp.i
 .PHONY : widgets/property/floatvec2propertywidget.cpp.i
 
 widgets/property/floatvec2propertywidget.s: widgets/property/floatvec2propertywidget.cpp.s
@@ -5958,7 +5718,7 @@ widgets/property/floatvec2propertywidget.s: widgets/property/floatvec2propertywi
 
 # target to generate assembly for a file
 widgets/property/floatvec2propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec2propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec2propertywidget.cpp.s
 .PHONY : widgets/property/floatvec2propertywidget.cpp.s
 
 widgets/property/floatvec3propertywidget.o: widgets/property/floatvec3propertywidget.cpp.o
@@ -5966,7 +5726,7 @@ widgets/property/floatvec3propertywidget.o: widgets/property/floatvec3propertywi
 
 # target to build an object file
 widgets/property/floatvec3propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec3propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec3propertywidget.cpp.o
 .PHONY : widgets/property/floatvec3propertywidget.cpp.o
 
 widgets/property/floatvec3propertywidget.i: widgets/property/floatvec3propertywidget.cpp.i
@@ -5974,7 +5734,7 @@ widgets/property/floatvec3propertywidget.i: widgets/property/floatvec3propertywi
 
 # target to preprocess a source file
 widgets/property/floatvec3propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec3propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec3propertywidget.cpp.i
 .PHONY : widgets/property/floatvec3propertywidget.cpp.i
 
 widgets/property/floatvec3propertywidget.s: widgets/property/floatvec3propertywidget.cpp.s
@@ -5982,7 +5742,7 @@ widgets/property/floatvec3propertywidget.s: widgets/property/floatvec3propertywi
 
 # target to generate assembly for a file
 widgets/property/floatvec3propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec3propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec3propertywidget.cpp.s
 .PHONY : widgets/property/floatvec3propertywidget.cpp.s
 
 widgets/property/floatvec4propertywidget.o: widgets/property/floatvec4propertywidget.cpp.o
@@ -5990,7 +5750,7 @@ widgets/property/floatvec4propertywidget.o: widgets/property/floatvec4propertywi
 
 # target to build an object file
 widgets/property/floatvec4propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec4propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec4propertywidget.cpp.o
 .PHONY : widgets/property/floatvec4propertywidget.cpp.o
 
 widgets/property/floatvec4propertywidget.i: widgets/property/floatvec4propertywidget.cpp.i
@@ -5998,7 +5758,7 @@ widgets/property/floatvec4propertywidget.i: widgets/property/floatvec4propertywi
 
 # target to preprocess a source file
 widgets/property/floatvec4propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec4propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec4propertywidget.cpp.i
 .PHONY : widgets/property/floatvec4propertywidget.cpp.i
 
 widgets/property/floatvec4propertywidget.s: widgets/property/floatvec4propertywidget.cpp.s
@@ -6006,7 +5766,7 @@ widgets/property/floatvec4propertywidget.s: widgets/property/floatvec4propertywi
 
 # target to generate assembly for a file
 widgets/property/floatvec4propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec4propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec4propertywidget.cpp.s
 .PHONY : widgets/property/floatvec4propertywidget.cpp.s
 
 widgets/property/fontpropertywidget.o: widgets/property/fontpropertywidget.cpp.o
@@ -6014,7 +5774,7 @@ widgets/property/fontpropertywidget.o: widgets/property/fontpropertywidget.cpp.o
 
 # target to build an object file
 widgets/property/fontpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/fontpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/fontpropertywidget.cpp.o
 .PHONY : widgets/property/fontpropertywidget.cpp.o
 
 widgets/property/fontpropertywidget.i: widgets/property/fontpropertywidget.cpp.i
@@ -6022,7 +5782,7 @@ widgets/property/fontpropertywidget.i: widgets/property/fontpropertywidget.cpp.i
 
 # target to preprocess a source file
 widgets/property/fontpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/fontpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/fontpropertywidget.cpp.i
 .PHONY : widgets/property/fontpropertywidget.cpp.i
 
 widgets/property/fontpropertywidget.s: widgets/property/fontpropertywidget.cpp.s
@@ -6030,7 +5790,7 @@ widgets/property/fontpropertywidget.s: widgets/property/fontpropertywidget.cpp.s
 
 # target to generate assembly for a file
 widgets/property/fontpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/fontpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/fontpropertywidget.cpp.s
 .PHONY : widgets/property/fontpropertywidget.cpp.s
 
 widgets/property/grouppropertywidget.o: widgets/property/grouppropertywidget.cpp.o
@@ -6038,7 +5798,7 @@ widgets/property/grouppropertywidget.o: widgets/property/grouppropertywidget.cpp
 
 # target to build an object file
 widgets/property/grouppropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/grouppropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/grouppropertywidget.cpp.o
 .PHONY : widgets/property/grouppropertywidget.cpp.o
 
 widgets/property/grouppropertywidget.i: widgets/property/grouppropertywidget.cpp.i
@@ -6046,7 +5806,7 @@ widgets/property/grouppropertywidget.i: widgets/property/grouppropertywidget.cpp
 
 # target to preprocess a source file
 widgets/property/grouppropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/grouppropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/grouppropertywidget.cpp.i
 .PHONY : widgets/property/grouppropertywidget.cpp.i
 
 widgets/property/grouppropertywidget.s: widgets/property/grouppropertywidget.cpp.s
@@ -6054,7 +5814,7 @@ widgets/property/grouppropertywidget.s: widgets/property/grouppropertywidget.cpp
 
 # target to generate assembly for a file
 widgets/property/grouppropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/grouppropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/grouppropertywidget.cpp.s
 .PHONY : widgets/property/grouppropertywidget.cpp.s
 
 widgets/property/intpropertywidget.o: widgets/property/intpropertywidget.cpp.o
@@ -6062,7 +5822,7 @@ widgets/property/intpropertywidget.o: widgets/property/intpropertywidget.cpp.o
 
 # target to build an object file
 widgets/property/intpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intpropertywidget.cpp.o
 .PHONY : widgets/property/intpropertywidget.cpp.o
 
 widgets/property/intpropertywidget.i: widgets/property/intpropertywidget.cpp.i
@@ -6070,7 +5830,7 @@ widgets/property/intpropertywidget.i: widgets/property/intpropertywidget.cpp.i
 
 # target to preprocess a source file
 widgets/property/intpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intpropertywidget.cpp.i
 .PHONY : widgets/property/intpropertywidget.cpp.i
 
 widgets/property/intpropertywidget.s: widgets/property/intpropertywidget.cpp.s
@@ -6078,7 +5838,7 @@ widgets/property/intpropertywidget.s: widgets/property/intpropertywidget.cpp.s
 
 # target to generate assembly for a file
 widgets/property/intpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intpropertywidget.cpp.s
 .PHONY : widgets/property/intpropertywidget.cpp.s
 
 widgets/property/intvec2propertywidget.o: widgets/property/intvec2propertywidget.cpp.o
@@ -6086,7 +5846,7 @@ widgets/property/intvec2propertywidget.o: widgets/property/intvec2propertywidget
 
 # target to build an object file
 widgets/property/intvec2propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec2propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec2propertywidget.cpp.o
 .PHONY : widgets/property/intvec2propertywidget.cpp.o
 
 widgets/property/intvec2propertywidget.i: widgets/property/intvec2propertywidget.cpp.i
@@ -6094,7 +5854,7 @@ widgets/property/intvec2propertywidget.i: widgets/property/intvec2propertywidget
 
 # target to preprocess a source file
 widgets/property/intvec2propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec2propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec2propertywidget.cpp.i
 .PHONY : widgets/property/intvec2propertywidget.cpp.i
 
 widgets/property/intvec2propertywidget.s: widgets/property/intvec2propertywidget.cpp.s
@@ -6102,7 +5862,7 @@ widgets/property/intvec2propertywidget.s: widgets/property/intvec2propertywidget
 
 # target to generate assembly for a file
 widgets/property/intvec2propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec2propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec2propertywidget.cpp.s
 .PHONY : widgets/property/intvec2propertywidget.cpp.s
 
 widgets/property/intvec3propertywidget.o: widgets/property/intvec3propertywidget.cpp.o
@@ -6110,7 +5870,7 @@ widgets/property/intvec3propertywidget.o: widgets/property/intvec3propertywidget
 
 # target to build an object file
 widgets/property/intvec3propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec3propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec3propertywidget.cpp.o
 .PHONY : widgets/property/intvec3propertywidget.cpp.o
 
 widgets/property/intvec3propertywidget.i: widgets/property/intvec3propertywidget.cpp.i
@@ -6118,7 +5878,7 @@ widgets/property/intvec3propertywidget.i: widgets/property/intvec3propertywidget
 
 # target to preprocess a source file
 widgets/property/intvec3propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec3propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec3propertywidget.cpp.i
 .PHONY : widgets/property/intvec3propertywidget.cpp.i
 
 widgets/property/intvec3propertywidget.s: widgets/property/intvec3propertywidget.cpp.s
@@ -6126,7 +5886,7 @@ widgets/property/intvec3propertywidget.s: widgets/property/intvec3propertywidget
 
 # target to generate assembly for a file
 widgets/property/intvec3propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec3propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec3propertywidget.cpp.s
 .PHONY : widgets/property/intvec3propertywidget.cpp.s
 
 widgets/property/intvec4propertywidget.o: widgets/property/intvec4propertywidget.cpp.o
@@ -6134,7 +5894,7 @@ widgets/property/intvec4propertywidget.o: widgets/property/intvec4propertywidget
 
 # target to build an object file
 widgets/property/intvec4propertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec4propertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec4propertywidget.cpp.o
 .PHONY : widgets/property/intvec4propertywidget.cpp.o
 
 widgets/property/intvec4propertywidget.i: widgets/property/intvec4propertywidget.cpp.i
@@ -6142,7 +5902,7 @@ widgets/property/intvec4propertywidget.i: widgets/property/intvec4propertywidget
 
 # target to preprocess a source file
 widgets/property/intvec4propertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec4propertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec4propertywidget.cpp.i
 .PHONY : widgets/property/intvec4propertywidget.cpp.i
 
 widgets/property/intvec4propertywidget.s: widgets/property/intvec4propertywidget.cpp.s
@@ -6150,7 +5910,7 @@ widgets/property/intvec4propertywidget.s: widgets/property/intvec4propertywidget
 
 # target to generate assembly for a file
 widgets/property/intvec4propertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec4propertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec4propertywidget.cpp.s
 .PHONY : widgets/property/intvec4propertywidget.cpp.s
 
 widgets/property/lightpropertywidget.o: widgets/property/lightpropertywidget.cpp.o
@@ -6158,7 +5918,7 @@ widgets/property/lightpropertywidget.o: widgets/property/lightpropertywidget.cpp
 
 # target to build an object file
 widgets/property/lightpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/lightpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/lightpropertywidget.cpp.o
 .PHONY : widgets/property/lightpropertywidget.cpp.o
 
 widgets/property/lightpropertywidget.i: widgets/property/lightpropertywidget.cpp.i
@@ -6166,7 +5926,7 @@ widgets/property/lightpropertywidget.i: widgets/property/lightpropertywidget.cpp
 
 # target to preprocess a source file
 widgets/property/lightpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/lightpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/lightpropertywidget.cpp.i
 .PHONY : widgets/property/lightpropertywidget.cpp.i
 
 widgets/property/lightpropertywidget.s: widgets/property/lightpropertywidget.cpp.s
@@ -6174,7 +5934,7 @@ widgets/property/lightpropertywidget.s: widgets/property/lightpropertywidget.cpp
 
 # target to generate assembly for a file
 widgets/property/lightpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/lightpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/lightpropertywidget.cpp.s
 .PHONY : widgets/property/lightpropertywidget.cpp.s
 
 widgets/property/matrixpropertywidget.o: widgets/property/matrixpropertywidget.cpp.o
@@ -6182,7 +5942,7 @@ widgets/property/matrixpropertywidget.o: widgets/property/matrixpropertywidget.c
 
 # target to build an object file
 widgets/property/matrixpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/matrixpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/matrixpropertywidget.cpp.o
 .PHONY : widgets/property/matrixpropertywidget.cpp.o
 
 widgets/property/matrixpropertywidget.i: widgets/property/matrixpropertywidget.cpp.i
@@ -6190,7 +5950,7 @@ widgets/property/matrixpropertywidget.i: widgets/property/matrixpropertywidget.c
 
 # target to preprocess a source file
 widgets/property/matrixpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/matrixpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/matrixpropertywidget.cpp.i
 .PHONY : widgets/property/matrixpropertywidget.cpp.i
 
 widgets/property/matrixpropertywidget.s: widgets/property/matrixpropertywidget.cpp.s
@@ -6198,7 +5958,7 @@ widgets/property/matrixpropertywidget.s: widgets/property/matrixpropertywidget.c
 
 # target to generate assembly for a file
 widgets/property/matrixpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/matrixpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/matrixpropertywidget.cpp.s
 .PHONY : widgets/property/matrixpropertywidget.cpp.s
 
 widgets/property/optionpropertywidget.o: widgets/property/optionpropertywidget.cpp.o
@@ -6206,7 +5966,7 @@ widgets/property/optionpropertywidget.o: widgets/property/optionpropertywidget.c
 
 # target to build an object file
 widgets/property/optionpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/optionpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/optionpropertywidget.cpp.o
 .PHONY : widgets/property/optionpropertywidget.cpp.o
 
 widgets/property/optionpropertywidget.i: widgets/property/optionpropertywidget.cpp.i
@@ -6214,7 +5974,7 @@ widgets/property/optionpropertywidget.i: widgets/property/optionpropertywidget.c
 
 # target to preprocess a source file
 widgets/property/optionpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/optionpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/optionpropertywidget.cpp.i
 .PHONY : widgets/property/optionpropertywidget.cpp.i
 
 widgets/property/optionpropertywidget.s: widgets/property/optionpropertywidget.cpp.s
@@ -6222,7 +5982,7 @@ widgets/property/optionpropertywidget.s: widgets/property/optionpropertywidget.c
 
 # target to generate assembly for a file
 widgets/property/optionpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/optionpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/optionpropertywidget.cpp.s
 .PHONY : widgets/property/optionpropertywidget.cpp.s
 
 widgets/property/processorpropertieswidget.o: widgets/property/processorpropertieswidget.cpp.o
@@ -6230,7 +5990,7 @@ widgets/property/processorpropertieswidget.o: widgets/property/processorproperti
 
 # target to build an object file
 widgets/property/processorpropertieswidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/processorpropertieswidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/processorpropertieswidget.cpp.o
 .PHONY : widgets/property/processorpropertieswidget.cpp.o
 
 widgets/property/processorpropertieswidget.i: widgets/property/processorpropertieswidget.cpp.i
@@ -6238,7 +5998,7 @@ widgets/property/processorpropertieswidget.i: widgets/property/processorproperti
 
 # target to preprocess a source file
 widgets/property/processorpropertieswidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/processorpropertieswidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/processorpropertieswidget.cpp.i
 .PHONY : widgets/property/processorpropertieswidget.cpp.i
 
 widgets/property/processorpropertieswidget.s: widgets/property/processorpropertieswidget.cpp.s
@@ -6246,7 +6006,7 @@ widgets/property/processorpropertieswidget.s: widgets/property/processorproperti
 
 # target to generate assembly for a file
 widgets/property/processorpropertieswidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/processorpropertieswidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/processorpropertieswidget.cpp.s
 .PHONY : widgets/property/processorpropertieswidget.cpp.s
 
 widgets/property/propertyownerwidget.o: widgets/property/propertyownerwidget.cpp.o
@@ -6254,7 +6014,7 @@ widgets/property/propertyownerwidget.o: widgets/property/propertyownerwidget.cpp
 
 # target to build an object file
 widgets/property/propertyownerwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyownerwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyownerwidget.cpp.o
 .PHONY : widgets/property/propertyownerwidget.cpp.o
 
 widgets/property/propertyownerwidget.i: widgets/property/propertyownerwidget.cpp.i
@@ -6262,7 +6022,7 @@ widgets/property/propertyownerwidget.i: widgets/property/propertyownerwidget.cpp
 
 # target to preprocess a source file
 widgets/property/propertyownerwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyownerwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyownerwidget.cpp.i
 .PHONY : widgets/property/propertyownerwidget.cpp.i
 
 widgets/property/propertyownerwidget.s: widgets/property/propertyownerwidget.cpp.s
@@ -6270,7 +6030,7 @@ widgets/property/propertyownerwidget.s: widgets/property/propertyownerwidget.cpp
 
 # target to generate assembly for a file
 widgets/property/propertyownerwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyownerwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyownerwidget.cpp.s
 .PHONY : widgets/property/propertyownerwidget.cpp.s
 
 widgets/property/propertyvectorwidget.o: widgets/property/propertyvectorwidget.cpp.o
@@ -6278,7 +6038,7 @@ widgets/property/propertyvectorwidget.o: widgets/property/propertyvectorwidget.c
 
 # target to build an object file
 widgets/property/propertyvectorwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyvectorwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyvectorwidget.cpp.o
 .PHONY : widgets/property/propertyvectorwidget.cpp.o
 
 widgets/property/propertyvectorwidget.i: widgets/property/propertyvectorwidget.cpp.i
@@ -6286,7 +6046,7 @@ widgets/property/propertyvectorwidget.i: widgets/property/propertyvectorwidget.c
 
 # target to preprocess a source file
 widgets/property/propertyvectorwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyvectorwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyvectorwidget.cpp.i
 .PHONY : widgets/property/propertyvectorwidget.cpp.i
 
 widgets/property/propertyvectorwidget.s: widgets/property/propertyvectorwidget.cpp.s
@@ -6294,7 +6054,7 @@ widgets/property/propertyvectorwidget.s: widgets/property/propertyvectorwidget.c
 
 # target to generate assembly for a file
 widgets/property/propertyvectorwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyvectorwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyvectorwidget.cpp.s
 .PHONY : widgets/property/propertyvectorwidget.cpp.s
 
 widgets/property/qpropertywidget.o: widgets/property/qpropertywidget.cpp.o
@@ -6302,7 +6062,7 @@ widgets/property/qpropertywidget.o: widgets/property/qpropertywidget.cpp.o
 
 # target to build an object file
 widgets/property/qpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidget.cpp.o
 .PHONY : widgets/property/qpropertywidget.cpp.o
 
 widgets/property/qpropertywidget.i: widgets/property/qpropertywidget.cpp.i
@@ -6310,7 +6070,7 @@ widgets/property/qpropertywidget.i: widgets/property/qpropertywidget.cpp.i
 
 # target to preprocess a source file
 widgets/property/qpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidget.cpp.i
 .PHONY : widgets/property/qpropertywidget.cpp.i
 
 widgets/property/qpropertywidget.s: widgets/property/qpropertywidget.cpp.s
@@ -6318,7 +6078,7 @@ widgets/property/qpropertywidget.s: widgets/property/qpropertywidget.cpp.s
 
 # target to generate assembly for a file
 widgets/property/qpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidget.cpp.s
 .PHONY : widgets/property/qpropertywidget.cpp.s
 
 widgets/property/qpropertywidgetwitheditorwindow.o: widgets/property/qpropertywidgetwitheditorwindow.cpp.o
@@ -6326,7 +6086,7 @@ widgets/property/qpropertywidgetwitheditorwindow.o: widgets/property/qpropertywi
 
 # target to build an object file
 widgets/property/qpropertywidgetwitheditorwindow.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidgetwitheditorwindow.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidgetwitheditorwindow.cpp.o
 .PHONY : widgets/property/qpropertywidgetwitheditorwindow.cpp.o
 
 widgets/property/qpropertywidgetwitheditorwindow.i: widgets/property/qpropertywidgetwitheditorwindow.cpp.i
@@ -6334,7 +6094,7 @@ widgets/property/qpropertywidgetwitheditorwindow.i: widgets/property/qpropertywi
 
 # target to preprocess a source file
 widgets/property/qpropertywidgetwitheditorwindow.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidgetwitheditorwindow.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidgetwitheditorwindow.cpp.i
 .PHONY : widgets/property/qpropertywidgetwitheditorwindow.cpp.i
 
 widgets/property/qpropertywidgetwitheditorwindow.s: widgets/property/qpropertywidgetwitheditorwindow.cpp.s
@@ -6342,7 +6102,7 @@ widgets/property/qpropertywidgetwitheditorwindow.s: widgets/property/qpropertywi
 
 # target to generate assembly for a file
 widgets/property/qpropertywidgetwitheditorwindow.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidgetwitheditorwindow.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidgetwitheditorwindow.cpp.s
 .PHONY : widgets/property/qpropertywidgetwitheditorwindow.cpp.s
 
 widgets/property/shaderpropertywidget.o: widgets/property/shaderpropertywidget.cpp.o
@@ -6350,7 +6110,7 @@ widgets/property/shaderpropertywidget.o: widgets/property/shaderpropertywidget.c
 
 # target to build an object file
 widgets/property/shaderpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/shaderpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/shaderpropertywidget.cpp.o
 .PHONY : widgets/property/shaderpropertywidget.cpp.o
 
 widgets/property/shaderpropertywidget.i: widgets/property/shaderpropertywidget.cpp.i
@@ -6358,7 +6118,7 @@ widgets/property/shaderpropertywidget.i: widgets/property/shaderpropertywidget.c
 
 # target to preprocess a source file
 widgets/property/shaderpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/shaderpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/shaderpropertywidget.cpp.i
 .PHONY : widgets/property/shaderpropertywidget.cpp.i
 
 widgets/property/shaderpropertywidget.s: widgets/property/shaderpropertywidget.cpp.s
@@ -6366,7 +6126,7 @@ widgets/property/shaderpropertywidget.s: widgets/property/shaderpropertywidget.c
 
 # target to generate assembly for a file
 widgets/property/shaderpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/shaderpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/shaderpropertywidget.cpp.s
 .PHONY : widgets/property/shaderpropertywidget.cpp.s
 
 widgets/property/stringexpressionpropertywidget.o: widgets/property/stringexpressionpropertywidget.cpp.o
@@ -6374,7 +6134,7 @@ widgets/property/stringexpressionpropertywidget.o: widgets/property/stringexpres
 
 # target to build an object file
 widgets/property/stringexpressionpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringexpressionpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringexpressionpropertywidget.cpp.o
 .PHONY : widgets/property/stringexpressionpropertywidget.cpp.o
 
 widgets/property/stringexpressionpropertywidget.i: widgets/property/stringexpressionpropertywidget.cpp.i
@@ -6382,7 +6142,7 @@ widgets/property/stringexpressionpropertywidget.i: widgets/property/stringexpres
 
 # target to preprocess a source file
 widgets/property/stringexpressionpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringexpressionpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringexpressionpropertywidget.cpp.i
 .PHONY : widgets/property/stringexpressionpropertywidget.cpp.i
 
 widgets/property/stringexpressionpropertywidget.s: widgets/property/stringexpressionpropertywidget.cpp.s
@@ -6390,7 +6150,7 @@ widgets/property/stringexpressionpropertywidget.s: widgets/property/stringexpres
 
 # target to generate assembly for a file
 widgets/property/stringexpressionpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringexpressionpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringexpressionpropertywidget.cpp.s
 .PHONY : widgets/property/stringexpressionpropertywidget.cpp.s
 
 widgets/property/stringpropertywidget.o: widgets/property/stringpropertywidget.cpp.o
@@ -6398,7 +6158,7 @@ widgets/property/stringpropertywidget.o: widgets/property/stringpropertywidget.c
 
 # target to build an object file
 widgets/property/stringpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringpropertywidget.cpp.o
 .PHONY : widgets/property/stringpropertywidget.cpp.o
 
 widgets/property/stringpropertywidget.i: widgets/property/stringpropertywidget.cpp.i
@@ -6406,7 +6166,7 @@ widgets/property/stringpropertywidget.i: widgets/property/stringpropertywidget.c
 
 # target to preprocess a source file
 widgets/property/stringpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringpropertywidget.cpp.i
 .PHONY : widgets/property/stringpropertywidget.cpp.i
 
 widgets/property/stringpropertywidget.s: widgets/property/stringpropertywidget.cpp.s
@@ -6414,7 +6174,7 @@ widgets/property/stringpropertywidget.s: widgets/property/stringpropertywidget.c
 
 # target to generate assembly for a file
 widgets/property/stringpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringpropertywidget.cpp.s
 .PHONY : widgets/property/stringpropertywidget.cpp.s
 
 widgets/property/transfuncpropertywidget.o: widgets/property/transfuncpropertywidget.cpp.o
@@ -6422,7 +6182,7 @@ widgets/property/transfuncpropertywidget.o: widgets/property/transfuncpropertywi
 
 # target to build an object file
 widgets/property/transfuncpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/transfuncpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/transfuncpropertywidget.cpp.o
 .PHONY : widgets/property/transfuncpropertywidget.cpp.o
 
 widgets/property/transfuncpropertywidget.i: widgets/property/transfuncpropertywidget.cpp.i
@@ -6430,7 +6190,7 @@ widgets/property/transfuncpropertywidget.i: widgets/property/transfuncpropertywi
 
 # target to preprocess a source file
 widgets/property/transfuncpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/transfuncpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/transfuncpropertywidget.cpp.i
 .PHONY : widgets/property/transfuncpropertywidget.cpp.i
 
 widgets/property/transfuncpropertywidget.s: widgets/property/transfuncpropertywidget.cpp.s
@@ -6438,7 +6198,7 @@ widgets/property/transfuncpropertywidget.s: widgets/property/transfuncpropertywi
 
 # target to generate assembly for a file
 widgets/property/transfuncpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/transfuncpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/transfuncpropertywidget.cpp.s
 .PHONY : widgets/property/transfuncpropertywidget.cpp.s
 
 widgets/property/vecpropertywidget.o: widgets/property/vecpropertywidget.cpp.o
@@ -6446,7 +6206,7 @@ widgets/property/vecpropertywidget.o: widgets/property/vecpropertywidget.cpp.o
 
 # target to build an object file
 widgets/property/vecpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/vecpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/vecpropertywidget.cpp.o
 .PHONY : widgets/property/vecpropertywidget.cpp.o
 
 widgets/property/vecpropertywidget.i: widgets/property/vecpropertywidget.cpp.i
@@ -6454,7 +6214,7 @@ widgets/property/vecpropertywidget.i: widgets/property/vecpropertywidget.cpp.i
 
 # target to preprocess a source file
 widgets/property/vecpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/vecpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/vecpropertywidget.cpp.i
 .PHONY : widgets/property/vecpropertywidget.cpp.i
 
 widgets/property/vecpropertywidget.s: widgets/property/vecpropertywidget.cpp.s
@@ -6462,7 +6222,7 @@ widgets/property/vecpropertywidget.s: widgets/property/vecpropertywidget.cpp.s
 
 # target to generate assembly for a file
 widgets/property/vecpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/vecpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/vecpropertywidget.cpp.s
 .PHONY : widgets/property/vecpropertywidget.cpp.s
 
 widgets/property/volumeinfopropertywidget.o: widgets/property/volumeinfopropertywidget.cpp.o
@@ -6470,7 +6230,7 @@ widgets/property/volumeinfopropertywidget.o: widgets/property/volumeinfoproperty
 
 # target to build an object file
 widgets/property/volumeinfopropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeinfopropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeinfopropertywidget.cpp.o
 .PHONY : widgets/property/volumeinfopropertywidget.cpp.o
 
 widgets/property/volumeinfopropertywidget.i: widgets/property/volumeinfopropertywidget.cpp.i
@@ -6478,7 +6238,7 @@ widgets/property/volumeinfopropertywidget.i: widgets/property/volumeinfoproperty
 
 # target to preprocess a source file
 widgets/property/volumeinfopropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeinfopropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeinfopropertywidget.cpp.i
 .PHONY : widgets/property/volumeinfopropertywidget.cpp.i
 
 widgets/property/volumeinfopropertywidget.s: widgets/property/volumeinfopropertywidget.cpp.s
@@ -6486,7 +6246,7 @@ widgets/property/volumeinfopropertywidget.s: widgets/property/volumeinfoproperty
 
 # target to generate assembly for a file
 widgets/property/volumeinfopropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeinfopropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeinfopropertywidget.cpp.s
 .PHONY : widgets/property/volumeinfopropertywidget.cpp.s
 
 widgets/property/volumeurllistpropertywidget.o: widgets/property/volumeurllistpropertywidget.cpp.o
@@ -6494,7 +6254,7 @@ widgets/property/volumeurllistpropertywidget.o: widgets/property/volumeurllistpr
 
 # target to build an object file
 widgets/property/volumeurllistpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurllistpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurllistpropertywidget.cpp.o
 .PHONY : widgets/property/volumeurllistpropertywidget.cpp.o
 
 widgets/property/volumeurllistpropertywidget.i: widgets/property/volumeurllistpropertywidget.cpp.i
@@ -6502,7 +6262,7 @@ widgets/property/volumeurllistpropertywidget.i: widgets/property/volumeurllistpr
 
 # target to preprocess a source file
 widgets/property/volumeurllistpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurllistpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurllistpropertywidget.cpp.i
 .PHONY : widgets/property/volumeurllistpropertywidget.cpp.i
 
 widgets/property/volumeurllistpropertywidget.s: widgets/property/volumeurllistpropertywidget.cpp.s
@@ -6510,7 +6270,7 @@ widgets/property/volumeurllistpropertywidget.s: widgets/property/volumeurllistpr
 
 # target to generate assembly for a file
 widgets/property/volumeurllistpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurllistpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurllistpropertywidget.cpp.s
 .PHONY : widgets/property/volumeurllistpropertywidget.cpp.s
 
 widgets/property/volumeurlpropertywidget.o: widgets/property/volumeurlpropertywidget.cpp.o
@@ -6518,7 +6278,7 @@ widgets/property/volumeurlpropertywidget.o: widgets/property/volumeurlpropertywi
 
 # target to build an object file
 widgets/property/volumeurlpropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurlpropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurlpropertywidget.cpp.o
 .PHONY : widgets/property/volumeurlpropertywidget.cpp.o
 
 widgets/property/volumeurlpropertywidget.i: widgets/property/volumeurlpropertywidget.cpp.i
@@ -6526,7 +6286,7 @@ widgets/property/volumeurlpropertywidget.i: widgets/property/volumeurlpropertywi
 
 # target to preprocess a source file
 widgets/property/volumeurlpropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurlpropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurlpropertywidget.cpp.i
 .PHONY : widgets/property/volumeurlpropertywidget.cpp.i
 
 widgets/property/volumeurlpropertywidget.s: widgets/property/volumeurlpropertywidget.cpp.s
@@ -6534,7 +6294,7 @@ widgets/property/volumeurlpropertywidget.s: widgets/property/volumeurlpropertywi
 
 # target to generate assembly for a file
 widgets/property/volumeurlpropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurlpropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurlpropertywidget.cpp.s
 .PHONY : widgets/property/volumeurlpropertywidget.cpp.s
 
 widgets/property/voxeltypepropertywidget.o: widgets/property/voxeltypepropertywidget.cpp.o
@@ -6542,7 +6302,7 @@ widgets/property/voxeltypepropertywidget.o: widgets/property/voxeltypepropertywi
 
 # target to build an object file
 widgets/property/voxeltypepropertywidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/voxeltypepropertywidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/voxeltypepropertywidget.cpp.o
 .PHONY : widgets/property/voxeltypepropertywidget.cpp.o
 
 widgets/property/voxeltypepropertywidget.i: widgets/property/voxeltypepropertywidget.cpp.i
@@ -6550,7 +6310,7 @@ widgets/property/voxeltypepropertywidget.i: widgets/property/voxeltypepropertywi
 
 # target to preprocess a source file
 widgets/property/voxeltypepropertywidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/voxeltypepropertywidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/voxeltypepropertywidget.cpp.i
 .PHONY : widgets/property/voxeltypepropertywidget.cpp.i
 
 widgets/property/voxeltypepropertywidget.s: widgets/property/voxeltypepropertywidget.cpp.s
@@ -6558,7 +6318,7 @@ widgets/property/voxeltypepropertywidget.s: widgets/property/voxeltypepropertywi
 
 # target to generate assembly for a file
 widgets/property/voxeltypepropertywidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/voxeltypepropertywidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/property/voxeltypepropertywidget.cpp.s
 .PHONY : widgets/property/voxeltypepropertywidget.cpp.s
 
 widgets/propertylistwidget.o: widgets/propertylistwidget.cpp.o
@@ -6566,7 +6326,7 @@ widgets/propertylistwidget.o: widgets/propertylistwidget.cpp.o
 
 # target to build an object file
 widgets/propertylistwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertylistwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertylistwidget.cpp.o
 .PHONY : widgets/propertylistwidget.cpp.o
 
 widgets/propertylistwidget.i: widgets/propertylistwidget.cpp.i
@@ -6574,7 +6334,7 @@ widgets/propertylistwidget.i: widgets/propertylistwidget.cpp.i
 
 # target to preprocess a source file
 widgets/propertylistwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertylistwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertylistwidget.cpp.i
 .PHONY : widgets/propertylistwidget.cpp.i
 
 widgets/propertylistwidget.s: widgets/propertylistwidget.cpp.s
@@ -6582,7 +6342,7 @@ widgets/propertylistwidget.s: widgets/propertylistwidget.cpp.s
 
 # target to generate assembly for a file
 widgets/propertylistwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertylistwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertylistwidget.cpp.s
 .PHONY : widgets/propertylistwidget.cpp.s
 
 widgets/propertyselectiondialog.o: widgets/propertyselectiondialog.cpp.o
@@ -6590,7 +6350,7 @@ widgets/propertyselectiondialog.o: widgets/propertyselectiondialog.cpp.o
 
 # target to build an object file
 widgets/propertyselectiondialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertyselectiondialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertyselectiondialog.cpp.o
 .PHONY : widgets/propertyselectiondialog.cpp.o
 
 widgets/propertyselectiondialog.i: widgets/propertyselectiondialog.cpp.i
@@ -6598,7 +6358,7 @@ widgets/propertyselectiondialog.i: widgets/propertyselectiondialog.cpp.i
 
 # target to preprocess a source file
 widgets/propertyselectiondialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertyselectiondialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertyselectiondialog.cpp.i
 .PHONY : widgets/propertyselectiondialog.cpp.i
 
 widgets/propertyselectiondialog.s: widgets/propertyselectiondialog.cpp.s
@@ -6606,7 +6366,7 @@ widgets/propertyselectiondialog.s: widgets/propertyselectiondialog.cpp.s
 
 # target to generate assembly for a file
 widgets/propertyselectiondialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertyselectiondialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/propertyselectiondialog.cpp.s
 .PHONY : widgets/propertyselectiondialog.cpp.s
 
 widgets/rawvolumewidget.o: widgets/rawvolumewidget.cpp.o
@@ -6614,7 +6374,7 @@ widgets/rawvolumewidget.o: widgets/rawvolumewidget.cpp.o
 
 # target to build an object file
 widgets/rawvolumewidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rawvolumewidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rawvolumewidget.cpp.o
 .PHONY : widgets/rawvolumewidget.cpp.o
 
 widgets/rawvolumewidget.i: widgets/rawvolumewidget.cpp.i
@@ -6622,7 +6382,7 @@ widgets/rawvolumewidget.i: widgets/rawvolumewidget.cpp.i
 
 # target to preprocess a source file
 widgets/rawvolumewidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rawvolumewidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rawvolumewidget.cpp.i
 .PHONY : widgets/rawvolumewidget.cpp.i
 
 widgets/rawvolumewidget.s: widgets/rawvolumewidget.cpp.s
@@ -6630,7 +6390,7 @@ widgets/rawvolumewidget.s: widgets/rawvolumewidget.cpp.s
 
 # target to generate assembly for a file
 widgets/rawvolumewidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rawvolumewidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rawvolumewidget.cpp.s
 .PHONY : widgets/rawvolumewidget.cpp.s
 
 widgets/rendertargetviewer.o: widgets/rendertargetviewer.cpp.o
@@ -6638,7 +6398,7 @@ widgets/rendertargetviewer.o: widgets/rendertargetviewer.cpp.o
 
 # target to build an object file
 widgets/rendertargetviewer.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rendertargetviewer.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rendertargetviewer.cpp.o
 .PHONY : widgets/rendertargetviewer.cpp.o
 
 widgets/rendertargetviewer.i: widgets/rendertargetviewer.cpp.i
@@ -6646,7 +6406,7 @@ widgets/rendertargetviewer.i: widgets/rendertargetviewer.cpp.i
 
 # target to preprocess a source file
 widgets/rendertargetviewer.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rendertargetviewer.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rendertargetviewer.cpp.i
 .PHONY : widgets/rendertargetviewer.cpp.i
 
 widgets/rendertargetviewer.s: widgets/rendertargetviewer.cpp.s
@@ -6654,7 +6414,7 @@ widgets/rendertargetviewer.s: widgets/rendertargetviewer.cpp.s
 
 # target to generate assembly for a file
 widgets/rendertargetviewer.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rendertargetviewer.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/rendertargetviewer.cpp.s
 .PHONY : widgets/rendertargetviewer.cpp.s
 
 widgets/screenshotplugin.o: widgets/screenshotplugin.cpp.o
@@ -6662,7 +6422,7 @@ widgets/screenshotplugin.o: widgets/screenshotplugin.cpp.o
 
 # target to build an object file
 widgets/screenshotplugin.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/screenshotplugin.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/screenshotplugin.cpp.o
 .PHONY : widgets/screenshotplugin.cpp.o
 
 widgets/screenshotplugin.i: widgets/screenshotplugin.cpp.i
@@ -6670,7 +6430,7 @@ widgets/screenshotplugin.i: widgets/screenshotplugin.cpp.i
 
 # target to preprocess a source file
 widgets/screenshotplugin.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/screenshotplugin.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/screenshotplugin.cpp.i
 .PHONY : widgets/screenshotplugin.cpp.i
 
 widgets/screenshotplugin.s: widgets/screenshotplugin.cpp.s
@@ -6678,7 +6438,7 @@ widgets/screenshotplugin.s: widgets/screenshotplugin.cpp.s
 
 # target to generate assembly for a file
 widgets/screenshotplugin.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/screenshotplugin.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/screenshotplugin.cpp.s
 .PHONY : widgets/screenshotplugin.cpp.s
 
 widgets/shaderplugin.o: widgets/shaderplugin.cpp.o
@@ -6686,7 +6446,7 @@ widgets/shaderplugin.o: widgets/shaderplugin.cpp.o
 
 # target to build an object file
 widgets/shaderplugin.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/shaderplugin.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/shaderplugin.cpp.o
 .PHONY : widgets/shaderplugin.cpp.o
 
 widgets/shaderplugin.i: widgets/shaderplugin.cpp.i
@@ -6694,7 +6454,7 @@ widgets/shaderplugin.i: widgets/shaderplugin.cpp.i
 
 # target to preprocess a source file
 widgets/shaderplugin.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/shaderplugin.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/shaderplugin.cpp.i
 .PHONY : widgets/shaderplugin.cpp.i
 
 widgets/shaderplugin.s: widgets/shaderplugin.cpp.s
@@ -6702,7 +6462,7 @@ widgets/shaderplugin.s: widgets/shaderplugin.cpp.s
 
 # target to generate assembly for a file
 widgets/shaderplugin.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/shaderplugin.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/shaderplugin.cpp.s
 .PHONY : widgets/shaderplugin.cpp.s
 
 widgets/sliderspinboxwidget.o: widgets/sliderspinboxwidget.cpp.o
@@ -6710,7 +6470,7 @@ widgets/sliderspinboxwidget.o: widgets/sliderspinboxwidget.cpp.o
 
 # target to build an object file
 widgets/sliderspinboxwidget.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/sliderspinboxwidget.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/sliderspinboxwidget.cpp.o
 .PHONY : widgets/sliderspinboxwidget.cpp.o
 
 widgets/sliderspinboxwidget.i: widgets/sliderspinboxwidget.cpp.i
@@ -6718,7 +6478,7 @@ widgets/sliderspinboxwidget.i: widgets/sliderspinboxwidget.cpp.i
 
 # target to preprocess a source file
 widgets/sliderspinboxwidget.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/sliderspinboxwidget.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/sliderspinboxwidget.cpp.i
 .PHONY : widgets/sliderspinboxwidget.cpp.i
 
 widgets/sliderspinboxwidget.s: widgets/sliderspinboxwidget.cpp.s
@@ -6726,7 +6486,7 @@ widgets/sliderspinboxwidget.s: widgets/sliderspinboxwidget.cpp.s
 
 # target to generate assembly for a file
 widgets/sliderspinboxwidget.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/sliderspinboxwidget.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/sliderspinboxwidget.cpp.s
 .PHONY : widgets/sliderspinboxwidget.cpp.s
 
 widgets/stringselectiondialog.o: widgets/stringselectiondialog.cpp.o
@@ -6734,7 +6494,7 @@ widgets/stringselectiondialog.o: widgets/stringselectiondialog.cpp.o
 
 # target to build an object file
 widgets/stringselectiondialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/stringselectiondialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/stringselectiondialog.cpp.o
 .PHONY : widgets/stringselectiondialog.cpp.o
 
 widgets/stringselectiondialog.i: widgets/stringselectiondialog.cpp.i
@@ -6742,7 +6502,7 @@ widgets/stringselectiondialog.i: widgets/stringselectiondialog.cpp.i
 
 # target to preprocess a source file
 widgets/stringselectiondialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/stringselectiondialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/stringselectiondialog.cpp.i
 .PHONY : widgets/stringselectiondialog.cpp.i
 
 widgets/stringselectiondialog.s: widgets/stringselectiondialog.cpp.s
@@ -6750,7 +6510,7 @@ widgets/stringselectiondialog.s: widgets/stringselectiondialog.cpp.s
 
 # target to generate assembly for a file
 widgets/stringselectiondialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/stringselectiondialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/stringselectiondialog.cpp.s
 .PHONY : widgets/stringselectiondialog.cpp.s
 
 widgets/syntaxhighlighter.o: widgets/syntaxhighlighter.cpp.o
@@ -6758,7 +6518,7 @@ widgets/syntaxhighlighter.o: widgets/syntaxhighlighter.cpp.o
 
 # target to build an object file
 widgets/syntaxhighlighter.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/syntaxhighlighter.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/syntaxhighlighter.cpp.o
 .PHONY : widgets/syntaxhighlighter.cpp.o
 
 widgets/syntaxhighlighter.i: widgets/syntaxhighlighter.cpp.i
@@ -6766,7 +6526,7 @@ widgets/syntaxhighlighter.i: widgets/syntaxhighlighter.cpp.i
 
 # target to preprocess a source file
 widgets/syntaxhighlighter.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/syntaxhighlighter.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/syntaxhighlighter.cpp.i
 .PHONY : widgets/syntaxhighlighter.cpp.i
 
 widgets/syntaxhighlighter.s: widgets/syntaxhighlighter.cpp.s
@@ -6774,7 +6534,7 @@ widgets/syntaxhighlighter.s: widgets/syntaxhighlighter.cpp.s
 
 # target to generate assembly for a file
 widgets/syntaxhighlighter.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/syntaxhighlighter.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/syntaxhighlighter.cpp.s
 .PHONY : widgets/syntaxhighlighter.cpp.s
 
 widgets/transfunc/colorluminancepicker.o: widgets/transfunc/colorluminancepicker.cpp.o
@@ -6782,7 +6542,7 @@ widgets/transfunc/colorluminancepicker.o: widgets/transfunc/colorluminancepicker
 
 # target to build an object file
 widgets/transfunc/colorluminancepicker.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorluminancepicker.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorluminancepicker.cpp.o
 .PHONY : widgets/transfunc/colorluminancepicker.cpp.o
 
 widgets/transfunc/colorluminancepicker.i: widgets/transfunc/colorluminancepicker.cpp.i
@@ -6790,7 +6550,7 @@ widgets/transfunc/colorluminancepicker.i: widgets/transfunc/colorluminancepicker
 
 # target to preprocess a source file
 widgets/transfunc/colorluminancepicker.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorluminancepicker.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorluminancepicker.cpp.i
 .PHONY : widgets/transfunc/colorluminancepicker.cpp.i
 
 widgets/transfunc/colorluminancepicker.s: widgets/transfunc/colorluminancepicker.cpp.s
@@ -6798,7 +6558,7 @@ widgets/transfunc/colorluminancepicker.s: widgets/transfunc/colorluminancepicker
 
 # target to generate assembly for a file
 widgets/transfunc/colorluminancepicker.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorluminancepicker.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorluminancepicker.cpp.s
 .PHONY : widgets/transfunc/colorluminancepicker.cpp.s
 
 widgets/transfunc/colorpicker.o: widgets/transfunc/colorpicker.cpp.o
@@ -6806,7 +6566,7 @@ widgets/transfunc/colorpicker.o: widgets/transfunc/colorpicker.cpp.o
 
 # target to build an object file
 widgets/transfunc/colorpicker.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorpicker.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorpicker.cpp.o
 .PHONY : widgets/transfunc/colorpicker.cpp.o
 
 widgets/transfunc/colorpicker.i: widgets/transfunc/colorpicker.cpp.i
@@ -6814,7 +6574,7 @@ widgets/transfunc/colorpicker.i: widgets/transfunc/colorpicker.cpp.i
 
 # target to preprocess a source file
 widgets/transfunc/colorpicker.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorpicker.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorpicker.cpp.i
 .PHONY : widgets/transfunc/colorpicker.cpp.i
 
 widgets/transfunc/colorpicker.s: widgets/transfunc/colorpicker.cpp.s
@@ -6822,7 +6582,7 @@ widgets/transfunc/colorpicker.s: widgets/transfunc/colorpicker.cpp.s
 
 # target to generate assembly for a file
 widgets/transfunc/colorpicker.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorpicker.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorpicker.cpp.s
 .PHONY : widgets/transfunc/colorpicker.cpp.s
 
 widgets/transfunc/doubleslider.o: widgets/transfunc/doubleslider.cpp.o
@@ -6830,7 +6590,7 @@ widgets/transfunc/doubleslider.o: widgets/transfunc/doubleslider.cpp.o
 
 # target to build an object file
 widgets/transfunc/doubleslider.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/doubleslider.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/doubleslider.cpp.o
 .PHONY : widgets/transfunc/doubleslider.cpp.o
 
 widgets/transfunc/doubleslider.i: widgets/transfunc/doubleslider.cpp.i
@@ -6838,7 +6598,7 @@ widgets/transfunc/doubleslider.i: widgets/transfunc/doubleslider.cpp.i
 
 # target to preprocess a source file
 widgets/transfunc/doubleslider.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/doubleslider.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/doubleslider.cpp.i
 .PHONY : widgets/transfunc/doubleslider.cpp.i
 
 widgets/transfunc/doubleslider.s: widgets/transfunc/doubleslider.cpp.s
@@ -6846,7 +6606,7 @@ widgets/transfunc/doubleslider.s: widgets/transfunc/doubleslider.cpp.s
 
 # target to generate assembly for a file
 widgets/transfunc/doubleslider.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/doubleslider.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/doubleslider.cpp.s
 .PHONY : widgets/transfunc/doubleslider.cpp.s
 
 widgets/transfunc/histogrampainter.o: widgets/transfunc/histogrampainter.cpp.o
@@ -6854,7 +6614,7 @@ widgets/transfunc/histogrampainter.o: widgets/transfunc/histogrampainter.cpp.o
 
 # target to build an object file
 widgets/transfunc/histogrampainter.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/histogrampainter.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/histogrampainter.cpp.o
 .PHONY : widgets/transfunc/histogrampainter.cpp.o
 
 widgets/transfunc/histogrampainter.i: widgets/transfunc/histogrampainter.cpp.i
@@ -6862,7 +6622,7 @@ widgets/transfunc/histogrampainter.i: widgets/transfunc/histogrampainter.cpp.i
 
 # target to preprocess a source file
 widgets/transfunc/histogrampainter.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/histogrampainter.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/histogrampainter.cpp.i
 .PHONY : widgets/transfunc/histogrampainter.cpp.i
 
 widgets/transfunc/histogrampainter.s: widgets/transfunc/histogrampainter.cpp.s
@@ -6870,7 +6630,7 @@ widgets/transfunc/histogrampainter.s: widgets/transfunc/histogrampainter.cpp.s
 
 # target to generate assembly for a file
 widgets/transfunc/histogrampainter.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/histogrampainter.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/histogrampainter.cpp.s
 .PHONY : widgets/transfunc/histogrampainter.cpp.s
 
 widgets/transfunc/transfunc1dhistogrampainter.o: widgets/transfunc/transfunc1dhistogrampainter.cpp.o
@@ -6878,7 +6638,7 @@ widgets/transfunc/transfunc1dhistogrampainter.o: widgets/transfunc/transfunc1dhi
 
 # target to build an object file
 widgets/transfunc/transfunc1dhistogrampainter.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dhistogrampainter.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dhistogrampainter.cpp.o
 .PHONY : widgets/transfunc/transfunc1dhistogrampainter.cpp.o
 
 widgets/transfunc/transfunc1dhistogrampainter.i: widgets/transfunc/transfunc1dhistogrampainter.cpp.i
@@ -6886,7 +6646,7 @@ widgets/transfunc/transfunc1dhistogrampainter.i: widgets/transfunc/transfunc1dhi
 
 # target to preprocess a source file
 widgets/transfunc/transfunc1dhistogrampainter.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dhistogrampainter.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dhistogrampainter.cpp.i
 .PHONY : widgets/transfunc/transfunc1dhistogrampainter.cpp.i
 
 widgets/transfunc/transfunc1dhistogrampainter.s: widgets/transfunc/transfunc1dhistogrampainter.cpp.s
@@ -6894,7 +6654,7 @@ widgets/transfunc/transfunc1dhistogrampainter.s: widgets/transfunc/transfunc1dhi
 
 # target to generate assembly for a file
 widgets/transfunc/transfunc1dhistogrampainter.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dhistogrampainter.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dhistogrampainter.cpp.s
 .PHONY : widgets/transfunc/transfunc1dhistogrampainter.cpp.s
 
 widgets/transfunc/transfunc1dkeyseditor.o: widgets/transfunc/transfunc1dkeyseditor.cpp.o
@@ -6902,7 +6662,7 @@ widgets/transfunc/transfunc1dkeyseditor.o: widgets/transfunc/transfunc1dkeysedit
 
 # target to build an object file
 widgets/transfunc/transfunc1dkeyseditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyseditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyseditor.cpp.o
 .PHONY : widgets/transfunc/transfunc1dkeyseditor.cpp.o
 
 widgets/transfunc/transfunc1dkeyseditor.i: widgets/transfunc/transfunc1dkeyseditor.cpp.i
@@ -6910,7 +6670,7 @@ widgets/transfunc/transfunc1dkeyseditor.i: widgets/transfunc/transfunc1dkeysedit
 
 # target to preprocess a source file
 widgets/transfunc/transfunc1dkeyseditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyseditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyseditor.cpp.i
 .PHONY : widgets/transfunc/transfunc1dkeyseditor.cpp.i
 
 widgets/transfunc/transfunc1dkeyseditor.s: widgets/transfunc/transfunc1dkeyseditor.cpp.s
@@ -6918,7 +6678,7 @@ widgets/transfunc/transfunc1dkeyseditor.s: widgets/transfunc/transfunc1dkeysedit
 
 # target to generate assembly for a file
 widgets/transfunc/transfunc1dkeyseditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyseditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyseditor.cpp.s
 .PHONY : widgets/transfunc/transfunc1dkeyseditor.cpp.s
 
 widgets/transfunc/transfunc1dkeyspainter.o: widgets/transfunc/transfunc1dkeyspainter.cpp.o
@@ -6926,7 +6686,7 @@ widgets/transfunc/transfunc1dkeyspainter.o: widgets/transfunc/transfunc1dkeyspai
 
 # target to build an object file
 widgets/transfunc/transfunc1dkeyspainter.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyspainter.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyspainter.cpp.o
 .PHONY : widgets/transfunc/transfunc1dkeyspainter.cpp.o
 
 widgets/transfunc/transfunc1dkeyspainter.i: widgets/transfunc/transfunc1dkeyspainter.cpp.i
@@ -6934,7 +6694,7 @@ widgets/transfunc/transfunc1dkeyspainter.i: widgets/transfunc/transfunc1dkeyspai
 
 # target to preprocess a source file
 widgets/transfunc/transfunc1dkeyspainter.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyspainter.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyspainter.cpp.i
 .PHONY : widgets/transfunc/transfunc1dkeyspainter.cpp.i
 
 widgets/transfunc/transfunc1dkeyspainter.s: widgets/transfunc/transfunc1dkeyspainter.cpp.s
@@ -6942,7 +6702,7 @@ widgets/transfunc/transfunc1dkeyspainter.s: widgets/transfunc/transfunc1dkeyspai
 
 # target to generate assembly for a file
 widgets/transfunc/transfunc1dkeyspainter.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyspainter.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyspainter.cpp.s
 .PHONY : widgets/transfunc/transfunc1dkeyspainter.cpp.s
 
 widgets/transfunc/transfunc1drampeditor.o: widgets/transfunc/transfunc1drampeditor.cpp.o
@@ -6950,7 +6710,7 @@ widgets/transfunc/transfunc1drampeditor.o: widgets/transfunc/transfunc1drampedit
 
 # target to build an object file
 widgets/transfunc/transfunc1drampeditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1drampeditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1drampeditor.cpp.o
 .PHONY : widgets/transfunc/transfunc1drampeditor.cpp.o
 
 widgets/transfunc/transfunc1drampeditor.i: widgets/transfunc/transfunc1drampeditor.cpp.i
@@ -6958,7 +6718,7 @@ widgets/transfunc/transfunc1drampeditor.i: widgets/transfunc/transfunc1drampedit
 
 # target to preprocess a source file
 widgets/transfunc/transfunc1drampeditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1drampeditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1drampeditor.cpp.i
 .PHONY : widgets/transfunc/transfunc1drampeditor.cpp.i
 
 widgets/transfunc/transfunc1drampeditor.s: widgets/transfunc/transfunc1drampeditor.cpp.s
@@ -6966,7 +6726,7 @@ widgets/transfunc/transfunc1drampeditor.s: widgets/transfunc/transfunc1drampedit
 
 # target to generate assembly for a file
 widgets/transfunc/transfunc1drampeditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1drampeditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1drampeditor.cpp.s
 .PHONY : widgets/transfunc/transfunc1drampeditor.cpp.s
 
 widgets/transfunc/transfunc2dprimitiveseditor.o: widgets/transfunc/transfunc2dprimitiveseditor.cpp.o
@@ -6974,7 +6734,7 @@ widgets/transfunc/transfunc2dprimitiveseditor.o: widgets/transfunc/transfunc2dpr
 
 # target to build an object file
 widgets/transfunc/transfunc2dprimitiveseditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitiveseditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitiveseditor.cpp.o
 .PHONY : widgets/transfunc/transfunc2dprimitiveseditor.cpp.o
 
 widgets/transfunc/transfunc2dprimitiveseditor.i: widgets/transfunc/transfunc2dprimitiveseditor.cpp.i
@@ -6982,7 +6742,7 @@ widgets/transfunc/transfunc2dprimitiveseditor.i: widgets/transfunc/transfunc2dpr
 
 # target to preprocess a source file
 widgets/transfunc/transfunc2dprimitiveseditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitiveseditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitiveseditor.cpp.i
 .PHONY : widgets/transfunc/transfunc2dprimitiveseditor.cpp.i
 
 widgets/transfunc/transfunc2dprimitiveseditor.s: widgets/transfunc/transfunc2dprimitiveseditor.cpp.s
@@ -6990,7 +6750,7 @@ widgets/transfunc/transfunc2dprimitiveseditor.s: widgets/transfunc/transfunc2dpr
 
 # target to generate assembly for a file
 widgets/transfunc/transfunc2dprimitiveseditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitiveseditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitiveseditor.cpp.s
 .PHONY : widgets/transfunc/transfunc2dprimitiveseditor.cpp.s
 
 widgets/transfunc/transfunc2dprimitivespainter.o: widgets/transfunc/transfunc2dprimitivespainter.cpp.o
@@ -6998,7 +6758,7 @@ widgets/transfunc/transfunc2dprimitivespainter.o: widgets/transfunc/transfunc2dp
 
 # target to build an object file
 widgets/transfunc/transfunc2dprimitivespainter.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitivespainter.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitivespainter.cpp.o
 .PHONY : widgets/transfunc/transfunc2dprimitivespainter.cpp.o
 
 widgets/transfunc/transfunc2dprimitivespainter.i: widgets/transfunc/transfunc2dprimitivespainter.cpp.i
@@ -7006,7 +6766,7 @@ widgets/transfunc/transfunc2dprimitivespainter.i: widgets/transfunc/transfunc2dp
 
 # target to preprocess a source file
 widgets/transfunc/transfunc2dprimitivespainter.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitivespainter.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitivespainter.cpp.i
 .PHONY : widgets/transfunc/transfunc2dprimitivespainter.cpp.i
 
 widgets/transfunc/transfunc2dprimitivespainter.s: widgets/transfunc/transfunc2dprimitivespainter.cpp.s
@@ -7014,7 +6774,7 @@ widgets/transfunc/transfunc2dprimitivespainter.s: widgets/transfunc/transfunc2dp
 
 # target to generate assembly for a file
 widgets/transfunc/transfunc2dprimitivespainter.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitivespainter.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitivespainter.cpp.s
 .PHONY : widgets/transfunc/transfunc2dprimitivespainter.cpp.s
 
 widgets/transfunc/transfunceditor.o: widgets/transfunc/transfunceditor.cpp.o
@@ -7022,7 +6782,7 @@ widgets/transfunc/transfunceditor.o: widgets/transfunc/transfunceditor.cpp.o
 
 # target to build an object file
 widgets/transfunc/transfunceditor.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunceditor.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunceditor.cpp.o
 .PHONY : widgets/transfunc/transfunceditor.cpp.o
 
 widgets/transfunc/transfunceditor.i: widgets/transfunc/transfunceditor.cpp.i
@@ -7030,7 +6790,7 @@ widgets/transfunc/transfunceditor.i: widgets/transfunc/transfunceditor.cpp.i
 
 # target to preprocess a source file
 widgets/transfunc/transfunceditor.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunceditor.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunceditor.cpp.i
 .PHONY : widgets/transfunc/transfunceditor.cpp.i
 
 widgets/transfunc/transfunceditor.s: widgets/transfunc/transfunceditor.cpp.s
@@ -7038,7 +6798,7 @@ widgets/transfunc/transfunceditor.s: widgets/transfunc/transfunceditor.cpp.s
 
 # target to generate assembly for a file
 widgets/transfunc/transfunceditor.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunceditor.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunceditor.cpp.s
 .PHONY : widgets/transfunc/transfunceditor.cpp.s
 
 widgets/transfunc/transfuncmappingcanvas.o: widgets/transfunc/transfuncmappingcanvas.cpp.o
@@ -7046,7 +6806,7 @@ widgets/transfunc/transfuncmappingcanvas.o: widgets/transfunc/transfuncmappingca
 
 # target to build an object file
 widgets/transfunc/transfuncmappingcanvas.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvas.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvas.cpp.o
 .PHONY : widgets/transfunc/transfuncmappingcanvas.cpp.o
 
 widgets/transfunc/transfuncmappingcanvas.i: widgets/transfunc/transfuncmappingcanvas.cpp.i
@@ -7054,7 +6814,7 @@ widgets/transfunc/transfuncmappingcanvas.i: widgets/transfunc/transfuncmappingca
 
 # target to preprocess a source file
 widgets/transfunc/transfuncmappingcanvas.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvas.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvas.cpp.i
 .PHONY : widgets/transfunc/transfuncmappingcanvas.cpp.i
 
 widgets/transfunc/transfuncmappingcanvas.s: widgets/transfunc/transfuncmappingcanvas.cpp.s
@@ -7062,7 +6822,7 @@ widgets/transfunc/transfuncmappingcanvas.s: widgets/transfunc/transfuncmappingca
 
 # target to generate assembly for a file
 widgets/transfunc/transfuncmappingcanvas.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvas.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvas.cpp.s
 .PHONY : widgets/transfunc/transfuncmappingcanvas.cpp.s
 
 widgets/transfunc/transfuncmappingcanvasramp.o: widgets/transfunc/transfuncmappingcanvasramp.cpp.o
@@ -7070,7 +6830,7 @@ widgets/transfunc/transfuncmappingcanvasramp.o: widgets/transfunc/transfuncmappi
 
 # target to build an object file
 widgets/transfunc/transfuncmappingcanvasramp.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvasramp.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvasramp.cpp.o
 .PHONY : widgets/transfunc/transfuncmappingcanvasramp.cpp.o
 
 widgets/transfunc/transfuncmappingcanvasramp.i: widgets/transfunc/transfuncmappingcanvasramp.cpp.i
@@ -7078,7 +6838,7 @@ widgets/transfunc/transfuncmappingcanvasramp.i: widgets/transfunc/transfuncmappi
 
 # target to preprocess a source file
 widgets/transfunc/transfuncmappingcanvasramp.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvasramp.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvasramp.cpp.i
 .PHONY : widgets/transfunc/transfuncmappingcanvasramp.cpp.i
 
 widgets/transfunc/transfuncmappingcanvasramp.s: widgets/transfunc/transfuncmappingcanvasramp.cpp.s
@@ -7086,7 +6846,7 @@ widgets/transfunc/transfuncmappingcanvasramp.s: widgets/transfunc/transfuncmappi
 
 # target to generate assembly for a file
 widgets/transfunc/transfuncmappingcanvasramp.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvasramp.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvasramp.cpp.s
 .PHONY : widgets/transfunc/transfuncmappingcanvasramp.cpp.s
 
 widgets/transfunc/transfuncplugin.o: widgets/transfunc/transfuncplugin.cpp.o
@@ -7094,7 +6854,7 @@ widgets/transfunc/transfuncplugin.o: widgets/transfunc/transfuncplugin.cpp.o
 
 # target to build an object file
 widgets/transfunc/transfuncplugin.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncplugin.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncplugin.cpp.o
 .PHONY : widgets/transfunc/transfuncplugin.cpp.o
 
 widgets/transfunc/transfuncplugin.i: widgets/transfunc/transfuncplugin.cpp.i
@@ -7102,7 +6862,7 @@ widgets/transfunc/transfuncplugin.i: widgets/transfunc/transfuncplugin.cpp.i
 
 # target to preprocess a source file
 widgets/transfunc/transfuncplugin.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncplugin.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncplugin.cpp.i
 .PHONY : widgets/transfunc/transfuncplugin.cpp.i
 
 widgets/transfunc/transfuncplugin.s: widgets/transfunc/transfuncplugin.cpp.s
@@ -7110,7 +6870,7 @@ widgets/transfunc/transfuncplugin.s: widgets/transfunc/transfuncplugin.cpp.s
 
 # target to generate assembly for a file
 widgets/transfunc/transfuncplugin.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncplugin.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncplugin.cpp.s
 .PHONY : widgets/transfunc/transfuncplugin.cpp.s
 
 widgets/volumeiohelper.o: widgets/volumeiohelper.cpp.o
@@ -7118,7 +6878,7 @@ widgets/volumeiohelper.o: widgets/volumeiohelper.cpp.o
 
 # target to build an object file
 widgets/volumeiohelper.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeiohelper.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeiohelper.cpp.o
 .PHONY : widgets/volumeiohelper.cpp.o
 
 widgets/volumeiohelper.i: widgets/volumeiohelper.cpp.i
@@ -7126,7 +6886,7 @@ widgets/volumeiohelper.i: widgets/volumeiohelper.cpp.i
 
 # target to preprocess a source file
 widgets/volumeiohelper.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeiohelper.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeiohelper.cpp.i
 .PHONY : widgets/volumeiohelper.cpp.i
 
 widgets/volumeiohelper.s: widgets/volumeiohelper.cpp.s
@@ -7134,7 +6894,7 @@ widgets/volumeiohelper.s: widgets/volumeiohelper.cpp.s
 
 # target to generate assembly for a file
 widgets/volumeiohelper.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeiohelper.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeiohelper.cpp.s
 .PHONY : widgets/volumeiohelper.cpp.s
 
 widgets/volumelistingdialog.o: widgets/volumelistingdialog.cpp.o
@@ -7142,7 +6902,7 @@ widgets/volumelistingdialog.o: widgets/volumelistingdialog.cpp.o
 
 # target to build an object file
 widgets/volumelistingdialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumelistingdialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumelistingdialog.cpp.o
 .PHONY : widgets/volumelistingdialog.cpp.o
 
 widgets/volumelistingdialog.i: widgets/volumelistingdialog.cpp.i
@@ -7150,7 +6910,7 @@ widgets/volumelistingdialog.i: widgets/volumelistingdialog.cpp.i
 
 # target to preprocess a source file
 widgets/volumelistingdialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumelistingdialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumelistingdialog.cpp.i
 .PHONY : widgets/volumelistingdialog.cpp.i
 
 widgets/volumelistingdialog.s: widgets/volumelistingdialog.cpp.s
@@ -7158,7 +6918,7 @@ widgets/volumelistingdialog.s: widgets/volumelistingdialog.cpp.s
 
 # target to generate assembly for a file
 widgets/volumelistingdialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumelistingdialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumelistingdialog.cpp.s
 .PHONY : widgets/volumelistingdialog.cpp.s
 
 widgets/volumereaderselectiondialog.o: widgets/volumereaderselectiondialog.cpp.o
@@ -7166,7 +6926,7 @@ widgets/volumereaderselectiondialog.o: widgets/volumereaderselectiondialog.cpp.o
 
 # target to build an object file
 widgets/volumereaderselectiondialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumereaderselectiondialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumereaderselectiondialog.cpp.o
 .PHONY : widgets/volumereaderselectiondialog.cpp.o
 
 widgets/volumereaderselectiondialog.i: widgets/volumereaderselectiondialog.cpp.i
@@ -7174,7 +6934,7 @@ widgets/volumereaderselectiondialog.i: widgets/volumereaderselectiondialog.cpp.i
 
 # target to preprocess a source file
 widgets/volumereaderselectiondialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumereaderselectiondialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumereaderselectiondialog.cpp.i
 .PHONY : widgets/volumereaderselectiondialog.cpp.i
 
 widgets/volumereaderselectiondialog.s: widgets/volumereaderselectiondialog.cpp.s
@@ -7182,7 +6942,7 @@ widgets/volumereaderselectiondialog.s: widgets/volumereaderselectiondialog.cpp.s
 
 # target to generate assembly for a file
 widgets/volumereaderselectiondialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumereaderselectiondialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumereaderselectiondialog.cpp.s
 .PHONY : widgets/volumereaderselectiondialog.cpp.s
 
 widgets/volumeviewer.o: widgets/volumeviewer.cpp.o
@@ -7190,7 +6950,7 @@ widgets/volumeviewer.o: widgets/volumeviewer.cpp.o
 
 # target to build an object file
 widgets/volumeviewer.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewer.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewer.cpp.o
 .PHONY : widgets/volumeviewer.cpp.o
 
 widgets/volumeviewer.i: widgets/volumeviewer.cpp.i
@@ -7198,7 +6958,7 @@ widgets/volumeviewer.i: widgets/volumeviewer.cpp.i
 
 # target to preprocess a source file
 widgets/volumeviewer.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewer.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewer.cpp.i
 .PHONY : widgets/volumeviewer.cpp.i
 
 widgets/volumeviewer.s: widgets/volumeviewer.cpp.s
@@ -7206,7 +6966,7 @@ widgets/volumeviewer.s: widgets/volumeviewer.cpp.s
 
 # target to generate assembly for a file
 widgets/volumeviewer.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewer.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewer.cpp.s
 .PHONY : widgets/volumeviewer.cpp.s
 
 widgets/volumeviewhelper.o: widgets/volumeviewhelper.cpp.o
@@ -7214,7 +6974,7 @@ widgets/volumeviewhelper.o: widgets/volumeviewhelper.cpp.o
 
 # target to build an object file
 widgets/volumeviewhelper.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewhelper.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewhelper.cpp.o
 .PHONY : widgets/volumeviewhelper.cpp.o
 
 widgets/volumeviewhelper.i: widgets/volumeviewhelper.cpp.i
@@ -7222,7 +6982,7 @@ widgets/volumeviewhelper.i: widgets/volumeviewhelper.cpp.i
 
 # target to preprocess a source file
 widgets/volumeviewhelper.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewhelper.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewhelper.cpp.i
 .PHONY : widgets/volumeviewhelper.cpp.i
 
 widgets/volumeviewhelper.s: widgets/volumeviewhelper.cpp.s
@@ -7230,7 +6990,7 @@ widgets/volumeviewhelper.s: widgets/volumeviewhelper.cpp.s
 
 # target to generate assembly for a file
 widgets/volumeviewhelper.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewhelper.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewhelper.cpp.s
 .PHONY : widgets/volumeviewhelper.cpp.s
 
 widgets/voreensettingsdialog.o: widgets/voreensettingsdialog.cpp.o
@@ -7238,7 +6998,7 @@ widgets/voreensettingsdialog.o: widgets/voreensettingsdialog.cpp.o
 
 # target to build an object file
 widgets/voreensettingsdialog.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreensettingsdialog.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreensettingsdialog.cpp.o
 .PHONY : widgets/voreensettingsdialog.cpp.o
 
 widgets/voreensettingsdialog.i: widgets/voreensettingsdialog.cpp.i
@@ -7246,7 +7006,7 @@ widgets/voreensettingsdialog.i: widgets/voreensettingsdialog.cpp.i
 
 # target to preprocess a source file
 widgets/voreensettingsdialog.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreensettingsdialog.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreensettingsdialog.cpp.i
 .PHONY : widgets/voreensettingsdialog.cpp.i
 
 widgets/voreensettingsdialog.s: widgets/voreensettingsdialog.cpp.s
@@ -7254,7 +7014,7 @@ widgets/voreensettingsdialog.s: widgets/voreensettingsdialog.cpp.s
 
 # target to generate assembly for a file
 widgets/voreensettingsdialog.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreensettingsdialog.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreensettingsdialog.cpp.s
 .PHONY : widgets/voreensettingsdialog.cpp.s
 
 widgets/voreentoolwindow.o: widgets/voreentoolwindow.cpp.o
@@ -7262,7 +7022,7 @@ widgets/voreentoolwindow.o: widgets/voreentoolwindow.cpp.o
 
 # target to build an object file
 widgets/voreentoolwindow.cpp.o:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreentoolwindow.cpp.o
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreentoolwindow.cpp.o
 .PHONY : widgets/voreentoolwindow.cpp.o
 
 widgets/voreentoolwindow.i: widgets/voreentoolwindow.cpp.i
@@ -7270,7 +7030,7 @@ widgets/voreentoolwindow.i: widgets/voreentoolwindow.cpp.i
 
 # target to preprocess a source file
 widgets/voreentoolwindow.cpp.i:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreentoolwindow.cpp.i
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreentoolwindow.cpp.i
 .PHONY : widgets/voreentoolwindow.cpp.i
 
 widgets/voreentoolwindow.s: widgets/voreentoolwindow.cpp.s
@@ -7278,7 +7038,7 @@ widgets/voreentoolwindow.s: widgets/voreentoolwindow.cpp.s
 
 # target to generate assembly for a file
 widgets/voreentoolwindow.cpp.s:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreentoolwindow.cpp.s
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/widgets/voreentoolwindow.cpp.s
 .PHONY : widgets/voreentoolwindow.cpp.s
 
 # Help Target
@@ -7630,36 +7390,6 @@ help:
 	@echo "... __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.o"
 	@echo "... __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.i"
 	@echo "... __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.s"
-	@echo "... __/__/modules/opencl/openclmoduleqt.o"
-	@echo "... __/__/modules/opencl/openclmoduleqt.i"
-	@echo "... __/__/modules/opencl/openclmoduleqt.s"
-	@echo "... __/__/modules/opencl/qt/dynamicopenclwidget.o"
-	@echo "... __/__/modules/opencl/qt/dynamicopenclwidget.i"
-	@echo "... __/__/modules/opencl/qt/dynamicopenclwidget.s"
-	@echo "... __/__/modules/opencl/qt/moc_dynamicopenclwidget.o"
-	@echo "... __/__/modules/opencl/qt/moc_dynamicopenclwidget.i"
-	@echo "... __/__/modules/opencl/qt/moc_dynamicopenclwidget.s"
-	@echo "... __/__/modules/opencl/qt/moc_openclplugin.o"
-	@echo "... __/__/modules/opencl/qt/moc_openclplugin.i"
-	@echo "... __/__/modules/opencl/qt/moc_openclplugin.s"
-	@echo "... __/__/modules/opencl/qt/moc_openclpropertywidget.o"
-	@echo "... __/__/modules/opencl/qt/moc_openclpropertywidget.i"
-	@echo "... __/__/modules/opencl/qt/moc_openclpropertywidget.s"
-	@echo "... __/__/modules/opencl/qt/openclhighlighter.o"
-	@echo "... __/__/modules/opencl/qt/openclhighlighter.i"
-	@echo "... __/__/modules/opencl/qt/openclhighlighter.s"
-	@echo "... __/__/modules/opencl/qt/openclplugin.o"
-	@echo "... __/__/modules/opencl/qt/openclplugin.i"
-	@echo "... __/__/modules/opencl/qt/openclplugin.s"
-	@echo "... __/__/modules/opencl/qt/openclprocessorwidgetfactory.o"
-	@echo "... __/__/modules/opencl/qt/openclprocessorwidgetfactory.i"
-	@echo "... __/__/modules/opencl/qt/openclprocessorwidgetfactory.s"
-	@echo "... __/__/modules/opencl/qt/openclpropertywidget.o"
-	@echo "... __/__/modules/opencl/qt/openclpropertywidget.i"
-	@echo "... __/__/modules/opencl/qt/openclpropertywidget.s"
-	@echo "... __/__/modules/opencl/qt/openclpropertywidgetfactory.o"
-	@echo "... __/__/modules/opencl/qt/openclpropertywidgetfactory.i"
-	@echo "... __/__/modules/opencl/qt/openclpropertywidgetfactory.s"
 	@echo "... __/__/modules/plotting/plottingmoduleqt.o"
 	@echo "... __/__/modules/plotting/plottingmoduleqt.i"
 	@echo "... __/__/modules/plotting/plottingmoduleqt.s"
@@ -8196,6 +7926,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/emma/Downloads/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
