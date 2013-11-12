@@ -18,16 +18,11 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
-#include <QtWidgets/QSlider>
 #include <QtWidgets/QSplitter>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
-#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include "QGLViewer/qglviewer.h"
-#include "functionglwidget.h"
-#include "imageglwidget.h"
-#include "tgt/qt/qtcanvas.h"
 #include "viewer.h"
 
 QT_BEGIN_NAMESPACE
@@ -39,20 +34,13 @@ public:
     QAction *actionConnect;
     QAction *actionDisconnect;
     QAction *actionNetwork;
+    QAction *actionHR;
     QWidget *centralWidget;
     QGridLayout *gridLayout;
     QSplitter *splitter_3;
     QSplitter *splitter;
-    imageGLWidget *widgetImgL;
-    functionGLWidget *widgetL;
-    QWidget *layoutWidget;
-    QVBoxLayout *verticalLayout;
-    QSlider *xSlider;
-    QSlider *ySlider;
-    QSlider *zSlider;
-    QSlider *pSlider;
+    Viewer *viewerFuncO;
     QSplitter *splitter_2;
-    tgt::QtCanvas *widgetTran;
     Viewer *viewerFunc;
     QMenuBar *menuBar;
     QMenu *menu_File;
@@ -86,6 +74,8 @@ public:
         QIcon icon3;
         icon3.addFile(QStringLiteral(":/icons/resource/Network Connection Internet.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionNetwork->setIcon(icon3);
+        actionHR = new QAction(MainWindow3D);
+        actionHR->setObjectName(QStringLiteral("actionHR"));
         centralWidget = new QWidget(MainWindow3D);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         gridLayout = new QGridLayout(centralWidget);
@@ -98,74 +88,13 @@ public:
         splitter = new QSplitter(splitter_3);
         splitter->setObjectName(QStringLiteral("splitter"));
         splitter->setOrientation(Qt::Vertical);
-        widgetImgL = new imageGLWidget(splitter);
-        widgetImgL->setObjectName(QStringLiteral("widgetImgL"));
-        splitter->addWidget(widgetImgL);
-        widgetL = new functionGLWidget(splitter);
-        widgetL->setObjectName(QStringLiteral("widgetL"));
-        layoutWidget = new QWidget(widgetL);
-        layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
-        layoutWidget->setGeometry(QRect(10, 20, 92, 156));
-        verticalLayout = new QVBoxLayout(layoutWidget);
-        verticalLayout->setSpacing(6);
-        verticalLayout->setContentsMargins(11, 11, 11, 11);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
-        xSlider = new QSlider(layoutWidget);
-        xSlider->setObjectName(QStringLiteral("xSlider"));
-        xSlider->setMaximum(1000);
-        xSlider->setSingleStep(10);
-        xSlider->setPageStep(50);
-        xSlider->setValue(500);
-        xSlider->setOrientation(Qt::Horizontal);
-        xSlider->setTickPosition(QSlider::TicksBelow);
-        xSlider->setTickInterval(50);
-
-        verticalLayout->addWidget(xSlider);
-
-        ySlider = new QSlider(layoutWidget);
-        ySlider->setObjectName(QStringLiteral("ySlider"));
-        ySlider->setMaximum(1000);
-        ySlider->setSingleStep(10);
-        ySlider->setPageStep(50);
-        ySlider->setValue(500);
-        ySlider->setOrientation(Qt::Horizontal);
-        ySlider->setTickPosition(QSlider::TicksBelow);
-        ySlider->setTickInterval(50);
-
-        verticalLayout->addWidget(ySlider);
-
-        zSlider = new QSlider(layoutWidget);
-        zSlider->setObjectName(QStringLiteral("zSlider"));
-        zSlider->setMaximum(1000);
-        zSlider->setSingleStep(10);
-        zSlider->setPageStep(50);
-        zSlider->setValue(500);
-        zSlider->setOrientation(Qt::Horizontal);
-        zSlider->setTickPosition(QSlider::TicksBelow);
-        zSlider->setTickInterval(50);
-
-        verticalLayout->addWidget(zSlider);
-
-        pSlider = new QSlider(layoutWidget);
-        pSlider->setObjectName(QStringLiteral("pSlider"));
-        pSlider->setMaximum(1000);
-        pSlider->setSingleStep(10);
-        pSlider->setPageStep(50);
-        pSlider->setValue(500);
-        pSlider->setOrientation(Qt::Horizontal);
-        pSlider->setTickPosition(QSlider::TicksBelow);
-        pSlider->setTickInterval(50);
-
-        verticalLayout->addWidget(pSlider);
-
-        splitter->addWidget(widgetL);
+        viewerFuncO = new Viewer(splitter);
+        viewerFuncO->setObjectName(QStringLiteral("viewerFuncO"));
+        splitter->addWidget(viewerFuncO);
         splitter_3->addWidget(splitter);
         splitter_2 = new QSplitter(splitter_3);
         splitter_2->setObjectName(QStringLiteral("splitter_2"));
         splitter_2->setOrientation(Qt::Vertical);
-        widgetTran = new tgt::QtCanvas(splitter_2);
-        widgetTran->setObjectName(QStringLiteral("widgetTran"));
-        splitter_2->addWidget(widgetTran);
         viewerFunc = new Viewer(splitter_2);
         viewerFunc->setObjectName(QStringLiteral("viewerFunc"));
         splitter_2->addWidget(viewerFunc);
@@ -201,6 +130,8 @@ public:
         mainToolBar->addAction(actionOpen);
         mainToolBar->addAction(actionConnect);
         mainToolBar->addAction(actionNetwork);
+        mainToolBar->addSeparator();
+        mainToolBar->addAction(actionHR);
 
         retranslateUi(MainWindow3D);
 
@@ -214,6 +145,10 @@ public:
         actionConnect->setText(QApplication::translate("MainWindow3D", "&Connect", 0));
         actionDisconnect->setText(QApplication::translate("MainWindow3D", "&Disconnect", 0));
         actionNetwork->setText(QApplication::translate("MainWindow3D", "&Network", 0));
+        actionHR->setText(QApplication::translate("MainWindow3D", "High Resolution", 0));
+#ifndef QT_NO_TOOLTIP
+        actionHR->setToolTip(QApplication::translate("MainWindow3D", "<html><head/><body><p>Generate the high resolution volume</p></body></html>", 0));
+#endif // QT_NO_TOOLTIP
         menu_File->setTitle(QApplication::translate("MainWindow3D", "&File", 0));
         menu_Connection->setTitle(QApplication::translate("MainWindow3D", "&Connection", 0));
         menu_Settings->setTitle(QApplication::translate("MainWindow3D", "&Settings", 0));
