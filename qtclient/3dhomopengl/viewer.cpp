@@ -4,6 +4,7 @@ Viewer::Viewer(QWidget *parent):QGLViewer(parent)
     //cube = new functionCube(parent);
     cube = NULL;
     box = NULL;
+    Th = NULL;
 }
 
 Viewer::~Viewer()
@@ -12,6 +13,8 @@ Viewer::~Viewer()
 	delete cube;
     if(box)
 	delete box;
+    if(Th)
+	delete Th;
 }
 
 void Viewer::drawCornerAxis()
@@ -101,6 +104,8 @@ void Viewer::draw()
 	cube->draw();
     if(box)
 	box->draw();
+    if(Th)
+	Th->draw();
 }
 
 void Viewer::drawWithNames()
@@ -109,6 +114,8 @@ void Viewer::drawWithNames()
 	cube->draw(true);
     if(box)
 	box->draw(true);
+    if(Th)
+	Th->draw(true);
 }
 
 void Viewer::postSelection(const QPoint &point)
@@ -117,7 +124,7 @@ void Viewer::postSelection(const QPoint &point)
     qDebug() << "selected item is" << selectedName();
     if(selectedName() > 20)
 	return;
-    if (selectedName() == -1)
+    if (selectedName() < 0 )
     {
       // Camera will be the default frame is no object is selected.
 	setManipulatedFrame( camera()->frame() );
@@ -125,6 +132,8 @@ void Viewer::postSelection(const QPoint &point)
 	    cube->setSelectedFrameNumber(19); // dummy value meaning camera
 	if(box)
 	    box->setSelectedFrameNumber(6);
+	if(Th)
+	    Th->setSelectedFrameNumber(19);
     }
     else
     {
@@ -138,6 +147,11 @@ void Viewer::postSelection(const QPoint &point)
 	    setManipulatedFrame(box->frame(selectedName()));
 	    box->setSelectedFrameNumber(selectedName());
 
+	}
+	if(Th)
+	{
+	    setManipulatedFrame(Th->frame(selectedName()));	
+	    Th->setSelectedFrameNumber(selectedName());
 	}
     
     }

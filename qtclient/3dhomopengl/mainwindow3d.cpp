@@ -5,10 +5,13 @@
 #include "tgt/shadermanager.h"
 
 #include "voreen/core/io/serialization/serialization.h"
+#include "voreen/core/properties/buttonproperty.h"
 
 #include "core/processors/output/canvasrenderer.h"
  
 #include "base/processors/utility/metadataextractor.h"
+#include "base/processors/volume/volumecrop.h"
+#include "base/processors/render/singlevolumeraycaster.h"
 #include "pvm/io/ddsbase.h" 
 
 #include "ui_mainwindow3d.h"
@@ -23,6 +26,7 @@ MainWindow3D::MainWindow3D(QWidget *parent) :
     
     creatActions();
     
+    ui->stackedWidget->setCurrentWidget(ui->pageCube);
     mapCube = new functionCube(this);
     mapCube->setFuncNo(2);
     mapCubeO = new functionCube(this);
@@ -30,11 +34,24 @@ MainWindow3D::MainWindow3D(QWidget *parent) :
     ui->viewerFunc->setCube(mapCube);
     ui->viewerFuncO->setCube(mapCubeO);
 
+    mapTh = new functionTH(this);
+    ui->viewerFuncTH->setTh(mapTh);
+
+    mapThO = new functionTH(this);
+    ui->viewerFuncTHO->setTh(mapThO);
+
+
     //clipbox = new clipBox(this);
     //ui->viewerTran->setBox(clipbox);
-    
+    progress = new QProgressDialog(0);
+    progress->setCancelButton(0);
+    progress->setWindowModality(Qt::WindowModal);
+    progress->setRange(0, 99);
+    progress->setWindowTitle("Generating Hight Resolution Data");
+    progress->setWindowFlags(Qt::Window | Qt::WindowTitleHint | Qt::CustomizeWindowHint);
+    qDebug() << "window flags is " << progress->windowFlags();
+
     volumecount = 0;
-    progress=NULL;
     volumeHandle=NULL;
     displayHR = false;
     hostname = "localhost";
@@ -78,8 +95,12 @@ MainWindow3D::~MainWindow3D()
     delete networkEvaluator;
     delete widgetTran;
     delete widgetTranO;
+    delete widgetCrop;
     delete painter;
     delete painterO;
+    delete painterC;
+    delete tfWidget;
+    delete progress;
 
     vapp->deinitializeGL();
     vapp->deinitialize();
@@ -92,9 +113,12 @@ void MainWindow3D::setVoreenApp(VoreenApplicationQt *app)
     vapp->initializeGL();
 
     widgetTranO = new tgt::QtCanvas( "Init Canvas", tgt::ivec2(128, 128), tgt::GLCanvas::RGBADD, ui->splitter, true);
-    ui->splitter->addWidget(widgetTranO);
+    widgetTranO->setMinimumSize(320, 320);
+    ui->splitter_2->addWidget(widgetTranO);
     widgetTran = new tgt::QtCanvas( "Init Canvas", tgt::ivec2(128, 128), tgt::GLCanvas::RGBADD, ui->splitter, true);
+    widgetTran->setMinimumSize(320, 320);
     ui->splitter_2->addWidget(widgetTran);
+    widgetCrop = new tgt::QtCanvas( "Volume Cropping", tgt::ivec2(320, 320), tgt::GLCanvas::RGBADD, 0, true);
 
     workspace = new Workspace();
     try {
@@ -121,10 +145,20 @@ void MainWindow3D::setVoreenApp(VoreenApplicationQt *app)
     widgetTran->setPainter(painter);
     canvasRenderer[0]->setCanvas(widgetTran);
 
-    painterO = new VoreenPainter(widgetTranO, networkEvaluator, canvasRenderer[1]);
+    painterO = new VoreenPainter(widgetTranO, networkEvaluator, canvasRenderer[2]);
     widgetTranO->setPainter(painterO);
-    canvasRenderer[1]->setCanvas(widgetTranO);
+    canvasRenderer[2]->setCanvas(widgetTranO);
+
+    painterC = new VoreenPainter(widgetCrop, networkEvaluator, canvasRenderer[1]);
+    widgetCrop->setPainter(painterC);
+    canvasRenderer[1]->setCanvas(widgetCrop);
+
     
+    SingleVolumeRaycaster *svRaycaster= (SingleVolumeRaycaster *)network->getProcessorByName("SingleVolumeRaycaster 2");
+    TransFuncProperty *transFunc = (TransFuncProperty *)svRaycaster->getProperty("transferFunction"); 
+    tfWidget = new TransFuncPropertyWidget(transFunc, this);
+    ui->splitter_4->addWidget(tfWidget);
+
    
     // pass the network to the network evaluator, which also initializes the processors
     networkEvaluator->setProcessorNetwork(network);
@@ -187,6 +221,9 @@ void MainWindow3D::loadVolume(char* buffer)
 {
     VolumeRAM *dataset = 0;
 
+    if(!ui->actionHR->isEnabled())
+	ui->actionHR->setEnabled(true);
+
     if(displayHR)
     {
 
@@ -200,8 +237,9 @@ void MainWindow3D::loadVolume(char* buffer)
 	imageBuffer = new unsigned char[widthLR*lengthLR*depthLR];
 	memcpy(imageBuffer, (unsigned char *)buffer, widthLR*lengthLR*depthLR);
     }
-    char *filename = "resource/volumes/volume2.pvm";
+
     /*
+    char *filename = "resource/volumes/volume2.pvm";
     writePVMvolume(filename, imageBuffer,
                      width, length, depth, 1, 1.f, 1.f, 1.f,
                     NULL, NULL, NULL, NULL);
@@ -242,6 +280,9 @@ void MainWindow3D::creatActions()
     connect(ui->actionConnect, SIGNAL(triggered()), this, SLOT(connectToHost()));
     connect(ui->actionDisconnect, SIGNAL(triggered()), this, SLOT(disconnectFromHost()));
     connect(ui->actionHR, SIGNAL(triggered()), this, SLOT(generateHR()));
+    connect(ui->actionCrop, SIGNAL(triggered()), this, SLOT(showCrop()));
+    connect(ui->actionCube, SIGNAL(triggered()), this, SLOT(cubeMapping()));
+    connect(ui->actionTH, SIGNAL(triggered()), this, SLOT(thMapping()));
 }
 
 void MainWindow3D::open()
@@ -306,15 +347,14 @@ void MainWindow3D::displayError(QString *string)
 void MainWindow3D::generateHR()
 {
     int cmdSize = 2;
+    /*
     if(progress)
     {
 	delete progress;
     }
-    progress = new QProgressDialog(this);
-    progress->setCancelButton(0);
-    progress->setWindowModality(Qt::WindowModal);
-    progress->setRange(0, 99);
-    progress->setWindowTitle("Generating Hight Resolution Data");
+    */
+
+    progress->show();
     char *cmd = new char[sizeof(cmdSize) + cmdSize];
     memcpy(cmd, (char *)&cmdSize, sizeof(cmdSize));
     memcpy(cmd+sizeof(cmdSize), "HR", cmdSize);
@@ -322,4 +362,24 @@ void MainWindow3D::generateHR()
     displayHR = true;
     progress->setValue(33);
     progress->setLabelText("Waiting for finishing transformation...");
+}
+
+void MainWindow3D::showCrop()
+{
+    VolumeCrop *crop = (VolumeCrop *)network->getProcessorByName("VolumeCrop");
+    ButtonProperty *buttonCrop = (ButtonProperty *)crop->getProperty("button");
+    buttonCrop->clicked();
+    widgetCrop->show();
+    widgetCrop->activateWindow();
+}
+
+void MainWindow3D::cubeMapping()
+{
+    ui->stackedWidget->setCurrentWidget(ui->pageCube);
+
+}
+
+void MainWindow3D::thMapping()
+{
+    ui->stackedWidget->setCurrentWidget(ui->pageTH);
 }

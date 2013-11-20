@@ -11,6 +11,7 @@ public:
     Viewer(QWidget *parent=0);
     ~Viewer();
     void setCube(functionCube *aCube){if(cube) delete cube; cube = aCube;};
+    void setTh(functionTH *aTh){if(Th) delete Th; Th = aTh;};
     void setBox(clipBox *aBox){if(box) delete box; box = aBox;};
 protected :
     virtual void draw();
@@ -23,6 +24,7 @@ protected :
 private :
   void drawCornerAxis();
   functionCube *cube;
+  functionTH *Th;
   clipBox *box;
 };
 

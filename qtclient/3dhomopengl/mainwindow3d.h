@@ -10,6 +10,7 @@
 #include "voreen/qt/voreenapplicationqt.h"
 #include "voreen/core/datastructures/volume/volume.h"
 #include "voreen/core/datastructures/volume/volumeatomic.h"
+#include "voreen/qt/widgets/property/transfuncpropertywidget.h"
 
 
 #include "tgt/qt/qtcanvas.h"
@@ -48,6 +49,9 @@ public slots:
     void disconnectFromHost();
     void loadVolume(char *);
     void generateHR();
+    void showCrop();
+    void cubeMapping();
+    void thMapping();
 
 signals:
     void invokeConnect(hostAddress *);
@@ -68,20 +72,22 @@ private:
     QThread *rwThread;
     functionCube *mapCube;
     functionCube *mapCubeO;
+    functionTH *mapTh, *mapThO;
     clipBox *clipbox;
     VoreenApplicationQt *vapp;
     Workspace* workspace;
     NetworkEvaluator* networkEvaluator;
     ProcessorNetwork* network;
-    VoreenPainter* painter, *painterO;
-    tgt::QtCanvas *widgetTran, *widgetTranO;
+    VoreenPainter* painter, *painterO, *painterC;
+    tgt::QtCanvas *widgetTran, *widgetTranO, *widgetCrop;
     VolumeSource *volume;
     int volumecount;
     unsigned int widthLR, lengthLR, depthLR;
     unsigned int widthHR, lengthHR, depthHR;
     bool displayHR;
-    QProgressDialog *progress;
+    QProgressDialog  *progress;
     Volume *volumeHandle;
+    TransFuncPropertyWidget *tfWidget;
 
 };
 

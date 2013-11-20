@@ -16,21 +16,50 @@
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
-     <widget class="QSplitter" name="splitter_3">
+     <widget class="QSplitter" name="splitter_4">
       <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+       <enum>Qt::Vertical</enum>
       </property>
-      <widget class="QSplitter" name="splitter">
+      <widget class="QSplitter" name="splitter_3">
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
-       <widget class="Viewer" name="viewerFuncO"/>
-      </widget>
-      <widget class="QSplitter" name="splitter_2">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <widget class="Viewer" name="viewerFunc"/>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="pageCube">
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QSplitter" name="splitter">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="Viewer" name="viewerFuncO"/>
+            <widget class="Viewer" name="viewerFunc"/>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="pageTH">
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QSplitter" name="splitter_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="Viewer" name="viewerFuncTHO"/>
+            <widget class="Viewer" name="viewerFuncTH"/>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QSplitter" name="splitter_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
       </widget>
      </widget>
     </item>
@@ -64,9 +93,17 @@
     </property>
     <addaction name="actionNetwork"/>
    </widget>
+   <widget class="QMenu" name="menuTransformation_Typle">
+    <property name="title">
+     <string>Mapping</string>
+    </property>
+    <addaction name="actionCube"/>
+    <addaction name="actionTH"/>
+   </widget>
    <addaction name="menu_File"/>
    <addaction name="menu_Connection"/>
    <addaction name="menu_Settings"/>
+   <addaction name="menuTransformation_Typle"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -80,6 +117,7 @@
    <addaction name="actionNetwork"/>
    <addaction name="separator"/>
    <addaction name="actionHR"/>
+   <addaction name="actionCrop"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionOpen">
@@ -119,11 +157,29 @@
    </property>
   </action>
   <action name="actionHR">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="text">
     <string>High Resolution</string>
    </property>
    <property name="toolTip">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Generate the high resolution volume&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="actionCrop">
+   <property name="text">
+    <string>&amp;Crop</string>
+   </property>
+  </action>
+  <action name="actionCube">
+   <property name="text">
+    <string>Cube</string>
+   </property>
+  </action>
+  <action name="actionTH">
+   <property name="text">
+    <string>Tetrahedron</string>
    </property>
   </action>
  </widget>

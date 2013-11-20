@@ -40,6 +40,38 @@ private:
     unsigned long samePoint;
 };
 
+class functionTH:public QObject
+{
+    Q_OBJECT
+public:
+    explicit functionTH(QObject *parent=0);
+    ~functionTH();
+    void draw(bool names=false);
+    qglviewer::ManipulatedFrame* frame(unsigned short i){return frame_[i];};
+    void setSelectedFrameNumber(unsigned short nb){ selected = nb;};
+    void setFuncNo(int no){int i=0; for(i=0; i<PARANUMBER; i++) functionParam[i].funcNo = no;};
+
+signals:
+    void writeParam(char *);
+
+private:
+    void setColor(unsigned short nb);
+    qglviewer::ManipulatedFrame* frame_[19];
+    unsigned short selected;
+    functionNode *node[4];
+    functionEdge *edge[6];
+
+    functionNode *edgeNode[6];
+    functionNode *middleNode;
+
+    functionEdge *faceEdge[12];
+    functionEdge *innerEdge[6];
+
+    activeFunc functionParam[PARANUMBER];
+    QVector3D points[27];
+    unsigned long samePoint;
+};
+
 class functionEdge:public QObject
 {
     Q_OBJECT
