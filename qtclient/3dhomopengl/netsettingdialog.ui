@@ -47,7 +47,14 @@
      </widget>
     </item>
     <item>
-     <widget class="QLineEdit" name="portlineEdit"/>
+     <widget class="QLineEdit" name="portlineEdit">
+      <property name="text">
+       <string>50000</string>
+      </property>
+      <property name="cursorPosition">
+       <number>0</number>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>

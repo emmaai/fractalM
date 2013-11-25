@@ -1,0 +1,40 @@
+Log file: /home/emma/code/cloudsalgrithm/qtclient/3dhomopengl/data/3D-Homeomophism-log.html
+voreen.VoreenApplication (Info) 	Program: 3D-Homeomophism[00m
+voreen.VoreenApplication (Info) 	Version: 4.3[00m
+voreen.VoreenApplication (Info) 	Revision: 89ac0768f6b02f78d72fb4cb123dcf7d51b61ee2[00m
+voreen.VoreenApplication (Info) 	Compiler: gcc 4.6.3 [x86_64][00m
+voreen.VoreenApplication (Info) 	Base path: /home/emma/code/cloudsalgrithm/qtclient/3dhomopengl[00m
+voreen.VoreenApplication (Info) 	User data path: /home/emma/code/cloudsalgrithm/qtclient/3dhomopengl/data (Developer mode)[00m
+voreen.VoreenApplication (Info) 	HTML log file:  /home/emma/code/cloudsalgrithm/qtclient/3dhomopengl/data/3D-Homeomophism-log.html[00m
+voreen.VoreenApplication (Info) 	Modules: Advanced Lighting, Base, Connexe, Core, DevIL, Dynamic GLSL, Flowreen, Font Rendering, OpenCL, OpenMP, Plotting, PVM, Random Walker, SEGY, Staging, Stereoscopy, VolumeLabeling, ZIP, Base (Qt), Core (Qt), Dynamic GLSL (Qt), OpenCL (Qt), Plotting (Qt), Random Walker (Qt), Stereoscopy (Qt)[00m
+voreen.VoreenApplication (Info) 	Initializing modules[00m
+voreenqt.VoreenApplicationQt (Info) 	Qt version: 5.1.0[00m
+voreen.VoreenApplication (Info) 	Initializing OpenGL[00m
+tgt.init (Info) 	GLEW version:       1.10.0[00m
+tgt.GpuCapabilities (Info) 	OS version:          Linux 3.5.0-34-generic #55~precise1-Ubuntu SMP Fri Jun 7 16:25:50 UTC 2013 x86_64[00m
+tgt.GpuCapabilities (Info) 	OpenGL Version:      4.3.12441 Compatibility Profile Context 13.20.11[00m
+tgt.GpuCapabilities (Info) 	OpenGL Renderer:     ATI Radeon HD 5800 Series[00m
+tgt.GpuCapabilities (Info) 	GPU Vendor:          ATI Technologies Inc. (ATI)[00m
+tgt.GpuCapabilities (Info) 	Texturing:           yes, max size: 16384, 3D: yes, max 3D size: 2048[00m
+tgt.GpuCapabilities (Info) 	Texture features:    16 units, NPOT, rectangles, compression, 16x anisotropic[00m
+tgt.GpuCapabilities (Info) 	Framebuffer Objects: yes, max 8 color attachments[00m
+tgt.GpuCapabilities (Info) 	Shaders:             yes (OpenGL 2.0), GLSL Version 4.30, Shader Model 5.0, max GeometryShader Output Vertices: 1024[00m
+tgt.GpuCapabilities (Info) 	Total Graphics Memory Size:        689 MB[00m
+tgt.GpuCapabilities (Info) 	Available Graphics Memory Size:    531 MB[00m
+voreen.VoreenApplication (Info) 	OpenGL initializing modules[00m
+voreen.RawVolumeReader (Info) 	Loading raw file /home/emma/Downloads/Male_ZF/small.raw (8 bit dataset)[00m
+voreen.RawVolumeReader (Info) 	Loading raw file /home/emma/Downloads/Male_ZF/Male_ZF.raw (8 bit dataset)[00m
+voreen.CameraProperty (Info) 	Adapting camera handling to new scene size...[00m
+[01;40;33mvoreen.TemplateProperty (Warning) 	Property validation failed for 'MeshProxyGeometry.leftClippingPlane': 499 out of valid range [0,68][00m
+[01;40;33mvoreen.TemplateProperty (Warning) 	Property validation failed for 'MeshProxyGeometry.backClippingPlane': 374 out of valid range [0,51][00m
+[01;40;33mvoreen.TemplateProperty (Warning) 	Property validation failed for 'MeshProxyGeometry.topClippingPlane': 1853 out of valid range [0,255][00m
+voreen.CameraProperty (Info) 	Adapting camera handling to new scene size...[00m
+[01;40;33mtgt.Shader.Shader (Warning) 	Failed to locate uniform Location: colorTex0_[00m
+[01;40;33mtgt.Shader.Shader (Warning) 	Failed to locate uniform Location: colorTex1_[00m
+[01;40;33mtgt.Shader.Shader (Warning) 	Failed to locate uniform Location: depthTex1_[00m
+[01;40;33mtgt.Shader.Shader (Warning) 	Failed to locate uniform Location: option_[00m
+voreen.VolumeOperatorCreateSubset (Info) 	Creating subset [500 375 851] from position [0 0 1003][00m
+voreen.CameraProperty (Info) 	Adapting camera handling to new scene size...[00m
+voreen.VoreenApplication (Info) 	OpenGL deinitializing modules[00m
+voreen.CacheCleaner (Info) 	Found 2 caches, total size: 0.89914 MB.[00m
+voreen.VoreenApplication (Info) 	Deinitializing modules[00m

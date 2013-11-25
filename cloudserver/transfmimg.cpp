@@ -16,7 +16,7 @@
 
 activeFunc functionPara[PARAMNUMBER];
 unsigned char *imageBufferSource;
-unsigned char *imageBufferTarget;
+extern unsigned char *imageBufferTarget;
 unsigned long numActiveFuncs = 0;
 extern volatile bool imageSourceReady;
 extern volatile bool imageTargetReady;
@@ -48,7 +48,6 @@ void *transfmImage(void *threadarg)
 	if(paramCounter) 
 	{
 	    printf("consume paracounter is %u\n", paramCounter);
-	    memcpy((char *)functionPara, (char *)paramConsumePtr, PARAMNUMBER*sizeof(activeFunc));
 	    pthread_mutex_lock(&mutex);
 	    paramCounter--;
 	    pthread_mutex_unlock(&mutex);
@@ -100,9 +99,11 @@ void *transfmImage(void *threadarg)
 
 	    if(para1&&para2)
 	    {
+		printf("vol2 pointer is %ul\n", vol2);
 		iter = db_chaos_parallel(ifs1,vol1,ifs2,vol2,4);
 		while(imageTargetReady);
 		memcpy(imageBufferTarget, vol2->slab, vol2->get_size());
+
 		pthread_mutex_lock(&mutex);
 		imageTargetReady = true;
 		pthread_mutex_unlock(&mutex);

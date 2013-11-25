@@ -834,6 +834,7 @@ void functionCube::draw(bool names)
 	functionParam[7].coordinate[7].z = points[26].z(); 
 	
 	emit writeParam((char *)functionParam);
+
     }//if(samePoint)
 
 }

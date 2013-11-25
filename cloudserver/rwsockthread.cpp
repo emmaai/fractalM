@@ -12,8 +12,7 @@
 #include "typedef.h"
 
 extern activeFunc functionPara[PARAMNUMBER];
-extern unsigned char imageBufferSource[3*1024*1024];
-extern unsigned char imageBufferTarget[3*1024*1024];
+extern unsigned char *imageBufferSource;
 char paramBuffer[1*PARAMNUMBER*sizeof(activeFunc)];
 unsigned long bufferPtr = (unsigned long)imageBufferSource;
 unsigned long paraPtr = (unsigned long)paramBuffer;
@@ -101,6 +100,8 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
     tailPtr = (char *)(bodyPtr, n, "<PARA", 5); 
     printf("tailPtr is %d\n", (unsigned long)tailPtr);
     */
+    if(cmd == (1<<1))
+	status |= (1<<2);
     if(cmd == (1<<2))
 	status |= (1<<4); 
     while(tailPtr)
@@ -152,8 +153,9 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		{
 		    bodySize = tailPtr-bodyPtr;
 		    printf("tail found %s\n", tailPtr);	
-		    pthread_mutex_lock(&mutex);
 		    memcpy((char *)paraPtr, bodyPtr, bodySize);
+		    memcpy((char *)functionPara, paramBuffer, PARAMNUMBER*sizeof(activeFunc));
+		    pthread_mutex_lock(&mutex);
 		    paramCounter=1;
 		    /*
 		    if(paramCounter==3)
@@ -218,6 +220,7 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		    printf("bodysize is %d\n", bodySize);
 		    printf("paraptr is %lu\n", (unsigned long)paraPtr);
 		    memcpy((char *)paraPtr, bodyPtr, bodySize);
+		    memcpy((char *)functionPara, paramBuffer, PARAMNUMBER*sizeof(activeFunc));
 		    pthread_mutex_lock(&mutex);
 		    paramCounter=1;
 		    /*

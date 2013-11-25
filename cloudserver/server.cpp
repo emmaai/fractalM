@@ -12,6 +12,7 @@
 #include <netinet/in.h>
 #include <fcntl.h>
 #include <pthread.h>
+#include <errno.h>
 #include "rwsockthread.h"
 #include "transfmimg.h"
 #include "typedef.h"
@@ -23,7 +24,7 @@ extern volatile bool sockClose;
 extern volatile unsigned long imageTargetSize;
 extern volatile bool imageTargetReady;
 extern volatile bool displayHR;
-extern unsigned char *imageBufferTarget;
+unsigned char *imageBufferTarget;
 extern unsigned char *imageBufferSource;
 volume *vol1, *vol2, *vol3, *vol4;
 
@@ -78,6 +79,12 @@ int main(int argc, char *argv[])
     vol4 = new volume(widthHR, heightHR, depthHR);
 
     imageBufferTarget = new unsigned char[widthHR*heightHR*depthHR];
+    if(!imageBufferTarget)
+    {
+	printf("new buffer failed\n");
+    }
+    printf("image buffer pointer is %ul\n", imageBufferTarget);
+    printf("vol2 pointer is %ul\n", vol2);
 
     unsigned char *data = readRAWfile(filename, &size);
     for(int i=0; i<widthHR*heightHR*depthHR; i++ )
@@ -133,21 +140,21 @@ int main(int argc, char *argv[])
 		printf("actual write %d\n", n);
 		if (n < 0) 
 	       {
-		    printf("ERROR writing to socket\n");
+		    printf("ERROR writing to socket %d\n", errno);
 		    break;
 		}
 		n = write(newsockfd,imageBufferTarget,size);
 		printf("actual write %d\n", n);
 		if (n < 0) 
 	       {
-		    printf("ERROR writing to socket\n");
+		    printf("ERROR writing to socket %d\n", errno);
 		    break;
 		}
 		n = write(newsockfd, "<\\DATA", 6);
 		printf("actual write %d\n", n);
 		if (n < 0) 
 	       {
-		    printf("ERROR writing to socket\n");
+		    printf("ERROR writing to socket %d\n", errno);
 		    break;
 		}
 		pthread_mutex_lock(&mutex);
@@ -158,12 +165,14 @@ int main(int argc, char *argv[])
 		break;
 	
 	}
+	printf("write while is break\n");
 	 pthread_join(thread_rw, NULL);
 	 printf("closed by the client, thread_rw ending\n");
 	 close(newsockfd);
 	 pthread_join(thread_cpt, NULL);
 
     }//end of while
+    delete[] imageBufferTarget;
      close(sockfd);
      printf("close the server socket\n");
      pthread_exit(NULL);
