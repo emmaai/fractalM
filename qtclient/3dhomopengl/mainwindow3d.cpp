@@ -25,7 +25,8 @@ MainWindow3D::MainWindow3D(QWidget *parent) :
     ui->setupUi(this);
     
     creatActions();
-    
+
+    imageBuffer = NULL;
     ui->stackedWidget->setCurrentWidget(ui->pageCube);
     mapCube = new functionCube(this);
     mapCube->setFuncNo(2);
@@ -43,7 +44,8 @@ MainWindow3D::MainWindow3D(QWidget *parent) :
 
     //clipbox = new clipBox(this);
     //ui->viewerTran->setBox(clipbox);
-    progress = new QProgressDialog(0);
+    progress = new QProgressDialog(this);
+    progress->reset();
     progress->setCancelButton(0);
     progress->setWindowModality(Qt::WindowModal);
     progress->setRange(0, 99);
