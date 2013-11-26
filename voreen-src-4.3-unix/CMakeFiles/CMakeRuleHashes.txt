@@ -111,6 +111,9 @@ a72ec4d68e469c5a3ddb0f65dc17867f src/qt/__/__/include/voreen/qt/widgets/transfun
 163e2840ccacfa2cabf4e0f952acdb66 src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp
 91b4d9d724b3e6d2f4f375c42d19f3d1 src/qt/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp
 f114a44fd804e7dcff49b833166d6443 src/qt/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp
+8c857ce6bb6f9023e0b1a4d1fb5e4235 src/qt/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp
+92cbb9ff0ab4ebd5706e269e78c3661e src/qt/__/__/modules/opencl/qt/moc_openclplugin.cpp
+bd8b347d79a1b3f6bb161d446153929b src/qt/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp
 cfff34acd997f6d2ec065fc684ded648 src/qt/__/__/modules/plotting/qt/moc_extendedtable.cpp
 8a40a0207cbebb6b65c6726f9d499469 src/qt/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp
 78293881d62de253deda51cba3648f24 src/qt/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp

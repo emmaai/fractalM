@@ -36,12 +36,24 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
+/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/moc_voreenveapplication.cpp
+voreenveapplication.h
+/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/voreenveapplication.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 /home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/moc_voreenvisualization.cpp
 voreenvisualization.h
 /home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/voreenvisualization.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
+-
+
+/home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/qrc_voreenve.cpp
+QtCore/qglobal.h
 -
 
 /home/emma/Downloads/voreen-src-4.3-unix/apps/voreenve/voreenmainwindow.cpp

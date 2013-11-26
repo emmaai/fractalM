@@ -752,12 +752,10 @@ public:
 
     void deleteAllRepresentations() {
         stopRunningThreads();
-        /*
         while(!representations_.empty()) {
             delete representations_.back();
             representations_.pop_back();
         }
-        */
     }
 
     void releaseAllRepresentations() {
