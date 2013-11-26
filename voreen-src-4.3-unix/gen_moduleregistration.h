@@ -9,6 +9,8 @@
 #include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/devil/devilmodule.h"
 #include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/dynamicglsl/dynamicglslmodule.h"
 #include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/flowreen/flowreenmodule.h"
+#include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/openclmodule.h"
+#include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/openmp/openmpmodule.h"
 #include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/plottingmodule.h"
 #include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/pvm/pvmmodule.h"
 #include "/home/emma/code/gitrepo/voreen-src-4.3-unix/modules/randomwalker/randomwalkermodule.h"
@@ -43,6 +45,12 @@ void registerAllModules(VoreenApplication* vapp) {
     vapp->registerModule(module);
 
     module = new FlowreenModule("modules/flowreen");
+    vapp->registerModule(module);
+
+    module = new OpenCLModule("modules/opencl");
+    vapp->registerModule(module);
+
+    module = new OpenMPModule("modules/openmp");
     vapp->registerModule(module);
 
     module = new PlottingModule("modules/plotting");

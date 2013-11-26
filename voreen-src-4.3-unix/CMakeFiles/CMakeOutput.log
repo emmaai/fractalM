@@ -1126,3 +1126,93 @@ Linking C executable cmTryCompileExec1499531610
 make[1]: Leaving directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
 
 
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2942443333/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2942443333.dir/build.make CMakeFiles/cmTryCompileExec2942443333.dir/build
+make[1]: Entering directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2942443333.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec2942443333.dir/CheckFunctionExists.c.o   -c /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2942443333
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2942443333.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec2942443333.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2942443333 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1012671336/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1012671336.dir/build.make CMakeFiles/cmTryCompileExec1012671336.dir/build
+make[1]: Entering directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1012671336.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec1012671336.dir/CheckFunctionExists.c.o   -c /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1012671336
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1012671336.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec1012671336.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1012671336 -rdynamic 
+make[1]: Leaving directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec890051804/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec890051804.dir/build.make CMakeFiles/cmTryCompileExec890051804.dir/build
+make[1]: Entering directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec890051804.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec890051804.dir/CheckFunctionExists.c.o   -c /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec890051804
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec890051804.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec890051804.dir/CheckFunctionExists.c.o  -o cmTryCompileExec890051804 -rdynamic 
+make[1]: Leaving directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec581512912/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec581512912.dir/build.make CMakeFiles/cmTryCompileExec581512912.dir/build
+make[1]: Entering directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec581512912.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec581512912.dir/CheckFunctionExists.c.o   -c /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec581512912
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec581512912.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec581512912.dir/CheckFunctionExists.c.o  -o cmTryCompileExec581512912 -rdynamic 
+make[1]: Leaving directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3000824079/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3000824079.dir/build.make CMakeFiles/cmTryCompileExec3000824079.dir/build
+make[1]: Entering directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3000824079.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec3000824079.dir/CheckFunctionExists.c.o   -c /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3000824079
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3000824079.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec3000824079.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3000824079 -rdynamic 
+make[1]: Leaving directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2458817919/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2458817919.dir/build.make CMakeFiles/cmTryCompileExec2458817919.dir/build
+make[1]: Entering directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2458817919.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec2458817919.dir/CheckFunctionExists.c.o   -c /home/emma/Downloads/cmake-2.8.11.2-Linux-i386/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2458817919
+/home/emma/Downloads/cmake-2.8.11.2-Linux-i386/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2458817919.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec2458817919.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2458817919 -rdynamic -lICE 
+make[1]: Leaving directory `/home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles/CMakeTmp'
+
+

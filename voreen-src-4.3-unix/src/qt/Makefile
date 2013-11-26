@@ -2841,6 +2841,246 @@ __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.s:
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.s
 .PHONY : __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.s
 
+__/__/modules/opencl/openclmoduleqt.o: __/__/modules/opencl/openclmoduleqt.cpp.o
+.PHONY : __/__/modules/opencl/openclmoduleqt.o
+
+# target to build an object file
+__/__/modules/opencl/openclmoduleqt.cpp.o:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o
+.PHONY : __/__/modules/opencl/openclmoduleqt.cpp.o
+
+__/__/modules/opencl/openclmoduleqt.i: __/__/modules/opencl/openclmoduleqt.cpp.i
+.PHONY : __/__/modules/opencl/openclmoduleqt.i
+
+# target to preprocess a source file
+__/__/modules/opencl/openclmoduleqt.cpp.i:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.i
+.PHONY : __/__/modules/opencl/openclmoduleqt.cpp.i
+
+__/__/modules/opencl/openclmoduleqt.s: __/__/modules/opencl/openclmoduleqt.cpp.s
+.PHONY : __/__/modules/opencl/openclmoduleqt.s
+
+# target to generate assembly for a file
+__/__/modules/opencl/openclmoduleqt.cpp.s:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.s
+.PHONY : __/__/modules/opencl/openclmoduleqt.cpp.s
+
+__/__/modules/opencl/qt/dynamicopenclwidget.o: __/__/modules/opencl/qt/dynamicopenclwidget.cpp.o
+.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.o
+
+# target to build an object file
+__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o
+.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.cpp.o
+
+__/__/modules/opencl/qt/dynamicopenclwidget.i: __/__/modules/opencl/qt/dynamicopenclwidget.cpp.i
+.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.i
+
+# target to preprocess a source file
+__/__/modules/opencl/qt/dynamicopenclwidget.cpp.i:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.i
+.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.cpp.i
+
+__/__/modules/opencl/qt/dynamicopenclwidget.s: __/__/modules/opencl/qt/dynamicopenclwidget.cpp.s
+.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.s
+
+# target to generate assembly for a file
+__/__/modules/opencl/qt/dynamicopenclwidget.cpp.s:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.s
+.PHONY : __/__/modules/opencl/qt/dynamicopenclwidget.cpp.s
+
+__/__/modules/opencl/qt/moc_dynamicopenclwidget.o: __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o
+.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.o
+
+# target to build an object file
+__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o
+.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o
+
+__/__/modules/opencl/qt/moc_dynamicopenclwidget.i: __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.i
+.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.i
+
+# target to preprocess a source file
+__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.i:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.i
+.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.i
+
+__/__/modules/opencl/qt/moc_dynamicopenclwidget.s: __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.s
+.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.s
+
+# target to generate assembly for a file
+__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.s:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.s
+.PHONY : __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.s
+
+__/__/modules/opencl/qt/moc_openclplugin.o: __/__/modules/opencl/qt/moc_openclplugin.cpp.o
+.PHONY : __/__/modules/opencl/qt/moc_openclplugin.o
+
+# target to build an object file
+__/__/modules/opencl/qt/moc_openclplugin.cpp.o:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o
+.PHONY : __/__/modules/opencl/qt/moc_openclplugin.cpp.o
+
+__/__/modules/opencl/qt/moc_openclplugin.i: __/__/modules/opencl/qt/moc_openclplugin.cpp.i
+.PHONY : __/__/modules/opencl/qt/moc_openclplugin.i
+
+# target to preprocess a source file
+__/__/modules/opencl/qt/moc_openclplugin.cpp.i:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.i
+.PHONY : __/__/modules/opencl/qt/moc_openclplugin.cpp.i
+
+__/__/modules/opencl/qt/moc_openclplugin.s: __/__/modules/opencl/qt/moc_openclplugin.cpp.s
+.PHONY : __/__/modules/opencl/qt/moc_openclplugin.s
+
+# target to generate assembly for a file
+__/__/modules/opencl/qt/moc_openclplugin.cpp.s:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.s
+.PHONY : __/__/modules/opencl/qt/moc_openclplugin.cpp.s
+
+__/__/modules/opencl/qt/moc_openclpropertywidget.o: __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o
+.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.o
+
+# target to build an object file
+__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o
+.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o
+
+__/__/modules/opencl/qt/moc_openclpropertywidget.i: __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.i
+.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.i
+
+# target to preprocess a source file
+__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.i:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.i
+.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.i
+
+__/__/modules/opencl/qt/moc_openclpropertywidget.s: __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.s
+.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.s
+
+# target to generate assembly for a file
+__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.s:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.s
+.PHONY : __/__/modules/opencl/qt/moc_openclpropertywidget.cpp.s
+
+__/__/modules/opencl/qt/openclhighlighter.o: __/__/modules/opencl/qt/openclhighlighter.cpp.o
+.PHONY : __/__/modules/opencl/qt/openclhighlighter.o
+
+# target to build an object file
+__/__/modules/opencl/qt/openclhighlighter.cpp.o:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o
+.PHONY : __/__/modules/opencl/qt/openclhighlighter.cpp.o
+
+__/__/modules/opencl/qt/openclhighlighter.i: __/__/modules/opencl/qt/openclhighlighter.cpp.i
+.PHONY : __/__/modules/opencl/qt/openclhighlighter.i
+
+# target to preprocess a source file
+__/__/modules/opencl/qt/openclhighlighter.cpp.i:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.i
+.PHONY : __/__/modules/opencl/qt/openclhighlighter.cpp.i
+
+__/__/modules/opencl/qt/openclhighlighter.s: __/__/modules/opencl/qt/openclhighlighter.cpp.s
+.PHONY : __/__/modules/opencl/qt/openclhighlighter.s
+
+# target to generate assembly for a file
+__/__/modules/opencl/qt/openclhighlighter.cpp.s:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.s
+.PHONY : __/__/modules/opencl/qt/openclhighlighter.cpp.s
+
+__/__/modules/opencl/qt/openclplugin.o: __/__/modules/opencl/qt/openclplugin.cpp.o
+.PHONY : __/__/modules/opencl/qt/openclplugin.o
+
+# target to build an object file
+__/__/modules/opencl/qt/openclplugin.cpp.o:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o
+.PHONY : __/__/modules/opencl/qt/openclplugin.cpp.o
+
+__/__/modules/opencl/qt/openclplugin.i: __/__/modules/opencl/qt/openclplugin.cpp.i
+.PHONY : __/__/modules/opencl/qt/openclplugin.i
+
+# target to preprocess a source file
+__/__/modules/opencl/qt/openclplugin.cpp.i:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.i
+.PHONY : __/__/modules/opencl/qt/openclplugin.cpp.i
+
+__/__/modules/opencl/qt/openclplugin.s: __/__/modules/opencl/qt/openclplugin.cpp.s
+.PHONY : __/__/modules/opencl/qt/openclplugin.s
+
+# target to generate assembly for a file
+__/__/modules/opencl/qt/openclplugin.cpp.s:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.s
+.PHONY : __/__/modules/opencl/qt/openclplugin.cpp.s
+
+__/__/modules/opencl/qt/openclprocessorwidgetfactory.o: __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o
+.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.o
+
+# target to build an object file
+__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o
+.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o
+
+__/__/modules/opencl/qt/openclprocessorwidgetfactory.i: __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.i
+.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.i
+
+# target to preprocess a source file
+__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.i:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.i
+.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.i
+
+__/__/modules/opencl/qt/openclprocessorwidgetfactory.s: __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.s
+.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.s
+
+# target to generate assembly for a file
+__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.s:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.s
+.PHONY : __/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.s
+
+__/__/modules/opencl/qt/openclpropertywidget.o: __/__/modules/opencl/qt/openclpropertywidget.cpp.o
+.PHONY : __/__/modules/opencl/qt/openclpropertywidget.o
+
+# target to build an object file
+__/__/modules/opencl/qt/openclpropertywidget.cpp.o:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o
+.PHONY : __/__/modules/opencl/qt/openclpropertywidget.cpp.o
+
+__/__/modules/opencl/qt/openclpropertywidget.i: __/__/modules/opencl/qt/openclpropertywidget.cpp.i
+.PHONY : __/__/modules/opencl/qt/openclpropertywidget.i
+
+# target to preprocess a source file
+__/__/modules/opencl/qt/openclpropertywidget.cpp.i:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.i
+.PHONY : __/__/modules/opencl/qt/openclpropertywidget.cpp.i
+
+__/__/modules/opencl/qt/openclpropertywidget.s: __/__/modules/opencl/qt/openclpropertywidget.cpp.s
+.PHONY : __/__/modules/opencl/qt/openclpropertywidget.s
+
+# target to generate assembly for a file
+__/__/modules/opencl/qt/openclpropertywidget.cpp.s:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.s
+.PHONY : __/__/modules/opencl/qt/openclpropertywidget.cpp.s
+
+__/__/modules/opencl/qt/openclpropertywidgetfactory.o: __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o
+.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.o
+
+# target to build an object file
+__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o
+.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o
+
+__/__/modules/opencl/qt/openclpropertywidgetfactory.i: __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.i
+.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.i
+
+# target to preprocess a source file
+__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.i:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.i
+.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.i
+
+__/__/modules/opencl/qt/openclpropertywidgetfactory.s: __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.s
+.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.s
+
+# target to generate assembly for a file
+__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.s:
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix && $(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.s
+.PHONY : __/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.s
+
 __/__/modules/plotting/plottingmoduleqt.o: __/__/modules/plotting/plottingmoduleqt.cpp.o
 .PHONY : __/__/modules/plotting/plottingmoduleqt.o
 
@@ -7390,6 +7630,36 @@ help:
 	@echo "... __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.o"
 	@echo "... __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.i"
 	@echo "... __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.s"
+	@echo "... __/__/modules/opencl/openclmoduleqt.o"
+	@echo "... __/__/modules/opencl/openclmoduleqt.i"
+	@echo "... __/__/modules/opencl/openclmoduleqt.s"
+	@echo "... __/__/modules/opencl/qt/dynamicopenclwidget.o"
+	@echo "... __/__/modules/opencl/qt/dynamicopenclwidget.i"
+	@echo "... __/__/modules/opencl/qt/dynamicopenclwidget.s"
+	@echo "... __/__/modules/opencl/qt/moc_dynamicopenclwidget.o"
+	@echo "... __/__/modules/opencl/qt/moc_dynamicopenclwidget.i"
+	@echo "... __/__/modules/opencl/qt/moc_dynamicopenclwidget.s"
+	@echo "... __/__/modules/opencl/qt/moc_openclplugin.o"
+	@echo "... __/__/modules/opencl/qt/moc_openclplugin.i"
+	@echo "... __/__/modules/opencl/qt/moc_openclplugin.s"
+	@echo "... __/__/modules/opencl/qt/moc_openclpropertywidget.o"
+	@echo "... __/__/modules/opencl/qt/moc_openclpropertywidget.i"
+	@echo "... __/__/modules/opencl/qt/moc_openclpropertywidget.s"
+	@echo "... __/__/modules/opencl/qt/openclhighlighter.o"
+	@echo "... __/__/modules/opencl/qt/openclhighlighter.i"
+	@echo "... __/__/modules/opencl/qt/openclhighlighter.s"
+	@echo "... __/__/modules/opencl/qt/openclplugin.o"
+	@echo "... __/__/modules/opencl/qt/openclplugin.i"
+	@echo "... __/__/modules/opencl/qt/openclplugin.s"
+	@echo "... __/__/modules/opencl/qt/openclprocessorwidgetfactory.o"
+	@echo "... __/__/modules/opencl/qt/openclprocessorwidgetfactory.i"
+	@echo "... __/__/modules/opencl/qt/openclprocessorwidgetfactory.s"
+	@echo "... __/__/modules/opencl/qt/openclpropertywidget.o"
+	@echo "... __/__/modules/opencl/qt/openclpropertywidget.i"
+	@echo "... __/__/modules/opencl/qt/openclpropertywidget.s"
+	@echo "... __/__/modules/opencl/qt/openclpropertywidgetfactory.o"
+	@echo "... __/__/modules/opencl/qt/openclpropertywidgetfactory.i"
+	@echo "... __/__/modules/opencl/qt/openclpropertywidgetfactory.s"
 	@echo "... __/__/modules/plotting/plottingmoduleqt.o"
 	@echo "... __/__/modules/plotting/plottingmoduleqt.i"
 	@echo "... __/__/modules/plotting/plottingmoduleqt.s"

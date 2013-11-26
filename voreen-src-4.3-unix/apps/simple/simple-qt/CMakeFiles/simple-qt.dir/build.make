@@ -103,6 +103,7 @@ bin/simple-qt: /usr/lib/libboost_unit_test_framework-mt.so
 bin/simple-qt: /usr/lib/libboost_system-mt.so
 bin/simple-qt: /usr/local/lib/libIL.so
 bin/simple-qt: /usr/local/lib/libILU.so
+bin/simple-qt: /usr/lib/libOpenCL.so
 bin/simple-qt: /usr/lib/x86_64-linux-gnu/libz.so
 bin/simple-qt: bin/libvoreen_core.so
 bin/simple-qt: bin/libtgt.so
@@ -122,6 +123,7 @@ bin/simple-qt: /usr/lib/libboost_unit_test_framework-mt.so
 bin/simple-qt: /usr/lib/libboost_system-mt.so
 bin/simple-qt: /usr/local/lib/libIL.so
 bin/simple-qt: /usr/local/lib/libILU.so
+bin/simple-qt: /usr/lib/libOpenCL.so
 bin/simple-qt: /usr/lib/x86_64-linux-gnu/libz.so
 bin/simple-qt: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5OpenGL.so.5.1.0
 bin/simple-qt: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Svg.so.5.1.0

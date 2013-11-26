@@ -567,108 +567,123 @@ src/qt/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp: modules/dynamicgl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/dynamicglsl/qt/dynamicglslwidget.h
 
-src/qt/__/__/modules/plotting/qt/moc_plotdatawidget.cpp: modules/plotting/qt/plotdatawidget.h
+src/qt/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp: modules/opencl/qt/openclpropertywidget.h
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_104)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/opencl/qt/moc_openclpropertywidget.cpp"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclpropertywidget.h
+
+src/qt/__/__/modules/opencl/qt/moc_openclplugin.cpp: modules/opencl/qt/openclplugin.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_105)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/opencl/qt/moc_openclplugin.cpp"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_openclplugin.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclplugin.h
+
+src/qt/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp: modules/opencl/qt/dynamicopenclwidget.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_106)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/dynamicopenclwidget.h
+
+src/qt/__/__/modules/plotting/qt/moc_plotdatawidget.cpp: modules/plotting/qt/plotdatawidget.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_107)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/moc_plotdatawidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotdatawidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotdatawidget.h
 
 src/qt/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp: modules/plotting/qt/plotdatasimpletablemodel.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_105)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_108)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotdatasimpletablemodel.h
 
 src/qt/__/__/modules/plotting/qt/moc_extendedtable.cpp: modules/plotting/qt/extendedtable.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_106)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_109)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/moc_extendedtable.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_extendedtable.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/extendedtable.h
 
 src/qt/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp: modules/plotting/qt/plotdataextendedtablemodel.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_107)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_110)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotdataextendedtablemodel.h
 
 src/qt/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp: modules/plotting/qt/plotentitysettingsdialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_108)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_111)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotentitysettingsdialog.h
 
 src/qt/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp: modules/plotting/qt/plotpredicatedialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_109)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_112)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/moc_plotpredicatedialog.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotpredicatedialog.h
 
 src/qt/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp: modules/plotting/qt/plotselectionentrytablemodel.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_110)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_113)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotselectionentrytablemodel.h
 
 src/qt/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp: modules/plotting/qt/plotselectiontablemodel.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_111)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_114)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotselectiontablemodel.h
 
 src/qt/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp: modules/plotting/qt/plotselectiondialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_112)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_115)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/moc_plotselectiondialog.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotselectiondialog.h
 
 src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp: modules/plotting/qt/processorwidgets/plotdatamergewidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_113)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_116)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/processorwidgets/plotdatamergewidget.h
 
 src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp: modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_114)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_117)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.h
 
 src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp: modules/plotting/qt/processorwidgets/plotdataselectwidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_115)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_118)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/processorwidgets/plotdataselectwidget.h
 
 src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp: modules/plotting/qt/processorwidgets/plotdatagroupwidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_116)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_119)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/processorwidgets/plotdatagroupwidget.h
 
 src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp: modules/plotting/qt/processorwidgets/plotdataprocessorwidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_117)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_120)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.h
 
 src/qt/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp: modules/plotting/qt/propertywidgets/colormappropertywidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_118)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_121)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/propertywidgets/colormappropertywidget.h
 
 src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp: modules/plotting/qt/propertywidgets/plotdatapropertywidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_119)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_122)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/propertywidgets/plotdatapropertywidget.h
 
 src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp: modules/plotting/qt/propertywidgets/plotentitiespropertywidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_120)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_123)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.h
 
 src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp: modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_121)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_124)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.h
 
 src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp: modules/plotting/qt/propertywidgets/plotselectionpropertywidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_122)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_125)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.h
 
 src/qt/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp: modules/randomwalker/qt/randomwalkeranalyzerwidget.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_123)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_126)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/randomwalker/qt/randomwalkeranalyzerwidget.h
 
 src/qt/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp: modules/volumelabeling/qt/labelingwidgetqt.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_124)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_127)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating __/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/moc -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/volumelabeling/qt/labelingwidgetqt.h
 
@@ -791,18 +806,18 @@ src/qt/qrc_vrn_qt.cpp: src/qt/../../resource/icons/networkeditor/red-warning.svg
 src/qt/qrc_vrn_qt.cpp: src/qt/../../resource/icons/networkeditor/yellow-warning.svg
 src/qt/qrc_vrn_qt.cpp: src/qt/vrn_qt.qrc.depends
 src/qt/qrc_vrn_qt.cpp: src/qt/vrn_qt.qrc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_125)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_128)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_vrn_qt.cpp"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/rcc -name vrn_qt -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/qrc_vrn_qt.cpp /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/vrn_qt.qrc
 
 src/qt/ui_aboutbox.h: src/qt/aboutbox.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_126)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_129)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_aboutbox.h"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /opt/Qt5.1.0/5.1.0/gcc_64/bin/uic -o /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/ui_aboutbox.h /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/aboutbox.ui
 
 src/qt/CMakeFiles/voreen_qt.dir/aboutbox.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/aboutbox.cpp.o: src/qt/aboutbox.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_127)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_130)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/aboutbox.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/aboutbox.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/aboutbox.cpp
 
@@ -825,7 +840,7 @@ src/qt/CMakeFiles/voreen_qt.dir/aboutbox.cpp.o.provides.build: src/qt/CMakeFiles
 
 src/qt/CMakeFiles/voreen_qt.dir/helpbrowser.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/helpbrowser.cpp.o: src/qt/helpbrowser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_128)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_131)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/helpbrowser.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/helpbrowser.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/helpbrowser.cpp
 
@@ -848,7 +863,7 @@ src/qt/CMakeFiles/voreen_qt.dir/helpbrowser.cpp.o.provides.build: src/qt/CMakeFi
 
 src/qt/CMakeFiles/voreen_qt.dir/progressdialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/progressdialog.cpp.o: src/qt/progressdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_129)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_132)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/progressdialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/progressdialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/progressdialog.cpp
 
@@ -871,7 +886,7 @@ src/qt/CMakeFiles/voreen_qt.dir/progressdialog.cpp.o.provides.build: src/qt/CMak
 
 src/qt/CMakeFiles/voreen_qt.dir/versionqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/versionqt.cpp.o: src/qt/versionqt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_130)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_133)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/versionqt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/versionqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/versionqt.cpp
 
@@ -894,7 +909,7 @@ src/qt/CMakeFiles/voreen_qt.dir/versionqt.cpp.o.provides.build: src/qt/CMakeFile
 
 src/qt/CMakeFiles/voreen_qt.dir/voreenapplicationqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/voreenapplicationqt.cpp.o: src/qt/voreenapplicationqt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_131)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_134)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/voreenapplicationqt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/voreenapplicationqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/voreenapplicationqt.cpp
 
@@ -917,7 +932,7 @@ src/qt/CMakeFiles/voreen_qt.dir/voreenapplicationqt.cpp.o.provides.build: src/qt
 
 src/qt/CMakeFiles/voreen_qt.dir/voreenmoduleqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/voreenmoduleqt.cpp.o: src/qt/voreenmoduleqt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_132)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_135)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/voreenmoduleqt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/voreenmoduleqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/voreenmoduleqt.cpp
 
@@ -940,7 +955,7 @@ src/qt/CMakeFiles/voreen_qt.dir/voreenmoduleqt.cpp.o.provides.build: src/qt/CMak
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/aggregationeditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/aggregationeditor.cpp.o: src/qt/networkeditor/aggregationeditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_133)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_136)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/aggregationeditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/aggregationeditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/aggregationeditor.cpp
 
@@ -963,7 +978,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/aggregationeditor.cpp.o.provides.b
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/networkeditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/networkeditor.cpp.o: src/qt/networkeditor/networkeditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_134)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_137)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/networkeditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/networkeditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/networkeditor.cpp
 
@@ -986,7 +1001,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/networkeditor.cpp.o.provides.build
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/propertylinkdialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/propertylinkdialog.cpp.o: src/qt/networkeditor/dialogs/propertylinkdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_135)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_138)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/propertylinkdialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/dialogs/propertylinkdialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/dialogs/propertylinkdialog.cpp
 
@@ -1009,7 +1024,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/propertylinkdialog.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/utils/splitgraphicsview.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/utils/splitgraphicsview.cpp.o: src/qt/networkeditor/dialogs/utils/splitgraphicsview.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_136)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_139)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/utils/splitgraphicsview.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/dialogs/utils/splitgraphicsview.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/dialogs/utils/splitgraphicsview.cpp
 
@@ -1032,7 +1047,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/dialogs/utils/splitgraphicsview.cp
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic.cpp.o: src/qt/networkeditor/styles/nwestyle_classic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_137)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_140)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/styles/nwestyle_classic.cpp
 
@@ -1055,7 +1070,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic.cpp.o.prov
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic_print.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic_print.cpp.o: src/qt/networkeditor/styles/nwestyle_classic_print.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_138)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_141)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic_print.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic_print.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/styles/nwestyle_classic_print.cpp
 
@@ -1078,7 +1093,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/styles/nwestyle_classic_print.cpp.
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/nwebasegraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/nwebasegraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/nwebasegraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_139)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_142)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/nwebasegraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/nwebasegraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/nwebasegraphicsitem.cpp
 
@@ -1101,7 +1116,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/nwebasegraphicsitem.c
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_140)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_143)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/core/aggregationgraphicsitem.cpp
 
@@ -1124,7 +1139,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/aggregationgraph
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portgraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/core/portgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_141)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_144)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/core/portgraphicsitem.cpp
 
@@ -1147,7 +1162,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portgraphicsitem
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portownergraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portownergraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/core/portownergraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_142)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_145)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portownergraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portownergraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/core/portownergraphicsitem.cpp
 
@@ -1170,7 +1185,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/portownergraphic
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/processorgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/processorgraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/core/processorgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_143)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_146)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/processorgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/processorgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/core/processorgraphicsitem.cpp
 
@@ -1193,7 +1208,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/processorgraphic
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertygraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertygraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/core/propertygraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_144)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_147)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertygraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertygraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/core/propertygraphicsitem.cpp
 
@@ -1216,7 +1231,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertygraphics
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_145)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_148)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/core/propertylistgraphicsitem.cpp
 
@@ -1239,7 +1254,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertylistgrap
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_146)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_149)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/core/propertyownergraphicsitem.cpp
 
@@ -1262,7 +1277,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/core/propertyownergra
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_147)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_150)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/connections/connectionbasegraphicsitem.cpp
 
@@ -1285,7 +1300,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/connectio
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_148)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_151)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/connections/portownerlinkarrowgraphicsitem.cpp
 
@@ -1308,7 +1323,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portowner
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_149)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_152)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/connections/propertylinkarrowgraphicsitem.cpp
 
@@ -1331,7 +1346,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/propertyl
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_150)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_153)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/connections/portarrowgraphicsitem.cpp
 
@@ -1354,7 +1369,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portarrow
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_151)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_154)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/connections/portsizelinkarrowgraphicsitem.cpp
 
@@ -1377,7 +1392,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/connections/portsizel
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_152)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_155)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/tooltips/tooltipbasegraphicsitem.cpp
 
@@ -1400,7 +1415,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipbaseg
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_153)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_156)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/tooltips/tooltipprocessorgraphicsitem.cpp
 
@@ -1423,7 +1438,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipproce
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_154)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_157)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/tooltips/tooltipportgraphicsitem.cpp
 
@@ -1446,7 +1461,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/tooltips/tooltipportg
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_155)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_158)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/utils/renamabletextgraphicsitem.cpp
 
@@ -1469,7 +1484,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/renamabletextgr
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_156)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_159)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/utils/progressbargraphicsitem.cpp
 
@@ -1492,7 +1507,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/progressbargrap
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_157)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_160)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/utils/widgettogglebuttongraphicsitem.cpp
 
@@ -1515,7 +1530,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/widgettogglebut
 
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.o: src/qt/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_158)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_161)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/networkeditor/graphicitems/utils/propertylistbuttongraphicsitem.cpp
 
@@ -1538,7 +1553,7 @@ src/qt/CMakeFiles/voreen_qt.dir/networkeditor/graphicitems/utils/propertylistbut
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/choicelistcombobox.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/choicelistcombobox.cpp.o: src/qt/widgets/choicelistcombobox.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_159)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_162)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/choicelistcombobox.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/choicelistcombobox.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/choicelistcombobox.cpp
 
@@ -1561,7 +1576,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/choicelistcombobox.cpp.o.provides.build:
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/clickablelabel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/clickablelabel.cpp.o: src/qt/widgets/clickablelabel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_160)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_163)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/clickablelabel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/clickablelabel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/clickablelabel.cpp
 
@@ -1584,7 +1599,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/clickablelabel.cpp.o.provides.build: src
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/codeedit.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/codeedit.cpp.o: src/qt/widgets/codeedit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_161)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_164)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/codeedit.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/codeedit.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/codeedit.cpp
 
@@ -1607,7 +1622,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/codeedit.cpp.o.provides.build: src/qt/CM
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/consoleplugin.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/consoleplugin.cpp.o: src/qt/widgets/consoleplugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_162)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_165)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/consoleplugin.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/consoleplugin.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/consoleplugin.cpp
 
@@ -1630,7 +1645,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/consoleplugin.cpp.o.provides.build: src/
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/customlabel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/customlabel.cpp.o: src/qt/widgets/customlabel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_163)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_166)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/customlabel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/customlabel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/customlabel.cpp
 
@@ -1653,7 +1668,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/customlabel.cpp.o.provides.build: src/qt
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/enterexitpushbutton.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/enterexitpushbutton.cpp.o: src/qt/widgets/enterexitpushbutton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_164)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_167)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/enterexitpushbutton.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/enterexitpushbutton.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/enterexitpushbutton.cpp
 
@@ -1676,7 +1691,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/enterexitpushbutton.cpp.o.provides.build
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/eventpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/eventpropertywidget.cpp.o: src/qt/widgets/eventpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_165)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_168)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/eventpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/eventpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/eventpropertywidget.cpp
 
@@ -1699,7 +1714,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/eventpropertywidget.cpp.o.provides.build
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/expandableheaderbutton.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/expandableheaderbutton.cpp.o: src/qt/widgets/expandableheaderbutton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_166)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_169)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/expandableheaderbutton.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/expandableheaderbutton.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/expandableheaderbutton.cpp
 
@@ -1722,7 +1737,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/expandableheaderbutton.cpp.o.provides.bu
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/glslhighlighter.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/glslhighlighter.cpp.o: src/qt/widgets/glslhighlighter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_167)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_170)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/glslhighlighter.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/glslhighlighter.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/glslhighlighter.cpp
 
@@ -1745,7 +1760,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/glslhighlighter.cpp.o.provides.build: sr
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/inputmappingdialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/inputmappingdialog.cpp.o: src/qt/widgets/inputmappingdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_168)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_171)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/inputmappingdialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/inputmappingdialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/inputmappingdialog.cpp
 
@@ -1768,7 +1783,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/inputmappingdialog.cpp.o.provides.build:
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/keydetectorwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/keydetectorwidget.cpp.o: src/qt/widgets/keydetectorwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_169)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_172)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/keydetectorwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/keydetectorwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/keydetectorwidget.cpp
 
@@ -1791,7 +1806,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/keydetectorwidget.cpp.o.provides.build: 
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/lightwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/lightwidget.cpp.o: src/qt/widgets/lightwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_170)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_173)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/lightwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/lightwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/lightwidget.cpp
 
@@ -1814,7 +1829,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/lightwidget.cpp.o.provides.build: src/qt
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/lineeditresetwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/lineeditresetwidget.cpp.o: src/qt/widgets/lineeditresetwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_171)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_174)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/lineeditresetwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/lineeditresetwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/lineeditresetwidget.cpp
 
@@ -1837,7 +1852,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/lineeditresetwidget.cpp.o.provides.build
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/processorlistwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/processorlistwidget.cpp.o: src/qt/widgets/processorlistwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_172)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_175)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/processorlistwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/processorlistwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/processorlistwidget.cpp
 
@@ -1860,7 +1875,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/processorlistwidget.cpp.o.provides.build
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/propertylistwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/propertylistwidget.cpp.o: src/qt/widgets/propertylistwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_173)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_176)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/propertylistwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/propertylistwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/propertylistwidget.cpp
 
@@ -1883,7 +1898,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/propertylistwidget.cpp.o.provides.build:
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/propertyselectiondialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/propertyselectiondialog.cpp.o: src/qt/widgets/propertyselectiondialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_174)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_177)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/propertyselectiondialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/propertyselectiondialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/propertyselectiondialog.cpp
 
@@ -1906,7 +1921,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/propertyselectiondialog.cpp.o.provides.b
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/rawvolumewidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/rawvolumewidget.cpp.o: src/qt/widgets/rawvolumewidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_175)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_178)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/rawvolumewidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/rawvolumewidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/rawvolumewidget.cpp
 
@@ -1929,7 +1944,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/rawvolumewidget.cpp.o.provides.build: sr
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/rendertargetviewer.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/rendertargetviewer.cpp.o: src/qt/widgets/rendertargetviewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_176)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_179)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/rendertargetviewer.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/rendertargetviewer.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/rendertargetviewer.cpp
 
@@ -1952,7 +1967,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/rendertargetviewer.cpp.o.provides.build:
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/shaderplugin.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/shaderplugin.cpp.o: src/qt/widgets/shaderplugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_177)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_180)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/shaderplugin.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/shaderplugin.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/shaderplugin.cpp
 
@@ -1975,7 +1990,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/shaderplugin.cpp.o.provides.build: src/q
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/sliderspinboxwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/sliderspinboxwidget.cpp.o: src/qt/widgets/sliderspinboxwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_178)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_181)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/sliderspinboxwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/sliderspinboxwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/sliderspinboxwidget.cpp
 
@@ -1998,7 +2013,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/sliderspinboxwidget.cpp.o.provides.build
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/screenshotplugin.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/screenshotplugin.cpp.o: src/qt/widgets/screenshotplugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_179)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_182)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/screenshotplugin.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/screenshotplugin.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/screenshotplugin.cpp
 
@@ -2021,7 +2036,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/screenshotplugin.cpp.o.provides.build: s
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/stringselectiondialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/stringselectiondialog.cpp.o: src/qt/widgets/stringselectiondialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_180)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_183)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/stringselectiondialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/stringselectiondialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/stringselectiondialog.cpp
 
@@ -2044,7 +2059,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/stringselectiondialog.cpp.o.provides.bui
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/syntaxhighlighter.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/syntaxhighlighter.cpp.o: src/qt/widgets/syntaxhighlighter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_181)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_184)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/syntaxhighlighter.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/syntaxhighlighter.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/syntaxhighlighter.cpp
 
@@ -2067,7 +2082,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/syntaxhighlighter.cpp.o.provides.build: 
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeiohelper.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeiohelper.cpp.o: src/qt/widgets/volumeiohelper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_182)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_185)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeiohelper.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/volumeiohelper.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/volumeiohelper.cpp
 
@@ -2090,7 +2105,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeiohelper.cpp.o.provides.build: src
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/volumelistingdialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/volumelistingdialog.cpp.o: src/qt/widgets/volumelistingdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_183)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_186)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/volumelistingdialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/volumelistingdialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/volumelistingdialog.cpp
 
@@ -2113,7 +2128,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/volumelistingdialog.cpp.o.provides.build
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/volumereaderselectiondialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/volumereaderselectiondialog.cpp.o: src/qt/widgets/volumereaderselectiondialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_184)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_187)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/volumereaderselectiondialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/volumereaderselectiondialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/volumereaderselectiondialog.cpp
 
@@ -2136,7 +2151,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/volumereaderselectiondialog.cpp.o.provid
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewer.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewer.cpp.o: src/qt/widgets/volumeviewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_185)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_188)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewer.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/volumeviewer.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/volumeviewer.cpp
 
@@ -2159,7 +2174,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewer.cpp.o.provides.build: src/q
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewhelper.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewhelper.cpp.o: src/qt/widgets/volumeviewhelper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_186)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_189)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewhelper.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/volumeviewhelper.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/volumeviewhelper.cpp
 
@@ -2182,7 +2197,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/volumeviewhelper.cpp.o.provides.build: s
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/voreensettingsdialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/voreensettingsdialog.cpp.o: src/qt/widgets/voreensettingsdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_187)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_190)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/voreensettingsdialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/voreensettingsdialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/voreensettingsdialog.cpp
 
@@ -2205,7 +2220,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/voreensettingsdialog.cpp.o.provides.buil
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/voreentoolwindow.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/voreentoolwindow.cpp.o: src/qt/widgets/voreentoolwindow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_188)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_191)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/voreentoolwindow.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/voreentoolwindow.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/voreentoolwindow.cpp
 
@@ -2228,7 +2243,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/voreentoolwindow.cpp.o.provides.build: s
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationeditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationeditor.cpp.o: src/qt/widgets/animation/animationeditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_189)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_192)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationeditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/animation/animationeditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/animation/animationeditor.cpp
 
@@ -2251,7 +2266,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationeditor.cpp.o.provides
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationexportwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationexportwidget.cpp.o: src/qt/widgets/animation/animationexportwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_190)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_193)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationexportwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/animation/animationexportwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/animation/animationexportwidget.cpp
 
@@ -2274,7 +2289,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/animationexportwidget.cpp.o.pr
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/currentframegraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/currentframegraphicsitem.cpp.o: src/qt/widgets/animation/currentframegraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_191)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_194)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/currentframegraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/animation/currentframegraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/animation/currentframegraphicsitem.cpp
 
@@ -2297,7 +2312,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/currentframegraphicsitem.cpp.o
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/keyframegraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/keyframegraphicsitem.cpp.o: src/qt/widgets/animation/keyframegraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_192)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_195)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/keyframegraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/animation/keyframegraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/animation/keyframegraphicsitem.cpp
 
@@ -2320,7 +2335,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/keyframegraphicsitem.cpp.o.pro
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/nodechainwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/nodechainwidget.cpp.o: src/qt/widgets/animation/nodechainwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_193)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_196)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/nodechainwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/animation/nodechainwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/animation/nodechainwidget.cpp
 
@@ -2343,7 +2358,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/nodechainwidget.cpp.o.provides
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/overviewwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/overviewwidget.cpp.o: src/qt/widgets/animation/overviewwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_194)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_197)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/overviewwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/animation/overviewwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/animation/overviewwidget.cpp
 
@@ -2366,7 +2381,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/overviewwidget.cpp.o.provides.
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/processortimelinewidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/processortimelinewidget.cpp.o: src/qt/widgets/animation/processortimelinewidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_195)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_198)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/processortimelinewidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/animation/processortimelinewidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/animation/processortimelinewidget.cpp
 
@@ -2389,7 +2404,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/processortimelinewidget.cpp.o.
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelineview.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelineview.cpp.o: src/qt/widgets/animation/propertytimelineview.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_196)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_199)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelineview.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelineview.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/animation/propertytimelineview.cpp
 
@@ -2412,7 +2427,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelineview.cpp.o.pro
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelinewidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelinewidget.cpp.o: src/qt/widgets/animation/propertytimelinewidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_197)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_200)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelinewidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelinewidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/animation/propertytimelinewidget.cpp
 
@@ -2435,7 +2450,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/propertytimelinewidget.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/templatepropertytimelinewidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/templatepropertytimelinewidget.cpp.o: src/qt/widgets/animation/templatepropertytimelinewidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_198)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_201)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/templatepropertytimelinewidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/animation/templatepropertytimelinewidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/animation/templatepropertytimelinewidget.cpp
 
@@ -2458,7 +2473,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/templatepropertytimelinewidget
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/timelinewidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/timelinewidget.cpp.o: src/qt/widgets/animation/timelinewidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_199)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_202)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/timelinewidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/animation/timelinewidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/animation/timelinewidget.cpp
 
@@ -2481,7 +2496,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/animation/timelinewidget.cpp.o.provides.
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/processor/qprocessorwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/processor/qprocessorwidget.cpp.o: src/qt/widgets/processor/qprocessorwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_200)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_203)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/processor/qprocessorwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/processor/qprocessorwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/processor/qprocessorwidget.cpp
 
@@ -2504,7 +2519,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/processor/qprocessorwidget.cpp.o.provide
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/boolpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/boolpropertywidget.cpp.o: src/qt/widgets/property/boolpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_201)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_204)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/boolpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/boolpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/boolpropertywidget.cpp
 
@@ -2527,7 +2542,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/boolpropertywidget.cpp.o.provid
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/buttonpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/buttonpropertywidget.cpp.o: src/qt/widgets/property/buttonpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_202)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_205)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/buttonpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/buttonpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/buttonpropertywidget.cpp
 
@@ -2550,7 +2565,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/buttonpropertywidget.cpp.o.prov
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerapropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerapropertywidget.cpp.o: src/qt/widgets/property/camerapropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_203)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_206)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerapropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/camerapropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/camerapropertywidget.cpp
 
@@ -2573,7 +2588,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerapropertywidget.cpp.o.prov
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerawidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerawidget.cpp.o: src/qt/widgets/property/camerawidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_204)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_207)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerawidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/camerawidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/camerawidget.cpp
 
@@ -2596,7 +2611,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/camerawidget.cpp.o.provides.bui
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/colorpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/colorpropertywidget.cpp.o: src/qt/widgets/property/colorpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_205)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_208)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/colorpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/colorpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/colorpropertywidget.cpp
 
@@ -2619,7 +2634,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/colorpropertywidget.cpp.o.provi
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/corepropertywidgetfactory.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/corepropertywidgetfactory.cpp.o: src/qt/widgets/property/corepropertywidgetfactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_206)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_209)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/corepropertywidgetfactory.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/corepropertywidgetfactory.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/corepropertywidgetfactory.cpp
 
@@ -2642,7 +2657,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/corepropertywidgetfactory.cpp.o
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/filedialogpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/filedialogpropertywidget.cpp.o: src/qt/widgets/property/filedialogpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_207)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_210)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/filedialogpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/filedialogpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/filedialogpropertywidget.cpp
 
@@ -2665,7 +2680,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/filedialogpropertywidget.cpp.o.
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat2propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat2propertywidget.cpp.o: src/qt/widgets/property/floatmat2propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_208)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_211)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat2propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/floatmat2propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/floatmat2propertywidget.cpp
 
@@ -2688,7 +2703,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat2propertywidget.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat3propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat3propertywidget.cpp.o: src/qt/widgets/property/floatmat3propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_209)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_212)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat3propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/floatmat3propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/floatmat3propertywidget.cpp
 
@@ -2711,7 +2726,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat3propertywidget.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat4propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat4propertywidget.cpp.o: src/qt/widgets/property/floatmat4propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_210)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_213)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat4propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/floatmat4propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/floatmat4propertywidget.cpp
 
@@ -2734,7 +2749,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatmat4propertywidget.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatpropertywidget.cpp.o: src/qt/widgets/property/floatpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_211)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_214)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/floatpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/floatpropertywidget.cpp
 
@@ -2757,7 +2772,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatpropertywidget.cpp.o.provi
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec2propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec2propertywidget.cpp.o: src/qt/widgets/property/floatvec2propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_212)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_215)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec2propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/floatvec2propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/floatvec2propertywidget.cpp
 
@@ -2780,7 +2795,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec2propertywidget.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec3propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec3propertywidget.cpp.o: src/qt/widgets/property/floatvec3propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_213)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_216)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec3propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/floatvec3propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/floatvec3propertywidget.cpp
 
@@ -2803,7 +2818,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec3propertywidget.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec4propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec4propertywidget.cpp.o: src/qt/widgets/property/floatvec4propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_214)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_217)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec4propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/floatvec4propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/floatvec4propertywidget.cpp
 
@@ -2826,7 +2841,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/floatvec4propertywidget.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/fontpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/fontpropertywidget.cpp.o: src/qt/widgets/property/fontpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_215)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_218)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/fontpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/fontpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/fontpropertywidget.cpp
 
@@ -2849,7 +2864,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/fontpropertywidget.cpp.o.provid
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intpropertywidget.cpp.o: src/qt/widgets/property/intpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_216)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_219)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/intpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/intpropertywidget.cpp
 
@@ -2872,7 +2887,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intpropertywidget.cpp.o.provide
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec2propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec2propertywidget.cpp.o: src/qt/widgets/property/intvec2propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_217)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_220)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec2propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/intvec2propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/intvec2propertywidget.cpp
 
@@ -2895,7 +2910,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec2propertywidget.cpp.o.pro
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec3propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec3propertywidget.cpp.o: src/qt/widgets/property/intvec3propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_218)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_221)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec3propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/intvec3propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/intvec3propertywidget.cpp
 
@@ -2918,7 +2933,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec3propertywidget.cpp.o.pro
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec4propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec4propertywidget.cpp.o: src/qt/widgets/property/intvec4propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_219)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_222)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec4propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/intvec4propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/intvec4propertywidget.cpp
 
@@ -2941,7 +2956,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/intvec4propertywidget.cpp.o.pro
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/lightpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/lightpropertywidget.cpp.o: src/qt/widgets/property/lightpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_220)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_223)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/lightpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/lightpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/lightpropertywidget.cpp
 
@@ -2964,7 +2979,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/lightpropertywidget.cpp.o.provi
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/matrixpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/matrixpropertywidget.cpp.o: src/qt/widgets/property/matrixpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_221)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_224)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/matrixpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/matrixpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/matrixpropertywidget.cpp
 
@@ -2987,7 +3002,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/matrixpropertywidget.cpp.o.prov
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/optionpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/optionpropertywidget.cpp.o: src/qt/widgets/property/optionpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_222)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_225)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/optionpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/optionpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/optionpropertywidget.cpp
 
@@ -3010,7 +3025,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/optionpropertywidget.cpp.o.prov
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/processorpropertieswidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/processorpropertieswidget.cpp.o: src/qt/widgets/property/processorpropertieswidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_223)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_226)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/processorpropertieswidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/processorpropertieswidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/processorpropertieswidget.cpp
 
@@ -3033,7 +3048,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/processorpropertieswidget.cpp.o
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyownerwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyownerwidget.cpp.o: src/qt/widgets/property/propertyownerwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_224)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_227)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyownerwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/propertyownerwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/propertyownerwidget.cpp
 
@@ -3056,7 +3071,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyownerwidget.cpp.o.provi
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyvectorwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyvectorwidget.cpp.o: src/qt/widgets/property/propertyvectorwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_225)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_228)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyvectorwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/propertyvectorwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/propertyvectorwidget.cpp
 
@@ -3079,7 +3094,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/propertyvectorwidget.cpp.o.prov
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidget.cpp.o: src/qt/widgets/property/qpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_226)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_229)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/qpropertywidget.cpp
 
@@ -3102,7 +3117,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidget.cpp.o.provides.
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidgetwitheditorwindow.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidgetwitheditorwindow.cpp.o: src/qt/widgets/property/qpropertywidgetwitheditorwindow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_227)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_230)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidgetwitheditorwindow.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidgetwitheditorwindow.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/qpropertywidgetwitheditorwindow.cpp
 
@@ -3125,7 +3140,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/qpropertywidgetwitheditorwindow
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/shaderpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/shaderpropertywidget.cpp.o: src/qt/widgets/property/shaderpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_228)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_231)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/shaderpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/shaderpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/shaderpropertywidget.cpp
 
@@ -3148,7 +3163,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/shaderpropertywidget.cpp.o.prov
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringexpressionpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringexpressionpropertywidget.cpp.o: src/qt/widgets/property/stringexpressionpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_229)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_232)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringexpressionpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/stringexpressionpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/stringexpressionpropertywidget.cpp
 
@@ -3171,7 +3186,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringexpressionpropertywidget.
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringpropertywidget.cpp.o: src/qt/widgets/property/stringpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_230)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_233)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/stringpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/stringpropertywidget.cpp
 
@@ -3194,7 +3209,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/stringpropertywidget.cpp.o.prov
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/grouppropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/grouppropertywidget.cpp.o: src/qt/widgets/property/grouppropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_231)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_234)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/grouppropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/grouppropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/grouppropertywidget.cpp
 
@@ -3217,7 +3232,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/grouppropertywidget.cpp.o.provi
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/transfuncpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/transfuncpropertywidget.cpp.o: src/qt/widgets/property/transfuncpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_232)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_235)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/transfuncpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/transfuncpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/transfuncpropertywidget.cpp
 
@@ -3240,7 +3255,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/transfuncpropertywidget.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/vecpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/vecpropertywidget.cpp.o: src/qt/widgets/property/vecpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_233)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_236)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/vecpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/vecpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/vecpropertywidget.cpp
 
@@ -3263,7 +3278,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/vecpropertywidget.cpp.o.provide
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/voxeltypepropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/voxeltypepropertywidget.cpp.o: src/qt/widgets/property/voxeltypepropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_234)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_237)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/voxeltypepropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/voxeltypepropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/voxeltypepropertywidget.cpp
 
@@ -3286,7 +3301,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/voxeltypepropertywidget.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeinfopropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeinfopropertywidget.cpp.o: src/qt/widgets/property/volumeinfopropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_235)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_238)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeinfopropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/volumeinfopropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/volumeinfopropertywidget.cpp
 
@@ -3309,7 +3324,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeinfopropertywidget.cpp.o.
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurlpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurlpropertywidget.cpp.o: src/qt/widgets/property/volumeurlpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_236)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_239)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurlpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/volumeurlpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/volumeurlpropertywidget.cpp
 
@@ -3332,7 +3347,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurlpropertywidget.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurllistpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurllistpropertywidget.cpp.o: src/qt/widgets/property/volumeurllistpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_237)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_240)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurllistpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/property/volumeurllistpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/property/volumeurllistpropertywidget.cpp
 
@@ -3355,7 +3370,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/property/volumeurllistpropertywidget.cpp
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorluminancepicker.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorluminancepicker.cpp.o: src/qt/widgets/transfunc/colorluminancepicker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_238)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_241)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorluminancepicker.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/colorluminancepicker.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/colorluminancepicker.cpp
 
@@ -3378,7 +3393,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorluminancepicker.cpp.o.pro
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorpicker.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorpicker.cpp.o: src/qt/widgets/transfunc/colorpicker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_239)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_242)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorpicker.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/colorpicker.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/colorpicker.cpp
 
@@ -3401,7 +3416,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/colorpicker.cpp.o.provides.bui
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/doubleslider.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/doubleslider.cpp.o: src/qt/widgets/transfunc/doubleslider.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_240)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_243)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/doubleslider.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/doubleslider.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/doubleslider.cpp
 
@@ -3424,7 +3439,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/doubleslider.cpp.o.provides.bu
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/histogrampainter.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/histogrampainter.cpp.o: src/qt/widgets/transfunc/histogrampainter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_241)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_244)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/histogrampainter.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/histogrampainter.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/histogrampainter.cpp
 
@@ -3447,7 +3462,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/histogrampainter.cpp.o.provide
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunceditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunceditor.cpp.o: src/qt/widgets/transfunc/transfunceditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_242)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_245)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunceditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunceditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/transfunceditor.cpp
 
@@ -3470,7 +3485,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunceditor.cpp.o.provides
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyseditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyseditor.cpp.o: src/qt/widgets/transfunc/transfunc1dkeyseditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_243)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_246)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyseditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyseditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/transfunc1dkeyseditor.cpp
 
@@ -3493,7 +3508,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyseditor.cpp.o.pr
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dhistogrampainter.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dhistogrampainter.cpp.o: src/qt/widgets/transfunc/transfunc1dhistogrampainter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_244)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_247)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dhistogrampainter.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dhistogrampainter.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/transfunc1dhistogrampainter.cpp
 
@@ -3516,7 +3531,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dhistogrampainter.cp
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyspainter.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyspainter.cpp.o: src/qt/widgets/transfunc/transfunc1dkeyspainter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_245)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_248)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyspainter.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyspainter.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/transfunc1dkeyspainter.cpp
 
@@ -3539,7 +3554,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1dkeyspainter.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1drampeditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1drampeditor.cpp.o: src/qt/widgets/transfunc/transfunc1drampeditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_246)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_249)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1drampeditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1drampeditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/transfunc1drampeditor.cpp
 
@@ -3562,7 +3577,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc1drampeditor.cpp.o.pr
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitiveseditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitiveseditor.cpp.o: src/qt/widgets/transfunc/transfunc2dprimitiveseditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_247)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_250)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitiveseditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitiveseditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/transfunc2dprimitiveseditor.cpp
 
@@ -3585,7 +3600,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitiveseditor.cp
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitivespainter.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitivespainter.cpp.o: src/qt/widgets/transfunc/transfunc2dprimitivespainter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_248)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_251)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitivespainter.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitivespainter.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/transfunc2dprimitivespainter.cpp
 
@@ -3608,7 +3623,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfunc2dprimitivespainter.c
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvas.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvas.cpp.o: src/qt/widgets/transfunc/transfuncmappingcanvas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_249)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_252)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvas.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvas.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/transfuncmappingcanvas.cpp
 
@@ -3631,7 +3646,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvas.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvasramp.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvasramp.cpp.o: src/qt/widgets/transfunc/transfuncmappingcanvasramp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_250)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_253)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvasramp.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvasramp.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/transfuncmappingcanvasramp.cpp
 
@@ -3654,7 +3669,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncmappingcanvasramp.cpp
 
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncplugin.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncplugin.cpp.o: src/qt/widgets/transfunc/transfuncplugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_251)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_254)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncplugin.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncplugin.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/widgets/transfunc/transfuncplugin.cpp
 
@@ -3677,7 +3692,7 @@ src/qt/CMakeFiles/voreen_qt.dir/widgets/transfunc/transfuncplugin.cpp.o.provides
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qtcanvas.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qtcanvas.cpp.o: ext/tgt/qt/qtcanvas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_252)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_255)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qtcanvas.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qtcanvas.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/qt/qtcanvas.cpp
 
@@ -3700,7 +3715,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qtcanvas.cpp.o.provides.build: 
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qttimer.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qttimer.cpp.o: ext/tgt/qt/qttimer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_253)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_256)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qttimer.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qttimer.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/ext/tgt/qt/qttimer.cpp
 
@@ -3723,7 +3738,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/ext/tgt/qt/qttimer.cpp.o.provides.build: s
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/basemoduleqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/basemoduleqt.cpp.o: modules/base/basemoduleqt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_254)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_257)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/basemoduleqt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/base/basemoduleqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/base/basemoduleqt.cpp
 
@@ -3746,7 +3761,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/basemoduleqt.cpp.o.provides.b
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.o: modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_255)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_258)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/base/qt/processorwidgets/baseprocessorwidgetfactory.cpp
 
@@ -3769,7 +3784,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/base/qt/processorwidgets/baseproce
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/coremoduleqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/coremoduleqt.cpp.o: modules/core/coremoduleqt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_256)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_259)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/coremoduleqt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/core/coremoduleqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/core/coremoduleqt.cpp
 
@@ -3792,7 +3807,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/coremoduleqt.cpp.o.provides.b
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.o: modules/core/qt/processor/coreprocessorwidgetfactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_257)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_260)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/coreprocessorwidgetfactory.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/core/qt/processor/coreprocessorwidgetfactory.cpp
 
@@ -3815,7 +3830,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/coreprocessorwid
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/canvasrendererwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/canvasrendererwidget.cpp.o: modules/core/qt/processor/canvasrendererwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_258)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_261)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/canvasrendererwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/canvasrendererwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/core/qt/processor/canvasrendererwidget.cpp
 
@@ -3838,7 +3853,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/canvasrendererwi
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o: modules/dynamicglsl/dynamicglslmoduleqt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_259)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_262)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/dynamicglsl/dynamicglslmoduleqt.cpp
 
@@ -3861,7 +3876,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cp
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o: modules/dynamicglsl/qt/dynamicglslwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_260)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_263)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/dynamicglsl/qt/dynamicglslwidget.cpp
 
@@ -3884,7 +3899,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.c
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o: modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_261)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_264)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp
 
@@ -3905,9 +3920,170 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocesso
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o
 
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o: modules/opencl/openclmoduleqt.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_265)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/openclmoduleqt.cpp
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.i"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -E /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/openclmoduleqt.cpp > CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.i
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.s"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -S /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/openclmoduleqt.cpp -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.s
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o.requires:
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o.requires
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o.provides: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o.requires
+	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o.provides.build
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o.provides
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o: modules/opencl/qt/openclpropertywidgetfactory.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_266)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclpropertywidgetfactory.cpp
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.i"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -E /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclpropertywidgetfactory.cpp > CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.i
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.s"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -S /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclpropertywidgetfactory.cpp -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.s
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o.requires:
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o.requires
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o.provides: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o.requires
+	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o.provides.build
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o.provides
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o: modules/opencl/qt/openclhighlighter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_267)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclhighlighter.cpp
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.i"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -E /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclhighlighter.cpp > CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.i
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.s"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -S /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclhighlighter.cpp -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.s
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o.requires:
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o.requires
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o.provides: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o.requires
+	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o.provides.build
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o.provides
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o: modules/opencl/qt/openclpropertywidget.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_268)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclpropertywidget.cpp
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.i"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -E /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclpropertywidget.cpp > CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.i
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.s"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -S /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclpropertywidget.cpp -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.s
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o.requires:
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o.requires
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o.provides: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o.requires
+	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o.provides.build
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o.provides
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o: modules/opencl/qt/openclplugin.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_269)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclplugin.cpp
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.i"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -E /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclplugin.cpp > CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.i
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.s"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -S /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclplugin.cpp -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.s
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o.requires:
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o.requires
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o.provides: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o.requires
+	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o.provides.build
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o.provides
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o: modules/opencl/qt/openclprocessorwidgetfactory.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_270)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclprocessorwidgetfactory.cpp
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.i"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -E /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclprocessorwidgetfactory.cpp > CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.i
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.s"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -S /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/openclprocessorwidgetfactory.cpp -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.s
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o.requires:
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o.requires
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o.provides: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o.requires
+	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o.provides.build
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o.provides
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o: modules/opencl/qt/dynamicopenclwidget.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_271)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/dynamicopenclwidget.cpp
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.i"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -E /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/dynamicopenclwidget.cpp > CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.i
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.s"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -S /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/opencl/qt/dynamicopenclwidget.cpp -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.s
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o.requires:
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o.requires
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o.provides: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o.requires
+	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o.provides.build
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o.provides
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o
+
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.o: modules/plotting/plottingmoduleqt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_262)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_272)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/plottingmoduleqt.cpp
 
@@ -3930,7 +4106,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.o.pr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.o: modules/plotting/qt/plotdatawidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_263)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_273)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotdatawidget.cpp
 
@@ -3953,7 +4129,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.o.p
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o: modules/plotting/qt/plotdatasimpletablemodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_264)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_274)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotdatasimpletablemodel.cpp
 
@@ -3976,7 +4152,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemod
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/extendedtable.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/extendedtable.cpp.o: modules/plotting/qt/extendedtable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_265)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_275)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/extendedtable.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/extendedtable.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/extendedtable.cpp
 
@@ -3999,7 +4175,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/extendedtable.cpp.o.pr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.o: modules/plotting/qt/plotdataextendedtablemodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_266)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_276)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdataextendedtablemodel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotdataextendedtablemodel.cpp
 
@@ -4022,7 +4198,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdataextendedtablem
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotentitysettingsdialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotentitysettingsdialog.cpp.o: modules/plotting/qt/plotentitysettingsdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_267)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_277)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotentitysettingsdialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotentitysettingsdialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotentitysettingsdialog.cpp
 
@@ -4045,7 +4221,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotentitysettingsdial
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotpredicatedialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotpredicatedialog.cpp.o: modules/plotting/qt/plotpredicatedialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_268)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_278)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotpredicatedialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotpredicatedialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotpredicatedialog.cpp
 
@@ -4068,7 +4244,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotpredicatedialog.cp
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.o: modules/plotting/qt/plotselectionentrytablemodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_269)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_279)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectionentrytablemodel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotselectionentrytablemodel.cpp
 
@@ -4091,7 +4267,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectionentrytabl
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiontablemodel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiontablemodel.cpp.o: modules/plotting/qt/plotselectiontablemodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_270)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_280)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiontablemodel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiontablemodel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotselectiontablemodel.cpp
 
@@ -4114,7 +4290,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiontablemode
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiondialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiondialog.cpp.o: modules/plotting/qt/plotselectiondialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_271)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_281)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiondialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiondialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/plotselectiondialog.cpp
 
@@ -4137,7 +4313,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotselectiondialog.cp
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.o: modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_272)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_282)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/processorwidgets/plotprocessorwidgetfactory.cpp
 
@@ -4160,7 +4336,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotp
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.o: modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_273)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_283)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/processorwidgets/plotdatamergewidget.cpp
 
@@ -4183,7 +4359,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotd
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.o: modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_274)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_284)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/processorwidgets/plotdatafitfunctionwidget.cpp
 
@@ -4206,7 +4382,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotd
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.o: modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_275)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_285)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/processorwidgets/plotdataselectwidget.cpp
 
@@ -4229,7 +4405,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotd
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.o: modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_276)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_286)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/processorwidgets/plotdatagroupwidget.cpp
 
@@ -4252,7 +4428,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotd
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.o: modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_277)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_287)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.cpp
 
@@ -4275,7 +4451,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/plotd
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.o: modules/plotting/qt/propertywidgets/colormappropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_278)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_288)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/propertywidgets/colormappropertywidget.cpp
 
@@ -4298,7 +4474,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/colorm
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.o: modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_279)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_289)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/propertywidgets/plotpropertywidgetfactory.cpp
 
@@ -4321,7 +4497,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.o: modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_280)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_290)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/propertywidgets/plotdatapropertywidget.cpp
 
@@ -4344,7 +4520,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotda
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.o: modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_281)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_291)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/propertywidgets/plotentitiespropertywidget.cpp
 
@@ -4367,7 +4543,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/ploten
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.o: modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_282)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_292)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/propertywidgets/plotpredicatepropertywidget.cpp
 
@@ -4390,7 +4566,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotpr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.o: modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_283)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_293)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/plotting/qt/propertywidgets/plotselectionpropertywidget.cpp
 
@@ -4413,7 +4589,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/plotse
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/randomwalkermoduleqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/randomwalkermoduleqt.cpp.o: modules/randomwalker/randomwalkermoduleqt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_284)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_294)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/randomwalkermoduleqt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/randomwalkermoduleqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/randomwalker/randomwalkermoduleqt.cpp
 
@@ -4436,7 +4612,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/randomwalkermoduleqt.
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.o: modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_285)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_295)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/randomwalker/qt/randomwalkeranalyzerwidget.cpp
 
@@ -4459,7 +4635,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkeranalyz
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.o: modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_286)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_296)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/randomwalker/qt/randomwalkerprocessorwidgetfactory.cpp
 
@@ -4482,7 +4658,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/randomwalkerproces
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/stereoscopymoduleqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/stereoscopymoduleqt.cpp.o: modules/stereoscopy/stereoscopymoduleqt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_287)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_297)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/stereoscopymoduleqt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/stereoscopymoduleqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/stereoscopy/stereoscopymoduleqt.cpp
 
@@ -4505,7 +4681,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/stereoscopymoduleqt.cp
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.o: modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_288)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_298)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/stereoscopy/qt/processor/stereoscopyprocessorwidgetfactory.cpp
 
@@ -4528,7 +4704,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/stereoscopy/qt/processor/stereosco
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.o: modules/volumelabeling/qt/labelingwidgetqt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_289)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_299)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/labelingwidgetqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/modules/volumelabeling/qt/labelingwidgetqt.cpp
 
@@ -4551,7 +4727,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/labelingwidgetqt
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_aboutbox.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_aboutbox.cpp.o: src/qt/__/__/include/voreen/qt/moc_aboutbox.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_290)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_300)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_aboutbox.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_aboutbox.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/moc_aboutbox.cpp
 
@@ -4574,7 +4750,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_aboutbox.cpp.o.provi
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_helpbrowser.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_helpbrowser.cpp.o: src/qt/__/__/include/voreen/qt/moc_helpbrowser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_291)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_301)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_helpbrowser.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_helpbrowser.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/moc_helpbrowser.cpp
 
@@ -4597,7 +4773,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/moc_helpbrowser.cpp.o.pr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_292)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_302)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/moc_aggregationeditor.cpp
 
@@ -4620,7 +4796,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_aggreg
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_293)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_303)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/moc_networkeditor.cpp
 
@@ -4643,7 +4819,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/moc_networ
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_294)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_304)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/dialogs/moc_propertylinkdialog.cpp
 
@@ -4666,7 +4842,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/mo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_295)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_305)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/dialogs/utils/moc_splitgraphicsview.cpp
 
@@ -4689,7 +4865,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/dialogs/ut
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_296)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_306)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/moc_nwebasegraphicsitem.cpp
 
@@ -4712,7 +4888,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_297)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_307)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_aggregationgraphicsitem.cpp
 
@@ -4735,7 +4911,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_298)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_308)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portgraphicsitem.cpp
 
@@ -4758,7 +4934,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_299)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_309)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_portownergraphicsitem.cpp
 
@@ -4781,7 +4957,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_300)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_310)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_processorgraphicsitem.cpp
 
@@ -4804,7 +4980,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_301)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_311)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp
 
@@ -4827,7 +5003,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_302)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_312)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertylistgraphicsitem.cpp
 
@@ -4850,7 +5026,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_303)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_313)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertyownergraphicsitem.cpp
 
@@ -4873,7 +5049,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_304)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_314)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/connections/moc_propertylinkarrowgraphicsitem.cpp
 
@@ -4896,7 +5072,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_305)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_315)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/tooltips/moc_tooltipbasegraphicsitem.cpp
 
@@ -4919,7 +5095,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_306)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_316)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_renamabletextgraphicsitem.cpp
 
@@ -4942,7 +5118,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_307)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_317)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_propertylistbuttongraphicsitem.cpp
 
@@ -4965,7 +5141,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_308)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_318)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/utils/moc_widgettogglebuttongraphicsitem.cpp
 
@@ -4988,7 +5164,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/networkeditor/graphicite
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_309)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_319)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_clickablelabel.cpp
 
@@ -5011,7 +5187,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_clickablelab
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_codeedit.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_codeedit.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_codeedit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_310)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_320)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_codeedit.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_codeedit.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_codeedit.cpp
 
@@ -5034,7 +5210,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_codeedit.cpp
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_311)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_321)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_consoleplugin.cpp
 
@@ -5057,7 +5233,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_consoleplugi
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_customlabel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_customlabel.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_customlabel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_312)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_322)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_customlabel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_customlabel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_customlabel.cpp
 
@@ -5080,7 +5256,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_customlabel.
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_313)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_323)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_enterexitpushbutton.cpp
 
@@ -5103,7 +5279,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_enterexitpus
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_314)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_324)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_eventpropertywidget.cpp
 
@@ -5126,7 +5302,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_eventpropert
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_315)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_325)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_expandableheaderbutton.cpp
 
@@ -5149,7 +5325,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_expandablehe
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_316)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_326)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp
 
@@ -5172,7 +5348,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_inputmapping
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_317)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_327)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_keydetectorwidget.cpp
 
@@ -5195,7 +5371,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_keydetectorw
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_318)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_328)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_lightwidget.cpp
 
@@ -5218,7 +5394,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lightwidget.
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_319)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_329)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_lineeditresetwidget.cpp
 
@@ -5241,7 +5417,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_lineeditrese
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_320)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_330)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_processorlistwidget.cpp
 
@@ -5264,7 +5440,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_processorlis
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_321)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_331)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_propertylistwidget.cpp
 
@@ -5287,7 +5463,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertylist
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_322)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_332)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_propertyselectiondialog.cpp
 
@@ -5310,7 +5486,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_propertysele
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_323)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_333)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_rawvolumewidget.cpp
 
@@ -5333,7 +5509,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rawvolumewid
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_324)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_334)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_rendertargetviewer.cpp
 
@@ -5356,7 +5532,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_rendertarget
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_325)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_335)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_shaderplugin.cpp
 
@@ -5379,7 +5555,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_shaderplugin
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_326)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_336)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_sliderspinboxwidget.cpp
 
@@ -5402,7 +5578,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_sliderspinbo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_327)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_337)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_screenshotplugin.cpp
 
@@ -5425,7 +5601,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_screenshotpl
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_328)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_338)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_stringselectiondialog.cpp
 
@@ -5448,7 +5624,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_stringselect
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_329)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_339)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_volumeiohelper.cpp
 
@@ -5471,7 +5647,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeiohelp
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_330)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_340)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_volumelistingdialog.cpp
 
@@ -5494,7 +5670,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumelistin
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_331)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_341)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_volumereaderselectiondialog.cpp
 
@@ -5517,7 +5693,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumereader
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_332)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_342)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_volumeviewer.cpp
 
@@ -5540,7 +5716,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_volumeviewer
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_333)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_343)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_voreensettingsdialog.cpp
 
@@ -5563,7 +5739,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreensettin
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.o: src/qt/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_334)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_344)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/moc_voreentoolwindow.cpp
 
@@ -5586,7 +5762,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/moc_voreentoolwi
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.o: src/qt/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_335)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_345)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/animation/moc_animationeditor.cpp
 
@@ -5609,7 +5785,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_an
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_336)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_346)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/animation/moc_animationexportwidget.cpp
 
@@ -5632,7 +5808,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_an
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.o: src/qt/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_337)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_347)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/animation/moc_keyframegraphicsitem.cpp
 
@@ -5655,7 +5831,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_ke
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_338)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_348)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/animation/moc_nodechainwidget.cpp
 
@@ -5678,7 +5854,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_no
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_339)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_349)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/animation/moc_overviewwidget.cpp
 
@@ -5701,7 +5877,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_ov
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_340)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_350)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/animation/moc_processortimelinewidget.cpp
 
@@ -5724,7 +5900,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_pr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.o: src/qt/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_341)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_351)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/animation/moc_propertytimelineview.cpp
 
@@ -5747,7 +5923,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_pr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_342)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_352)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/animation/moc_propertytimelinewidget.cpp
 
@@ -5770,7 +5946,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_pr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_343)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_353)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/animation/moc_timelinewidget.cpp
 
@@ -5793,7 +5969,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/animation/moc_ti
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_344)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_354)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/processor/moc_qprocessorwidget.cpp
 
@@ -5816,7 +5992,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/processor/moc_qp
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_345)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_355)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_boolpropertywidget.cpp
 
@@ -5839,7 +6015,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_boo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_346)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_356)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_buttonpropertywidget.cpp
 
@@ -5862,7 +6038,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_but
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_347)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_357)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_camerapropertywidget.cpp
 
@@ -5885,7 +6061,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_cam
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_348)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_358)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_camerawidget.cpp
 
@@ -5908,7 +6084,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_cam
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_349)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_359)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_colorpropertywidget.cpp
 
@@ -5931,7 +6107,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_col
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_350)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_360)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_filedialogpropertywidget.cpp
 
@@ -5954,7 +6130,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fil
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_351)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_361)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_floatmat2propertywidget.cpp
 
@@ -5977,7 +6153,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_flo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_352)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_362)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_floatmat3propertywidget.cpp
 
@@ -6000,7 +6176,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_flo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_353)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_363)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_floatmat4propertywidget.cpp
 
@@ -6023,7 +6199,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_flo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_354)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_364)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_floatpropertywidget.cpp
 
@@ -6046,7 +6222,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_flo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_355)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_365)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_floatvec2propertywidget.cpp
 
@@ -6069,7 +6245,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_flo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_356)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_366)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_floatvec3propertywidget.cpp
 
@@ -6092,7 +6268,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_flo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_357)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_367)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_floatvec4propertywidget.cpp
 
@@ -6115,7 +6291,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_flo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_358)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_368)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_fontpropertywidget.cpp
 
@@ -6138,7 +6314,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_fon
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_359)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_369)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_intpropertywidget.cpp
 
@@ -6161,7 +6337,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_int
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_360)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_370)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp
 
@@ -6184,7 +6360,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_int
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_361)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_371)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_intvec3propertywidget.cpp
 
@@ -6207,7 +6383,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_int
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_362)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_372)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_intvec4propertywidget.cpp
 
@@ -6230,7 +6406,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_int
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_363)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_373)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_lightpropertywidget.cpp
 
@@ -6253,7 +6429,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_lig
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_364)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_374)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_matrixpropertywidget.cpp
 
@@ -6276,7 +6452,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_mat
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_365)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_375)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_optionpropertywidget.cpp
 
@@ -6299,7 +6475,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_opt
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_366)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_376)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_processorpropertieswidget.cpp
 
@@ -6322,7 +6498,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_pro
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_367)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_377)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_propertyownerwidget.cpp
 
@@ -6345,7 +6521,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_pro
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_368)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_378)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_propertyvectorwidget.cpp
 
@@ -6368,7 +6544,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_pro
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_369)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_379)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_qpropertywidget.cpp
 
@@ -6391,7 +6567,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_qpr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_370)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_380)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_shaderpropertywidget.cpp
 
@@ -6414,7 +6590,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_sha
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_371)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_381)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_stringexpressionpropertywidget.cpp
 
@@ -6437,7 +6613,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_str
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_372)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_382)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_stringpropertywidget.cpp
 
@@ -6460,7 +6636,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_str
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_373)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_383)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_grouppropertywidget.cpp
 
@@ -6483,7 +6659,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_gro
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_374)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_384)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_transfuncpropertywidget.cpp
 
@@ -6506,7 +6682,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_tra
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_375)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_385)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_voxeltypepropertywidget.cpp
 
@@ -6529,7 +6705,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_vox
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_376)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_386)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_volumeinfopropertywidget.cpp
 
@@ -6552,7 +6728,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_vol
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_377)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_387)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_volumeurllistpropertywidget.cpp
 
@@ -6575,7 +6751,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_vol
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.o: src/qt/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_378)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_388)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/property/moc_volumeurlpropertywidget.cpp
 
@@ -6598,7 +6774,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/property/moc_vol
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_379)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_389)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_colorluminancepicker.cpp
 
@@ -6621,7 +6797,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_co
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_380)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_390)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_colorpicker.cpp
 
@@ -6644,7 +6820,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_co
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_381)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_391)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_doubleslider.cpp
 
@@ -6667,7 +6843,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_do
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_382)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_392)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_histogrampainter.cpp
 
@@ -6690,7 +6866,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_hi
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_383)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_393)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfunceditor.cpp
 
@@ -6713,7 +6889,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_tr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_384)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_394)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1dkeyseditor.cpp
 
@@ -6736,7 +6912,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_tr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_385)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_395)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc1drampeditor.cpp
 
@@ -6759,7 +6935,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_tr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_386)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_396)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitiveseditor.cpp
 
@@ -6782,7 +6958,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_tr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_387)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_397)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp
 
@@ -6805,7 +6981,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_tr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_388)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_398)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvas.cpp
 
@@ -6828,7 +7004,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_tr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_389)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_399)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncmappingcanvasramp.cpp
 
@@ -6851,7 +7027,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_tr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_390)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_400)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp
 
@@ -6874,7 +7050,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_tr
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o: src/qt/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_391)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_401)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp
 
@@ -6897,7 +7073,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrender
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o: src/qt/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_392)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_402)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp
 
@@ -6918,9 +7094,78 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidg
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o
 
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o: src/qt/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_403)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.i"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -E /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp > CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.i
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.s"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -S /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.s
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o.requires:
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o.requires
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o.provides: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o.requires
+	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o.provides.build
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o.provides
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o: src/qt/__/__/modules/opencl/qt/moc_openclplugin.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_404)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_openclplugin.cpp
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.i"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -E /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_openclplugin.cpp > CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.i
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.s"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -S /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_openclplugin.cpp -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.s
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o.requires:
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o.requires
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o.provides: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o.requires
+	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o.provides.build
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o.provides
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o: src/qt/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_405)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.i"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -E /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp > CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.i
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.s"
+	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -S /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp -o CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.s
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o.requires:
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o.requires
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o.provides: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o.requires
+	$(MAKE) -f src/qt/CMakeFiles/voreen_qt.dir/build.make src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o.provides.build
+.PHONY : src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o.provides
+
+src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o.provides.build: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o
+
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.o: src/qt/__/__/modules/plotting/qt/moc_plotdatawidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_393)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_406)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotdatawidget.cpp
 
@@ -6943,7 +7188,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o: src/qt/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_394)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_407)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp
 
@@ -6966,7 +7211,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletabl
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.o: src/qt/__/__/modules/plotting/qt/moc_extendedtable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_395)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_408)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_extendedtable.cpp
 
@@ -6989,7 +7234,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.o: src/qt/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_396)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_409)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotdataextendedtablemodel.cpp
 
@@ -7012,7 +7257,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdataextendedta
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.o: src/qt/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_397)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_410)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotentitysettingsdialog.cpp
 
@@ -7035,7 +7280,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotentitysettings
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.o: src/qt/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_398)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_411)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotpredicatedialog.cpp
 
@@ -7058,7 +7303,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotpredicatedialo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.o: src/qt/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_399)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_412)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotselectionentrytablemodel.cpp
 
@@ -7081,7 +7326,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectionentry
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.o: src/qt/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_400)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_413)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotselectiontablemodel.cpp
 
@@ -7104,7 +7349,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiontable
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp.o: src/qt/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_401)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_414)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/moc_plotselectiondialog.cpp
 
@@ -7127,7 +7372,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotselectiondialo
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.o: src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_402)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_415)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatamergewidget.cpp
 
@@ -7150,7 +7395,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_p
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.o: src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_403)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_416)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatafitfunctionwidget.cpp
 
@@ -7173,7 +7418,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_p
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.o: src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_404)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_417)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdataselectwidget.cpp
 
@@ -7196,7 +7441,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_p
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.o: src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_405)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_418)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdatagroupwidget.cpp
 
@@ -7219,7 +7464,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_p
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.o: src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_406)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_419)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp
 
@@ -7242,7 +7487,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/processorwidgets/moc_p
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.o: src/qt/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_407)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_420)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/propertywidgets/moc_colormappropertywidget.cpp
 
@@ -7265,7 +7510,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_co
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.o: src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_408)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_421)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp
 
@@ -7288,7 +7533,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_pl
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.o: src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_409)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_422)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotentitiespropertywidget.cpp
 
@@ -7311,7 +7556,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_pl
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.o: src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_410)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_423)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotpredicatepropertywidget.cpp
 
@@ -7334,7 +7579,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_pl
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.o: src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_411)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_424)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotselectionpropertywidget.cpp
 
@@ -7357,7 +7602,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/propertywidgets/moc_pl
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.o: src/qt/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_412)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_425)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp
 
@@ -7380,7 +7625,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/randomwalker/qt/moc_randomwalkeran
 
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.o: src/qt/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_413)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_426)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp
 
@@ -7403,7 +7648,7 @@ src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/volumelabeling/qt/moc_labelingwidg
 
 src/qt/CMakeFiles/voreen_qt.dir/qrc_vrn_qt.cpp.o: src/qt/CMakeFiles/voreen_qt.dir/flags.make
 src/qt/CMakeFiles/voreen_qt.dir/qrc_vrn_qt.cpp.o: src/qt/qrc_vrn_qt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_414)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/emma/code/gitrepo/voreen-src-4.3-unix/CMakeFiles $(CMAKE_PROGRESS_427)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/qt/CMakeFiles/voreen_qt.dir/qrc_vrn_qt.cpp.o"
 	cd /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -include pch_qt.h -Winvalid-pch -o CMakeFiles/voreen_qt.dir/qrc_vrn_qt.cpp.o -c /home/emma/code/gitrepo/voreen-src-4.3-unix/src/qt/qrc_vrn_qt.cpp
 
@@ -7561,6 +7806,13 @@ voreen_qt_OBJECTS = \
 "CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o" \
 "CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o" \
 "CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o" \
+"CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o" \
+"CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o" \
+"CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o" \
+"CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o" \
+"CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o" \
+"CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o" \
+"CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o" \
 "CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.o" \
 "CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.o" \
 "CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o" \
@@ -7692,6 +7944,9 @@ voreen_qt_OBJECTS = \
 "CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o" \
 "CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o" \
 "CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o" \
+"CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o" \
+"CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o" \
+"CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o" \
 "CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.o" \
 "CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o" \
 "CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.o" \
@@ -7853,6 +8108,13 @@ bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/proce
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o
+bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o
+bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o
+bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o
+bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o
+bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o
+bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o
+bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.o
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.o
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o
@@ -7984,6 +8246,9 @@ bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/wid
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o
+bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o
+bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o
+bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.o
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o
 bin/libvoreen_qt.so: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.o
@@ -8025,6 +8290,7 @@ bin/libvoreen_qt.so: /usr/lib/libboost_unit_test_framework-mt.so
 bin/libvoreen_qt.so: /usr/lib/libboost_system-mt.so
 bin/libvoreen_qt.so: /usr/local/lib/libIL.so
 bin/libvoreen_qt.so: /usr/local/lib/libILU.so
+bin/libvoreen_qt.so: /usr/lib/libOpenCL.so
 bin/libvoreen_qt.so: /usr/lib/x86_64-linux-gnu/libz.so
 bin/libvoreen_qt.so: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Widgets.so.5.1.0
 bin/libvoreen_qt.so: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Core.so.5.1.0
@@ -8048,6 +8314,7 @@ bin/libvoreen_qt.so: /usr/lib/libboost_unit_test_framework-mt.so
 bin/libvoreen_qt.so: /usr/lib/libboost_system-mt.so
 bin/libvoreen_qt.so: /usr/local/lib/libIL.so
 bin/libvoreen_qt.so: /usr/local/lib/libILU.so
+bin/libvoreen_qt.so: /usr/lib/libOpenCL.so
 bin/libvoreen_qt.so: /usr/lib/x86_64-linux-gnu/libz.so
 bin/libvoreen_qt.so: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Widgets.so.5.1.0
 bin/libvoreen_qt.so: /opt/Qt5.1.0/5.1.0/gcc_64/lib/libQt5Gui.so.5.1.0
@@ -8195,6 +8462,13 @@ src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/dynamicglslmoduleqt.cpp.o.requires
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslwidget.cpp.o.requires
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/dynamicglslprocessorwidgetfactory.cpp.o.requires
+src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/openclmoduleqt.cpp.o.requires
+src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidgetfactory.cpp.o.requires
+src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclhighlighter.cpp.o.requires
+src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclpropertywidget.cpp.o.requires
+src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclplugin.cpp.o.requires
+src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/openclprocessorwidgetfactory.cpp.o.requires
+src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/dynamicopenclwidget.cpp.o.requires
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/plottingmoduleqt.cpp.o.requires
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatawidget.cpp.o.requires
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/plotdatasimpletablemodel.cpp.o.requires
@@ -8326,6 +8600,9 @@ src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp.o.requires
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp.o.requires
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp.o.requires
+src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp.o.requires
+src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_openclplugin.cpp.o.requires
+src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp.o.requires
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatawidget.cpp.o.requires
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp.o.requires
 src/qt/CMakeFiles/voreen_qt.dir/requires: src/qt/CMakeFiles/voreen_qt.dir/__/__/modules/plotting/qt/moc_extendedtable.cpp.o.requires
@@ -8457,6 +8734,9 @@ src/qt/CMakeFiles/voreen_qt.dir/depend: src/qt/__/__/include/voreen/qt/widgets/t
 src/qt/CMakeFiles/voreen_qt.dir/depend: src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfuncplugin.cpp
 src/qt/CMakeFiles/voreen_qt.dir/depend: src/qt/__/__/modules/core/qt/processor/moc_canvasrendererwidget.cpp
 src/qt/CMakeFiles/voreen_qt.dir/depend: src/qt/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp
+src/qt/CMakeFiles/voreen_qt.dir/depend: src/qt/__/__/modules/opencl/qt/moc_openclpropertywidget.cpp
+src/qt/CMakeFiles/voreen_qt.dir/depend: src/qt/__/__/modules/opencl/qt/moc_openclplugin.cpp
+src/qt/CMakeFiles/voreen_qt.dir/depend: src/qt/__/__/modules/opencl/qt/moc_dynamicopenclwidget.cpp
 src/qt/CMakeFiles/voreen_qt.dir/depend: src/qt/__/__/modules/plotting/qt/moc_plotdatawidget.cpp
 src/qt/CMakeFiles/voreen_qt.dir/depend: src/qt/__/__/modules/plotting/qt/moc_plotdatasimpletablemodel.cpp
 src/qt/CMakeFiles/voreen_qt.dir/depend: src/qt/__/__/modules/plotting/qt/moc_extendedtable.cpp

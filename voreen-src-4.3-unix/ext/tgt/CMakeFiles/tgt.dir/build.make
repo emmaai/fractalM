@@ -1050,6 +1050,7 @@ bin/libtgt.so: /usr/lib/libboost_unit_test_framework-mt.so
 bin/libtgt.so: /usr/lib/libboost_system-mt.so
 bin/libtgt.so: /usr/local/lib/libIL.so
 bin/libtgt.so: /usr/local/lib/libILU.so
+bin/libtgt.so: /usr/lib/libOpenCL.so
 bin/libtgt.so: /usr/lib/x86_64-linux-gnu/libz.so
 bin/libtgt.so: ext/tgt/CMakeFiles/tgt.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../bin/libtgt.so"

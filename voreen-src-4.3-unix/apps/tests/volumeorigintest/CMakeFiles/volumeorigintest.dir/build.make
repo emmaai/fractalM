@@ -102,6 +102,7 @@ bin/volumeorigintest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/volumeorigintest: /usr/lib/libboost_system-mt.so
 bin/volumeorigintest: /usr/local/lib/libIL.so
 bin/volumeorigintest: /usr/local/lib/libILU.so
+bin/volumeorigintest: /usr/lib/libOpenCL.so
 bin/volumeorigintest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/volumeorigintest: bin/libtgt.so
 bin/volumeorigintest: /usr/lib/x86_64-linux-gnu/libGLU.so
@@ -120,6 +121,7 @@ bin/volumeorigintest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/volumeorigintest: /usr/lib/libboost_system-mt.so
 bin/volumeorigintest: /usr/local/lib/libIL.so
 bin/volumeorigintest: /usr/local/lib/libILU.so
+bin/volumeorigintest: /usr/lib/libOpenCL.so
 bin/volumeorigintest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/volumeorigintest: apps/tests/volumeorigintest/CMakeFiles/volumeorigintest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../bin/volumeorigintest"

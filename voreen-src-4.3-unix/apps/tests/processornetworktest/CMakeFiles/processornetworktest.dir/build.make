@@ -102,6 +102,7 @@ bin/processornetworktest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/processornetworktest: /usr/lib/libboost_system-mt.so
 bin/processornetworktest: /usr/local/lib/libIL.so
 bin/processornetworktest: /usr/local/lib/libILU.so
+bin/processornetworktest: /usr/lib/libOpenCL.so
 bin/processornetworktest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/processornetworktest: bin/libtgt.so
 bin/processornetworktest: /usr/lib/x86_64-linux-gnu/libGLU.so
@@ -120,6 +121,7 @@ bin/processornetworktest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/processornetworktest: /usr/lib/libboost_system-mt.so
 bin/processornetworktest: /usr/local/lib/libIL.so
 bin/processornetworktest: /usr/local/lib/libILU.so
+bin/processornetworktest: /usr/lib/libOpenCL.so
 bin/processornetworktest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/processornetworktest: apps/tests/processornetworktest/CMakeFiles/processornetworktest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../bin/processornetworktest"

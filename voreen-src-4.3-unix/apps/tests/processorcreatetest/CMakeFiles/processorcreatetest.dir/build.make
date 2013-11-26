@@ -102,6 +102,7 @@ bin/processorcreatetest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/processorcreatetest: /usr/lib/libboost_system-mt.so
 bin/processorcreatetest: /usr/local/lib/libIL.so
 bin/processorcreatetest: /usr/local/lib/libILU.so
+bin/processorcreatetest: /usr/lib/libOpenCL.so
 bin/processorcreatetest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/processorcreatetest: bin/libtgt.so
 bin/processorcreatetest: /usr/lib/x86_64-linux-gnu/libGLU.so
@@ -120,6 +121,7 @@ bin/processorcreatetest: /usr/lib/libboost_unit_test_framework-mt.so
 bin/processorcreatetest: /usr/lib/libboost_system-mt.so
 bin/processorcreatetest: /usr/local/lib/libIL.so
 bin/processorcreatetest: /usr/local/lib/libILU.so
+bin/processorcreatetest: /usr/lib/libOpenCL.so
 bin/processorcreatetest: /usr/lib/x86_64-linux-gnu/libz.so
 bin/processorcreatetest: apps/tests/processorcreatetest/CMakeFiles/processorcreatetest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../bin/processorcreatetest"
