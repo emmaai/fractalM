@@ -1,5 +1,5 @@
 #include "viewer.h"
-Viewer::Viewer(QWidget *parent):QGLViewer(parent)
+Viewer::Viewer(QWidget *parent, QGLWidget *sharewidget):QGLViewer(parent, sharewidget)
 {
     //cube = new functionCube(parent);
     cube = NULL;
@@ -80,7 +80,7 @@ void Viewer::drawCornerAxis()
 void Viewer::postDraw()
 {
   QGLViewer::postDraw();
-  drawCornerAxis();
+  //drawCornerAxis();
 }
 
 void Viewer::init()
@@ -94,7 +94,9 @@ void Viewer::init()
 	box->initBox(1.0, 1.0, 1.0);
 	box->enablePlane();
     }
-    glDisable(GL_LIGHTING);
+ 
+    glDisable(GL_CULL_FACE);
+ //glDisable(GL_LIGHTING);
 
 }
 
@@ -118,10 +120,43 @@ void Viewer::drawWithNames()
 	Th->draw(true);
 }
 
+void Viewer::endSelection(const QPoint &point)
+{
+    glFlush();
+    // Get the number of objects that were seen through the pick matrix frustum.
+    // Resets GL_RENDER mode.
+    GLint nbHits = glRenderMode(GL_RENDER);
+    qDebug() << "select hits " << nbHits;
+    if (nbHits <= 0)
+    setSelectedName(-1);
+    else
+    {
+    // Interpret results: each object created values in the selectBuffer().
+    // See the glSelectBuffer() man page for details on the buffer structure.
+    // The following code depends on your selectBuffer() structure.
+	
+	for (int i=0; i<nbHits*4; i++)
+	{
+		qDebug() << "selet info " << selectBuffer()[i];
+	    if ((selectBuffer())[i] ==1)
+	    {
+		setSelectedName((selectBuffer())[i+3]);
+		break;
+	    }else
+		setSelectedName(-1);
+
+	}
+    }
+
+
+}
 void Viewer::postSelection(const QPoint &point)
 {
+    bool found;
     qDebug() << "selected position" << point;
     qDebug() << "selected item is" << selectedName();
+    qDebug() << "selected point is " << camera()->pointUnderPixel(point, found).x
+	<<camera()->pointUnderPixel(point, found).y <<camera()->pointUnderPixel(point, found).z;
     if(selectedName() > 20)
 	return;
     if (selectedName() < 0 )
@@ -139,19 +174,19 @@ void Viewer::postSelection(const QPoint &point)
     {
 	if(cube)
 	{
-	    setManipulatedFrame(cube->frame(selectedName()));
 	    cube->setSelectedFrameNumber(selectedName());
+	    setManipulatedFrame(cube->frame(selectedName()));
 	}
 	if(box)
 	{
-	    setManipulatedFrame(box->frame(selectedName()));
 	    box->setSelectedFrameNumber(selectedName());
+	    setManipulatedFrame(box->frame(selectedName()));
 
 	}
 	if(Th)
 	{
-	    setManipulatedFrame(Th->frame(selectedName()));	
 	    Th->setSelectedFrameNumber(selectedName());
+	    setManipulatedFrame(Th->frame(selectedName()));	
 	}
     
     }
@@ -164,4 +199,9 @@ QString Viewer::helpString() const
   text += "The axis is drawn in <code>postDraw()</code> with appropriate ortho camera parameters. ";
   text += "<code>glViewport</code> and <code>glScissor</code> are used to restrict the drawing area.";
   return text;
+}
+
+void Viewer::enterEvent(QEvent *event)
+{
+    emit closeTFWindow();
 }

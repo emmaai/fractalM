@@ -52,6 +52,8 @@ public slots:
     void showCrop();
     void cubeMapping();
     void thMapping();
+    void showTF();
+    void closeTFWindow();
 
 signals:
     void invokeConnect(hostAddress *);
@@ -87,7 +89,7 @@ private:
     bool displayHR;
     QProgressDialog  *progress;
     Volume *volumeHandle;
-    TransFuncPropertyWidget *tfWidget;
+    TransFuncPropertyWidget *tfWidget, *tfWidgetO;
 
 };
 

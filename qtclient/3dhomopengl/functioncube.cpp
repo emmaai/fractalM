@@ -8,10 +8,7 @@ functionCube::functionCube(QObject *parent):QObject(parent)
     for(i=0;i<19;i++)
     {
 	frame_[i] = new ManipulatedFrame(); 
-	/*
-	if(i>0)
-	    frame(i)->setReferenceFrame(frame(i-1));
-	    */
+	frame(i)->setReferenceFrame(NULL);
     }
  
 /*
@@ -95,7 +92,7 @@ functionCube::functionCube(QObject *parent):QObject(parent)
     {
 	edgeNode[i] = new functionNode(this, ve[i]); 
 	points[i+8] = QVector3D(ve[i].x()+0.5, ve[i].y()+0.5, ve[i].z()+0.5);
-	frame(i)->setTranslation(Vec(ve[i].x(), ve[i].y(), ve[i].z()));
+	frame(i)->setTranslation(ve[i].x(), ve[i].y(), ve[i].z());
 	if(i==3 || i ==1 || i == 4 || i==6)
 	{
 	    frame(i)->setConstraint(edgeConstraintX);
@@ -125,7 +122,7 @@ functionCube::functionCube(QObject *parent):QObject(parent)
     {
 	faceNode[i] = new functionNode(this, vf[i]); 
 	points[i+20] = QVector3D(vf[i].x()+0.5, vf[i].y()+0.5, vf[i].z()+0.5);
-	frame(12+i)->setTranslation(Vec(vf[i].x(), vf[i].y(), vf[i].z()));
+	frame(12+i)->setTranslation(vf[i].x(), vf[i].y(), vf[i].z());
 	if(i==3|| i==5)
 	{
 	    frame(12+i)->setConstraint(faceConstraintX);
@@ -142,7 +139,7 @@ functionCube::functionCube(QObject *parent):QObject(parent)
 
     middleNode = new functionNode(this, QVector3D(0, 0, 0));    
     points[26] = QVector3D(0.5, 0.5, 0.5);
-    frame(18)->setTranslation(Vec(0, 0, 0));
+    frame(18)->setTranslation(0, 0, 0);
 
     faceEdge[0] = new functionEdge(this, faceNode[0], edgeNode[0]);
     faceEdge[1] = new functionEdge(this, faceNode[0], edgeNode[1]);
@@ -499,6 +496,7 @@ void functionCube::draw(bool names)
 	edgeNode[i]->draw(0, 0, 0, 0);
 	if(names)
 	    glPopName();
+	frame(i)->setTranslation(px, py, pz);
     }
 
     for(i=0; i<6; i++)
@@ -533,6 +531,7 @@ void functionCube::draw(bool names)
 	faceNode[i]->draw(0, 0, 0, 0);
 	if(names)
 	    glPopName();
+	frame(12+i)->setTranslation(px, py, pz);
     }
 
     setColor(20);
@@ -570,6 +569,7 @@ void functionCube::draw(bool names)
     middleNode->draw(0, 0, 0, 0);
     if(names)
 	glPopName();
+    frame(18)->setTranslation(px, py, pz);
 
     setColor(20);
     for(i=0; i<6; i++)
@@ -1312,7 +1312,7 @@ void functionTH::draw(bool names)
 	edgeNode[i]->mat.setToIdentity();
 	edgeNode[i]->mat.translate(QVector3D(px, py, pz));
 	edgeNode[i]->draw(0, 0, 0, 0);
-	frame(i)->setTranslation(Vec(px, py, pz));
+	frame(i)->setTranslation(px, py, pz);
 	if(names)
 	    glPopName();
     }
@@ -1353,7 +1353,7 @@ void functionTH::draw(bool names)
     middleNode->mat.setToIdentity();
     middleNode->mat.translate(QVector3D(px, py, pz));
     middleNode->draw(0, 0, 0, 0);
-    frame(6)->setTranslation(Vec(px, py, pz));
+    frame(6)->setTranslation(px, py, pz);
     if(names)
 	glPopName();
 
@@ -1717,11 +1717,11 @@ functionNode::~functionNode()
 
 void functionNode::buildNode(QVector3D position)
 {
-    int rings=101, sectors=101;
-    float radius=0.02;
-    float subRing = 1.0/(float)(rings-1);
-    float subSector = 1.0/(float)(sectors-1);
-    float x=0.0, y=0.0, z=0.0;
+    int rings=10, sectors=10;
+    double radius=0.06;
+    double subRing = 1.0/(double)(rings-1);
+    double subSector = 1.0/(double)(sectors-1);
+    double x=0.0, y=0.0, z=0.0;
     for(int r=0; r<rings; r++)
     {
 	for(int s=0; s<sectors; s++) 
@@ -1739,7 +1739,7 @@ void functionNode::buildNode(QVector3D position)
 	}
     
     }
-
+    
     mat.translate(position);
 }
 
@@ -1769,20 +1769,30 @@ void functionNode::draw(GLdouble dx, GLdouble dy, GLdouble dz, GLdouble angle)
     coord.setZ(dz);
     QVector3D z(0.0,0.0,1.0);
     mat.rotate(angle, z);
+    
+/*
     glVertexPointer(3, GL_FLOAT, 0, vertices.constData());
     glNormalPointer(GL_FLOAT, 0, normals.constData());
     //glTexCoordPointer(2, GL_FLOAT, 0, texcoords.constData());
     glEnableClientState(GL_VERTEX_ARRAY);
     glEnableClientState(GL_NORMAL_ARRAY);
     //glEnableClientState(GL_TEXTURE_COORD_ARRAY);
+    */
     glPushMatrix();
     glMultMatrixf(mat.constData());
+    static GLUquadric* quad =gluNewQuadric();
+    gluSphere(quad, 0.03, 10, 6);
+
+    /*
     glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, faceColor);
     const GLushort *glIndices = indices.constData();
     glDrawElements(GL_QUADS, indices.count(), GL_UNSIGNED_SHORT, glIndices);
+    */
     glPopMatrix();
+    /*
     glDisableClientState(GL_VERTEX_ARRAY);
     glDisableClientState(GL_NORMAL_ARRAY);
+    */
     //glDisableClientState(GL_TEXTURE_COORD_ARRAY);
    
 }

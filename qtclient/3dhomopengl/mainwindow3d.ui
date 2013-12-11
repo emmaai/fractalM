@@ -117,6 +117,7 @@
    <addaction name="actionNetwork"/>
    <addaction name="separator"/>
    <addaction name="actionHR"/>
+   <addaction name="actionTF"/>
    <addaction name="actionCrop"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
@@ -180,6 +181,11 @@
   <action name="actionTH">
    <property name="text">
     <string>Tetrahedron</string>
+   </property>
+  </action>
+  <action name="actionTF">
+   <property name="text">
+    <string>&amp;Transform Function</string>
    </property>
   </action>
  </widget>

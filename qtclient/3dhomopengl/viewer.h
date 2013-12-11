@@ -8,11 +8,13 @@ class Viewer : public QGLViewer
 {
     Q_OBJECT
 public:
-    Viewer(QWidget *parent=0);
+    Viewer(QWidget *parent=0, QGLWidget *shareWidget=0);
     ~Viewer();
     void setCube(functionCube *aCube){if(cube) delete cube; cube = aCube;};
     void setTh(functionTH *aTh){if(Th) delete Th; Th = aTh;};
     void setBox(clipBox *aBox){if(box) delete box; box = aBox;};
+signals:
+    void closeTFWindow();
 protected :
     virtual void draw();
     virtual void drawWithNames();
@@ -20,6 +22,8 @@ protected :
     virtual void postDraw();
     virtual void init();
     virtual QString helpString() const;
+    virtual void endSelection(const QPoint& point);
+    virtual void enterEvent(QEvent *event);
 
 private :
   void drawCornerAxis();

@@ -72,6 +72,8 @@ MainWindow3D::MainWindow3D(QWidget *parent) :
     connect(ui->pSlider, SIGNAL(valueChanged(int)), ui->widgetImgL, SLOT(setPParam(int)));
     */
 
+    connect(ui->viewerFuncO, SIGNAL(closeTFWindow()), this, SLOT(closeTFWindow()));
+    connect(ui->viewerFunc, SIGNAL(closeTFWindow()), this, SLOT(closeTFWindow()));
     connect(rwSocket, SIGNAL(rwSockError(QString *)), this, SLOT(displayError(QString *)));
     connect(this, SIGNAL(invokeConnect(hostAddress *)), rwSocket, SLOT(connectToHost(hostAddress *)));
     connect(this, SIGNAL(invokeDisconnect()), rwSocket, SLOT(disconnectFromHost()));
@@ -114,10 +116,10 @@ void MainWindow3D::setVoreenApp(VoreenApplicationQt *app)
     vapp = app;
     vapp->initializeGL();
 
-    widgetTranO = new tgt::QtCanvas( "Init Canvas", tgt::ivec2(128, 128), tgt::GLCanvas::RGBADD, ui->splitter, true);
+    widgetTranO = new tgt::QtCanvas( "Init Canvas", tgt::ivec2(128, 128), tgt::GLCanvas::RGBADD, ui->splitter_2, true);
     widgetTranO->setMinimumSize(320, 320);
     ui->splitter_2->addWidget(widgetTranO);
-    widgetTran = new tgt::QtCanvas( "Init Canvas", tgt::ivec2(128, 128), tgt::GLCanvas::RGBADD, ui->splitter, true);
+    widgetTran = new tgt::QtCanvas( "Init Canvas", tgt::ivec2(128, 128), tgt::GLCanvas::RGBADD, ui->splitter_2, true);
     widgetTran->setMinimumSize(320, 320);
     ui->splitter_2->addWidget(widgetTran);
     widgetCrop = new tgt::QtCanvas( "Volume Cropping", tgt::ivec2(320, 320), tgt::GLCanvas::RGBADD, 0, true);
@@ -143,24 +145,30 @@ void MainWindow3D::setVoreenApp(VoreenApplicationQt *app)
  
     
     // init painter and connect it to canvas, evaluator and canvas renderer
-    painter = new VoreenPainter(widgetTran, networkEvaluator, canvasRenderer[0]);
-    widgetTran->setPainter(painter);
-    canvasRenderer[0]->setCanvas(widgetTran);
-
     painterO = new VoreenPainter(widgetTranO, networkEvaluator, canvasRenderer[2]);
     widgetTranO->setPainter(painterO);
     canvasRenderer[2]->setCanvas(widgetTranO);
 
+    painter = new VoreenPainter(widgetTran, networkEvaluator, canvasRenderer[0]);
+    widgetTran->setPainter(painter);
+    canvasRenderer[0]->setCanvas(widgetTran);
+
+    
     painterC = new VoreenPainter(widgetCrop, networkEvaluator, canvasRenderer[1]);
     widgetCrop->setPainter(painterC);
     canvasRenderer[1]->setCanvas(widgetCrop);
 
     
-    SingleVolumeRaycaster *svRaycaster= (SingleVolumeRaycaster *)network->getProcessorByName("SingleVolumeRaycaster 2");
+    SingleVolumeRaycaster *svRaycaster= (SingleVolumeRaycaster *)network->getProcessorByName("SingleVolumeRaycaster");
     TransFuncProperty *transFunc = (TransFuncProperty *)svRaycaster->getProperty("transferFunction"); 
-    tfWidget = new TransFuncPropertyWidget(transFunc, this);
-    ui->splitter_4->addWidget(tfWidget);
-
+    tfWidget = new TransFuncPropertyWidget(transFunc, 0);
+    //ui->splitter_4->addWidget(tfWidget);
+    /*
+    SingleVolumeRaycaster *svRaycasterO= (SingleVolumeRaycaster *)network->getProcessorByName("SingleVolumeRaycaster 2");
+    TransFuncProperty *transFuncO = (TransFuncProperty *)svRaycasterO->getProperty("transferFunction"); 
+    tfWidgetO = new TransFuncPropertyWidget(transFuncO, 0);
+    ui->splitter_4->addWidget(tfWidgetO);
+    */
    
     // pass the network to the network evaluator, which also initializes the processors
     networkEvaluator->setProcessorNetwork(network);
@@ -226,17 +234,16 @@ void MainWindow3D::loadVolume(char* buffer)
     if(!ui->actionHR->isEnabled())
 	ui->actionHR->setEnabled(true);
 
+    imageBuffer = new unsigned char[widthHR*lengthHR*depthHR];
     if(displayHR)
     {
 
-	imageBuffer = new unsigned char[widthHR*lengthHR*depthHR];
 	progress->setValue(66);
 	progress->setLabelText("Recieving data...");
 	memcpy(imageBuffer, (unsigned char *)buffer, widthHR*lengthHR*depthHR);
     }
     else
     {
-	imageBuffer = new unsigned char[widthLR*lengthLR*depthLR];
 	memcpy(imageBuffer, (unsigned char *)buffer, widthLR*lengthLR*depthLR);
     }
 
@@ -259,18 +266,30 @@ void MainWindow3D::loadVolume(char* buffer)
 	else
 	    dataset = new VolumeRAM_UInt8(imageBuffer, tgt::ivec3(widthLR, lengthLR, depthLR));	
 
-	qDebug() << "new dataset";
+	qDebug() << "new dataset" << dataset;
 	volume = (VolumeSource *)network->getProcessorByName("VolumeSource");
 	qDebug() << "volume  is " << volume;
-	volume->clearVolume();
 	volumeHandle = new Volume(dataset, tgt::vec3(1, 1, 1), tgt::vec3(0.0f));
 	qDebug() << "volume handle is " << volumeHandle;
 	volume->setVolume(volumeHandle, true);
+	/*
+	volume->clearVolume();
+	volume->setVolume(volumeHandle, true);
+	*/
+	qDebug() << "set volume";
 	if(displayHR)
 	{
 	    displayHR = false;
 	    progress->setValue(99);
 	}
+	/*
+	if(volumeHandle!=volumeHandleNew)
+	{
+	    if(volumeHandle)	
+		delete volumeHandle;
+	    volumeHandle = volumeHandleNew;
+	}
+	*/
     }
 
 }
@@ -285,6 +304,7 @@ void MainWindow3D::creatActions()
     connect(ui->actionCrop, SIGNAL(triggered()), this, SLOT(showCrop()));
     connect(ui->actionCube, SIGNAL(triggered()), this, SLOT(cubeMapping()));
     connect(ui->actionTH, SIGNAL(triggered()), this, SLOT(thMapping()));
+    connect(ui->actionTF, SIGNAL(triggered()), this, SLOT(showTF()));
 }
 
 void MainWindow3D::open()
@@ -384,4 +404,16 @@ void MainWindow3D::cubeMapping()
 void MainWindow3D::thMapping()
 {
     ui->stackedWidget->setCurrentWidget(ui->pageTH);
+}
+
+void MainWindow3D::showTF()
+{
+    tfWidget->show();
+    tfWidget->activateWindow();
+}
+
+void MainWindow3D::closeTFWindow()
+{
+    tfWidget->closeEditorWindow();
+
 }
