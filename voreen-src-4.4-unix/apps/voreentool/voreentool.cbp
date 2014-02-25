@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="voreentool" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\modules\;CMake Files\modules\advancedlighting\;CMake Files\modules\base\;CMake Files\modules\connexe\;CMake Files\modules\core\;CMake Files\modules\devil\;CMake Files\modules\dynamicglsl\;CMake Files\modules\flowreen\;CMake Files\modules\fontrendering\;CMake Files\modules\opencl\;CMake Files\modules\openmp\;CMake Files\modules\plotting\;CMake Files\modules\pvm\;CMake Files\modules\randomwalker\;CMake Files\modules\sample\;CMake Files\modules\segy\;CMake Files\modules\staging\;CMake Files\modules\stereoscopy\;CMake Files\modules\volumelabeling\;CMake Files\modules\zip\;CMake Files\ext\;CMake Files\ext\tgt\;CMake Files\src\;CMake Files\src\core\;CMake Files\src\qt\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\Qt5.2.1\;CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\;CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\;CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\;CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\;CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Svg\;CMake Files\apps\;CMake Files\apps\voreenve\;CMake Files\apps\voreenve\resource\;CMake Files\apps\voreentool\;CMake Files\apps\simple\;CMake Files\apps\simple\simple-qt\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="voreentool">
+         <Option output="/home/emma/Downloads/voreen-src-4.4-unix/bin/voreentool" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/emma/Downloads/voreen-src-4.4-unix/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DVRN_SHARED_LIBS" />
+            <Add option="-DUNIX" />
+            <Add option="-D__STDC_CONSTANT_MACROS" />
+            <Add option="-DTIXML_USE_STL" />
+            <Add option="-DTGT_WITHOUT_DEFINES" />
+            <Add option="-DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS" />
+            <Add option="-DVRN_MODULE_ADVANCEDLIGHTING" />
+            <Add option="-DVRN_MODULE_BASE" />
+            <Add option="-DVRN_MODULE_CONNEXE" />
+            <Add option="-DVRN_MODULE_CORE" />
+            <Add option="-DVRN_MODULE_DEVIL" />
+            <Add option="-DTGT_HAS_DEVIL" />
+            <Add option="-DVRN_MODULE_DYNAMICGLSL" />
+            <Add option="-DVRN_MODULE_FLOWREEN" />
+            <Add option="-DVRN_MODULE_FONTRENDERING" />
+            <Add option="-DTGT_HAS_FREETYPE" />
+            <Add option="-DTGT_HAS_FTGL" />
+            <Add option="-DVRN_MODULE_OPENCL" />
+            <Add option="-DCL_USE_DEPRECATED_OPENCL_1_1_APIS" />
+            <Add option="-DVRN_MODULE_OPENMP" />
+            <Add option="-DVRN_MODULE_PLOTTING" />
+            <Add option="-DVRN_MODULE_PVM" />
+            <Add option="-DVRN_MODULE_RANDOMWALKER" />
+            <Add option="-DVRN_MODULE_SAMPLE" />
+            <Add option="-DVRN_MODULE_SEGY" />
+            <Add option="-DVRN_MODULE_STAGING" />
+            <Add option="-DVRN_MODULE_STEREOSCOPY" />
+            <Add option="-DVRN_MODULE_VOLUMELABELING" />
+            <Add option="-DVRN_MODULE_ZIP" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/ext" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/ext/eigen" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/include" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/modules/connexe/ext/connexe" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/modules/plotting/ext/triangle" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/modules/volumelabeling/ext/jama/include" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/include" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/local/include/IL/.." />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 voreentool" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="voreentool/fast">
+         <Option output="/home/emma/Downloads/voreen-src-4.4-unix/bin/voreentool" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/emma/Downloads/voreen-src-4.4-unix/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DVRN_SHARED_LIBS" />
+            <Add option="-DUNIX" />
+            <Add option="-D__STDC_CONSTANT_MACROS" />
+            <Add option="-DTIXML_USE_STL" />
+            <Add option="-DTGT_WITHOUT_DEFINES" />
+            <Add option="-DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS" />
+            <Add option="-DVRN_MODULE_ADVANCEDLIGHTING" />
+            <Add option="-DVRN_MODULE_BASE" />
+            <Add option="-DVRN_MODULE_CONNEXE" />
+            <Add option="-DVRN_MODULE_CORE" />
+            <Add option="-DVRN_MODULE_DEVIL" />
+            <Add option="-DTGT_HAS_DEVIL" />
+            <Add option="-DVRN_MODULE_DYNAMICGLSL" />
+            <Add option="-DVRN_MODULE_FLOWREEN" />
+            <Add option="-DVRN_MODULE_FONTRENDERING" />
+            <Add option="-DTGT_HAS_FREETYPE" />
+            <Add option="-DTGT_HAS_FTGL" />
+            <Add option="-DVRN_MODULE_OPENCL" />
+            <Add option="-DCL_USE_DEPRECATED_OPENCL_1_1_APIS" />
+            <Add option="-DVRN_MODULE_OPENMP" />
+            <Add option="-DVRN_MODULE_PLOTTING" />
+            <Add option="-DVRN_MODULE_PVM" />
+            <Add option="-DVRN_MODULE_RANDOMWALKER" />
+            <Add option="-DVRN_MODULE_SAMPLE" />
+            <Add option="-DVRN_MODULE_SEGY" />
+            <Add option="-DVRN_MODULE_STAGING" />
+            <Add option="-DVRN_MODULE_STEREOSCOPY" />
+            <Add option="-DVRN_MODULE_VOLUMELABELING" />
+            <Add option="-DVRN_MODULE_ZIP" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/ext" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/ext/eigen" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/include" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/modules/connexe/ext/connexe" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/modules/plotting/ext/triangle" />
+            <Add directory="/home/emma/Downloads/voreen-src-4.4-unix/modules/volumelabeling/ext/jama/include" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/include" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets" />
+            <Add directory="/opt/Qt5.2.1/5.2.1/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/local/include/IL/.." />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 voreentool/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/voreentool.cpp">
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/config-default.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/macros.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/FindGlewVRN.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/FindBoostVRN.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/FindFTGLVRN.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/GetGitRevisionDescription.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/GetGitRevisionDescription.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/cmake/commonconf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/modulelist.cmake">
+          <Option virtualFolder="CMake Files\modules\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/advancedlighting/advancedlighting.cmake">
+          <Option virtualFolder="CMake Files\modules\advancedlighting\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/base/base.cmake">
+          <Option virtualFolder="CMake Files\modules\base\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/connexe/connexe.cmake">
+          <Option virtualFolder="CMake Files\modules\connexe\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/core/core.cmake">
+          <Option virtualFolder="CMake Files\modules\core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/devil/devil.cmake">
+          <Option virtualFolder="CMake Files\modules\devil\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/dynamicglsl/dynamicglsl.cmake">
+          <Option virtualFolder="CMake Files\modules\dynamicglsl\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/flowreen/flowreen.cmake">
+          <Option virtualFolder="CMake Files\modules\flowreen\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/fontrendering/fontrendering.cmake">
+          <Option virtualFolder="CMake Files\modules\fontrendering\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/opencl/opencl.cmake">
+          <Option virtualFolder="CMake Files\modules\opencl\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/openmp/openmp.cmake">
+          <Option virtualFolder="CMake Files\modules\openmp\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/plotting/plotting.cmake">
+          <Option virtualFolder="CMake Files\modules\plotting\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/pvm/pvm.cmake">
+          <Option virtualFolder="CMake Files\modules\pvm\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/randomwalker/randomwalker.cmake">
+          <Option virtualFolder="CMake Files\modules\randomwalker\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/sample/sample.cmake">
+          <Option virtualFolder="CMake Files\modules\sample\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/segy/segy.cmake">
+          <Option virtualFolder="CMake Files\modules\segy\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/staging/staging.cmake">
+          <Option virtualFolder="CMake Files\modules\staging\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/stereoscopy/stereoscopy.cmake">
+          <Option virtualFolder="CMake Files\modules\stereoscopy\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/volumelabeling/volumelabeling.cmake">
+          <Option virtualFolder="CMake Files\modules\volumelabeling\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/modules/zip/zip.cmake">
+          <Option virtualFolder="CMake Files\modules\zip\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/ext/tgt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\ext\tgt\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/ext/tgt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\ext\tgt\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/src/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/src/core/revision_template.inc">
+          <Option virtualFolder="CMake Files\src\core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/src/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/src/core/revision_template.inc">
+          <Option virtualFolder="CMake Files\src\core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/src/qt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\qt\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/src/qt/vrn_qt.qrc">
+          <Option virtualFolder="CMake Files\src\qt\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/src/qt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\qt\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/src/qt/vrn_qt.qrc">
+          <Option virtualFolder="CMake Files\src\qt\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Svg/Qt5SvgConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Svg\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Svg/Qt5SvgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Svg\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Svg/Qt5SvgConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Svg\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/../../../../opt/Qt5.2.1/5.2.1/gcc_64/lib/cmake/Qt5Svg/Qt5SvgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\Qt5.2.1\5.2.1\gcc_64\lib\cmake\Qt5Svg\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/apps/voreenve/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\apps\voreenve\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/apps/voreenve/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\apps\voreenve\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/apps/voreenve/resource/voreenve.qrc">
+          <Option virtualFolder="CMake Files\apps\voreenve\resource\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/apps/voreenve/resource/voreenve.qrc">
+          <Option virtualFolder="CMake Files\apps\voreenve\resource\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\apps\voreentool\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/apps/voreentool/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\apps\voreentool\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/apps/simple/simple-qt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\apps\simple\simple-qt\" />
+      </Unit>
+      <Unit filename="/home/emma/Downloads/voreen-src-4.4-unix/apps/simple/simple-qt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\apps\simple\simple-qt\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
