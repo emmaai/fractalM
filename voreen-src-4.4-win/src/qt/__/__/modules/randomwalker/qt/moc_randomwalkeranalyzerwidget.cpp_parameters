@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/sharefolder/voreen-src-4.4-win/src/qt/__/__/modules/randomwalker/qt/moc_randomwalkeranalyzerwidget.cpp
+C:/sharefolder/voreen-src-4.4-win/modules/randomwalker/qt/randomwalkeranalyzerwidget.h

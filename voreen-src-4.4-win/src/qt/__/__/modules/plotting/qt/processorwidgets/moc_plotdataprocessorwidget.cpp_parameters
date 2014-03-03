@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/sharefolder/voreen-src-4.4-win/src/qt/__/__/modules/plotting/qt/processorwidgets/moc_plotdataprocessorwidget.cpp
+C:/sharefolder/voreen-src-4.4-win/modules/plotting/qt/processorwidgets/plotdataprocessorwidget.h

@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/sharefolder/voreen-src-4.4-win/src/qt/__/__/modules/plotting/qt/propertywidgets/moc_plotdatapropertywidget.cpp
+C:/sharefolder/voreen-src-4.4-win/modules/plotting/qt/propertywidgets/plotdatapropertywidget.h

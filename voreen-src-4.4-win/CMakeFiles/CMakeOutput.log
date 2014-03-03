@@ -1,0 +1,296 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Qt/QtSDK-x86_64/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Qt/voreen-src-4.4-win/CMakeFiles/2.8.12.1/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Qt/QtSDK-x86_64/bin/g++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Qt/voreen-src-4.4-win/CMakeFiles/2.8.12.1/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe "cmTryCompileExec3447513465/fast"
+C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec3447513465.dir\build.make CMakeFiles/cmTryCompileExec3447513465.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Qt\voreen-src-4.4-win\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3447513465.dir/testCCompiler.c.obj
+C:\Qt\QtSDK-x86_64\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec3447513465.dir\testCCompiler.c.obj   -c C:\Qt\voreen-src-4.4-win\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTryCompileExec3447513465.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec3447513465.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec3447513465.dir/objects.a
+C:\Qt\QtSDK-x86_64\bin\ar.exe cr CMakeFiles\cmTryCompileExec3447513465.dir/objects.a @CMakeFiles\cmTryCompileExec3447513465.dir\objects1.rsp
+C:\Qt\QtSDK-x86_64\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTryCompileExec3447513465.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec3447513465.exe -Wl,--out-implib,libcmTryCompileExec3447513465.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory 'C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe "cmTryCompileExec747803194/fast"
+C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec747803194.dir\build.make CMakeFiles/cmTryCompileExec747803194.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Qt\voreen-src-4.4-win\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec747803194.dir/CMakeCCompilerABI.c.obj
+C:\Qt\QtSDK-x86_64\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec747803194.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec747803194.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec747803194.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec747803194.dir/objects.a
+C:\Qt\QtSDK-x86_64\bin\ar.exe cr CMakeFiles\cmTryCompileExec747803194.dir/objects.a @CMakeFiles\cmTryCompileExec747803194.dir\objects1.rsp
+C:\Qt\QtSDK-x86_64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec747803194.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec747803194.exe -Wl,--out-implib,libcmTryCompileExec747803194.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=C:\Qt\QtSDK-x86_64\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-4.8.2/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --with-gxx-include-dir=/mingw64/include/c++/4.8.2 --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-cloog-backend=isl --enable-version-specific-runtime-libs --disable-cloog-version-check --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-cloog=/mingw64 --with-pkgversion='Rev6, Built by MSYS2 project' --with-bugurl=http://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld
+Thread model: posix
+gcc version 4.8.2 (Rev6, Built by MSYS2 project) 
+COMPILER_PATH=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec747803194.exe' '-mtune=generic' '-march=x86-64'
+ C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/collect2.exe -m i386pep -Bdynamic -o cmTryCompileExec747803194.exe C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2 -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../.. --whole-archive CMakeFiles\cmTryCompileExec747803194.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec747803194.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe "cmTryCompileExec747803194/fast"]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec747803194.dir\build.make CMakeFiles/cmTryCompileExec747803194.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp']
+  ignore line: ["C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Qt\voreen-src-4.4-win\CMakeFiles\CMakeTmp\CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec747803194.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Qt\QtSDK-x86_64\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec747803194.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec747803194.exe]
+  ignore line: ["C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec747803194.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec747803194.dir/objects.a]
+  ignore line: [C:\Qt\QtSDK-x86_64\bin\ar.exe cr CMakeFiles\cmTryCompileExec747803194.dir/objects.a @CMakeFiles\cmTryCompileExec747803194.dir\objects1.rsp]
+  ignore line: [C:\Qt\QtSDK-x86_64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec747803194.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec747803194.exe -Wl,--out-implib,libcmTryCompileExec747803194.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Qt\QtSDK-x86_64\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-4.8.2/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --with-gxx-include-dir=/mingw64/include/c++/4.8.2 --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-cloog-backend=isl --enable-version-specific-runtime-libs --disable-cloog-version-check --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-cloog=/mingw64 --with-pkgversion='Rev6, Built by MSYS2 project' --with-bugurl=http://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Rev6, Built by MSYS2 project) ]
+  ignore line: [COMPILER_PATH=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec747803194.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/collect2.exe -m i386pep -Bdynamic -o cmTryCompileExec747803194.exe C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2 -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../.. --whole-archive CMakeFiles\cmTryCompileExec747803194.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec747803194.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+    arg [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/collect2.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec747803194.exe] ==> ignore
+    arg [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o] ==> ignore
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2]
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc]
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib]
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../..] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTryCompileExec747803194.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec747803194.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2] ==> [C:/Qt/QtSDK-x86_64/lib/gcc/x86_64-w64-mingw32/4.8.2]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc] ==> [C:/Qt/QtSDK-x86_64/lib/gcc]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Qt/QtSDK-x86_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib] ==> [C:/Qt/QtSDK-x86_64/lib]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib] ==> [C:/Qt/QtSDK-x86_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../..] ==> [C:/Qt/QtSDK-x86_64/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;pthread;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [C:/Qt/QtSDK-x86_64/lib/gcc/x86_64-w64-mingw32/4.8.2;C:/Qt/QtSDK-x86_64/lib/gcc;C:/Qt/QtSDK-x86_64/x86_64-w64-mingw32/lib;C:/Qt/QtSDK-x86_64/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe "cmTryCompileExec472498911/fast"
+C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec472498911.dir\build.make CMakeFiles/cmTryCompileExec472498911.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Qt\voreen-src-4.4-win\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec472498911.dir/testCXXCompiler.cxx.obj
+C:\Qt\QtSDK-x86_64\bin\g++.exe     -o CMakeFiles\cmTryCompileExec472498911.dir\testCXXCompiler.cxx.obj -c C:\Qt\voreen-src-4.4-win\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec472498911.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec472498911.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec472498911.dir/objects.a
+C:\Qt\QtSDK-x86_64\bin\ar.exe cr CMakeFiles\cmTryCompileExec472498911.dir/objects.a @CMakeFiles\cmTryCompileExec472498911.dir\objects1.rsp
+C:\Qt\QtSDK-x86_64\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTryCompileExec472498911.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec472498911.exe -Wl,--out-implib,libcmTryCompileExec472498911.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory 'C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe "cmTryCompileExec1030362839/fast"
+C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1030362839.dir\build.make CMakeFiles/cmTryCompileExec1030362839.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Qt\voreen-src-4.4-win\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1030362839.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Qt\QtSDK-x86_64\bin\g++.exe     -o CMakeFiles\cmTryCompileExec1030362839.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec1030362839.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1030362839.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1030362839.dir/objects.a
+C:\Qt\QtSDK-x86_64\bin\ar.exe cr CMakeFiles\cmTryCompileExec1030362839.dir/objects.a @CMakeFiles\cmTryCompileExec1030362839.dir\objects1.rsp
+C:\Qt\QtSDK-x86_64\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec1030362839.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1030362839.exe -Wl,--out-implib,libcmTryCompileExec1030362839.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=C:\Qt\QtSDK-x86_64\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-4.8.2/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --with-gxx-include-dir=/mingw64/include/c++/4.8.2 --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-cloog-backend=isl --enable-version-specific-runtime-libs --disable-cloog-version-check --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-cloog=/mingw64 --with-pkgversion='Rev6, Built by MSYS2 project' --with-bugurl=http://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld
+Thread model: posix
+gcc version 4.8.2 (Rev6, Built by MSYS2 project) 
+COMPILER_PATH=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/;C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1030362839.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/collect2.exe -m i386pep -Bdynamic -o cmTryCompileExec1030362839.exe C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2 -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../.. --whole-archive CMakeFiles\cmTryCompileExec1030362839.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec1030362839.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe "cmTryCompileExec1030362839/fast"]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1030362839.dir\build.make CMakeFiles/cmTryCompileExec1030362839.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Qt/voreen-src-4.4-win/CMakeFiles/CMakeTmp']
+  ignore line: ["C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report C:\Qt\voreen-src-4.4-win\CMakeFiles\CMakeTmp\CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1030362839.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Qt\QtSDK-x86_64\bin\g++.exe     -o CMakeFiles\cmTryCompileExec1030362839.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec1030362839.exe]
+  ignore line: ["C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1030362839.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1030362839.dir/objects.a]
+  ignore line: [C:\Qt\QtSDK-x86_64\bin\ar.exe cr CMakeFiles\cmTryCompileExec1030362839.dir/objects.a @CMakeFiles\cmTryCompileExec1030362839.dir\objects1.rsp]
+  ignore line: [C:\Qt\QtSDK-x86_64\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec1030362839.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1030362839.exe -Wl,--out-implib,libcmTryCompileExec1030362839.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Qt\QtSDK-x86_64\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-4.8.2/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --with-gxx-include-dir=/mingw64/include/c++/4.8.2 --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-cloog-backend=isl --enable-version-specific-runtime-libs --disable-cloog-version-check --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-cloog=/mingw64 --with-pkgversion='Rev6, Built by MSYS2 project' --with-bugurl=http://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Rev6, Built by MSYS2 project) ]
+  ignore line: [COMPILER_PATH=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1030362839.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/collect2.exe -m i386pep -Bdynamic -o cmTryCompileExec1030362839.exe C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2 -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib -LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../.. --whole-archive CMakeFiles\cmTryCompileExec1030362839.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec1030362839.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+    arg [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/collect2.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1030362839.exe] ==> ignore
+    arg [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o] ==> ignore
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2]
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc]
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib]
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../..] ==> dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTryCompileExec1030362839.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec1030362839.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2] ==> [C:/Qt/QtSDK-x86_64/lib/gcc/x86_64-w64-mingw32/4.8.2]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc] ==> [C:/Qt/QtSDK-x86_64/lib/gcc]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Qt/QtSDK-x86_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../lib] ==> [C:/Qt/QtSDK-x86_64/lib]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../../../x86_64-w64-mingw32/lib] ==> [C:/Qt/QtSDK-x86_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Qt/QtSDK-x86_64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.2/../../..] ==> [C:/Qt/QtSDK-x86_64/lib]
+  implicit libs: [stdc++;mingw32;moldname;mingwex;msvcrt;pthread;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [C:/Qt/QtSDK-x86_64/lib/gcc/x86_64-w64-mingw32/4.8.2;C:/Qt/QtSDK-x86_64/lib/gcc;C:/Qt/QtSDK-x86_64/x86_64-w64-mingw32/lib;C:/Qt/QtSDK-x86_64/lib]
+  implicit fwks: []
+
+

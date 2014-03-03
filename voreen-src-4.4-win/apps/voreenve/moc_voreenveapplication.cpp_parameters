@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/sharefolder/voreen-src-4.4-win/apps/voreenve/moc_voreenveapplication.cpp
+C:/sharefolder/voreen-src-4.4-win/apps/voreenve/voreenveapplication.h

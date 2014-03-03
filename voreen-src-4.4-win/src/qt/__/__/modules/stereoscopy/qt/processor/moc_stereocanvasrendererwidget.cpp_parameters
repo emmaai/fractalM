@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/sharefolder/voreen-src-4.4-win/src/qt/__/__/modules/stereoscopy/qt/processor/moc_stereocanvasrendererwidget.cpp
+C:/sharefolder/voreen-src-4.4-win/modules/stereoscopy/qt/processor/stereocanvasrendererwidget.h

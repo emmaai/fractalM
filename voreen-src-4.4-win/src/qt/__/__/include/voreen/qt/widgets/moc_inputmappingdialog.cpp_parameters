@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/sharefolder/voreen-src-4.4-win/src/qt/__/__/include/voreen/qt/widgets/moc_inputmappingdialog.cpp
+C:/sharefolder/voreen-src-4.4-win/include/voreen/qt/widgets/inputmappingdialog.h

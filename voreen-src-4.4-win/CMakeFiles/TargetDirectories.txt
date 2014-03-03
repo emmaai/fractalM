@@ -1,0 +1,8 @@
+C:/sharefolder/voreen-src-4.4-win/ext/tgt/CMakeFiles/tgt.dir
+C:/sharefolder/voreen-src-4.4-win/src/core/CMakeFiles/voreen_core.dir
+C:/sharefolder/voreen-src-4.4-win/src/core/CMakeFiles/voreen_core_gch.dir
+C:/sharefolder/voreen-src-4.4-win/src/qt/CMakeFiles/voreen_qt.dir
+C:/sharefolder/voreen-src-4.4-win/src/qt/CMakeFiles/voreen_qt_gch.dir
+C:/sharefolder/voreen-src-4.4-win/apps/voreentool/CMakeFiles/voreentool.dir
+C:/sharefolder/voreen-src-4.4-win/apps/voreenve/CMakeFiles/voreenve.dir
+C:/sharefolder/voreen-src-4.4-win/apps/voreenve/CMakeFiles/voreenve_gch.dir

@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/sharefolder/voreen-src-4.4-win/src/qt/__/__/include/voreen/qt/networkeditor/graphicitems/core/moc_propertygraphicsitem.cpp
+C:/sharefolder/voreen-src-4.4-win/include/voreen/qt/networkeditor/graphicitems/core/propertygraphicsitem.h

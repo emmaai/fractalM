@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/sharefolder/voreen-src-4.4-win/src/qt/__/__/include/voreen/qt/widgets/property/moc_intvec2propertywidget.cpp
+C:/sharefolder/voreen-src-4.4-win/include/voreen/qt/widgets/property/intvec2propertywidget.h

@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/sharefolder/voreen-src-4.4-win/src/qt/__/__/modules/volumelabeling/qt/moc_labelingwidgetqt.cpp
+C:/sharefolder/voreen-src-4.4-win/modules/volumelabeling/qt/labelingwidgetqt.h

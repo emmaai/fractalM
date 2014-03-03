@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/sharefolder/voreen-src-4.4-win/src/qt/__/__/modules/dynamicglsl/qt/moc_dynamicglslwidget.cpp
+C:/sharefolder/voreen-src-4.4-win/modules/dynamicglsl/qt/dynamicglslwidget.h

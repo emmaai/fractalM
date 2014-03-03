@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/sharefolder/voreen-src-4.4-win/src/qt/__/__/include/voreen/qt/widgets/transfunc/moc_transfunc2dprimitivespainter.cpp
+C:/sharefolder/voreen-src-4.4-win/include/voreen/qt/widgets/transfunc/transfunc2dprimitivespainter.h
