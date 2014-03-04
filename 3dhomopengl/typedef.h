@@ -30,13 +30,13 @@ typedef struct {
 
 typedef struct {
     //in pixel
-    unsigned long xLength; 
-    unsigned long yWidth; 
-    unsigned long zHeight;
+    unsigned long long xLength;
+    unsigned long long yWidth;
+    unsigned long long zHeight;
 }imageSize;
 
 typedef struct {
-    int funcNo;
+    long long funcNo;
     nodeCoordinate coordinate[8];
     imageSize resolution;
 }activeFunc;
