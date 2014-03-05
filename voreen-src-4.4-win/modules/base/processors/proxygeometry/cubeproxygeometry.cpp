@@ -77,6 +77,7 @@ CubeProxyGeometry::CubeProxyGeometry()
     adjustClipPropertiesVisibility();
 
     oldVolumeDimensions_ = tgt::ivec3(0,0,0);
+    oldClipBack_=oldClipBottom_=oldClipFront_=oldClipLeft_=oldClipRight_=oldClipTop_=0.0;
 }
 
 CubeProxyGeometry::~CubeProxyGeometry() {
@@ -181,13 +182,47 @@ void CubeProxyGeometry::adjustClipPropertiesRanges() {
 
     if (oldVolumeDimensions_ == tgt::ivec3(0,0,0))
         oldVolumeDimensions_ = inport_.getData()->getDimensions();
+    if(oldClipBack_==0.0)
+        oldClipBack_=clipBack_.get();
+    if(oldClipBottom_==0.0)
+        oldClipBottom_=clipBottom_.get();
+    if(oldClipFront_==0.0)
+        oldClipFront_=clipFront_.get();
+    if(oldClipLeft_==0.0)
+        oldClipLeft_=clipLeft_.get();
+    if(oldClipRight_==0.0)
+        oldClipRight_=clipRight_.get();
+    if(oldClipTop_==0.0)
+        oldClipTop_=clipTop_.get();
 
     tgt::ivec3 numSlices = inport_.getData()->getDimensions();
+    if(oldVolumeDimensions_==numSlices)
+    {
+            oldClipBack_=clipBack_.get();
+            oldClipBottom_=clipBottom_.get();
+            oldClipFront_=clipFront_.get();
+            oldClipLeft_=clipLeft_.get();
+            oldClipRight_=clipRight_.get();
+            oldClipTop_=clipTop_.get();
+    }else{
+        if(oldClipBack_==0.0)
+            oldClipBack_=clipBack_.get();
+        if(oldClipBottom_==0.0)
+            oldClipBottom_=clipBottom_.get();
+        if(oldClipFront_==0.0)
+            oldClipFront_=clipFront_.get();
+        if(oldClipLeft_==0.0)
+            oldClipLeft_=clipLeft_.get();
+        if(oldClipRight_==0.0)
+            oldClipRight_=clipRight_.get();
+        if(oldClipTop_==0.0)
+            oldClipTop_=clipTop_.get();
+    }
 
     // assign new clipping values while taking care that the right>left validation
     // does not alter the assigned values
-    float scaleRight = tgt::clamp(clipRight_.get()/static_cast<float>(oldVolumeDimensions_.x-1), 0.f, 1.f);
-    float scaleLeft =  tgt::clamp(clipLeft_.get()/static_cast<float>(oldVolumeDimensions_.x-1), 0.f, 1.f);
+    float scaleRight = tgt::clamp(oldClipRight_/static_cast<float>(oldVolumeDimensions_.x-1), 0.f, 1.f);
+    float scaleLeft =  tgt::clamp(oldClipLeft_/static_cast<float>(oldVolumeDimensions_.x-1), 0.f, 1.f);
     float rightVal = scaleRight * (numSlices.x-1);
     float leftVal = scaleLeft * (numSlices.x-1);
     // set new max values now (we cannot set them earlier as they might clip the previous values needed for the relative re-positioning to the new range)
@@ -197,8 +232,8 @@ void CubeProxyGeometry::adjustClipPropertiesRanges() {
     clipRight_.set(rightVal);
     clipLeft_.set(leftVal);
 
-    float scaleFront = tgt::clamp(clipFront_.get()/static_cast<float>(oldVolumeDimensions_.y-1), 0.f, 1.f);
-    float scaleBack =  tgt::clamp(clipBack_.get()/static_cast<float>(oldVolumeDimensions_.y-1), 0.f, 1.f);
+    float scaleFront = tgt::clamp(oldClipFront_/static_cast<float>(oldVolumeDimensions_.y-1), 0.f, 1.f);
+    float scaleBack =  tgt::clamp(oldClipBack_/static_cast<float>(oldVolumeDimensions_.y-1), 0.f, 1.f);
     float frontVal = scaleFront * (numSlices.y-1);
     float backVal = scaleBack * (numSlices.y-1);
     clipFront_.setMaxValue(numSlices.y-1.0f);
@@ -207,8 +242,8 @@ void CubeProxyGeometry::adjustClipPropertiesRanges() {
     clipFront_.set(frontVal);
     clipBack_.set(backVal);
 
-    float scaleBottom = tgt::clamp(clipBottom_.get()/static_cast<float>(oldVolumeDimensions_.z-1), 0.f, 1.f);
-    float scaleTop =  tgt::clamp(clipTop_.get()/static_cast<float>(oldVolumeDimensions_.z-1), 0.f, 1.f);
+    float scaleBottom = tgt::clamp(oldClipBottom_/static_cast<float>(oldVolumeDimensions_.z-1), 0.f, 1.f);
+    float scaleTop =  tgt::clamp(oldClipTop_/static_cast<float>(oldVolumeDimensions_.z-1), 0.f, 1.f);
     float bottomVal = scaleBottom * (numSlices.z-1);
     float topVal = scaleTop * (numSlices.z-1);
     clipBottom_.setMaxValue(numSlices.z-1.0f);
@@ -236,6 +271,12 @@ void CubeProxyGeometry::adjustClipPropertiesRanges() {
         clipTop_.set(clipTop_.getMaxValue());
 
     oldVolumeDimensions_ = numSlices;
+    oldClipBack_=clipBack_.get();
+    oldClipBottom_=clipBottom_.get();
+    oldClipFront_=clipFront_.get();
+    oldClipLeft_=clipLeft_.get();
+    oldClipRight_=clipRight_.get();
+    oldClipTop_=clipTop_.get();
 }
 
 void CubeProxyGeometry::adjustClipPropertiesVisibility() {
