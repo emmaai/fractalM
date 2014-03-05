@@ -112,6 +112,8 @@ private:
 
     /// Category used for logging.
     static const std::string loggerCat_;
+
+    float oldClipRight_, oldClipLeft_, oldClipFront_, oldClipBack_, oldClipTop_, oldClipBottom_;
 };
 
 } // namespace
