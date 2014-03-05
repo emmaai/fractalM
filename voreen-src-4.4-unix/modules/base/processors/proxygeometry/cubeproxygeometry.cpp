@@ -96,6 +96,13 @@ void CubeProxyGeometry::process() {
         adjustClippingToVolumeROI();
     }
 
+    oldClipBack_=clipBack_.get();
+    oldClipBottom_=clipBottom_.get();
+    oldClipFront_=clipFront_.get();
+    oldClipLeft_=clipLeft_.get();
+    oldClipRight_=clipRight_.get();
+    oldClipTop_=clipTop_.get();
+
     const VolumeBase* inputVolume = inport_.getData();
     tgt::vec3 volumeSize = inputVolume->getCubeSize();
     tgt::ivec3 numSlices = inputVolume->getDimensions();
@@ -182,18 +189,6 @@ void CubeProxyGeometry::adjustClipPropertiesRanges() {
 
     if (oldVolumeDimensions_ == tgt::ivec3(0,0,0))
         oldVolumeDimensions_ = inport_.getData()->getDimensions();
-    if(oldClipBack_==0.0)
-        oldClipBack_=clipBack_.get();
-    if(oldClipBottom_==0.0)
-        oldClipBottom_=clipBottom_.get();
-    if(oldClipFront_==0.0)
-        oldClipFront_=clipFront_.get();
-    if(oldClipLeft_==0.0)
-        oldClipLeft_=clipLeft_.get();
-    if(oldClipRight_==0.0)
-        oldClipRight_=clipRight_.get();
-    if(oldClipTop_==0.0)
-        oldClipTop_=clipTop_.get();
 
     tgt::ivec3 numSlices = inport_.getData()->getDimensions();
     if(oldVolumeDimensions_==numSlices)
