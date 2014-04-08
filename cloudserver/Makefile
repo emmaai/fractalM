@@ -5,15 +5,15 @@
 
 ##### Compiler, tools and options
 
-CC	= gcc 
-CXX	= g++ 
-CFLAGS	= -O3 -fopenmp -fno-omit-frame-pointer
+CC	= icc 
+CXX	= icc 
+CFLAGS	= -O3 -openmp -xHost
 CXXFLAGS= ${CFLAGS} $(DFLAGS)
 DFLAGS	= -g
 INCPATH	= 
-LINK	= g++ 
-LFLAGS	= -Wl,-O1 -Wl,--as-needed -Wl,--hash-style=gnu -Wl,--sort-common $(DFLAGS) -fno-omit-frame-pointer
-LIBS	= -lstdc++ -lgomp -lpthread
+LINK	= icc 
+LFLAGS	= -Wl,-O1 -Wl,--as-needed -Wl,--hash-style=gnu -Wl,--sort-common $(DFLAGS)
+LIBS	= -lstdc++ -liomp5 -lpthread
 
 ##### Files
 
