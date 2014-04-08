@@ -1,8 +1,0 @@
-<RCC>
-    <qresource prefix="/icons">
-        <file>resource/Network_Globe_Connected_Icon_256.png</file>
-        <file>resource/Network_Globe_Disconnected_Icon_256.png</file>
-        <file>resource/fileopen.png</file>
-        <file>resource/Network Connection Internet.png</file>
-    </qresource>
-</RCC>

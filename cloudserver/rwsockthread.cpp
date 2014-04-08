@@ -12,8 +12,7 @@
 #include "typedef.h"
 
 extern activeFunc functionPara[PARAMNUMBER];
-extern unsigned char imageBufferSource[3*1024*1024];
-extern unsigned char imageBufferTarget[3*1024*1024];
+extern unsigned char *imageBufferSource;
 char paramBuffer[1*PARAMNUMBER*sizeof(activeFunc)];
 unsigned long bufferPtr = (unsigned long)imageBufferSource;
 unsigned long paraPtr = (unsigned long)paramBuffer;
@@ -21,7 +20,9 @@ volatile unsigned long paramCounter = 0;
 volatile bool imageSourceReady = false;
 volatile bool imageTargetReady = false;
 volatile bool sockClose = false;
+volatile bool generateHR;
 extern pthread_mutex_t mutex;
+
 
 void *rSocket (void *threadarg)
 {
@@ -99,6 +100,8 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
     tailPtr = (char *)(bodyPtr, n, "<PARA", 5); 
     printf("tailPtr is %d\n", (unsigned long)tailPtr);
     */
+    if(cmd == (1<<1))
+	status |= (1<<2);
     if(cmd == (1<<2))
 	status |= (1<<4); 
     while(tailPtr)
@@ -109,7 +112,7 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		if(tailPtr = (char *)memmem(headPtr, n, "<COMD" , 5)) 
 		{
 		    bodyPtr = tailPtr + 5;
-		    printf("head found %s\n", tailPtr);
+		    printf("head found %s\n", bodyPtr);
 		    status &= ~((1<<1)|(1<<3)|(1<<5));
 		    status |= (1<<0);
 		    lastCmd |= (1<<0);
@@ -135,6 +138,13 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		{
 		    bodySize= tailPtr-bodyPtr;
 		    printf("tail found %s\n", tailPtr);	
+		    if(!strncmp(bodyPtr, "HR", 2))
+		    {
+			printf("generate hr volume\n"); 
+			pthread_mutex_lock(&mutex);
+			generateHR = true;
+			pthread_mutex_unlock(&mutex);
+		    }
 		    status |= (1<<1);
 		    status &= ~((1<<0)|(1<<2)|(1<<4));
 		    lastCmd &= ~(1<<0);
@@ -143,8 +153,23 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		{
 		    bodySize = tailPtr-bodyPtr;
 		    printf("tail found %s\n", tailPtr);	
-		    pthread_mutex_lock(&mutex);
 		    memcpy((char *)paraPtr, bodyPtr, bodySize);
+		    memcpy((char *)functionPara, paramBuffer, PARAMNUMBER*sizeof(activeFunc));
+
+		    /*
+		    for(int i=0; i< 8; i++)
+		    {
+			printf("the function parameter %d\n", i);
+			printf("functionPara numActiveFuncs: %lu\n", functionPara[i].funcNo);
+			for(int j=0; j<8; j++)
+			{
+			    printf("functionPara coordiate: %f*%f*%f\n", functionPara[i].coordinate[j].x, 
+				functionPara[i].coordinate[j].y, functionPara[i].coordinate[j].z);
+			}
+		    }
+		    */
+
+		    pthread_mutex_lock(&mutex);
 		    paramCounter=1;
 		    /*
 		    if(paramCounter==3)
@@ -184,7 +209,15 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		if(tailPtr = (char *)memmem(headPtr, n, "<\\COMD", 6))
 		{
 		    bodySize = tailPtr-bodyPtr;
-		    printf("tail found %s\n", tailPtr);	
+		    printf("tail found 2 %s\n", bodyPtr);	
+		    if(!strncmp(bodyPtr, "HR", 2))
+		    {
+			printf("generate hr volume\n"); 
+			pthread_mutex_lock(&mutex);
+			generateHR = true;
+			pthread_mutex_unlock(&mutex);
+		    }
+
 		    status &= ~((1<<0)|(1<<2)|(1<<4));
 		    status |= (1<<1);
 		    lastCmd &= ~(1<<0);
@@ -201,6 +234,23 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		    printf("bodysize is %d\n", bodySize);
 		    printf("paraptr is %lu\n", (unsigned long)paraPtr);
 		    memcpy((char *)paraPtr, bodyPtr, bodySize);
+		    memcpy((char *)functionPara, paramBuffer, PARAMNUMBER*sizeof(activeFunc));
+		    /*
+		    printf("the param size is %d\n", PARAMNUMBER*sizeof(activeFunc));
+		    printf("single param size is %d\n", sizeof(activeFunc));
+		    printf("size of int %d, sizeof long %d, size of float %d\n", sizeof(int), sizeof(unsigned long), sizeof(float));
+		    for(int i=0; i< 8; i++)
+		    {
+			printf("the function parameter %d\n", i);
+			printf("functionPara numActiveFuncs: %lu\n", functionPara[i].funcNo);
+			for(int j=0; j<8; j++)
+			{
+			    printf("functionPara coordiate: %f*%f*%f\n", functionPara[i].coordinate[j].x, 
+				functionPara[i].coordinate[j].y, functionPara[i].coordinate[j].z);
+			}
+		    }
+		    */
+
 		    pthread_mutex_lock(&mutex);
 		    paramCounter=1;
 		    /*

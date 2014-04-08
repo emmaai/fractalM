@@ -3,6 +3,7 @@
 typedef struct {
     float x;
     float y;
+    float z;
 }nodeCoordinate;
 typedef struct {
 //parameters 1, 2, 3, 5, 5, 7 are for similitude and affine
@@ -31,16 +32,12 @@ typedef struct {
     //in pixel
     unsigned long xLength; 
     unsigned long yWidth; 
+    unsigned long zHeight;
 }imageSize;
 
 typedef struct {
     int funcNo;
-    pixelRGB colorMap;
-    nodeCoordinate coordinate[4];
-    unsigned short transType;
-    unsigned long numActiveFuncs;
-    float transPara[11];
-    float prob;
+    nodeCoordinate coordinate[8];
     imageSize resolution;
 }activeFunc;
 
@@ -55,5 +52,5 @@ typedef struct{
     unsigned long messageSize;
 }threadData;
 
-#define PARAMNUMBER 10
+#define PARAMNUMBER 8
 #endif //TYPEDEF
