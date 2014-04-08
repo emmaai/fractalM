@@ -53,7 +53,6 @@ Processor* GrayscaleCL::create() const {
 void GrayscaleCL::initialize() throw (tgt::Exception) {
     RenderProcessor::initialize();
 
-
     OpenCLModule::getInstance()->initCL();
     if (!OpenCLModule::getInstance()->getCLContext())
         throw VoreenException("No OpenCL context created");
@@ -90,13 +89,14 @@ void GrayscaleCL::process() {
 
             commandQueue->enqueueAcquireGLObject(&in);
             commandQueue->enqueueAcquireGLObject(&out);
-            Event e = commandQueue->enqueue(k, inport_.getSize());
+            Event e;
+            commandQueue->enqueue(k, inport_.getSize(), &e);
             commandQueue->enqueueReleaseGLObject(&in);
             commandQueue->enqueueReleaseGLObject(&out);
 
             e.wait();
-            LINFO("Time: " << e.getProfilingStartToEnd());
             commandQueue->finish();
+            e.releaseEvent();
 
             outport_.validateResult();
             outport_.invalidatePort();

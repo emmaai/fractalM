@@ -20,6 +20,7 @@ public:
     qglviewer::ManipulatedFrame* frame(unsigned short i){return frame_[i];};
     void setSelectedFrameNumber(unsigned short nb){ selected = nb;};
     void setFuncNo(int no){int i=0; for(i=0; i<PARANUMBER; i++) functionParam[i].funcNo = no;};
+    void saveParam(QString filename);
 signals:
     void writeParam(char *);
 private:

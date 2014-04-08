@@ -12,6 +12,7 @@
 #include "base/processors/utility/metadataextractor.h"
 #include "base/processors/volume/volumecrop.h"
 #include "base/processors/render/singlevolumeraycaster.h"
+#include "base/processors/proxygeometry/cubeproxygeometry.h"
 #include "pvm/io/ddsbase.h" 
 
 #include "ui_mainwindow3d.h"
@@ -72,8 +73,10 @@ MainWindow3D::MainWindow3D(QWidget *parent) :
     connect(ui->pSlider, SIGNAL(valueChanged(int)), ui->widgetImgL, SLOT(setPParam(int)));
     */
 
+/*
     connect(ui->viewerFuncO, SIGNAL(closeTFWindow()), this, SLOT(closeTFWindow()));
     connect(ui->viewerFunc, SIGNAL(closeTFWindow()), this, SLOT(closeTFWindow()));
+    */
     connect(rwSocket, SIGNAL(rwSockError(QString *)), this, SLOT(displayError(QString *)));
     connect(this, SIGNAL(invokeConnect(hostAddress *)), rwSocket, SLOT(connectToHost(hostAddress *)));
     connect(this, SIGNAL(invokeDisconnect()), rwSocket, SLOT(disconnectFromHost()));
@@ -224,6 +227,13 @@ void MainWindow3D::setVoreenApp(VoreenApplicationQt *app)
     delete dim;
 
 
+    CubeProxyGeometry *cpGeometry = (CubeProxyGeometry *)network->getProcessorByName("MeshProxyGeometry");
+    clipRight = (FloatProperty *)cpGeometry->getProperty("rightClippingPlane");
+    clipLeft = (FloatProperty *)cpGeometry->getProperty("leftClippingPlane");
+    clipFront = (FloatProperty *)cpGeometry->getProperty("frontClippingPlane");
+    clipBack = (FloatProperty *)cpGeometry->getProperty("backClippingPlane");
+    clipBottom = (FloatProperty *)cpGeometry->getProperty("bottomClippingPlane");
+    clipTop = (FloatProperty *)cpGeometry->getProperty("topClippingPlane");
 
 }
 
@@ -305,6 +315,8 @@ void MainWindow3D::creatActions()
     connect(ui->actionCube, SIGNAL(triggered()), this, SLOT(cubeMapping()));
     connect(ui->actionTH, SIGNAL(triggered()), this, SLOT(thMapping()));
     connect(ui->actionTF, SIGNAL(triggered()), this, SLOT(showTF()));
+    connect(ui->actionSP, SIGNAL(triggered()), this, SLOT(savePara()));
+    connect(ui->actionSC, SIGNAL(triggered()), this, SLOT(saveClip()));
 }
 
 void MainWindow3D::open()
@@ -414,6 +426,29 @@ void MainWindow3D::showTF()
 
 void MainWindow3D::closeTFWindow()
 {
-    tfWidget->closeEditorWindow();
+    //tfWidget->closeEditorWindow();
 
+}
+
+void MainWindow3D::savePara()
+{
+    QString filename = "lparam.txt";
+    mapCubeO->saveParam(filename);
+    filename = "rparam.txt";
+    mapCube->saveParam(filename);
+}
+
+void MainWindow3D::saveClip()
+{
+    QString filename = "clipplane.txt";
+    QFile file(filename);
+    file.open(QIODevice::WriteOnly|QIODevice::Text);
+    QTextStream out(&file);
+    out << "clipRight: " << clipRight->get() << "\n";
+    out << "clipLeft: " << clipLeft->get() << "\n";
+    out << "clipFront: " << clipFront->get() << "\n";
+    out << "clipBack: " << clipBack->get() << "\n";
+    out << "clipBottom: " << clipBottom->get() << "\n";
+    out << "clipTop: " << clipTop->get() << "\n";
+    file.close();
 }

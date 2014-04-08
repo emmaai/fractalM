@@ -54,6 +54,8 @@ public slots:
     void thMapping();
     void showTF();
     void closeTFWindow();
+    void savePara();
+    void saveClip();
 
 signals:
     void invokeConnect(hostAddress *);
@@ -90,6 +92,7 @@ private:
     QProgressDialog  *progress;
     Volume *volumeHandle;
     TransFuncPropertyWidget *tfWidget, *tfWidgetO;
+    FloatProperty *clipRight, *clipLeft, *clipFront, *clipBack, *clipBottom, *clipTop;
 
 };
 

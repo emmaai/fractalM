@@ -1,4 +1,6 @@
 #include <QVector3D>
+#include <QFile>
+#include <QTextStream>
 #include <qmath.h>
 #include "functioncube.h"
 using namespace qglviewer;
@@ -847,6 +849,26 @@ void functionCube::setColor(unsigned short nb)
     }
     else
 	glColor3f(0.9f, 0.0, 0.9f);
+}
+
+void functionCube::saveParam(QString filename)
+{
+    QFile file(filename);
+    file.open(QIODevice::WriteOnly|QIODevice::Text);
+    QTextStream out(&file);
+    for(int i=0; i<8; i++)
+    {
+	out << i << " ";
+	for(int j=0; j<8; j++) 
+	{
+	    out << functionParam[i].coordinate[j].x << " ";
+	    out << functionParam[i].coordinate[j].y << " ";
+	    out << functionParam[i].coordinate[j].z << " ";
+
+	}
+	out << "\n";
+    }
+    file.close();
 }
 
 functionTH::functionTH(QObject *parent):QObject(parent)

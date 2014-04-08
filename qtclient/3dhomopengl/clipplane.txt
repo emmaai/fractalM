@@ -1,0 +1,6 @@
+clipRight: 106.497
+clipLeft: 337.401
+clipFront: 0
+clipBack: 439
+clipBottom: 193.627
+clipTop: 314.761

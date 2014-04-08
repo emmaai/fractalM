@@ -35,8 +35,8 @@
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
-            <widget class="Viewer" name="viewerFuncO"/>
-            <widget class="Viewer" name="viewerFunc"/>
+            <widget class="Viewer" name="viewerFuncO" native="true"/>
+            <widget class="Viewer" name="viewerFunc" native="true"/>
            </widget>
           </item>
          </layout>
@@ -48,8 +48,8 @@
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
-            <widget class="Viewer" name="viewerFuncTHO"/>
-            <widget class="Viewer" name="viewerFuncTH"/>
+            <widget class="Viewer" name="viewerFuncTHO" native="true"/>
+            <widget class="Viewer" name="viewerFuncTH" native="true"/>
            </widget>
           </item>
          </layout>
@@ -119,6 +119,8 @@
    <addaction name="actionHR"/>
    <addaction name="actionTF"/>
    <addaction name="actionCrop"/>
+   <addaction name="actionSP"/>
+   <addaction name="actionSC"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionOpen">
@@ -186,6 +188,16 @@
   <action name="actionTF">
    <property name="text">
     <string>&amp;Transform Function</string>
+   </property>
+  </action>
+  <action name="actionSP">
+   <property name="text">
+    <string>Save Parameters</string>
+   </property>
+  </action>
+  <action name="actionSC">
+   <property name="text">
+    <string>Save Clip</string>
    </property>
   </action>
  </widget>

@@ -46,11 +46,12 @@ QMAKE_CXXFLAGS += -g -pthread -fPIC
 QMAKE_LFLAGS += -rdynamic
 
 #QMAKE_CXXFLAGS_WARN_ON -= -Wall
-INCLUDEPATH += /home/emma/Downloads/voreen-src-4.3-unix/include \
-            /home/emma/Downloads/voreen-src-4.3-unix/ext \
-            /home/emma/Downloads/voreen-src-4.3-unix/modules
+INCLUDEPATH += /home/emma/Downloads/voreen-src-4.4-unix \
+	    /home/emma/Downloads/voreen-src-4.4-unix/include \
+            /home/emma/Downloads/voreen-src-4.4-unix/ext \
+            /home/emma/Downloads/voreen-src-4.4-unix/modules
 
-LIBS += -L/home/emma/Downloads/voreen-src-4.3-unix/bin \
+LIBS += -L/home/emma/Downloads/voreen-src-4.4-unix/bin \
         -lQGLViewer \
         -ltgt \
         -lvoreen_core \
