@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow3D</class>
+ <widget class="QMainWindow" name="MainWindow3D">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>998</width>
+    <height>757</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>3D Homeomorphism Transformation</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QSplitter" name="splitter_4">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QSplitter" name="splitter_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="pageCube">
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QSplitter" name="splitter">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="pageTH">
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QSplitter" name="splitter_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QSplitter" name="splitter_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>998</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Connection">
+    <property name="title">
+     <string>&amp;Network</string>
+    </property>
+    <addaction name="actionNetwork"/>
+    <addaction name="actionConnect"/>
+    <addaction name="actionDisconnect"/>
+   </widget>
+   <widget class="QMenu" name="menu_Tools">
+    <property name="title">
+     <string>&amp;Tools</string>
+    </property>
+    <addaction name="actionHR"/>
+    <addaction name="actionCrop"/>
+    <addaction name="separator"/>
+    <addaction name="actionTF"/>
+    <addaction name="separator"/>
+    <addaction name="actionSP"/>
+    <addaction name="actionSC"/>
+   </widget>
+   <widget class="QMenu" name="menuTransformation_Typle">
+    <property name="title">
+     <string>&amp;Mapping</string>
+    </property>
+    <addaction name="actionCube"/>
+    <addaction name="actionTH"/>
+   </widget>
+   <addaction name="menu_Connection"/>
+   <addaction name="menu_Tools"/>
+   <addaction name="menuTransformation_Typle"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionConnect"/>
+   <addaction name="actionDisconnect"/>
+   <addaction name="separator"/>
+   <addaction name="actionHR"/>
+   <addaction name="separator"/>
+   <addaction name="actionTF"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionConnect">
+   <property name="icon">
+    <iconset resource="3dhomeo.qrc">
+     <normaloff>:/icons/resource/icons/Network_Globe_Connected_Icon_256.png</normaloff>:/icons/resource/icons/Network_Globe_Connected_Icon_256.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Connect</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connect to remote server&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="actionDisconnect">
+   <property name="icon">
+    <iconset resource="3dhomeo.qrc">
+     <normaloff>:/icons/resource/icons/Network_Globe_Disconnected_Icon_256.png</normaloff>:/icons/resource/icons/Network_Globe_Disconnected_Icon_256.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Disconnect</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Disconnect from remote server&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="actionNetwork">
+   <property name="icon">
+    <iconset resource="3dhomeo.qrc">
+     <normaloff>:/icons/resource/icons/Network Connection Internet.png</normaloff>:/icons/resource/icons/Network Connection Internet.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Server</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Setup server's IP address and port&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="actionHR">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="3dhomeo.qrc">
+     <normaloff>:/icons/resource/icons/deformation.png</normaloff>:/icons/resource/icons/deformation.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show H&amp;R</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Generate the high resolution volume&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="actionCrop">
+   <property name="icon">
+    <iconset resource="3dhomeo.qrc">
+     <normaloff>:/icons/resource/icons/crop_icon.png</normaloff>:/icons/resource/icons/crop_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show &amp;Crop</string>
+   </property>
+  </action>
+  <action name="actionCube">
+   <property name="text">
+    <string>Cu&amp;be</string>
+   </property>
+  </action>
+  <action name="actionTH">
+   <property name="text">
+    <string>Tetra&amp;hedron</string>
+   </property>
+  </action>
+  <action name="actionTF">
+   <property name="icon">
+    <iconset resource="3dhomeo.qrc">
+     <normaloff>:/icons/resource/icons/histogram.png</normaloff>:/icons/resource/icons/histogram.png</iconset>
+   </property>
+   <property name="text">
+    <string>Transfer &amp;Function</string>
+   </property>
+  </action>
+  <action name="actionSP">
+   <property name="text">
+    <string>Save Mapping &amp;Parameters</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Save mapping parameters to text files&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="actionSC">
+   <property name="text">
+    <string>Save C&amp;lip Parameters</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Save clip parameters to a text file&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="3dhomeo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
