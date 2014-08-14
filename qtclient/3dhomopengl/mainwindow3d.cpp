@@ -25,6 +25,10 @@ MainWindow3D::MainWindow3D(QWidget *parent) :
 {
     ui->setupUi(this);
     
+    sharedContext = new tgt::QtCanvas( "", tgt::ivec2(128, 128), tgt::GLCanvas::RGBADD, this, true);
+    sharedContext->init();
+
+    
     creatActions();
 
     imageBuffer = NULL;
@@ -33,15 +37,23 @@ MainWindow3D::MainWindow3D(QWidget *parent) :
     mapCube->setFuncNo(2);
     mapCubeO = new functionCube(this);
     mapCubeO->setFuncNo(1);
-    ui->viewerFunc->setCube(mapCube);
-    ui->viewerFuncO->setCube(mapCubeO);
+
+    viewerFuncO = new Viewer(ui->splitter, 0);
+    viewerFunc = new Viewer(ui->splitter, viewerFuncO);
+
+    viewerFuncO->setCube(mapCubeO);
+    viewerFunc->setCube(mapCube);
 
     mapTh = new functionTH(this);
-    ui->viewerFuncTH->setTh(mapTh);
+    mapTh->setFuncNo(2);
 
     mapThO = new functionTH(this);
-    ui->viewerFuncTHO->setTh(mapThO);
+    mapThO->setFuncNo(1);
 
+    viewerFuncTHO = new Viewer(ui->splitter_5, viewerFuncO);
+    viewerFuncTH = new Viewer(ui->splitter_5, viewerFuncO);
+    viewerFuncTHO->setTh(mapThO);
+    viewerFuncTH->setTh(mapTh);
 
     //clipbox = new clipBox(this);
     //ui->viewerTran->setBox(clipbox);
@@ -78,18 +90,21 @@ MainWindow3D::MainWindow3D(QWidget *parent) :
     connect(ui->viewerFunc, SIGNAL(closeTFWindow()), this, SLOT(closeTFWindow()));
     */
     connect(rwSocket, SIGNAL(rwSockError(QString *)), this, SLOT(displayError(QString *)));
+    connect(rwSocket, SIGNAL(connectedToHost()), this, SLOT(cubeMapping()));
     connect(this, SIGNAL(invokeConnect(hostAddress *)), rwSocket, SLOT(connectToHost(hostAddress *)));
     connect(this, SIGNAL(invokeDisconnect()), rwSocket, SLOT(disconnectFromHost()));
 
     connect(mapCube, SIGNAL(writeParam(char *)), rwSocket, SLOT(writeParam(char *)));
     connect(mapCubeO, SIGNAL(writeParam(char *)), rwSocket, SLOT(writeParam(char *)));
 
+    connect(mapTh, SIGNAL(writeParam(char *)), rwSocket, SLOT(writeParam(char *)));
+    connect(mapThO, SIGNAL(writeParam(char *)), rwSocket, SLOT(writeParam(char *)));
+
     connect(rwSocket, SIGNAL(imageReady(char *)), this, SLOT(loadVolume(char *)));
     connect(this, SIGNAL(sendCMD(char *)), rwSocket, SLOT(sendCMD(char *)));
     /*
     connect(ui->widgetImgL, SIGNAL(writeImage(char *)), rwSocket, SLOT(writeImg(char *)));
     connect(ui->widgetImgL, SIGNAL(writeParam(char *)), rwSocket, SLOT(writeParam(char *)));
-    connect(rwSocket, SIGNAL(connectedToHost()), ui->widgetImgL, SLOT(writeData()));
     */
     rwThread->start();
 
@@ -100,6 +115,7 @@ MainWindow3D::~MainWindow3D()
     delete ui;
     delete workspace;
     delete networkEvaluator;
+    delete sharedContext;
     delete widgetTran;
     delete widgetTranO;
     delete widgetCrop;
@@ -117,17 +133,27 @@ MainWindow3D::~MainWindow3D()
 void MainWindow3D::setVoreenApp(VoreenApplicationQt *app)
 {
     vapp = app;
+
     vapp->initializeGL();
 
-    widgetTranO = new tgt::QtCanvas( "Init Canvas", tgt::ivec2(128, 128), tgt::GLCanvas::RGBADD, ui->splitter_2, true);
+    sharedContext->hide();
+
+    
+        
+    widgetTranO = new tgt::QtCanvas( "", tgt::ivec2(128, 128), tgt::GLCanvas::RGBADD, ui->splitter_2, true);
     widgetTranO->setMinimumSize(320, 320);
     ui->splitter_2->addWidget(widgetTranO);
-    widgetTran = new tgt::QtCanvas( "Init Canvas", tgt::ivec2(128, 128), tgt::GLCanvas::RGBADD, ui->splitter_2, true);
+
+    widgetTran = new tgt::QtCanvas( "", tgt::ivec2(128, 128), tgt::GLCanvas::RGBADD, ui->splitter_2, true);
     widgetTran->setMinimumSize(320, 320);
     ui->splitter_2->addWidget(widgetTran);
-    widgetCrop = new tgt::QtCanvas( "Volume Cropping", tgt::ivec2(320, 320), tgt::GLCanvas::RGBADD, 0, true);
 
-    workspace = new Workspace();
+    widgetCrop = new tgt::QtCanvas( "Volume Cropping", tgt::ivec2(320, 320), tgt::GLCanvas::RGBADD, this, true);
+    widgetCrop->setWindowFlags(Qt::Window);
+    widgetCrop->hide();
+
+    
+    workspace = new Workspace(sharedContext);
     try {
         workspace->load(VoreenApplication::app()->getResourcePath("workspaces/tools/volumecroppingdouble.vws"));
     }
@@ -137,9 +163,13 @@ void MainWindow3D::setVoreenApp(VoreenApplicationQt *app)
     }
 
     // initialize the network evaluator and retrieve the CanvasRenderer processor from the loaded network
-    networkEvaluator = new NetworkEvaluator();
+    networkEvaluator = new NetworkEvaluator(true, sharedContext);
     vapp->registerNetworkEvaluator(networkEvaluator);
     network = workspace->getProcessorNetwork();
+
+    
+    
+
     std::vector<CanvasRenderer*> canvasRenderer = network->getProcessorsByType<CanvasRenderer>();
     if (canvasRenderer.empty()) {
         QMessageBox::critical(this, "Invalid Workspace", "Loaded workspace does not contain a CanvasRenderer.");
@@ -148,6 +178,7 @@ void MainWindow3D::setVoreenApp(VoreenApplicationQt *app)
  
     
     // init painter and connect it to canvas, evaluator and canvas renderer
+
     painterO = new VoreenPainter(widgetTranO, networkEvaluator, canvasRenderer[2]);
     widgetTranO->setPainter(painterO);
     canvasRenderer[2]->setCanvas(widgetTranO);
@@ -161,22 +192,24 @@ void MainWindow3D::setVoreenApp(VoreenApplicationQt *app)
     widgetCrop->setPainter(painterC);
     canvasRenderer[1]->setCanvas(widgetCrop);
 
+// pass the network to the network evaluator, which also initializes the processors
+    networkEvaluator->setProcessorNetwork(network);
+
     
     SingleVolumeRaycaster *svRaycaster= (SingleVolumeRaycaster *)network->getProcessorByName("SingleVolumeRaycaster");
     TransFuncProperty *transFunc = (TransFuncProperty *)svRaycaster->getProperty("transferFunction"); 
-    tfWidget = new TransFuncPropertyWidget(transFunc, 0);
-    //ui->splitter_4->addWidget(tfWidget);
-    /*
-    SingleVolumeRaycaster *svRaycasterO= (SingleVolumeRaycaster *)network->getProcessorByName("SingleVolumeRaycaster 2");
-    TransFuncProperty *transFuncO = (TransFuncProperty *)svRaycasterO->getProperty("transferFunction"); 
-    tfWidgetO = new TransFuncPropertyWidget(transFuncO, 0);
-    ui->splitter_4->addWidget(tfWidgetO);
-    */
-   
-    // pass the network to the network evaluator, which also initializes the processors
-    networkEvaluator->setProcessorNetwork(network);
+    tfWidget = new TransFuncPropertyWidget(transFunc, this);
+    tfWidget->setGeometry(200, 25, 250, 60);
+    tfWidget->hide();
+    tfShow = false;
 
-     MetaDataExtractor *info = (MetaDataExtractor *)network->getProcessorByName("MetaDataExtractor");
+    VolumeCrop *crop = (VolumeCrop *)network->getProcessorByName("VolumeCrop");
+    ButtonProperty *buttonCrop = (ButtonProperty *)crop->getProperty("button");
+    buttonCrop->clicked();
+
+    //tfWidget->setWindowFlags(Qt::Popup);
+
+    MetaDataExtractor *info = (MetaDataExtractor *)network->getProcessorByName("MetaDataExtractor");
     std::string infostring = info->replaceMetaDataAndGetString();
     
     qDebug() << "meta info is" << infostring.c_str();
@@ -227,6 +260,7 @@ void MainWindow3D::setVoreenApp(VoreenApplicationQt *app)
     delete dim;
 
 
+
     CubeProxyGeometry *cpGeometry = (CubeProxyGeometry *)network->getProcessorByName("MeshProxyGeometry");
     clipRight = (FloatProperty *)cpGeometry->getProperty("rightClippingPlane");
     clipLeft = (FloatProperty *)cpGeometry->getProperty("leftClippingPlane");
@@ -234,7 +268,11 @@ void MainWindow3D::setVoreenApp(VoreenApplicationQt *app)
     clipBack = (FloatProperty *)cpGeometry->getProperty("backClippingPlane");
     clipBottom = (FloatProperty *)cpGeometry->getProperty("bottomClippingPlane");
     clipTop = (FloatProperty *)cpGeometry->getProperty("topClippingPlane");
+    clipXMax = widthLR;
+    clipYMax = lengthLR;
+    clipZMax = depthLR;
 
+    
 }
 
 void MainWindow3D::loadVolume(char* buffer)
@@ -291,6 +329,15 @@ void MainWindow3D::loadVolume(char* buffer)
 	{
 	    displayHR = false;
 	    progress->setValue(99);
+	    clipXMax = widthHR;
+	    clipYMax = lengthHR;
+	    clipZMax = depthHR;
+	}
+	else
+	{
+	    clipXMax = widthLR;
+	    clipYMax = lengthLR;
+	    clipZMax = depthLR;
 	}
 	/*
 	if(volumeHandle!=volumeHandleNew)
@@ -306,7 +353,7 @@ void MainWindow3D::loadVolume(char* buffer)
 
 void MainWindow3D::creatActions()
 {
-    connect(ui->actionOpen, SIGNAL(triggered()), this, SLOT(open()));
+    //connect(ui->actionOpen, SIGNAL(triggered()), this, SLOT(open()));
     connect(ui->actionNetwork, SIGNAL(triggered()), this, SLOT(netsetting()));
     connect(ui->actionConnect, SIGNAL(triggered()), this, SLOT(connectToHost()));
     connect(ui->actionDisconnect, SIGNAL(triggered()), this, SLOT(disconnectFromHost()));
@@ -404,24 +451,44 @@ void MainWindow3D::showCrop()
     ButtonProperty *buttonCrop = (ButtonProperty *)crop->getProperty("button");
     buttonCrop->clicked();
     widgetCrop->show();
-    widgetCrop->activateWindow();
 }
 
 void MainWindow3D::cubeMapping()
 {
     ui->stackedWidget->setCurrentWidget(ui->pageCube);
-
+    int cmdSize = 2;
+    char *cmd = new char[sizeof(cmdSize) + cmdSize];
+    memcpy(cmd, (char *)&cmdSize, sizeof(cmdSize));
+    memcpy(cmd+sizeof(cmdSize), "CB", cmdSize);
+    emit sendCMD(cmd);    
+    mapCubeO->writeCurrentParam();
+    mapCube->writeCurrentParam();
 }
 
 void MainWindow3D::thMapping()
 {
     ui->stackedWidget->setCurrentWidget(ui->pageTH);
+    int cmdSize = 2;
+    char *cmd = new char[sizeof(cmdSize) + cmdSize];
+    memcpy(cmd, (char *)&cmdSize, sizeof(cmdSize));
+    memcpy(cmd+sizeof(cmdSize), "TH", cmdSize);
+    emit sendCMD(cmd);    
+    mapThO->writeCurrentParam();
+    mapTh->writeCurrentParam();
 }
 
 void MainWindow3D::showTF()
 {
-    tfWidget->show();
-    tfWidget->activateWindow();
+    if(tfShow == false)
+    {
+	tfWidget->show();
+	tfShow = true;
+    }else
+    {
+	tfWidget->hide(); 
+	tfShow = false;
+    }
+    //tfWidget->activateWindow();
 }
 
 void MainWindow3D::closeTFWindow()
@@ -432,10 +499,15 @@ void MainWindow3D::closeTFWindow()
 
 void MainWindow3D::savePara()
 {
-    QString filename = "lparam.txt";
+    QString filename = "lparamcube.txt";
     mapCubeO->saveParam(filename);
-    filename = "rparam.txt";
+    filename = "rparamcube.txt";
     mapCube->saveParam(filename);
+
+    filename = "lparamth.txt";
+    mapThO->saveParam(filename);
+    filename = "rparamth.txt";
+    mapTh->saveParam(filename);
 }
 
 void MainWindow3D::saveClip()
@@ -444,6 +516,9 @@ void MainWindow3D::saveClip()
     QFile file(filename);
     file.open(QIODevice::WriteOnly|QIODevice::Text);
     QTextStream out(&file);
+    out << "clipXMax: " << clipXMax << "\n";
+    out << "clipYMax: " << clipYMax << "\n";
+    out << "clipZMax: " << clipZMax << "\n";
     out << "clipRight: " << clipRight->get() << "\n";
     out << "clipLeft: " << clipLeft->get() << "\n";
     out << "clipFront: " << clipFront->get() << "\n";

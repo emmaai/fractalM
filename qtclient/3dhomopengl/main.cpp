@@ -1,4 +1,5 @@
 #include "voreen/qt/voreenapplicationqt.h"
+#include "tgt/qt/qtcanvas.h"
 #include "mainwindow3d.h"
 #include <QApplication>
 using namespace voreen;

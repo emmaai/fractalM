@@ -15,7 +15,7 @@ CXX           = g++
 DEFINES       = -DEIGEN_PERMANENTLY_DISABLE_STUPID_WARNINGS -DTGT_HAS_DEVIL -DTGT_WITHOUT_DEFINES -DTIXML_USE_STL -DUNIX -DVRN_MODULE_ADVANCEDLIGHTING -DVRN_MODULE_BASE -DVRN_MODULE_CONNEXE -DVRN_MODULE_CORE -DVRN_MODULE_DEVIL -DVRN_MODULE_DYNAMICGLSL -DVRN_MODULE_FLOWREEN -DVRN_MODULE_OPENCL -DVRN_MODULE_PLOTTING -DVRN_MODULE_PVM -DVRN_MODULE_RANDOMWALKER -DVRN_MODULE_SEGY -DVRN_MODULE_STAGING -DVRN_MODULE_STEREOSCOPY -DVRN_MODULE_VOLUMELABELING -DVRN_MODULE_ZIP -DVRN_SHARED_LIBS -D__STDC_CONSTANT_MACROS -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT -fPIE $(DEFINES)
 CXXFLAGS      = -pipe -g -pthread -fPIC -O2 -Wall -W -D_REENTRANT -fPIE $(DEFINES)
-INCPATH       = -I/opt/Qt5.2.1/5.2.1/gcc_64/mkspecs/linux-g++ -I. -I../../../../Downloads/voreen-src-4.4-unix -I../../../../Downloads/voreen-src-4.4-unix/include -I../../../../Downloads/voreen-src-4.4-unix/ext -I../../../../Downloads/voreen-src-4.4-unix/modules -I/opt/Qt5.2.1/5.2.1/gcc_64/include -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtXml -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtNetwork -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore -I. -I.
+INCPATH       = -I/opt/Qt5.2.1/5.2.1/gcc_64/mkspecs/linux-g++ -I. -I../../../Downloads/voreen-src-4.4-unix -I../../../Downloads/voreen-src-4.4-unix/include -I../../../Downloads/voreen-src-4.4-unix/ext -I../../../Downloads/voreen-src-4.4-unix/modules -I/opt/Qt5.2.1/5.2.1/gcc_64/include -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtXml -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtNetwork -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui -I/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore -I. -I.
 LINK          = g++
 LFLAGS        = -rdynamic -Wl,-O1 -Wl,-rpath,/opt/Qt5.2.1/5.2.1/gcc_64 -Wl,-rpath,/opt/Qt5.2.1/5.2.1/gcc_64/lib
 LIBS          = $(SUBLIBS) -L/home/emma/Downloads/voreen-src-4.4-unix/bin -lQGLViewer -ltgt -lvoreen_core -lvoreen_qt -lGLU -lGLEW -lOpenCL -L/opt/Qt5.2.1/5.2.1/gcc_64/lib -lQt5OpenGL -lQt5Widgets -lQt5Xml -lQt5Network -lQt5Gui -lQt5Core -lGL -lpthread 
@@ -472,127 +472,130 @@ compiler_rcc_make_all: qrc_3dhomeo.cpp
 compiler_rcc_clean:
 	-$(DEL_FILE) qrc_3dhomeo.cpp
 qrc_3dhomeo.cpp: 3dhomeo.qrc \
-		resource/Network_Globe_Connected_Icon_256.png \
-		resource/fileopen.png \
-		resource/Network_Globe_Disconnected_Icon_256.png
+		resource/icons/deformation.png \
+		resource/icons/crop_icon.png \
+		resource/icons/Network_Globe_Disconnected_Icon_256.png \
+		resource/icons/histogram.png \
+		resource/icons/fileopen.png \
+		resource/icons/Network_Globe_Connected_Icon_256.png
 	/opt/Qt5.2.1/5.2.1/gcc_64/bin/rcc -name 3dhomeo 3dhomeo.qrc -o qrc_3dhomeo.cpp
 
 compiler_moc_header_make_all: moc_mainwindow3d.cpp moc_functionglwidget.cpp moc_functioncube.cpp moc_imageglwidget.cpp moc_data_socket.cpp moc_netsettingdialog.cpp moc_viewer.cpp moc_clipplane.cpp
 compiler_moc_header_clean:
 	-$(DEL_FILE) moc_mainwindow3d.cpp moc_functionglwidget.cpp moc_functioncube.cpp moc_imageglwidget.cpp moc_data_socket.cpp moc_netsettingdialog.cpp moc_viewer.cpp moc_clipplane.cpp
-moc_mainwindow3d.cpp: ../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/voreenpainter.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/exception.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/types.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/glcanvas.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_gl.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/gpucapabilities.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/singleton.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/assert.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/vector.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_math.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/event.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/timeevent.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/mouseevent.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/keyevent.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventhandler.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventlistener.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/painter.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/processor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertyowner.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenobject.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreencoreapi.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/abstractserializable.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializable.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/observer.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/logmanager.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serialization.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializablefactory.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializer.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinyxml.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinystr.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrix.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializerbase.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializationexceptions.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/exception.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializationconstants.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmldeserializer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlprocessor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatabase.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatacontainer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/positionmetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/windowstatemetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressreporter.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/profiling.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/property.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/propertylink.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkevaluator.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/rendertarget.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/framebufferobject.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/texture.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkgraph.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/port.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/boolproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templateproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templatepropertycondition.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/condition.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/allactions.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/action.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/targetaction.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/callmemberaction.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetworkobserver.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/renderprocessor.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/shadermanager.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/manager.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/filesystem.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/camera.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/frustum.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/bounds.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/plane.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/line.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrixstack.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/quaternion.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/renderport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/vectorproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/numericproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/linkevaluatorbase.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/textureunit.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/genericport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/imagesequence.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumelist.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volume.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeram.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumerepresentation.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/meshgeometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/geometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/facegeometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/vertexgeometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/realworldmappingmetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeelement.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/tensor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/primitivemetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/datetime.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/stringutils.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumederiveddata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/modality.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/geometryport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/workspace.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkserializer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetwork.h \
-		../../../../Downloads/voreen-src-4.4-unix/modules/core/processors/input/volumesource.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/volumeport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/floatproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/optionproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidgetfactory.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeurlproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/stringproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeinfoproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenapplicationqt.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenapplication.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenmodule.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/voreenserializableobjectfactory.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/timer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/buttonproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/networkeditor/editor_settings.h \
+moc_mainwindow3d.cpp: ../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/voreenpainter.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/exception.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/types.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/glcanvas.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_gl.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/gpucapabilities.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/singleton.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/assert.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/vector.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_math.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/event.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/timeevent.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/mouseevent.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/keyevent.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventhandler.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventlistener.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/painter.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/processor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertyowner.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenobject.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreencoreapi.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/abstractserializable.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializable.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/observer.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/logmanager.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serialization.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializablefactory.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializer.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinyxml.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinystr.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrix.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializerbase.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializationexceptions.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/exception.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializationconstants.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmldeserializer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlprocessor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatabase.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatacontainer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/positionmetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/windowstatemetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressreporter.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/profiling.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/property.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/propertylink.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkevaluator.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/rendertarget.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/framebufferobject.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/texture.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkgraph.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/port.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/boolproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templateproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templatepropertycondition.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/condition.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/allactions.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/action.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/targetaction.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/callmemberaction.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetworkobserver.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/renderprocessor.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/shadermanager.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/manager.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/filesystem.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/camera.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/frustum.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/bounds.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/plane.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/line.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrixstack.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/quaternion.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/renderport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/vectorproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/numericproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/linkevaluatorbase.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/textureunit.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/genericport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/imagesequence.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumelist.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volume.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeram.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumerepresentation.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/meshgeometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/geometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/facegeometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/vertexgeometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/realworldmappingmetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeelement.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/tensor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/primitivemetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/datetime.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/stringutils.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumederiveddata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/modality.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/geometryport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/workspace.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkserializer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetwork.h \
+		../../../Downloads/voreen-src-4.4-unix/modules/core/processors/input/volumesource.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/volumeport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/floatproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/optionproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidgetfactory.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeurlproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/stringproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeinfoproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenapplicationqt.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenapplication.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenmodule.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/voreenserializableobjectfactory.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/timer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/buttonproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/networkeditor/editor_settings.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/QtGlobal \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qglobal.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qconfig.h \
@@ -688,8 +691,8 @@ moc_mainwindow3d.cpp: ../../../../Downloads/voreen-src-4.4-unix/include/voreen/c
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qimage.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qtransform.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QColor \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/intproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/progressdialog.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/intproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/progressdialog.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QProgressDialog \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qprogressdialog.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qdialog.h \
@@ -712,14 +715,14 @@ moc_mainwindow3d.cpp: ../../../../Downloads/voreen-src-4.4-unix/include/voreen/c
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qtouchdevice.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/QTime \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressbar.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenqtapi.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressbar.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenqtapi.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/QString \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeatomic.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/transfuncpropertywidget.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidgetwitheditorwindow.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidget.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidget.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeatomic.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/transfuncpropertywidget.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidgetwitheditorwindow.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidget.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidget.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QWidget \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QBoxLayout \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qboxlayout.h \
@@ -730,8 +733,8 @@ moc_mainwindow3d.cpp: ../../../../Downloads/voreen-src-4.4-unix/include/voreen/c
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qtoolbutton.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qabstractbutton.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qicon.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/transfunc/transfunc.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/qt/qtcanvas.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/transfunc/transfunc.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/qt/qtcanvas.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/QGLWidget \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/qgl.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qopengl.h \
@@ -922,6 +925,7 @@ moc_mainwindow3d.cpp: ../../../../Downloads/voreen-src-4.4-unix/include/voreen/c
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qquaternion.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qgenericmatrix.h \
 		clipplane.h \
+		viewer.h \
 		mainwindow3d.h
 	/opt/Qt5.2.1/5.2.1/gcc_64/bin/moc $(DEFINES) $(INCPATH) mainwindow3d.h -o moc_mainwindow3d.cpp
 
@@ -1903,140 +1907,7 @@ compiler_moc_source_clean:
 compiler_uic_make_all: ui_mainwindow3d.h ui_netsettingdialog.h
 compiler_uic_clean:
 	-$(DEL_FILE) ui_mainwindow3d.h ui_netsettingdialog.h
-ui_mainwindow3d.h: mainwindow3d.ui \
-		viewer.h \
-		functioncube.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QVector3D \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qvector3d.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qpoint.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qnamespace.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qglobal.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qconfig.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qfeatures.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qsystemdetection.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qprocessordetection.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qcompilerdetection.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qglobalstatic.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qbasicatomic.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_bootstrap.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qgenericatomic.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_msvc.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_integrity.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qoldbasicatomic.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_vxworks.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_power.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_alpha.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_armv7.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_armv6.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_armv5.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_bfin.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_ia64.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_mips.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_s390.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_sh4a.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_sparc.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_x86.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_gcc.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qatomic_unix.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qmutex.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qlogging.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qflags.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qtypeinfo.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qtypetraits.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qsysinfo.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qmetatype.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qbytearray.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qrefcount.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qarraydata.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qstring.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qchar.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qstringbuilder.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qvarlengtharray.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qcontainerfwd.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qalgorithms.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qisenum.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qobjectdefs.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QVector2D \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qvector2d.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/QGLWidget \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/qgl.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qopengl.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qt_windows.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qopengles2ext.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qopenglext.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qwidget.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qwindowdefs.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qwindowdefs_win.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qobject.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qlist.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qiterator.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qcoreevent.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qscopedpointer.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qobject_impl.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qmargins.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qrect.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qsize.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qpaintdevice.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qpalette.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qcolor.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qrgb.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qstringlist.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qdatastream.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qiodevice.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qpair.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qregexp.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qstringmatcher.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qbrush.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qvector.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qmatrix.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qpolygon.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qregion.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qline.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qtransform.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qpainterpath.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qimage.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qpixmap.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qsharedpointer.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qshareddata.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qhash.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qfont.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qfontmetrics.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qfontinfo.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qcursor.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qkeysequence.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qevent.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qvariant.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qmap.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qdebug.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qtextstream.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qlocale.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qset.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qcontiguouscache.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qurl.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qurlquery.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qfile.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qfiledevice.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qtouchdevice.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qpaintengine.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qpainter.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qtextoption.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qpen.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/qglcolormap.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/qtopenglglobal.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QSurfaceFormat \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qsurfaceformat.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QMatrix4x4 \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qmatrix4x4.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qvector4d.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qquaternion.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qgenericmatrix.h \
-		typedef.h \
-		clipplane.h
+ui_mainwindow3d.h: mainwindow3d.ui
 	/opt/Qt5.2.1/5.2.1/gcc_64/bin/uic mainwindow3d.ui -o ui_mainwindow3d.h
 
 ui_netsettingdialog.h: netsettingdialog.ui
@@ -2052,61 +1923,61 @@ compiler_clean: compiler_rcc_clean compiler_moc_header_clean compiler_uic_clean
 
 ####### Compile
 
-main.o: main.cpp ../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenapplicationqt.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenapplication.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenmodule.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreencoreapi.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/voreenserializableobjectfactory.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializablefactory.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenobject.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/abstractserializable.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializable.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/logmanager.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/assert.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/types.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/singleton.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertyowner.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/observer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serialization.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializer.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinyxml.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinystr.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/vector.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_math.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrix.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializerbase.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializationexceptions.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/exception.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/exception.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializationconstants.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmldeserializer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlprocessor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatabase.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatacontainer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/positionmetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/windowstatemetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/property.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/propertylink.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/processor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressreporter.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/profiling.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventlistener.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/optionproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templateproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templatepropertycondition.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/condition.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/allactions.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/action.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/targetaction.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/callmemberaction.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidgetfactory.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_gl.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/gpucapabilities.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventhandler.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/event.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/timer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/buttonproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/networkeditor/editor_settings.h \
+main.o: main.cpp ../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenapplicationqt.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenapplication.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenmodule.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreencoreapi.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/voreenserializableobjectfactory.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializablefactory.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenobject.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/abstractserializable.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializable.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/logmanager.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/assert.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/types.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/singleton.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertyowner.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/observer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serialization.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializer.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinyxml.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinystr.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/vector.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_math.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrix.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializerbase.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializationexceptions.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/exception.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/exception.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializationconstants.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmldeserializer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlprocessor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatabase.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatacontainer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/positionmetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/windowstatemetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/property.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/propertylink.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/processor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressreporter.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/profiling.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventlistener.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/optionproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templateproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templatepropertycondition.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/condition.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/allactions.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/action.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/targetaction.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/callmemberaction.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidgetfactory.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_gl.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/gpucapabilities.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventhandler.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/event.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/timer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/buttonproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/networkeditor/editor_settings.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/QtGlobal \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qglobal.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qconfig.h \
@@ -2202,11 +2073,11 @@ main.o: main.cpp ../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/vor
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qimage.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qtransform.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QColor \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/intproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/numericproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/boolproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/floatproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/progressdialog.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/intproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/numericproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/boolproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/floatproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/progressdialog.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QProgressDialog \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qprogressdialog.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qdialog.h \
@@ -2229,82 +2100,14 @@ main.o: main.cpp ../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/vor
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qtouchdevice.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/QTime \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressbar.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenqtapi.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressbar.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenqtapi.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/QString \
-		mainwindow3d.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/voreenpainter.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/glcanvas.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/timeevent.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/mouseevent.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/keyevent.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/painter.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkevaluator.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/rendertarget.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/framebufferobject.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/texture.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkgraph.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/port.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetworkobserver.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/renderprocessor.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/shadermanager.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/manager.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/filesystem.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/camera.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/frustum.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/bounds.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/plane.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/line.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrixstack.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/quaternion.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/renderport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/vectorproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/linkevaluatorbase.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/textureunit.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/genericport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/imagesequence.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumelist.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volume.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeram.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumerepresentation.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/meshgeometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/geometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/facegeometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/vertexgeometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/realworldmappingmetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeelement.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/tensor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/primitivemetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/datetime.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/stringutils.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumederiveddata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/modality.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/geometryport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/workspace.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkserializer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetwork.h \
-		../../../../Downloads/voreen-src-4.4-unix/modules/core/processors/input/volumesource.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/volumeport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeurlproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/stringproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeinfoproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeatomic.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/transfuncpropertywidget.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidgetwitheditorwindow.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidget.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidget.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QWidget \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QBoxLayout \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qboxlayout.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qlayout.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qlayoutitem.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qgridlayout.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QToolButton \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qtoolbutton.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qabstractbutton.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qicon.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/transfunc/transfunc.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/qt/qtcanvas.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/qt/qtcanvas.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/glcanvas.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/timeevent.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/mouseevent.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/keyevent.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/QGLWidget \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/qgl.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qopengl.h \
@@ -2322,6 +2125,74 @@ main.o: main.cpp ../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/vor
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/QGLFormat \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QMouseEvent \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QKeyEvent \
+		mainwindow3d.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/voreenpainter.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/painter.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkevaluator.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/rendertarget.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/framebufferobject.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/texture.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkgraph.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/port.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetworkobserver.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/renderprocessor.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/shadermanager.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/manager.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/filesystem.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/camera.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/frustum.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/bounds.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/plane.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/line.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrixstack.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/quaternion.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/renderport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/vectorproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/linkevaluatorbase.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/textureunit.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/genericport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/imagesequence.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumelist.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volume.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeram.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumerepresentation.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/meshgeometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/geometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/facegeometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/vertexgeometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/realworldmappingmetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeelement.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/tensor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/primitivemetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/datetime.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/stringutils.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumederiveddata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/modality.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/geometryport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/workspace.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkserializer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetwork.h \
+		../../../Downloads/voreen-src-4.4-unix/modules/core/processors/input/volumesource.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/volumeport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeurlproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/stringproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeinfoproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeatomic.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/transfuncpropertywidget.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidgetwitheditorwindow.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidget.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidget.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QWidget \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QBoxLayout \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qboxlayout.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qlayout.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qlayoutitem.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qgridlayout.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QToolButton \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qtoolbutton.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qabstractbutton.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qicon.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/transfunc/transfunc.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QMainWindow \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qmainwindow.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -2495,6 +2366,7 @@ main.o: main.cpp ../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/vor
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qquaternion.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qgenericmatrix.h \
 		clipplane.h \
+		viewer.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QApplication \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qapplication.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qdesktopwidget.h \
@@ -2502,23 +2374,23 @@ main.o: main.cpp ../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/vor
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qinputmethod.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o main.cpp
 
-mainwindow3d.o: mainwindow3d.cpp ../../../../Downloads/voreen-src-4.4-unix/ext/tgt/init.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/types.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/logmanager.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/assert.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/singleton.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/qt/qtcanvas.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/glcanvas.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_gl.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/gpucapabilities.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/vector.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_math.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/event.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/timeevent.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/mouseevent.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/keyevent.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventhandler.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventlistener.h \
+mainwindow3d.o: mainwindow3d.cpp ../../../Downloads/voreen-src-4.4-unix/ext/tgt/init.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/types.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/logmanager.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/assert.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/singleton.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/qt/qtcanvas.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/glcanvas.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_gl.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/gpucapabilities.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/vector.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/tgt_math.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/event.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/timeevent.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/mouseevent.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/keyevent.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventhandler.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/event/eventlistener.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/QGLWidget \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/qgl.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qopengl.h \
@@ -2643,115 +2515,115 @@ mainwindow3d.o: mainwindow3d.cpp ../../../../Downloads/voreen-src-4.4-unix/ext/t
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtOpenGL/QGLFormat \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QMouseEvent \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QKeyEvent \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenqtapi.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/camera.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/frustum.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/bounds.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrix.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/plane.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/line.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrixstack.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/quaternion.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/shadermanager.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/exception.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/manager.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/filesystem.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serialization.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/abstractserializable.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializable.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreencoreapi.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializablefactory.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializer.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinyxml.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinystr.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializerbase.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializationexceptions.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/exception.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializationconstants.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmldeserializer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlprocessor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatabase.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenobject.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatacontainer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/positionmetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/windowstatemetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/buttonproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/property.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/propertylink.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/processor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertyowner.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/observer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressreporter.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/profiling.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/action.h \
-		../../../../Downloads/voreen-src-4.4-unix/modules/core/processors/output/canvasrenderer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/renderprocessor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/rendertarget.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/framebufferobject.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/texture.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/renderport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/port.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/boolproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templateproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templatepropertycondition.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/condition.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/allactions.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/targetaction.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/callmemberaction.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/vectorproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/numericproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/linkevaluatorbase.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/textureunit.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/genericport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/imagesequence.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumelist.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volume.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeram.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumerepresentation.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/meshgeometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/geometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/facegeometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/vertexgeometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/realworldmappingmetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeelement.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/tensor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/primitivemetadata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/datetime.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/stringutils.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumederiveddata.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/modality.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/geometryport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/filedialogproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/stringproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/modules/base/processors/utility/metadataextractor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/textport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/volumeport.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/floatproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/optionproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidgetfactory.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/stringexpressionproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/modules/base/processors/volume/volumecrop.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/volumeprocessor.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/cache.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/intproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/modules/base/processors/render/singlevolumeraycaster.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/volumeraycaster.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/volumerenderer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/lightsourceproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumegl.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumetexture.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/texturemanager.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/transfunc/transfunc.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/transfunc/transfunc1dkeys.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/glsl.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeslicehelper.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/backgroundthread.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/transfuncproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/cameraproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/interaction/voreentrackball.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/shaderproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/modules/base/processors/proxygeometry/cubeproxygeometry.h \
-		../../../../Downloads/voreen-src-4.4-unix/modules/pvm/io/ddsbase.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenqtapi.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/camera.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/frustum.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/bounds.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrix.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/plane.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/line.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/matrixstack.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/quaternion.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/shadermanager.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/exception.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/manager.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/filesystem.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serialization.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/abstractserializable.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializable.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreencoreapi.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializablefactory.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializer.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinyxml.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tinyxml/tinystr.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializerbase.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/serializationexceptions.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/exception.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlserializationconstants.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmldeserializer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/xmlprocessor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatabase.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenobject.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/metadatacontainer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/positionmetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/windowstatemetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/buttonproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/property.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/propertylink.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/processor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertyowner.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/observer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressreporter.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/profiling.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/action.h \
+		../../../Downloads/voreen-src-4.4-unix/modules/core/processors/output/canvasrenderer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/renderprocessor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/rendertarget.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/framebufferobject.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/texture.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/renderport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/port.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/boolproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templateproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/templatepropertycondition.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/condition.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/allactions.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/targetaction.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/callmemberaction.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/vectorproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/numericproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/link/linkevaluatorbase.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/textureunit.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/genericport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/imagesequence.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumelist.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volume.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeram.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumerepresentation.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/meshgeometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/geometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/facegeometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/geometry/vertexgeometry.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/realworldmappingmetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeelement.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/tensor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/meta/primitivemetadata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/datetime.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/stringutils.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumederiveddata.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/modality.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/geometryport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/filedialogproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/stringproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/modules/base/processors/utility/metadataextractor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/textport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/ports/volumeport.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/floatproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/optionproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidgetfactory.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/stringexpressionproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/modules/base/processors/volume/volumecrop.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/volumeprocessor.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/cache.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/intproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/modules/base/processors/render/singlevolumeraycaster.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/volumeraycaster.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/processors/volumerenderer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/lightsourceproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumegl.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumetexture.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/texturemanager.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/transfunc/transfunc.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/transfunc/transfunc1dkeys.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/glsl.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeslicehelper.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/backgroundthread.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/transfuncproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/cameraproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/interaction/voreentrackball.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/shaderproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/modules/base/processors/proxygeometry/cubeproxygeometry.h \
+		../../../Downloads/voreen-src-4.4-unix/modules/pvm/io/ddsbase.h \
 		ui_mainwindow3d.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/QVariant \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QAction \
@@ -2805,54 +2677,42 @@ mainwindow3d.o: mainwindow3d.cpp ../../../../Downloads/voreen-src-4.4-unix/ext/t
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QToolBar \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qtoolbar.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QWidget \
-		viewer.h \
-		functioncube.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QVector3D \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qvector3d.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QVector2D \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QMatrix4x4 \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qmatrix4x4.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qvector4d.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qquaternion.h \
-		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qgenericmatrix.h \
-		typedef.h \
-		clipplane.h \
 		mainwindow3d.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/voreenpainter.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/painter.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkevaluator.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkgraph.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetworkobserver.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/workspace.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkserializer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetwork.h \
-		../../../../Downloads/voreen-src-4.4-unix/modules/core/processors/input/volumesource.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeurlproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeinfoproperty.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenapplicationqt.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenapplication.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenmodule.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/voreenserializableobjectfactory.h \
-		../../../../Downloads/voreen-src-4.4-unix/ext/tgt/timer.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/networkeditor/editor_settings.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/utils/voreenpainter.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/painter.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkevaluator.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkgraph.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetworkobserver.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/workspace.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/networkserializer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/network/processornetwork.h \
+		../../../Downloads/voreen-src-4.4-unix/modules/core/processors/input/volumesource.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeurlproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/volumeinfoproperty.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/voreenapplicationqt.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenapplication.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/voreenmodule.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/serialization/voreenserializableobjectfactory.h \
+		../../../Downloads/voreen-src-4.4-unix/ext/tgt/timer.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/networkeditor/editor_settings.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/QtGlobal \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/QList \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QGraphicsItem \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qgraphicsitem.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QColor \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/progressdialog.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/progressdialog.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QProgressDialog \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qprogressdialog.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qdialog.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/QTime \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressbar.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/io/progressbar.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtCore/QString \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeatomic.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/transfuncpropertywidget.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidgetwitheditorwindow.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidget.h \
-		../../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidget.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/datastructures/volume/volumeatomic.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/transfuncpropertywidget.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidgetwitheditorwindow.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/qt/widgets/property/qpropertywidget.h \
+		../../../Downloads/voreen-src-4.4-unix/include/voreen/core/properties/propertywidget.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QBoxLayout \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QToolButton \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/qtoolbutton.h \
@@ -3010,6 +2870,18 @@ mainwindow3d.o: mainwindow3d.cpp ../../../../Downloads/voreen-src-4.4-unix/ext/t
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtNetwork/qsslcipher.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtNetwork/qsslkey.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtNetwork/qtnetworkversion.h \
+		typedef.h \
+		functioncube.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QVector3D \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qvector3d.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QVector2D \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/QMatrix4x4 \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qmatrix4x4.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qvector4d.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qquaternion.h \
+		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtGui/qgenericmatrix.h \
+		clipplane.h \
+		viewer.h \
 		netsettingdialog.h \
 		/opt/Qt5.2.1/5.2.1/gcc_64/include/QtWidgets/QDialog
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow3d.o mainwindow3d.cpp

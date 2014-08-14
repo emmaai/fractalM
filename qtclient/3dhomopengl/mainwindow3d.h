@@ -23,6 +23,7 @@
 #include "typedef.h"
 #include "functioncube.h"
 #include "clipplane.h"
+#include "viewer.h"
 
 using namespace voreen;
 
@@ -74,6 +75,7 @@ private:
     quint16 portid;
     rwSockData	*rwSocket;
     QThread *rwThread;
+    Viewer *viewerFunc, *viewerFuncO, *viewerFuncTH, *viewerFuncTHO;
     functionCube *mapCube;
     functionCube *mapCubeO;
     functionTH *mapTh, *mapThO;
@@ -83,16 +85,18 @@ private:
     NetworkEvaluator* networkEvaluator;
     ProcessorNetwork* network;
     VoreenPainter* painter, *painterO, *painterC;
-    tgt::QtCanvas *widgetTran, *widgetTranO, *widgetCrop;
+    tgt::QtCanvas *sharedContext, *widgetTran, *widgetTranO, *widgetCrop;
     VolumeSource *volume;
     int volumecount;
     unsigned int widthLR, lengthLR, depthLR;
     unsigned int widthHR, lengthHR, depthHR;
+    unsigned int clipXMax, clipYMax, clipZMax;
     bool displayHR;
     QProgressDialog  *progress;
     Volume *volumeHandle;
     TransFuncPropertyWidget *tfWidget, *tfWidgetO;
     FloatProperty *clipRight, *clipLeft, *clipFront, *clipBack, *clipBottom, *clipTop;
+    bool tfShow;
 
 };
 

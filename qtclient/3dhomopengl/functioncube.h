@@ -21,6 +21,8 @@ public:
     void setSelectedFrameNumber(unsigned short nb){ selected = nb;};
     void setFuncNo(int no){int i=0; for(i=0; i<PARANUMBER; i++) functionParam[i].funcNo = no;};
     void saveParam(QString filename);
+    void writeCurrentParam();
+
 signals:
     void writeParam(char *);
 private:
@@ -51,6 +53,9 @@ public:
     qglviewer::ManipulatedFrame* frame(unsigned short i){return frame_[i];};
     void setSelectedFrameNumber(unsigned short nb){ selected = nb;};
     void setFuncNo(int no){int i=0; for(i=0; i<PARANUMBER; i++) functionParam[i].funcNo = no;};
+    void saveParam(QString filename);
+    void writeCurrentParam();
+    void setEmbeddingMode(unsigned int mode){embeddingMode = mode;};
 
 signals:
     void writeParam(char *);
@@ -66,11 +71,16 @@ private:
     functionNode *middleNode;
 
     functionEdge *faceEdge[12];
-    functionEdge *innerEdge[6];
+    functionEdge *innerEdge;
 
     activeFunc functionParam[PARANUMBER];
-    QVector3D points[27];
+    QVector3D points[10], lastPos[6], vertices[4];
+    double lAB, lAC, lAD, lBC, lBD, lCD;
+    double rAB, rAC, rAD, rBC, rBD, rCD;
     unsigned long samePoint;
+    unsigned int embeddingMode;
+    void calPoints();
+    void calRatio();
 };
 
 class functionEdge:public QObject

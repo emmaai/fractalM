@@ -5,6 +5,7 @@ Viewer::Viewer(QWidget *parent, QGLWidget *sharewidget):QGLViewer(parent, sharew
     cube = NULL;
     box = NULL;
     Th = NULL;
+    setFocusPolicy(Qt::StrongFocus);
 }
 
 Viewer::~Viewer()
@@ -201,7 +202,15 @@ QString Viewer::helpString() const
   return text;
 }
 
-void Viewer::enterEvent(QEvent *event)
+void Viewer::focusInEvent(QEvent *event)
 {
-    emit closeTFWindow();
+    qDebug() << "enter viewer";
+    doneCurrent();
+    makeCurrent();
+}
+
+void Viewer::focusOutEvent(QEvent *event)
+{
+    qDebug() << "leave viewer";
+    doneCurrent();
 }

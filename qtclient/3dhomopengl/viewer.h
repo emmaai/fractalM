@@ -23,7 +23,8 @@ protected :
     virtual void init();
     virtual QString helpString() const;
     virtual void endSelection(const QPoint& point);
-    virtual void enterEvent(QEvent *event);
+    virtual void focusInEvent(QEvent *event);
+    virtual void focusOutEvent(QEvent *event);
 
 private :
   void drawCornerAxis();
