@@ -1,0 +1,1165 @@
+==795== Memcheck, a memory error detector
+==795== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==795== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==795== Command: ./a.out
+==795== 
+==795== Thread 2:
+==795== Invalid read of size 8
+==795==    at 0x1000061D0: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612680 is 0 bytes after a block of size 1,536 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x1000072BF: trilinearIFS::trilinearIFS(trilinearIFS const&) (trilinear_class.h:312)
+==795==    by 0x1000045F7: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061D8: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612688 is 8 bytes after a block of size 1,536 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x1000072BF: trilinearIFS::trilinearIFS(trilinearIFS const&) (trilinear_class.h:312)
+==795==    by 0x1000045F7: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061E1: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126a0 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061EA: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126b8 is 8 bytes before a block of size 32 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x1000013A0: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006215: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126a8 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000623F: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612690 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006248: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126b0 is 16 bytes before a block of size 32 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x1000013A0: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006273: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612698 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062A7: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126e0 is 0 bytes after a block of size 32 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x1000013A0: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062B0: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126f8 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062DB: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126e8 is 8 bytes after a block of size 32 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x1000013A0: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000630E: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126f0 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000635C: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612700 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006368: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612708 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006374: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612720 is 0 bytes inside a block of size 8 free'd
+==795==    at 0xC508: free (vg_replace_malloc.c:430)
+==795==    by 0x100007639: deBruijn::~deBruijn() (db_class.h:140)
+==795==    by 0x100002DB7: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:94)
+==795==    by 0x100002A52: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006380: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612738 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063AE: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612728 is 0 bytes after a block of size 8 free'd
+==795==    at 0xC508: free (vg_replace_malloc.c:430)
+==795==    by 0x100007639: deBruijn::~deBruijn() (db_class.h:140)
+==795==    by 0x100002DB7: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:94)
+==795==    by 0x100002A52: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063DB: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612710 is 16 bytes before a block of size 8 free'd
+==795==    at 0xC508: free (vg_replace_malloc.c:430)
+==795==    by 0x100007639: deBruijn::~deBruijn() (db_class.h:140)
+==795==    by 0x100002DB7: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:94)
+==795==    by 0x100002A52: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063E7: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612730 is 8 bytes after a block of size 8 free'd
+==795==    at 0xC508: free (vg_replace_malloc.c:430)
+==795==    by 0x100007639: deBruijn::~deBruijn() (db_class.h:140)
+==795==    by 0x100002DB7: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:94)
+==795==    by 0x100002A52: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006415: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612718 is 8 bytes before a block of size 8 free'd
+==795==    at 0xC508: free (vg_replace_malloc.c:430)
+==795==    by 0x100007639: deBruijn::~deBruijn() (db_class.h:140)
+==795==    by 0x100002DB7: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:94)
+==795==    by 0x100002A52: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061D0: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213da0 is 0 bytes after a block of size 1,536 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x1000072BF: trilinearIFS::trilinearIFS(trilinearIFS const&) (trilinear_class.h:312)
+==795==    by 0x1000045DC: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061D8: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213da8 is 8 bytes after a block of size 1,536 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x1000072BF: trilinearIFS::trilinearIFS(trilinearIFS const&) (trilinear_class.h:312)
+==795==    by 0x1000045DC: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061E1: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213dc0 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061EA: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213dd8 is 8 bytes before a block of size 568 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x100001389: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006215: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213dc8 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000623F: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213db0 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006248: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213dd0 is 16 bytes before a block of size 568 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x100001389: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006273: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213db8 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Use of uninitialised value of size 8
+==795==    at 0x1000056C6: volume::get_dat_from_ind(unsigned int) (trilinear_class.h:53)
+==795==    by 0x100003104: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:92)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795== 
+==795== Use of uninitialised value of size 8
+==795==    at 0x10000574B: volume::set_dat_from_ind(unsigned char, unsigned int) (trilinear_class.h:59)
+==795==    by 0x10000313A: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:92)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795== 
+==795== Use of uninitialised value of size 8
+==795==    at 0x1000056C6: volume::get_dat_from_ind(unsigned int) (trilinear_class.h:53)
+==795==    by 0x100003190: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:93)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795== 
+==795== Use of uninitialised value of size 8
+==795==    at 0x10000574B: volume::set_dat_from_ind(unsigned char, unsigned int) (trilinear_class.h:59)
+==795==    by 0x1000031C6: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:93)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061D0: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612680 is 0 bytes after a block of size 1,536 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x1000072BF: trilinearIFS::trilinearIFS(trilinearIFS const&) (trilinear_class.h:312)
+==795==    by 0x1000045F7: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061D8: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612688 is 8 bytes after a block of size 1,536 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x1000072BF: trilinearIFS::trilinearIFS(trilinearIFS const&) (trilinear_class.h:312)
+==795==    by 0x1000045F7: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061E1: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126a0 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061EA: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126b8 is 8 bytes before a block of size 32 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x1000013A0: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006215: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126a8 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000623F: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612690 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006248: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126b0 is 16 bytes before a block of size 32 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x1000013A0: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006273: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612698 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062A7: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126e0 is 0 bytes after a block of size 32 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x1000013A0: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062B0: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126f8 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062DB: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126e8 is 8 bytes after a block of size 32 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x1000013A0: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000630E: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x1006126f0 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000635C: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612700 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006368: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612708 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006374: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612720 is 0 bytes inside a block of size 8 free'd
+==795==    at 0xC508: free (vg_replace_malloc.c:430)
+==795==    by 0x100007639: deBruijn::~deBruijn() (db_class.h:140)
+==795==    by 0x100002DB7: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:94)
+==795==    by 0x100002A52: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006380: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612738 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063AE: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612728 is 0 bytes after a block of size 8 free'd
+==795==    at 0xC508: free (vg_replace_malloc.c:430)
+==795==    by 0x100007639: deBruijn::~deBruijn() (db_class.h:140)
+==795==    by 0x100002DB7: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:94)
+==795==    by 0x100002A52: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063DB: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612710 is 16 bytes before a block of size 8 free'd
+==795==    at 0xC508: free (vg_replace_malloc.c:430)
+==795==    by 0x100007639: deBruijn::~deBruijn() (db_class.h:140)
+==795==    by 0x100002DB7: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:94)
+==795==    by 0x100002A52: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063E7: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612730 is 8 bytes after a block of size 8 free'd
+==795==    at 0xC508: free (vg_replace_malloc.c:430)
+==795==    by 0x100007639: deBruijn::~deBruijn() (db_class.h:140)
+==795==    by 0x100002DB7: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:94)
+==795==    by 0x100002A52: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006415: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612718 is 8 bytes before a block of size 8 free'd
+==795==    at 0xC508: free (vg_replace_malloc.c:430)
+==795==    by 0x100007639: deBruijn::~deBruijn() (db_class.h:140)
+==795==    by 0x100002DB7: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:94)
+==795==    by 0x100002A52: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061D0: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213da0 is 0 bytes after a block of size 1,536 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x1000072BF: trilinearIFS::trilinearIFS(trilinearIFS const&) (trilinear_class.h:312)
+==795==    by 0x1000045DC: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061D8: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213da8 is 8 bytes after a block of size 1,536 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x1000072BF: trilinearIFS::trilinearIFS(trilinearIFS const&) (trilinear_class.h:312)
+==795==    by 0x1000045DC: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061E1: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213dc0 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000061EA: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213dd8 is 8 bytes before a block of size 568 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x100001389: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006215: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213dc8 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000623F: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213db0 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006248: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213dd0 is 16 bytes before a block of size 568 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x100001389: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006273: trilinear::apply(double*, double*) (trilinear_class.h:231)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100213db8 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006295: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612780 is 8 bytes after a block of size 8 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x100007882: deBruijn::deBruijn(int, int) (db_class.h:135)
+==795==    by 0x100002B92: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:49)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000629E: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612788 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006305: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612790 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006339: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002ED1: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:78)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612798 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006295: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612780 is 8 bytes after a block of size 8 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x100007882: deBruijn::deBruijn(int, int) (db_class.h:135)
+==795==    by 0x100002B92: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:49)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000629E: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612788 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006305: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612790 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006339: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002E5B: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:76)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100612798 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006295: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214020 is 8 bytes after a block of size 568 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x100001389: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000629E: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214028 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062A7: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214040 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062B0: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214058 is 8 bytes before a block of size 24 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0xC5BF: realloc (vg_replace_malloc.c:635)
+==795==    by 0x1000009E3: gomp_realloc (in ./a.out)
+==795==    by 0x100001566: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062DB: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214048 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006305: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214030 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000630E: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214050 is 16 bytes before a block of size 24 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0xC5BF: realloc (vg_replace_malloc.c:635)
+==795==    by 0x1000009E3: gomp_realloc (in ./a.out)
+==795==    by 0x100001566: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006339: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214038 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006374: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214080 is 8 bytes after a block of size 24 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0xC5BF: realloc (vg_replace_malloc.c:635)
+==795==    by 0x1000009E3: gomp_realloc (in ./a.out)
+==795==    by 0x100001566: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006380: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214098 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063AE: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214088 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063E7: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214090 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006415: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214078 is 0 bytes after a block of size 24 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0xC5BF: realloc (vg_replace_malloc.c:635)
+==795==    by 0x1000009E3: gomp_realloc (in ./a.out)
+==795==    by 0x100001566: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006295: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214020 is 8 bytes after a block of size 568 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x1000009A3: gomp_malloc (in ./a.out)
+==795==    by 0x100001389: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000629E: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214028 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062A7: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214040 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062B0: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214058 is 8 bytes before a block of size 24 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0xC5BF: realloc (vg_replace_malloc.c:635)
+==795==    by 0x1000009E3: gomp_realloc (in ./a.out)
+==795==    by 0x100001566: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000062DB: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214048 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006305: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214030 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000630E: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214050 is 16 bytes before a block of size 24 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0xC5BF: realloc (vg_replace_malloc.c:635)
+==795==    by 0x1000009E3: gomp_realloc (in ./a.out)
+==795==    by 0x100001566: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006339: trilinear::apply(double*, double*) (trilinear_class.h:232)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214038 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006374: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214080 is 8 bytes after a block of size 24 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0xC5BF: realloc (vg_replace_malloc.c:635)
+==795==    by 0x1000009E3: gomp_realloc (in ./a.out)
+==795==    by 0x100001566: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006380: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214098 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063AE: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214088 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063E7: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214090 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006415: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214078 is 0 bytes after a block of size 24 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0xC5BF: realloc (vg_replace_malloc.c:635)
+==795==    by 0x1000009E3: gomp_realloc (in ./a.out)
+==795==    by 0x100001566: gomp_team_start (in ./a.out)
+==795==    by 0x100002A46: db_chaos_parallel(trilinearIFS, volume*, trilinearIFS, volume*, unsigned int) (db_chaos_3d_parallel.h:18)
+==795==    by 0x100004635: main (small_test.cpp:105)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000635C: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214120 is 8 bytes after a block of size 8 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x1000078A3: deBruijn::deBruijn(int, int) (db_class.h:135)
+==795==    by 0x100002B92: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:49)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006368: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214128 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063DB: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EA4: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:77)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214130 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x10000635C: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214120 is 8 bytes after a block of size 8 alloc'd
+==795==    at 0xB823: malloc (vg_replace_malloc.c:266)
+==795==    by 0x5768D: operator new(unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x576DA: operator new[](unsigned long) (in /usr/lib/libstdc++.6.0.9.dylib)
+==795==    by 0x1000078A3: deBruijn::deBruijn(int, int) (db_class.h:135)
+==795==    by 0x100002B92: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:49)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x100006368: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214128 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== Invalid read of size 8
+==795==    at 0x1000063DB: trilinear::apply(double*, double*) (trilinear_class.h:233)
+==795==    by 0x100006522: trilinearIFS::apply_fn(int, double*, double*) (trilinear_class.h:333)
+==795==    by 0x100002EFF: _Z17db_chaos_parallel12trilinearIFSP6volumeS_S1_j.omp_fn.0 (db_chaos_3d_parallel.h:79)
+==795==    by 0x100001762: gomp_thread_start (in ./a.out)
+==795==    by 0x2638BE: _pthread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==    by 0x266B74: thread_start (in /usr/lib/system/libsystem_c.dylib)
+==795==  Address 0x100214130 is not stack'd, malloc'd or (recently) free'd
+==795== 
+==795== 
+==795== More than 100 errors detected.  Subsequent errors
+==795== will still be recorded, but in less detail than before.
+Time for db_chaos_parallel: 14.877764
+	its per second: ~140958
+861270 of expected 2097152
+95540 of expected ~231824
+Time for db_chaos: 16.582960
+	its per second: ~126464
+965012 of expected 2097152
+114562 of expected ~231824
+==795== 
+==795== HEAP SUMMARY:
+==795==     in use at exit: 6,366 bytes in 37 blocks
+==795==   total heap usage: 52 allocs, 15 frees, 4,208,998 bytes allocated
+==795== 
+==795== LEAK SUMMARY:
+==795==    definitely lost: 0 bytes in 0 blocks
+==795==    indirectly lost: 0 bytes in 0 blocks
+==795==      possibly lost: 0 bytes in 0 blocks
+==795==    still reachable: 6,366 bytes in 37 blocks
+==795==         suppressed: 0 bytes in 0 blocks
+==795== Rerun with --leak-check=full to see details of leaked memory
+==795== 
+==795== For counts of detected and suppressed errors, rerun with: -v
+==795== Use --track-origins=yes to see where uninitialised values come from
+==795== ERROR SUMMARY: 2700168 errors from 100 contexts (suppressed: 1 from 1)

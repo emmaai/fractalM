@@ -1,0 +1,28 @@
+==933== Memcheck, a memory error detector
+==933== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==933== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==933== Command: ./a.out
+==933== 
+Time for db_chaos_parallel: 17.496077
+	its per second: ~119864
+965012 of expected 2097152
+114562 of expected ~231824
+Time for db_chaos: 16.507238
+	its per second: ~127044
+965012 of expected 2097152
+114562 of expected ~231824
+==933== 
+==933== HEAP SUMMARY:
+==933==     in use at exit: 6,342 bytes in 36 blocks
+==933==   total heap usage: 51 allocs, 15 frees, 4,212,022 bytes allocated
+==933== 
+==933== LEAK SUMMARY:
+==933==    definitely lost: 0 bytes in 0 blocks
+==933==    indirectly lost: 0 bytes in 0 blocks
+==933==      possibly lost: 0 bytes in 0 blocks
+==933==    still reachable: 6,342 bytes in 36 blocks
+==933==         suppressed: 0 bytes in 0 blocks
+==933== Rerun with --leak-check=full to see details of leaked memory
+==933== 
+==933== For counts of detected and suppressed errors, rerun with: -v
+==933== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 1 from 1)

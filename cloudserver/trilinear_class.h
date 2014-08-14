@@ -13,176 +13,7 @@
 #include<iostream>
 #include<cstdlib>
 #include<cstdio>
-
-const double TOLERANCE=1.0e-6;
-
-// class for a volumetric data slab
-class volume{
-private:
-	unsigned int dim[3];
-public:
-	unsigned char* slab;
-	volume(unsigned int wid,unsigned int hei,unsigned int dep) {
-		dim[2]=wid;
-		dim[1]=hei;
-		dim[0]=dep;
-		slab=new unsigned char[wid*hei*dep];
-		for (unsigned int i=0;i<wid*hei*dep;i++) slab[i]=0;
-	}
-	~volume(){
-		if (dim[0]*dim[1]*dim[2]>0) delete [] slab;
-	}
-	unsigned int get_size(){
-		return dim[0]*dim[1]*dim[2];
-	};
-	unsigned int get_wid() {
-		return dim[2];
-	}
-	unsigned int get_hei() {
-		return dim[1];
-	}
-	unsigned int get_dep() {
-		return dim[0];
-	}
-	void fill(unsigned char value) {
-		for (unsigned int i=0;i<dim[0]*dim[1]*dim[2];i++) slab[i]=value;
-	}
-	unsigned char get_dat_from_coord(unsigned int i,unsigned int j, unsigned int k) {
-		return slab[(k*dim[1]+j)*dim[2]+i];
-	}
-	unsigned char get_dat_from_ind(unsigned int ind) {
-		return slab[ind];
-	}
-	void set_dat_from_coord(unsigned char value, unsigned int i,unsigned int j, unsigned int k) {
-		slab[(k*dim[1]+j)*dim[2]+i]=value;
-	}
-	void set_dat_from_ind(unsigned char value,unsigned int ind) {
-		slab[ind]=value;
-	}
-	void increment_coord(unsigned int i,unsigned int j, unsigned int k) {
-		if (slab[(k*dim[1]+j)*dim[2]+i]<255) slab[(k*dim[1]+j)*dim[2]+i]++;
-	}
-	void increment_ind(unsigned int ind) {
-		if (slab[ind]<255) slab[ind]++;
-	}
-	unsigned int sum() {
-		unsigned int s=0;
-		for (unsigned int i=0;i<dim[0]*dim[1]*dim[2];i++) s+=slab[i];
-		return s;
-	}
-	unsigned int num_more_than(unsigned char a) {
-		unsigned int s=0;
-		for (unsigned int i=0;i<dim[0]*dim[1]*dim[2];i++) if (slab[i]>a) s++;
-		return s;
-	}
-	unsigned int num_non_zero() {
-		return num_more_than(0);
-	}
-	unsigned int num_less_than(unsigned char a) {
-		unsigned int s=0;
-		for (unsigned int i=0;i<dim[0]*dim[1]*dim[2];i++) if (slab[i]<a) s++;
-		return s;
-	}
-	void add_sphere(double rad,double* cen,unsigned char value=255) {
-		//adds a sphere to the volume (treating volume as unit cube)
-		//handy for making some quick data to transform
-		//this is ridiculously slow if compiled without optimisation
-		double rad2=rad*rad;
-		double x,x2,y,y2,z,z2;
-		unsigned int m,n;
-		for (unsigned int k=0;k<dim[0];k++) {
-			z=1.0*k/(dim[0]-1);
-			z2=(z-cen[2])*(z-cen[2]);
-			m=k*dim[1];
-			for (unsigned int j=0;j<dim[1];j++) {
-				y=1.0*j/(dim[1]-1);
-				y2=(y-cen[1])*(y-cen[1]);
-				n=(m+j)*dim[2];
-				for (unsigned int i=0;i<dim[2];i++) {
-					x=1.0*i/(dim[2]-1);
-					x2=(x-cen[0])*(x-cen[0]);
-					if (x2+y2+z2<=rad2) slab[n+i]=value;
-				}
-			}
-		}
-	}
-	void save(char* filename) {
-		FILE* fp;
-		fp=fopen(filename,"wb");
-		// first byte is the header length
-		unsigned char header=13;
-		fwrite(&header,sizeof(unsigned char),1,fp);
-		// next 12 bytes is the dimensions
-		fwrite(dim,sizeof(unsigned int),3,fp);
-		// now the data
-		fwrite(slab,sizeof(unsigned char),dim[0]*dim[1]*dim[2],fp);
-		fclose(fp);
-	}
-	void load(char* filename) {
-		FILE* fp;
-		fp=fopen(filename,"rb");
-		// first byte is the header length
-		unsigned char header;
-		fread(&header,sizeof(unsigned char),1,fp);
-		// first 12 bytes is the dimensions
-		fread(dim,sizeof(unsigned int),3,fp);
-		// now the data
-		fread(slab,sizeof(unsigned char),dim[0]*dim[1]*dim[2],fp);
-		fclose(fp);
-	}
-};
-
-// class for a vertex array
-class vertices{
-private:
-	unsigned int num_vertices;
-	double* verts;
-public:
-	vertices(unsigned int len) {
-		num_vertices=len;
-		verts=new double[3*num_vertices];
-		for (unsigned int i=0;i<3*num_vertices;i++) verts[i]=0.0;
-	}
-	~vertices(){
-		if (num_vertices>0) delete verts;
-	}
-	unsigned int get_size(){
-		return num_vertices;
-	};
-	double* get_vertex_ptr(unsigned int ind) {
-		return &verts[3*ind];
-	}
-	void get_vertex(unsigned int ind,double* vertex) {
-		for (unsigned int i=0;i<3;i++) vertex[i]=verts[3*ind+i];
-	}
-	void set_vertex(unsigned int ind,double* vertex) {
-		for (unsigned int i=0;i<3;i++) verts[3*ind+i]=vertex[i];
-	}
-	void fill_rand() {
-		//fills array with random points, useful for testing
-		for (unsigned int i=0;i<3*num_vertices;i++) {
-			verts[i]=1.0*rand()/RAND_MAX;
-		}
-	}
-	/*
-	// should add routine for saving/loading as a binary stl file
-	// this would assume that the vertices are a list of triangles
-	// in particular, num_vertices should be a multiple of 3
-	// we also need to calculate normals
-	void save_stl(char* filename) {
-		FILE* fp;
-		fp=fopen(filename,"wb");
-		//..........
-		fclose(fp);
-	}
-	void load_stl(char* filename) {
-		FILE* fp;
-		fp=fopen(filename,"rb");
-		//..........
-		fclose(fp);
-	}
-	*/
-};
+#include "volume_class.h"
 
 class trilinear{
 private:
@@ -312,6 +143,12 @@ public:
 		num_fns=ifs.num_fns;
 		fns=new trilinear[num_fns];
 		for (int i=0;i<num_fns;i++) fns[i]=ifs.fns[i];
+	}
+	trilinearIFS operator=(const trilinearIFS &ifs) {
+		num_fns=ifs.num_fns;
+		fns=new trilinear[num_fns];
+		for (int i=0;i<num_fns;i++) fns[i]=ifs.fns[i];
+		return *this;
 	}
 	~trilinearIFS() {
 		if (num_fns>0) delete[] fns;

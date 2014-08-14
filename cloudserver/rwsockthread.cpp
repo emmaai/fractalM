@@ -21,6 +21,8 @@ volatile bool imageSourceReady = false;
 volatile bool imageTargetReady = false;
 volatile bool sockClose = false;
 volatile bool generateHR;
+volatile bool cbMapping;
+volatile bool thMapping;
 extern pthread_mutex_t mutex;
 
 
@@ -145,6 +147,25 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 			generateHR = true;
 			pthread_mutex_unlock(&mutex);
 		    }
+
+		    if(!strncmp(bodyPtr, "CB", 2))
+		    {
+			printf("cube mapping\n"); 
+			pthread_mutex_lock(&mutex);
+			cbMapping = true;
+			thMapping = false;
+			pthread_mutex_unlock(&mutex);
+		    }
+
+		    if(!strncmp(bodyPtr, "TH", 2))
+		    {
+			printf("Tetrehadron mapping\n"); 
+			pthread_mutex_lock(&mutex);
+			thMapping = true;
+			cbMapping = false;
+			pthread_mutex_unlock(&mutex);
+		    }
+
 		    status |= (1<<1);
 		    status &= ~((1<<0)|(1<<2)|(1<<4));
 		    lastCmd &= ~(1<<0);
@@ -154,7 +175,22 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		    bodySize = tailPtr-bodyPtr;
 		    printf("tail found %s\n", tailPtr);	
 		    memcpy((char *)paraPtr, bodyPtr, bodySize);
+		    while(paramCounter);
 		    memcpy((char *)functionPara, paramBuffer, PARAMNUMBER*sizeof(activeFunc));
+
+		    /*
+		    for(int i=0; i< 8; i++)
+		    {
+			printf("the function parameter %d\n", i);
+			printf("functionPara numActiveFuncs: %lu\n", functionPara[i].funcNo);
+			for(int j=0; j<8; j++)
+			{
+			    printf("functionPara coordiate: %f*%f*%f\n", functionPara[i].coordinate[j].x, 
+				functionPara[i].coordinate[j].y, functionPara[i].coordinate[j].z);
+			}
+		    }
+		    */
+
 		    pthread_mutex_lock(&mutex);
 		    paramCounter=1;
 		    /*
@@ -204,6 +240,24 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 			pthread_mutex_unlock(&mutex);
 		    }
 
+		    if(!strncmp(bodyPtr, "CB", 2))
+		    {
+			printf("cube mapping\n"); 
+			pthread_mutex_lock(&mutex);
+			cbMapping = true;
+			thMapping = false;
+			pthread_mutex_unlock(&mutex);
+		    }
+
+		    if(!strncmp(bodyPtr, "TH", 2))
+		    {
+			printf("Tetrehadron mapping\n"); 
+			pthread_mutex_lock(&mutex);
+			thMapping = true;
+			cbMapping = false;
+			pthread_mutex_unlock(&mutex);
+		    }
+
 		    status &= ~((1<<0)|(1<<2)|(1<<4));
 		    status |= (1<<1);
 		    lastCmd &= ~(1<<0);
@@ -220,7 +274,24 @@ int parsCmd(unsigned long buffer, int buffersize, short cmd)
 		    printf("bodysize is %d\n", bodySize);
 		    printf("paraptr is %lu\n", (unsigned long)paraPtr);
 		    memcpy((char *)paraPtr, bodyPtr, bodySize);
+		    while(paramCounter);
 		    memcpy((char *)functionPara, paramBuffer, PARAMNUMBER*sizeof(activeFunc));
+		    /*
+		    printf("the param size is %d\n", PARAMNUMBER*sizeof(activeFunc));
+		    printf("single param size is %d\n", sizeof(activeFunc));
+		    printf("size of int %d, sizeof long %d, size of float %d\n", sizeof(int), sizeof(unsigned long), sizeof(float));
+		    for(int i=0; i< 8; i++)
+		    {
+			printf("the function parameter %d\n", i);
+			printf("functionPara numActiveFuncs: %lu\n", functionPara[i].funcNo);
+			for(int j=0; j<8; j++)
+			{
+			    printf("functionPara coordiate: %f*%f*%f\n", functionPara[i].coordinate[j].x, 
+				functionPara[i].coordinate[j].y, functionPara[i].coordinate[j].z);
+			}
+		    }
+		    */
+
 		    pthread_mutex_lock(&mutex);
 		    paramCounter=1;
 		    /*

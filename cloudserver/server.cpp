@@ -13,11 +13,17 @@
 #include <fcntl.h>
 #include <pthread.h>
 #include <errno.h>
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <algorithm> 
 #include "rwsockthread.h"
 #include "transfmimg.h"
 #include "typedef.h"
 #include "trilinear_class.h"
 #include "ddsbase.h"
+
+using namespace std;
 
 pthread_mutex_t mutex;
 extern volatile bool sockClose;
@@ -33,6 +39,56 @@ void error(const char *msg)
     perror(msg);
     exit(1);
 }
+
+ 
+bool getNextLine(ifstream *file_, string& type, string& args, bool toLowercase) {
+    string whitespace_ = " \t\n\r";
+    string commentChars_ = "#";
+    string separators_ = " \t\n\r";
+    if (file_->eof())
+        return false;
+
+    do {
+        string line;
+        getline(*file_, line);
+
+        size_t type_start = line.find_first_not_of(whitespace_);
+        if (!line.empty() && type_start != string::npos && (commentChars_.find(line[type_start]) == string::npos)) {
+            size_t sep_start = line.find_first_of(separators_, type_start);
+            size_t type_size = string::npos;
+            if (sep_start != string::npos) {
+                type_size = sep_start - type_start;
+                size_t args_start = line.find_first_not_of(separators_, sep_start);
+                if (args_start != string::npos) {
+                    // skip trailing whitespace
+                    size_t args_end = line.find_last_not_of(whitespace_);
+                    args = line.substr(args_start,
+                                       (args_end != string::npos ? args_end - args_start + 1 : string::npos));
+                }
+                else
+                    args = "";
+
+            }
+            type = line.substr(type_start, type_size);
+            if (toLowercase)
+                transform(type.begin(), type.end(), type.begin(), (int (*)(int))tolower);
+
+            return true;
+        }
+    } while (!file_->eof());
+
+    return false;
+}
+
+bool getNextLine(ifstream *file_, string &type, istringstream &args, bool toLowercase)
+{    
+    string s;
+    bool r = getNextLine(file_, type, s, toLowercase);
+    args.clear();
+    args.rdbuf()->str(s);
+    return r;
+}
+
 
 int main(int argc, char *argv[])
 {
@@ -63,15 +119,67 @@ int main(int argc, char *argv[])
     buffersize = 32768*8;
     pthread_mutex_init(&mutex, NULL);
     unsigned int widthLR, heightLR, depthLR, widthHR, heightHR, depthHR, size;
+    string type;
+    istringstream args;
+    string rawfnHR, rawfnLR;
     char *filename = argv[2];
-    widthHR = 500;
-    heightHR = 375;
-    depthHR = 1854;
 
-    widthLR = 69; 
-    heightLR = 52;
-    depthLR = 256;
+    ifstream *datfn = new std::ifstream(argv[2]);
+    if(!datfn->is_open())
+    {
+	printf("can't open dat file \n"); 
+	return 1;
+    }
 
+    while(getNextLine(datfn, type, args, false))
+    {
+	if (type == "ObjectFileName:") {
+	    args >> rawfnHR;   
+	    printf("raw file name is %s\n", rawfnHR.c_str());
+	 }else if (type == "Resolution:") 
+	 {
+            args >> widthHR;
+            args >> heightHR;
+            args >> depthHR;
+	    printf("high resolution is %d %d %d\n", widthHR, heightHR, depthHR);
+	 }
+
+    }
+    datfn->close();
+    delete(datfn);
+
+    datfn = new std::ifstream(argv[3]);
+    if(!datfn->is_open())
+    {
+	printf("can't open dat file \n"); 
+	return 1;
+    }
+
+    while(getNextLine(datfn, type, args, false))
+    {
+	if (type == "ObjectFileName:") {
+	    args >> rawfnLR;   
+	    printf("raw file name is %s\n", rawfnLR.c_str());
+	 }else if (type == "Resolution:") 
+	 {
+            args >> widthLR;
+            args >> heightLR;
+            args >> depthLR;
+	    printf("low resolution is %d %d %d\n", widthLR, heightLR, depthLR);
+	 }
+
+    }
+    datfn->close();
+    delete(datfn);
+
+/*
+    vol1 = new volume(2*1024, 3*1024, 1024);
+    vol2 = new volume(2*1024, 3*1024, 1024);
+
+    vol3 = new volume(1024, 1024, 1024);
+    vol4 = new volume(1024, 1024, 1024);
+
+*/
     vol1 = new volume(widthLR, heightLR, depthLR);
     vol2 = new volume(widthLR, heightLR, depthLR);
 
@@ -86,13 +194,16 @@ int main(int argc, char *argv[])
     printf("image buffer pointer is %ul\n", imageBufferTarget);
     printf("vol2 pointer is %ul\n", vol2);
 
-    unsigned char *data = readRAWfile(filename, &size);
+    unsigned char *data = readRAWfile((char *)rawfnHR.c_str(), &size);
+    printf("data pointer is %ul\n", (unsigned long)data);
     for(int i=0; i<widthHR*heightHR*depthHR; i++ )
 	vol3->set_dat_from_ind(data[i], i);
-    filename = argv[3];
-    data = readRAWfile(filename, &size);
+    delete data;
+
+    data = readRAWfile((char *)rawfnLR.c_str(), &size);
     for(int i=0; i<widthLR*heightLR*depthLR; i++ )
 	vol1->set_dat_from_ind(data[i], i);
+
     delete data;
 
      while(1)

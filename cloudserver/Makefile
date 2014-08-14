@@ -13,7 +13,7 @@ DFLAGS	= -g
 INCPATH	= 
 LINK	= g++ 
 LFLAGS	= -Wl,-O1 -Wl,--as-needed -Wl,--hash-style=gnu -Wl,--sort-common $(DFLAGS)
-LIBS	= -stdc++ -lgomp -lpthread
+LIBS	= -lstdc++ -lgomp -lpthread
 
 ##### Files
 
@@ -24,7 +24,10 @@ HEADERS	=   typedef.h \
 	    ddsbase.h \
 	    codebase.h \
 	    trilinear_class.h \
+	    affine_class.h \
+	    volume_class.h \
 	    db_class.h
+
 SOURCES_SERVER	=	server.c  \
 			rwsockthread.cpp \
 			transfmimg.cpp \
@@ -32,7 +35,8 @@ SOURCES_SERVER	=	server.c  \
 			3dtransform.cpp \
 			ddsbase.cpp \
 			trilinear_class.cpp \
-			db_chaos_3d_parallel.cpp
+			db_chaos_3d_parallel.cpp \
+			db_chaos_3d_parallel_8tetra.cpp
 
 OBJECTS_SERVER	=	server.o \
 			rwsockthread.o \
@@ -41,7 +45,8 @@ OBJECTS_SERVER	=	server.o \
 			3dtransform.o \
 			ddsbase.o \
 			trilinear_class.o \
-			db_chaos_3d_parallel.o
+			db_chaos_3d_parallel.o \
+			db_chaos_3d_parallel_8tetra.o
 
 TARGET_SERVER	=	server
 

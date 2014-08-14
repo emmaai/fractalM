@@ -7,6 +7,7 @@
 //
 
 #include"trilinear_class.h"
+#include "db_lookup_b8_l5_14_t32.h"
 #include"db_class.h"
 #include"omp.h"
 
@@ -30,20 +31,20 @@ unsigned int db_chaos_parallel(trilinearIFS ifs1,volume* vol1,trilinearIFS ifs2,
 		temp2*=8;
 	}
 	if (dbl<5) {dbl=5;temp2=32768;};
-	if (dbl>10) {dbl=10;temp2=1073741824;};
-	//printf("dbl is %d\n",dbl);
+	if (dbl>14) {dbl=14;temp2=(unsigned int) 4096*1073741824;};
+	//printf("%d\n",dbl);
 	const unsigned int its=temp2;
 	#pragma omp parallel
 	{
 		int nthreads=omp_get_num_threads();
-		if (nthreads==1 || nthreads==2 || nthreads==4 || nthreads==8) {
+		if (nthreads==1 || nthreads==2 || nthreads==4 || nthreads==8 || nthreads==16 || nthreads==32) {
 			int th_id=omp_get_thread_num();
-			//printf("thread id is %d\n",th_id);
-			int sm=8/nthreads;
+			//printf("%d\n",th_id);
+			int sm=32/nthreads;
 			int th_st=sm*th_id;
-			int state_vec[34];
-			int offset=34*(8*(dbl-5)+th_st);
-			for (int i=0;i<34;i++) state_vec[i]=db8_lookup2[offset+i];
+			int state_vec[46];
+			int offset=46*(32*(dbl-5)+th_st);
+			for (int i=0;i<46;i++) state_vec[i]=db8_lookup14[offset+i];
 			deBruijn db(8,dbl);
 			db.set_state(state_vec);
 			const unsigned int pits=its/nthreads;
@@ -62,7 +63,7 @@ unsigned int db_chaos_parallel(trilinearIFS ifs1,volume* vol1,trilinearIFS ifs2,
 			double x1[3],y1[3],x2[3],y2[3];
 			x1[0]=0.5;x1[1]=0.5;x1[2]=0.5;
 			x2[0]=0.5;x2[1]=0.5;x2[2]=0.5;
-			for (unsigned int it=24;it<34;it+=2) {
+			for (unsigned int it=32;it<46;it+=2) {
 				ifs1.apply_fn(state_vec[it],x1,y1);
 				ifs1.apply_fn(state_vec[it+1],y1,x1);
 				ifs2.apply_fn(state_vec[it],x2,y2);
